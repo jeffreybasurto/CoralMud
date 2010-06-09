@@ -86,6 +86,7 @@ $load_library_list = [["spellcheck.rb", false],
                       ["cities.rb", false],           ### CityRoom structure
                       ["help.rb", false],             ### Helpfile support
                       ["imcruby.rb", false],          ### imcruby client
+                      ["CMI/client.rb", false],
                       ["player.rb", false],           ### player structure
                       ["commands.rb", false],
                       ["editor/editor.player.rb", true],
@@ -182,6 +183,7 @@ if __FILE__ == $0
       EventMachine::add_timer(1) do
         begin
           $mudmachine = EventMachine::start_server "0.0.0.0", MUDPORT, SocketData
+          $cmimachine = EventMachine::connect "localhost", 5000, Rclient
           log :info, "CoralMUD is now up on port #{MUDPORT}."
         rescue Exception
           log :error, "CoralMUD boot failure."

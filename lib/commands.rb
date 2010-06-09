@@ -185,6 +185,7 @@ $tabCmd += [
   Command.new("close",    :arg_dir!),
   Command.new("inventory", :arg_none),
 
+  Command.new("intermud", :arg_str!),
   Command.new("inews",    :arg_str!),
   Command.new("iruby",     :arg_str!),
   Command.new("ichat",     [[:arg_str!], [:arg_none]]),

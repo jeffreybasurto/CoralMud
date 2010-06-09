@@ -1,3 +1,9 @@
+#ignore pkg
+pkg/
+
+# config files
+*.config
+
 # Compiled source #
 ###################
 *.com

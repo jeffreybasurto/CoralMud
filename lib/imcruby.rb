@@ -42,6 +42,9 @@ class String
   end
 end
 
+
+
+
 ### Net::Telnet extensions
 ###
 class Net::Telnet
@@ -129,7 +132,7 @@ class IMCclient
                                     "Port" => 5000,
                                     "Telnetmode" => false,
                                     "Prompt" => /\n/)
-    
+    @pw = pw
     # Start authenticating. Will autosetup if IMC server does not have configuration.
     @connection.puts "PW #{name} #{pw} version=2 autosetup #{pw}2"
     # Set the sequence, which is a number associated with each packet
@@ -177,7 +180,7 @@ class IMCclient
       #SERVER Sends: autosetup <servername> accept <networkname> (SHA256-SET)
     when /^autosetup (\S+) accept (\S+)$/
       log :debug, "Autosetup complete. Connected to #{$1} on network #{$2}"
-    when /^PW Server\d+ doyourhomework version=2 (\S+)$/i
+    when /^PW Server\d+ #{@pw} version=2 (\S+)$/i
       log :debug, "IMC Authentication complete"
       send_isalive
     when /^(\S+) \d+ \S+ (\S+) (\S+)$/i
@@ -226,7 +229,7 @@ class IMCclient
           dplayer.text_to_player("#R#{sender} tells you, '" + data['text'] + "#R'#n" + ENDL)
           break
         end
-        $imcclient.private_send("FakeCoralMud", *sender.split('@'), "#{target.split('@')[0]} was not found on CoralMUD.")
+        $imcclient.private_send("CM", *sender.split('@'), "#{target.split('@')[0]} was not found on CoralMUD.")
       end
     when "ice-msg-b"
       cn = data['channel'].split(":")
@@ -326,11 +329,10 @@ end
 
 
 
-
+$imc_opts = YAML::load_file("lib/imcruby.config") || {}
 ### Beginning of actual execution.
 ### You ned to change this name and password.
 ### create our client and a lock for it.
-
-$imcclient = IMCclient.new("FakeCoralMud", "doyourhomework")
+$imcclient = IMCclient.new($imc_opts[:mud] || "FakeCoralMud", $imc_opts[:password] || "domyhomework")
 $imclock = Mutex.new
 

@@ -11,7 +11,7 @@ Version = 0.26
 PKG_FILES = FileList[
   'lib', 'lib/**/*',
   'INSTALL', 'Rakefile',
-  'data', 'data/*', 'data/socials/*', 'data/help/*', 'help/areas/*',
+  'data', 'data/*', 'data/socials/*', 'data/help/*', 'data/areas/*',
   'coral.rb',
   'core', 'core/*',
   'scripts',

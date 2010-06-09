@@ -1,0 +1,11 @@
+To run the client stand alone:
+& ruby client.rb
+
+This client is intended to be installed into another project to give access to
+the CMI network.  Clients in C and C++ are likely to be written as well.  
+
+The key thing that any client would have to be able to do is parse a specific
+data type from JSON/YAML.  The only datatype transmitted is hash/map with 
+strings as the key pairs.  There's many libraries out there to do it for you
+but it should be easy enough to write a custom parser as well for this 
+specific case. 
