@@ -1,9 +1,0 @@
-
-def Tape
-  def self.load(filename)
-    new.instance_eval(File.read(filename), filename)
-  end
-end
-
-Tape.load(ARGV.shift)
-

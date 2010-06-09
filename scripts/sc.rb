@@ -1,4 +1,0 @@
-
-s = gets
-print s
-
