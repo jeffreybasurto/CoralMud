@@ -1,0 +1,98 @@
+ INFO LOG: May_11_11:23: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_11_11:23: Loading facade.rb
+ INFO LOG: May_11_11:23: Loading query_list.rb
+ INFO LOG: May_11_11:23: Loading utils.rb
+ INFO LOG: May_11_11:23: Loading constants.rb
+ INFO LOG: May_11_11:23: Loading damage.rb
+ INFO LOG: May_11_11:23: Loading class_property.rb
+ INFO LOG: May_11_11:23: Loading scripts.rb
+ INFO LOG: May_11_11:23: Loading tags.rb
+ INFO LOG: May_11_11:23: Loading editor/editors.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.strings.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.rooms.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.exits.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.zones.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.npc.rb
+ INFO LOG: May_11_11:23: Loading editor/editor.items.rb
+ INFO LOG: May_11_11:23: Loading mxp.rb
+ INFO LOG: May_11_11:23: Loading mccp.rb
+ INFO LOG: May_11_11:23: Loading flags.rb
+ INFO LOG: May_11_11:23: Loading areas.rb
+ INFO LOG: May_11_11:23: Loading event.rb
+ INFO LOG: May_11_11:23: Loading automap/automap.rb
+ INFO LOG: May_11_11:23: Loading cities.olc.rb
+ INFO LOG: May_11_11:23: Loading cities.rb
+ INFO LOG: May_11_11:23: Loading sector definitions.
+ INFO LOG: May_11_11:23: Loading help.rb
+ INFO LOG: May_11_11:23: Loading imcruby.rb
+ INFO LOG: May_11_11:23: Loading player.rb
+ INFO LOG: May_11_11:23: Loading commands.rb
+ INFO LOG: May_11_11:23: Loading random.rb
+ INFO LOG: May_11_11:23: Loading npc.rb
+ INFO LOG: May_11_11:23: Loading items/types.rb
+ INFO LOG: May_11_11:23: Loading items/items.rb
+ INFO LOG: May_11_11:23: Loading spells.rb
+ INFO LOG: May_11_11:23: Loading all zones.
+ INFO LOG: May_11_11:23: Starting server.
+ INFO LOG: May_11_11:24: CoralMUD is now up on port 4000.
+ INFO LOG: May_11_11:25: tick!!!
+ INFO LOG: May_11_11:27: tick!!!
+ INFO LOG: May_11_11:29: tick!!!
+ INFO LOG: May_11_11:31: -- 76.202.141.206:45311 connected to CoralMUD!
+ INFO LOG: May_11_11:31: -- 76.202.141.206:45311: (mudbytes.com) Invalid name in character creation.
+ INFO LOG: May_11_11:31: -- 76.202.141.206:45311: Retnur is trying to connect.
+ INFO LOG: May_11_11:31: -- 76.202.141.206:45311: Retnur player file found.
+ INFO LOG: May_11_11:31: -- Retnur has entered the game.
+ INFO LOG: May_11_11:31: tick!!!
+ INFO LOG: May_11_11:33: tick!!!
+ INFO LOG: May_11_11:36: tick!!!
+ INFO LOG: May_11_11:38: tick!!!
+ INFO LOG: May_11_11:40: tick!!!
+ INFO LOG: May_11_11:42: tick!!!
+ INFO LOG: May_11_11:44: tick!!!
+ INFO LOG: May_11_11:46: tick!!!
+ INFO LOG: May_11_11:48: tick!!!
+ INFO LOG: May_11_11:50: tick!!!
+ INFO LOG: May_11_11:52: tick!!!
+ INFO LOG: May_11_11:54: tick!!!
+ INFO LOG: May_11_11:56: tick!!!
+ INFO LOG: May_11_11:58: tick!!!
+ INFO LOG: May_11_12:00: tick!!!
+ INFO LOG: May_11_12:02: tick!!!
+ INFO LOG: May_11_12:04: tick!!!
+ INFO LOG: May_11_12:06: tick!!!
+ INFO LOG: May_11_12:08: tick!!!
+ INFO LOG: May_11_12:10: tick!!!
+ INFO LOG: May_11_12:12: tick!!!
+ INFO LOG: May_11_12:14: tick!!!
+ INFO LOG: May_11_12:16: tick!!!
+ INFO LOG: May_11_12:18: tick!!!
+ INFO LOG: May_11_12:20: tick!!!
+ INFO LOG: May_11_12:22: tick!!!
+ INFO LOG: May_11_12:24: tick!!!
+ INFO LOG: May_11_12:26: tick!!!
+ INFO LOG: May_11_12:28: tick!!!
+ INFO LOG: May_11_12:30: tick!!!
+ INFO LOG: May_11_12:32: tick!!!
+ INFO LOG: May_11_12:34: tick!!!
+ INFO LOG: May_11_12:36: tick!!!
+ INFO LOG: May_11_12:38: tick!!!
+ INFO LOG: May_11_12:40: tick!!!
+ INFO LOG: May_11_12:42: tick!!!
+ INFO LOG: May_11_12:44: tick!!!
+ INFO LOG: May_11_12:46: tick!!!
+ INFO LOG: May_11_12:48: tick!!!
+ INFO LOG: May_11_12:50: tick!!!
+ INFO LOG: May_11_12:52: tick!!!
+ INFO LOG: May_11_12:54: tick!!!
+ INFO LOG: May_11_12:56: tick!!!
+ INFO LOG: May_11_12:58: tick!!!
+ INFO LOG: May_11_13:00: tick!!!
+ INFO LOG: May_11_13:02: tick!!!
+ INFO LOG: May_11_13:04: tick!!!
+ INFO LOG: May_11_13:06: tick!!!
+ INFO LOG: May_11_13:08: tick!!!
+ INFO LOG: May_11_13:10: tick!!!
+ INFO LOG: May_11_13:12: tick!!!
+ INFO LOG: May_11_13:14: tick!!!
+ INFO LOG: May_11_13:14: -- #<Player:0x000000032d1cb8>:76.202.141.206:45311 disconnected from CoralMUD!

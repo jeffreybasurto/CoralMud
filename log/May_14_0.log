@@ -1,0 +1,2422 @@
+ INFO LOG: May_14_04:20: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:20: Loading facade.rb
+ INFO LOG: May_14_04:20: Loading query_list.rb
+ INFO LOG: May_14_04:20: Loading utils.rb
+ INFO LOG: May_14_04:20: Loading constants.rb
+ INFO LOG: May_14_04:20: Loading damage.rb
+ INFO LOG: May_14_04:20: Loading class_property.rb
+ INFO LOG: May_14_04:20: Loading scripts.rb
+ INFO LOG: May_14_04:20: Loading tags.rb
+ INFO LOG: May_14_04:20: Loading editor/editors.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:20: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:20: Loading mxp.rb
+ INFO LOG: May_14_04:20: Loading mccp.rb
+ INFO LOG: May_14_04:20: Loading flags.rb
+ INFO LOG: May_14_04:20: Loading areas.rb
+ INFO LOG: May_14_04:20: Loading event.rb
+ INFO LOG: May_14_04:20: Loading automap/automap.rb
+ INFO LOG: May_14_04:20: Loading cities.olc.rb
+ INFO LOG: May_14_04:20: Loading cities.rb
+ INFO LOG: May_14_04:20: Loading sector definitions.
+ INFO LOG: May_14_04:20: Loading help.rb
+ INFO LOG: May_14_04:20: Loading imcruby.rb
+ INFO LOG: May_14_04:20: Loading player.rb
+ INFO LOG: May_14_04:20: Loading commands.rb
+ INFO LOG: May_14_04:20: Loading random.rb
+ INFO LOG: May_14_04:20: Loading npc.rb
+ INFO LOG: May_14_04:20: Loading items/types.rb
+ INFO LOG: May_14_04:20: Loading items/items.rb
+ INFO LOG: May_14_04:20: Loading spells.rb
+ INFO LOG: May_14_04:20: Loading all zones.
+ INFO LOG: May_14_04:20: Starting server.
+ INFO LOG: May_14_04:20: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:20: -- 76.202.141.206:36424 connected to CoralMUD!
+ INFO LOG: May_14_04:20: -- 76.202.141.206:36424: Retnur is trying to connect.
+ INFO LOG: May_14_04:20: -- 76.202.141.206:36424: Retnur player file found.
+ INFO LOG: May_14_04:20: -- Retnur has entered the game.
+ INFO LOG: May_14_04:22: tick!!!
+ INFO LOG: May_14_04:24: tick!!!
+ INFO LOG: May_14_04:26: tick!!!
+ INFO LOG: May_14_04:28: tick!!!
+ INFO LOG: May_14_04:29: -- #<Player:0x00000002f89150>:76.202.141.206:36424 disconnected from CoralMUD!
+ INFO LOG: May_14_04:29: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:29: Loading facade.rb
+ INFO LOG: May_14_04:29: Loading query_list.rb
+ INFO LOG: May_14_04:29: Loading utils.rb
+ INFO LOG: May_14_04:29: Loading constants.rb
+ INFO LOG: May_14_04:29: Loading damage.rb
+ INFO LOG: May_14_04:29: Loading class_property.rb
+ INFO LOG: May_14_04:29: Loading scripts.rb
+ INFO LOG: May_14_04:29: Loading tags.rb
+ INFO LOG: May_14_04:29: Loading editor/editors.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:29: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:29: Loading mxp.rb
+ INFO LOG: May_14_04:29: Loading mccp.rb
+ INFO LOG: May_14_04:29: Loading flags.rb
+ INFO LOG: May_14_04:29: Loading areas.rb
+ INFO LOG: May_14_04:29: Loading event.rb
+ INFO LOG: May_14_04:29: Loading automap/automap.rb
+ INFO LOG: May_14_04:29: Loading cities.olc.rb
+ INFO LOG: May_14_04:29: Loading cities.rb
+ INFO LOG: May_14_04:29: Loading sector definitions.
+ INFO LOG: May_14_04:29: Loading help.rb
+ INFO LOG: May_14_04:29: Loading imcruby.rb
+ INFO LOG: May_14_04:29: Loading player.rb
+ INFO LOG: May_14_04:29: Loading commands.rb
+ INFO LOG: May_14_04:29: Loading random.rb
+ INFO LOG: May_14_04:29: Loading npc.rb
+ INFO LOG: May_14_04:29: Loading items/types.rb
+ INFO LOG: May_14_04:29: Loading items/items.rb
+ INFO LOG: May_14_04:29: Loading spells.rb
+ INFO LOG: May_14_04:29: Loading all zones.
+ INFO LOG: May_14_04:29: Starting server.
+ INFO LOG: May_14_04:29: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:29: -- 76.202.141.206:37197 connected to CoralMUD!
+ INFO LOG: May_14_04:29: -- 76.202.141.206:37197: Retnur is trying to connect.
+ INFO LOG: May_14_04:29: -- 76.202.141.206:37197: Retnur player file found.
+ INFO LOG: May_14_04:29: -- Retnur has entered the game.
+ INFO LOG: May_14_04:31: tick!!!
+ INFO LOG: May_14_04:31: -- #<Player:0x0000000234f010>:76.202.141.206:37197 disconnected from CoralMUD!
+ INFO LOG: May_14_04:31: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:31: Loading facade.rb
+ INFO LOG: May_14_04:31: Loading query_list.rb
+ INFO LOG: May_14_04:31: Loading utils.rb
+ INFO LOG: May_14_04:31: Loading constants.rb
+ INFO LOG: May_14_04:31: Loading damage.rb
+ INFO LOG: May_14_04:31: Loading class_property.rb
+ INFO LOG: May_14_04:31: Loading scripts.rb
+ INFO LOG: May_14_04:31: Loading tags.rb
+ INFO LOG: May_14_04:31: Loading editor/editors.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:31: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:31: Loading mxp.rb
+ INFO LOG: May_14_04:31: Loading mccp.rb
+ INFO LOG: May_14_04:31: Loading flags.rb
+ INFO LOG: May_14_04:31: Loading areas.rb
+ INFO LOG: May_14_04:31: Loading event.rb
+ INFO LOG: May_14_04:31: Loading automap/automap.rb
+ INFO LOG: May_14_04:31: Loading cities.olc.rb
+ INFO LOG: May_14_04:31: Loading cities.rb
+ INFO LOG: May_14_04:31: Loading sector definitions.
+ INFO LOG: May_14_04:31: Loading help.rb
+ INFO LOG: May_14_04:31: Loading imcruby.rb
+ INFO LOG: May_14_04:31: Loading player.rb
+ INFO LOG: May_14_04:31: Loading commands.rb
+ INFO LOG: May_14_04:31: Loading random.rb
+ INFO LOG: May_14_04:31: Loading npc.rb
+ INFO LOG: May_14_04:31: Loading items/types.rb
+ INFO LOG: May_14_04:31: Loading items/items.rb
+ INFO LOG: May_14_04:31: Loading spells.rb
+ INFO LOG: May_14_04:31: Loading all zones.
+ INFO LOG: May_14_04:31: Starting server.
+ INFO LOG: May_14_04:31: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:31: -- 76.202.141.206:35864 connected to CoralMUD!
+ INFO LOG: May_14_04:31: -- 76.202.141.206:35864: Retnur is trying to connect.
+ INFO LOG: May_14_04:31: -- 76.202.141.206:35864: Retnur player file found.
+ INFO LOG: May_14_04:32: -- Retnur has entered the game.
+ERROR LOG: undefined method `values' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:6:in `cmd_equipment'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_14_04:33: tick!!!
+ INFO LOG: May_14_04:34: -- #<Player:0x000000030677e8>:76.202.141.206:35864 disconnected from CoralMUD!
+ INFO LOG: May_14_04:34: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:34: Loading facade.rb
+ INFO LOG: May_14_04:34: Loading query_list.rb
+ INFO LOG: May_14_04:34: Loading utils.rb
+ INFO LOG: May_14_04:34: Loading constants.rb
+ INFO LOG: May_14_04:34: Loading damage.rb
+ INFO LOG: May_14_04:34: Loading class_property.rb
+ INFO LOG: May_14_04:34: Loading scripts.rb
+ INFO LOG: May_14_04:34: Loading tags.rb
+ INFO LOG: May_14_04:34: Loading editor/editors.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:34: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:34: Loading mxp.rb
+ INFO LOG: May_14_04:34: Loading mccp.rb
+ INFO LOG: May_14_04:34: Loading flags.rb
+ INFO LOG: May_14_04:34: Loading areas.rb
+ INFO LOG: May_14_04:34: Loading event.rb
+ INFO LOG: May_14_04:34: Loading automap/automap.rb
+ INFO LOG: May_14_04:34: Loading cities.olc.rb
+ INFO LOG: May_14_04:34: Loading cities.rb
+ INFO LOG: May_14_04:34: Loading sector definitions.
+ INFO LOG: May_14_04:34: Loading help.rb
+ INFO LOG: May_14_04:34: Loading imcruby.rb
+ INFO LOG: May_14_04:34: Loading player.rb
+ INFO LOG: May_14_04:34: Loading commands.rb
+ INFO LOG: May_14_04:34: Loading random.rb
+ INFO LOG: May_14_04:34: Loading npc.rb
+ INFO LOG: May_14_04:34: Loading items/types.rb
+ INFO LOG: May_14_04:34: Loading items/items.rb
+ INFO LOG: May_14_04:34: Loading spells.rb
+ INFO LOG: May_14_04:34: Loading all zones.
+ INFO LOG: May_14_04:34: Starting server.
+ INFO LOG: May_14_04:34: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:34: -- 76.202.141.206:42486 connected to CoralMUD!
+ INFO LOG: May_14_04:34: -- 76.202.141.206:42486: Retnur is trying to connect.
+ INFO LOG: May_14_04:34: -- 76.202.141.206:42486: Retnur player file found.
+ INFO LOG: May_14_04:34: -- Retnur has entered the game.
+ERROR LOG: undefined method `worn_items' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:5:in `cmd_equipment'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_14_04:36: tick!!!
+ INFO LOG: May_14_04:36: -- #<Player:0x00000000b5bff8>:76.202.141.206:42486 disconnected from CoralMUD!
+ INFO LOG: May_14_04:36: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:36: Loading facade.rb
+ INFO LOG: May_14_04:36: Loading query_list.rb
+ INFO LOG: May_14_04:36: Loading utils.rb
+ INFO LOG: May_14_04:36: Loading constants.rb
+ INFO LOG: May_14_04:36: Loading damage.rb
+ INFO LOG: May_14_04:36: Loading class_property.rb
+ INFO LOG: May_14_04:36: Loading scripts.rb
+ INFO LOG: May_14_04:36: Loading tags.rb
+ INFO LOG: May_14_04:36: Loading editor/editors.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:36: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:36: Loading mxp.rb
+ INFO LOG: May_14_04:36: Loading mccp.rb
+ INFO LOG: May_14_04:36: Loading flags.rb
+ INFO LOG: May_14_04:36: Loading areas.rb
+ INFO LOG: May_14_04:36: Loading event.rb
+ INFO LOG: May_14_04:36: Loading automap/automap.rb
+ INFO LOG: May_14_04:36: Loading cities.olc.rb
+ INFO LOG: May_14_04:36: Loading cities.rb
+ INFO LOG: May_14_04:36: Loading sector definitions.
+ INFO LOG: May_14_04:36: Loading help.rb
+ INFO LOG: May_14_04:36: Loading imcruby.rb
+ INFO LOG: May_14_04:36: Loading player.rb
+ INFO LOG: May_14_04:36: Loading commands.rb
+ INFO LOG: May_14_04:36: Loading random.rb
+ INFO LOG: May_14_04:36: Loading npc.rb
+ INFO LOG: May_14_04:36: Loading items/types.rb
+ INFO LOG: May_14_04:36: Loading items/items.rb
+ INFO LOG: May_14_04:36: Loading spells.rb
+ INFO LOG: May_14_04:36: Loading all zones.
+ INFO LOG: May_14_04:36: Starting server.
+ INFO LOG: May_14_04:37: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:37: -- 76.202.141.206:36359 connected to CoralMUD!
+ INFO LOG: May_14_04:37: -- 76.202.141.206:36359: Retnur is trying to connect.
+ INFO LOG: May_14_04:37: -- 76.202.141.206:36359: Retnur player file found.
+ INFO LOG: May_14_04:37: -- Retnur has entered the game.
+ERROR LOG: undefined method `[]' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:8:in `block in cmd_equipment'
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:7:in `each'
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:7:in `cmd_equipment'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_14_04:39: tick!!!
+ INFO LOG: May_14_04:39: -- #<Player:0x00000001a0e870>:76.202.141.206:36359 disconnected from CoralMUD!
+ INFO LOG: May_14_04:39: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:39: Loading facade.rb
+ INFO LOG: May_14_04:39: Loading query_list.rb
+ INFO LOG: May_14_04:39: Loading utils.rb
+ INFO LOG: May_14_04:39: Loading constants.rb
+ INFO LOG: May_14_04:39: Loading damage.rb
+ INFO LOG: May_14_04:39: Loading class_property.rb
+ INFO LOG: May_14_04:39: Loading scripts.rb
+ INFO LOG: May_14_04:39: Loading tags.rb
+ INFO LOG: May_14_04:39: Loading editor/editors.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:39: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:39: Loading mxp.rb
+ INFO LOG: May_14_04:39: Loading mccp.rb
+ INFO LOG: May_14_04:39: Loading flags.rb
+ INFO LOG: May_14_04:39: Loading areas.rb
+ INFO LOG: May_14_04:39: Loading event.rb
+ INFO LOG: May_14_04:39: Loading automap/automap.rb
+ INFO LOG: May_14_04:39: Loading cities.olc.rb
+ INFO LOG: May_14_04:39: Loading cities.rb
+ INFO LOG: May_14_04:39: Loading sector definitions.
+ INFO LOG: May_14_04:39: Loading help.rb
+ INFO LOG: May_14_04:39: Loading imcruby.rb
+ INFO LOG: May_14_04:39: Loading player.rb
+ INFO LOG: May_14_04:39: Loading commands.rb
+ INFO LOG: May_14_04:39: Loading random.rb
+ INFO LOG: May_14_04:39: Loading npc.rb
+ INFO LOG: May_14_04:39: Loading items/types.rb
+ INFO LOG: May_14_04:39: Loading items/items.rb
+ INFO LOG: May_14_04:39: Loading spells.rb
+ INFO LOG: May_14_04:39: Loading all zones.
+ INFO LOG: May_14_04:39: Starting server.
+ INFO LOG: May_14_04:39: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:39: -- 76.202.141.206:32866 connected to CoralMUD!
+ INFO LOG: May_14_04:39: -- 76.202.141.206:32866: Retnur is trying to connect.
+ INFO LOG: May_14_04:39: -- 76.202.141.206:32866: Retnur player file found.
+ INFO LOG: May_14_04:39: -- Retnur has entered the game.
+ INFO LOG: May_14_04:41: tick!!!
+ INFO LOG: May_14_04:43: tick!!!
+ INFO LOG: May_14_04:45: tick!!!
+ INFO LOG: May_14_04:45: Loading items/types.rb
+ INFO LOG: May_14_04:47: tick!!!
+ INFO LOG: May_14_04:48: -- #<Player:0x000000023cb110>:76.202.141.206:32866 disconnected from CoralMUD!
+ INFO LOG: May_14_04:48: Program closed.
+ INFO LOG: May_14_04:48: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:48: Loading facade.rb
+ INFO LOG: May_14_04:48: Loading query_list.rb
+ INFO LOG: May_14_04:48: Loading utils.rb
+ INFO LOG: May_14_04:48: Loading constants.rb
+ INFO LOG: May_14_04:48: Loading damage.rb
+ INFO LOG: May_14_04:48: Loading class_property.rb
+ INFO LOG: May_14_04:48: Loading scripts.rb
+ INFO LOG: May_14_04:48: Loading tags.rb
+ INFO LOG: May_14_04:48: Loading editor/editors.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:48: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:48: Loading mxp.rb
+ INFO LOG: May_14_04:48: Loading mccp.rb
+ INFO LOG: May_14_04:48: Loading flags.rb
+ INFO LOG: May_14_04:48: Loading areas.rb
+ INFO LOG: May_14_04:48: Loading event.rb
+ INFO LOG: May_14_04:48: Loading automap/automap.rb
+ INFO LOG: May_14_04:48: Loading cities.olc.rb
+ INFO LOG: May_14_04:48: Loading cities.rb
+ INFO LOG: May_14_04:48: Loading sector definitions.
+ INFO LOG: May_14_04:48: Loading help.rb
+ INFO LOG: May_14_04:48: Loading imcruby.rb
+ INFO LOG: May_14_04:48: Loading player.rb
+ INFO LOG: May_14_04:48: Loading commands.rb
+ INFO LOG: May_14_04:48: Loading random.rb
+ INFO LOG: May_14_04:48: Loading npc.rb
+ INFO LOG: May_14_04:48: Loading items/types.rb
+ INFO LOG: May_14_04:48: Loading items/items.rb
+ INFO LOG: May_14_04:48: Loading spells.rb
+ INFO LOG: May_14_04:48: Loading all zones.
+ INFO LOG: May_14_04:48: Starting server.
+ INFO LOG: May_14_04:48: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:48: -- 76.202.141.206:40556 connected to CoralMUD!
+ INFO LOG: May_14_04:48: -- 76.202.141.206:40556: Retnur is trying to connect.
+ INFO LOG: May_14_04:48: -- 76.202.141.206:40556: Retnur player file found.
+ INFO LOG: May_14_04:48: -- Retnur has entered the game.
+ INFO LOG: May_14_04:50: tick!!!
+ INFO LOG: May_14_04:51: -- #<Player:0x00000002760af0>:76.202.141.206:40556 disconnected from CoralMUD!
+ INFO LOG: May_14_04:51: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:51: Loading facade.rb
+ INFO LOG: May_14_04:51: Loading query_list.rb
+ INFO LOG: May_14_04:51: Loading utils.rb
+ INFO LOG: May_14_04:51: Loading constants.rb
+ INFO LOG: May_14_04:51: Loading damage.rb
+ INFO LOG: May_14_04:51: Loading class_property.rb
+ INFO LOG: May_14_04:51: Loading scripts.rb
+ INFO LOG: May_14_04:51: Loading tags.rb
+ INFO LOG: May_14_04:51: Loading editor/editors.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:51: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:51: Loading mxp.rb
+ INFO LOG: May_14_04:51: Loading mccp.rb
+ INFO LOG: May_14_04:51: Loading flags.rb
+ INFO LOG: May_14_04:51: Loading areas.rb
+ INFO LOG: May_14_04:51: Loading event.rb
+ INFO LOG: May_14_04:51: Loading automap/automap.rb
+ INFO LOG: May_14_04:51: Loading cities.olc.rb
+ INFO LOG: May_14_04:51: Loading cities.rb
+ INFO LOG: May_14_04:51: Loading sector definitions.
+ INFO LOG: May_14_04:51: Loading help.rb
+ INFO LOG: May_14_04:51: Loading imcruby.rb
+ INFO LOG: May_14_04:51: Loading player.rb
+ INFO LOG: May_14_04:51: Loading commands.rb
+ INFO LOG: May_14_04:51: Loading random.rb
+ INFO LOG: May_14_04:51: Loading npc.rb
+ INFO LOG: May_14_04:51: Loading items/types.rb
+ INFO LOG: May_14_04:51: Loading items/items.rb
+ INFO LOG: May_14_04:51: Loading spells.rb
+ INFO LOG: May_14_04:51: Loading all zones.
+ INFO LOG: May_14_04:51: Starting server.
+ INFO LOG: May_14_04:51: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:51: -- 76.202.141.206:48698 connected to CoralMUD!
+ INFO LOG: May_14_04:51: -- 76.202.141.206:48698: Retnur is trying to connect.
+ INFO LOG: May_14_04:51: -- 76.202.141.206:48698: Retnur player file found.
+ INFO LOG: May_14_04:51: -- Retnur has entered the game.
+ INFO LOG: May_14_04:52: -- #<Player:0x00000001cd20c0>:76.202.141.206:48698 disconnected from CoralMUD!
+ INFO LOG: May_14_04:52: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_04:52: Loading facade.rb
+ INFO LOG: May_14_04:52: Loading query_list.rb
+ INFO LOG: May_14_04:52: Loading utils.rb
+ INFO LOG: May_14_04:52: Loading constants.rb
+ INFO LOG: May_14_04:52: Loading damage.rb
+ INFO LOG: May_14_04:52: Loading class_property.rb
+ INFO LOG: May_14_04:52: Loading scripts.rb
+ INFO LOG: May_14_04:52: Loading tags.rb
+ INFO LOG: May_14_04:52: Loading editor/editors.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.strings.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.exits.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.zones.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.npc.rb
+ INFO LOG: May_14_04:52: Loading editor/editor.items.rb
+ INFO LOG: May_14_04:52: Loading mxp.rb
+ INFO LOG: May_14_04:52: Loading mccp.rb
+ INFO LOG: May_14_04:52: Loading flags.rb
+ INFO LOG: May_14_04:52: Loading areas.rb
+ INFO LOG: May_14_04:52: Loading event.rb
+ INFO LOG: May_14_04:52: Loading automap/automap.rb
+ INFO LOG: May_14_04:52: Loading cities.olc.rb
+ INFO LOG: May_14_04:52: Loading cities.rb
+ INFO LOG: May_14_04:52: Loading sector definitions.
+ INFO LOG: May_14_04:52: Loading help.rb
+ INFO LOG: May_14_04:52: Loading imcruby.rb
+ INFO LOG: May_14_04:52: Loading player.rb
+ INFO LOG: May_14_04:52: Loading commands.rb
+ INFO LOG: May_14_04:52: Loading random.rb
+ INFO LOG: May_14_04:52: Loading npc.rb
+ INFO LOG: May_14_04:52: Loading items/types.rb
+ INFO LOG: May_14_04:52: Loading items/items.rb
+ INFO LOG: May_14_04:52: Loading spells.rb
+ INFO LOG: May_14_04:52: Loading all zones.
+ INFO LOG: May_14_04:52: Starting server.
+ INFO LOG: May_14_04:52: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_04:52: -- 76.202.141.206:51822 connected to CoralMUD!
+ INFO LOG: May_14_04:52: -- 76.202.141.206:51822: Retnur is trying to connect.
+ INFO LOG: May_14_04:52: -- 76.202.141.206:51822: Retnur player file found.
+ INFO LOG: May_14_04:52: -- Retnur has entered the game.
+ INFO LOG: May_14_04:54: tick!!!
+ INFO LOG: May_14_04:56: tick!!!
+ INFO LOG: May_14_04:58: tick!!!
+ INFO LOG: May_14_04:58: Loading items/types.rb
+ INFO LOG: May_14_05:00: tick!!!
+ INFO LOG: May_14_05:02: tick!!!
+ INFO LOG: May_14_05:04: tick!!!
+ INFO LOG: May_14_05:05: -- #<Player:0x00000001cd7750>:76.202.141.206:51822 disconnected from CoralMUD!
+ INFO LOG: May_14_05:05: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_05:05: Loading facade.rb
+ INFO LOG: May_14_05:05: Loading query_list.rb
+ INFO LOG: May_14_05:05: Loading utils.rb
+ INFO LOG: May_14_05:05: Loading constants.rb
+ INFO LOG: May_14_05:05: Loading damage.rb
+ INFO LOG: May_14_05:05: Loading class_property.rb
+ INFO LOG: May_14_05:05: Loading scripts.rb
+ INFO LOG: May_14_05:05: Loading tags.rb
+ INFO LOG: May_14_05:05: Loading editor/editors.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.strings.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.exits.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.zones.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.npc.rb
+ INFO LOG: May_14_05:05: Loading editor/editor.items.rb
+ INFO LOG: May_14_05:05: Loading mxp.rb
+ INFO LOG: May_14_05:05: Loading mccp.rb
+ INFO LOG: May_14_05:05: Loading flags.rb
+ INFO LOG: May_14_05:05: Loading areas.rb
+ INFO LOG: May_14_05:05: Loading event.rb
+ INFO LOG: May_14_05:05: Loading automap/automap.rb
+ INFO LOG: May_14_05:05: Loading cities.olc.rb
+ INFO LOG: May_14_05:05: Loading cities.rb
+ INFO LOG: May_14_05:05: Loading sector definitions.
+ INFO LOG: May_14_05:05: Loading help.rb
+ INFO LOG: May_14_05:05: Loading imcruby.rb
+ INFO LOG: May_14_05:05: Loading player.rb
+ INFO LOG: May_14_05:05: Loading commands.rb
+ INFO LOG: May_14_05:05: Loading random.rb
+ INFO LOG: May_14_05:05: Loading npc.rb
+ INFO LOG: May_14_05:05: Loading items/types.rb
+ INFO LOG: May_14_05:05: Loading items/items.rb
+ INFO LOG: May_14_05:05: Loading spells.rb
+ INFO LOG: May_14_05:05: Loading all zones.
+ INFO LOG: May_14_05:05: Starting server.
+ INFO LOG: May_14_05:05: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_05:05: -- 76.202.141.206:58520 connected to CoralMUD!
+ INFO LOG: May_14_05:05: -- 76.202.141.206:58520: Retnur is trying to connect.
+ INFO LOG: May_14_05:05: -- 76.202.141.206:58520: Retnur player file found.
+ INFO LOG: May_14_05:05: -- Retnur has entered the game.
+ERROR LOG: undefined local variable or method `thash' for #<Player:0x00000001c61e38>
+ERROR LOG: /home/heath/coral/lib/commands/equipment.rb:15:in `cmd_equipment'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_14_05:06: -- #<Player:0x00000001c61e38>:76.202.141.206:58520 disconnected from CoralMUD!
+ INFO LOG: May_14_05:06: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_05:06: Loading facade.rb
+ INFO LOG: May_14_05:06: Loading query_list.rb
+ INFO LOG: May_14_05:06: Loading utils.rb
+ INFO LOG: May_14_05:06: Loading constants.rb
+ INFO LOG: May_14_05:06: Loading damage.rb
+ INFO LOG: May_14_05:06: Loading class_property.rb
+ INFO LOG: May_14_05:06: Loading scripts.rb
+ INFO LOG: May_14_05:06: Loading tags.rb
+ INFO LOG: May_14_05:06: Loading editor/editors.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.strings.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.exits.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.zones.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.npc.rb
+ INFO LOG: May_14_05:06: Loading editor/editor.items.rb
+ INFO LOG: May_14_05:06: Loading mxp.rb
+ INFO LOG: May_14_05:06: Loading mccp.rb
+ INFO LOG: May_14_05:06: Loading flags.rb
+ INFO LOG: May_14_05:06: Loading areas.rb
+ INFO LOG: May_14_05:06: Loading event.rb
+ INFO LOG: May_14_05:06: Loading automap/automap.rb
+ INFO LOG: May_14_05:06: Loading cities.olc.rb
+ INFO LOG: May_14_05:06: Loading cities.rb
+ INFO LOG: May_14_05:06: Loading sector definitions.
+ INFO LOG: May_14_05:06: Loading help.rb
+ INFO LOG: May_14_05:06: Loading imcruby.rb
+ INFO LOG: May_14_05:06: Loading player.rb
+ INFO LOG: May_14_05:06: Loading commands.rb
+ INFO LOG: May_14_05:06: Loading random.rb
+ INFO LOG: May_14_05:06: Loading npc.rb
+ INFO LOG: May_14_05:06: Loading items/types.rb
+ INFO LOG: May_14_05:06: Loading items/items.rb
+ INFO LOG: May_14_05:06: Loading spells.rb
+ INFO LOG: May_14_05:06: Loading all zones.
+ INFO LOG: May_14_05:06: Starting server.
+ INFO LOG: May_14_05:06: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_05:06: -- 76.202.141.206:54535 connected to CoralMUD!
+ INFO LOG: May_14_05:06: -- 76.202.141.206:54535: Retnur is trying to connect.
+ INFO LOG: May_14_05:06: -- 76.202.141.206:54535: Retnur player file found.
+ INFO LOG: May_14_05:06: -- Retnur has entered the game.
+ INFO LOG: May_14_05:08: tick!!!
+ INFO LOG: May_14_05:08: Loading commands.rb
+ INFO LOG: May_14_05:10: tick!!!
+ INFO LOG: May_14_05:12: Loading items/types.rb
+ INFO LOG: May_14_05:12: tick!!!
+ INFO LOG: May_14_05:12: Loading commands.rb
+ INFO LOG: May_14_05:14: Loading commands.rb
+ INFO LOG: May_14_05:14: tick!!!
+ INFO LOG: May_14_05:15: Loading commands.rb
+ INFO LOG: May_14_05:15: Loading commands.rb
+ INFO LOG: May_14_05:16: tick!!!
+ INFO LOG: May_14_05:18: tick!!!
+ INFO LOG: May_14_05:19: Loading commands.rb
+ INFO LOG: May_14_05:19: -- #<Player:0x00000000e87128>:76.202.141.206:54535 disconnected from CoralMUD!
+ INFO LOG: May_14_05:20: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_05:20: Loading facade.rb
+ INFO LOG: May_14_05:20: Loading query_list.rb
+ INFO LOG: May_14_05:20: Loading utils.rb
+ INFO LOG: May_14_05:20: Loading constants.rb
+ INFO LOG: May_14_05:20: Loading damage.rb
+ INFO LOG: May_14_05:20: Loading class_property.rb
+ INFO LOG: May_14_05:20: Loading scripts.rb
+ INFO LOG: May_14_05:20: Loading tags.rb
+ INFO LOG: May_14_05:20: Loading editor/editors.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.strings.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.exits.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.zones.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.npc.rb
+ INFO LOG: May_14_05:20: Loading editor/editor.items.rb
+ INFO LOG: May_14_05:20: Loading mxp.rb
+ INFO LOG: May_14_05:20: Loading mccp.rb
+ INFO LOG: May_14_05:20: Loading flags.rb
+ INFO LOG: May_14_05:20: Loading areas.rb
+ INFO LOG: May_14_05:20: Loading event.rb
+ INFO LOG: May_14_05:20: Loading automap/automap.rb
+ INFO LOG: May_14_05:20: Loading cities.olc.rb
+ INFO LOG: May_14_05:20: Loading cities.rb
+ INFO LOG: May_14_05:20: Loading sector definitions.
+ INFO LOG: May_14_05:20: Loading help.rb
+ INFO LOG: May_14_05:20: Loading imcruby.rb
+ INFO LOG: May_14_05:20: Loading player.rb
+ INFO LOG: May_14_05:20: Loading commands.rb
+ INFO LOG: May_14_05:20: Loading random.rb
+ INFO LOG: May_14_05:20: Loading npc.rb
+ INFO LOG: May_14_05:20: Loading items/types.rb
+ INFO LOG: May_14_05:20: Loading items/items.rb
+ INFO LOG: May_14_05:20: Loading spells.rb
+ INFO LOG: May_14_05:20: Loading all zones.
+ INFO LOG: May_14_05:20: Starting server.
+ INFO LOG: May_14_05:20: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_05:20: -- 76.202.141.206:49180 connected to CoralMUD!
+ INFO LOG: May_14_05:20: -- 76.202.141.206:49180: Retnur is trying to connect.
+ INFO LOG: May_14_05:20: -- 76.202.141.206:49180: Retnur player file found.
+ INFO LOG: May_14_05:20: -- Retnur has entered the game.
+ INFO LOG: May_14_05:22: tick!!!
+ INFO LOG: May_14_05:22: Loading commands.rb
+ INFO LOG: May_14_05:24: tick!!!
+ INFO LOG: May_14_05:26: tick!!!
+ INFO LOG: May_14_05:28: tick!!!
+ INFO LOG: May_14_05:30: tick!!!
+ INFO LOG: May_14_05:31: Loading items/types.rb
+ INFO LOG: May_14_05:32: Loading items/types.rb
+ INFO LOG: May_14_05:32: tick!!!
+ INFO LOG: May_14_05:32: -- #<Player:0x0000000132f748>:76.202.141.206:49180 disconnected from CoralMUD!
+ INFO LOG: May_14_05:32: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_14_05:32: Loading facade.rb
+ INFO LOG: May_14_05:32: Loading query_list.rb
+ INFO LOG: May_14_05:32: Loading utils.rb
+ INFO LOG: May_14_05:32: Loading constants.rb
+ INFO LOG: May_14_05:32: Loading damage.rb
+ INFO LOG: May_14_05:32: Loading class_property.rb
+ INFO LOG: May_14_05:32: Loading scripts.rb
+ INFO LOG: May_14_05:32: Loading tags.rb
+ INFO LOG: May_14_05:32: Loading editor/editors.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.strings.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.rooms.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.exits.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.zones.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.npc.rb
+ INFO LOG: May_14_05:32: Loading editor/editor.items.rb
+ INFO LOG: May_14_05:32: Loading mxp.rb
+ INFO LOG: May_14_05:32: Loading mccp.rb
+ INFO LOG: May_14_05:32: Loading flags.rb
+ INFO LOG: May_14_05:32: Loading areas.rb
+ INFO LOG: May_14_05:32: Loading event.rb
+ INFO LOG: May_14_05:32: Loading automap/automap.rb
+ INFO LOG: May_14_05:32: Loading cities.olc.rb
+ INFO LOG: May_14_05:32: Loading cities.rb
+ INFO LOG: May_14_05:32: Loading sector definitions.
+ INFO LOG: May_14_05:32: Loading help.rb
+ INFO LOG: May_14_05:32: Loading imcruby.rb
+ INFO LOG: May_14_05:32: Loading player.rb
+ INFO LOG: May_14_05:32: Loading commands.rb
+ INFO LOG: May_14_05:32: Loading random.rb
+ INFO LOG: May_14_05:32: Loading npc.rb
+ INFO LOG: May_14_05:32: Loading items/types.rb
+ INFO LOG: May_14_05:32: Loading items/items.rb
+ INFO LOG: May_14_05:32: Loading spells.rb
+ INFO LOG: May_14_05:32: Loading all zones.
+ INFO LOG: May_14_05:32: Starting server.
+ INFO LOG: May_14_05:32: CoralMUD is now up on port 4000.
+ INFO LOG: May_14_05:32: -- 76.202.141.206:49957 connected to CoralMUD!
+ INFO LOG: May_14_05:32: -- 76.202.141.206:49957: Retnur is trying to connect.
+ INFO LOG: May_14_05:32: -- 76.202.141.206:49957: Retnur player file found.
+ INFO LOG: May_14_05:32: -- Retnur has entered the game.
+ INFO LOG: May_14_05:34: tick!!!
+ INFO LOG: May_14_05:36: tick!!!
+ INFO LOG: May_14_05:38: tick!!!
+ INFO LOG: May_14_05:40: tick!!!
+ INFO LOG: May_14_05:42: tick!!!
+ INFO LOG: May_14_05:44: tick!!!
+ INFO LOG: May_14_05:46: tick!!!
+ INFO LOG: May_14_05:48: tick!!!
+ INFO LOG: May_14_05:50: tick!!!
+ INFO LOG: May_14_05:52: tick!!!
+ INFO LOG: May_14_05:54: tick!!!
+ INFO LOG: May_14_05:56: tick!!!
+ INFO LOG: May_14_05:58: tick!!!
+ INFO LOG: May_14_06:00: tick!!!
+ INFO LOG: May_14_06:02: tick!!!
+ INFO LOG: May_14_06:04: tick!!!
+ INFO LOG: May_14_06:06: tick!!!
+ INFO LOG: May_14_06:08: tick!!!
+ INFO LOG: May_14_06:10: tick!!!
+ INFO LOG: May_14_06:12: tick!!!
+ INFO LOG: May_14_06:14: tick!!!
+ INFO LOG: May_14_06:16: tick!!!
+ INFO LOG: May_14_06:18: tick!!!
+ INFO LOG: May_14_06:20: tick!!!
+ INFO LOG: May_14_06:22: tick!!!
+ INFO LOG: May_14_06:24: tick!!!
+ INFO LOG: May_14_06:26: tick!!!
+ INFO LOG: May_14_06:28: tick!!!
+ INFO LOG: May_14_06:30: tick!!!
+ INFO LOG: May_14_06:32: tick!!!
+ INFO LOG: May_14_06:34: tick!!!
+ INFO LOG: May_14_06:36: tick!!!
+ INFO LOG: May_14_06:38: tick!!!
+ INFO LOG: May_14_06:40: tick!!!
+ INFO LOG: May_14_06:42: tick!!!
+ INFO LOG: May_14_06:44: tick!!!
+ INFO LOG: May_14_06:46: tick!!!
+ INFO LOG: May_14_06:48: tick!!!
+ INFO LOG: May_14_06:50: tick!!!
+ INFO LOG: May_14_06:52: tick!!!
+ INFO LOG: May_14_06:54: tick!!!
+ INFO LOG: May_14_06:56: tick!!!
+ INFO LOG: May_14_06:58: tick!!!
+ INFO LOG: May_14_07:00: tick!!!
+ INFO LOG: May_14_07:02: tick!!!
+ INFO LOG: May_14_07:04: tick!!!
+ INFO LOG: May_14_07:06: tick!!!
+ INFO LOG: May_14_07:08: tick!!!
+ INFO LOG: May_14_07:10: tick!!!
+ INFO LOG: May_14_07:12: tick!!!
+ INFO LOG: May_14_07:14: tick!!!
+ INFO LOG: May_14_07:16: tick!!!
+ INFO LOG: May_14_07:18: tick!!!
+ INFO LOG: May_14_07:20: tick!!!
+ INFO LOG: May_14_07:22: tick!!!
+ INFO LOG: May_14_07:24: tick!!!
+ INFO LOG: May_14_07:26: tick!!!
+ INFO LOG: May_14_07:28: tick!!!
+ INFO LOG: May_14_07:30: tick!!!
+ INFO LOG: May_14_07:32: tick!!!
+ INFO LOG: May_14_07:34: tick!!!
+ INFO LOG: May_14_07:36: tick!!!
+ INFO LOG: May_14_07:38: tick!!!
+ INFO LOG: May_14_07:40: tick!!!
+ INFO LOG: May_14_07:42: tick!!!
+ INFO LOG: May_14_07:44: tick!!!
+ INFO LOG: May_14_07:46: tick!!!
+ INFO LOG: May_14_07:48: tick!!!
+ INFO LOG: May_14_07:50: tick!!!
+ INFO LOG: May_14_07:52: tick!!!
+ INFO LOG: May_14_07:54: tick!!!
+ INFO LOG: May_14_07:56: tick!!!
+ INFO LOG: May_14_07:58: tick!!!
+ INFO LOG: May_14_08:00: tick!!!
+ INFO LOG: May_14_08:02: tick!!!
+ INFO LOG: May_14_08:04: tick!!!
+ INFO LOG: May_14_08:06: tick!!!
+ INFO LOG: May_14_08:08: tick!!!
+ INFO LOG: May_14_08:10: tick!!!
+ INFO LOG: May_14_08:12: tick!!!
+ INFO LOG: May_14_08:14: tick!!!
+ INFO LOG: May_14_08:16: tick!!!
+ INFO LOG: May_14_08:18: tick!!!
+ INFO LOG: May_14_08:20: tick!!!
+ INFO LOG: May_14_08:22: tick!!!
+ INFO LOG: May_14_08:24: tick!!!
+ INFO LOG: May_14_08:26: tick!!!
+ INFO LOG: May_14_08:28: tick!!!
+ INFO LOG: May_14_08:30: tick!!!
+ INFO LOG: May_14_08:32: tick!!!
+ INFO LOG: May_14_08:34: tick!!!
+ INFO LOG: May_14_08:36: tick!!!
+ INFO LOG: May_14_08:38: tick!!!
+ INFO LOG: May_14_08:40: tick!!!
+ INFO LOG: May_14_08:42: tick!!!
+ INFO LOG: May_14_08:44: tick!!!
+ INFO LOG: May_14_08:46: tick!!!
+ INFO LOG: May_14_08:48: tick!!!
+ INFO LOG: May_14_08:50: tick!!!
+ INFO LOG: May_14_08:52: tick!!!
+ INFO LOG: May_14_08:54: tick!!!
+ INFO LOG: May_14_08:56: tick!!!
+ INFO LOG: May_14_08:58: tick!!!
+ INFO LOG: May_14_09:00: tick!!!
+ INFO LOG: May_14_09:02: tick!!!
+ INFO LOG: May_14_09:04: tick!!!
+ INFO LOG: May_14_09:06: tick!!!
+ INFO LOG: May_14_09:08: tick!!!
+ INFO LOG: May_14_09:10: tick!!!
+ INFO LOG: May_14_09:12: tick!!!
+ INFO LOG: May_14_09:14: tick!!!
+ INFO LOG: May_14_09:16: tick!!!
+ INFO LOG: May_14_09:18: tick!!!
+ INFO LOG: May_14_09:20: tick!!!
+ INFO LOG: May_14_09:22: tick!!!
+ INFO LOG: May_14_09:24: tick!!!
+ INFO LOG: May_14_09:26: tick!!!
+ INFO LOG: May_14_09:28: tick!!!
+ INFO LOG: May_14_09:30: tick!!!
+ INFO LOG: May_14_09:32: tick!!!
+ INFO LOG: May_14_09:34: tick!!!
+ INFO LOG: May_14_09:36: tick!!!
+ INFO LOG: May_14_09:38: tick!!!
+ INFO LOG: May_14_09:40: tick!!!
+ INFO LOG: May_14_09:42: tick!!!
+ INFO LOG: May_14_09:44: tick!!!
+ INFO LOG: May_14_09:46: tick!!!
+ INFO LOG: May_14_09:48: tick!!!
+ INFO LOG: May_14_09:50: tick!!!
+ INFO LOG: May_14_09:52: tick!!!
+ INFO LOG: May_14_09:54: tick!!!
+ INFO LOG: May_14_09:56: tick!!!
+ INFO LOG: May_14_09:58: tick!!!
+ INFO LOG: May_14_10:00: tick!!!
+ INFO LOG: May_14_10:02: tick!!!
+ INFO LOG: May_14_10:04: tick!!!
+ INFO LOG: May_14_10:06: tick!!!
+ INFO LOG: May_14_10:08: tick!!!
+ INFO LOG: May_14_10:10: tick!!!
+ INFO LOG: May_14_10:12: tick!!!
+ INFO LOG: May_14_10:14: tick!!!
+ INFO LOG: May_14_10:16: tick!!!
+ INFO LOG: May_14_10:18: tick!!!
+ INFO LOG: May_14_10:20: tick!!!
+ INFO LOG: May_14_10:22: tick!!!
+ INFO LOG: May_14_10:24: tick!!!
+ INFO LOG: May_14_10:26: tick!!!
+ INFO LOG: May_14_10:28: tick!!!
+ INFO LOG: May_14_10:30: tick!!!
+ INFO LOG: May_14_10:32: tick!!!
+ INFO LOG: May_14_10:34: tick!!!
+ INFO LOG: May_14_10:36: tick!!!
+ INFO LOG: May_14_10:38: tick!!!
+ INFO LOG: May_14_10:40: tick!!!
+ INFO LOG: May_14_10:42: tick!!!
+ INFO LOG: May_14_10:44: tick!!!
+ INFO LOG: May_14_10:46: tick!!!
+ INFO LOG: May_14_10:48: tick!!!
+ INFO LOG: May_14_10:50: tick!!!
+ INFO LOG: May_14_10:52: tick!!!
+ INFO LOG: May_14_10:54: tick!!!
+ INFO LOG: May_14_10:56: tick!!!
+ INFO LOG: May_14_10:58: tick!!!
+ INFO LOG: May_14_11:00: tick!!!
+ INFO LOG: May_14_11:02: tick!!!
+ INFO LOG: May_14_11:04: tick!!!
+ INFO LOG: May_14_11:06: tick!!!
+ INFO LOG: May_14_11:08: tick!!!
+ INFO LOG: May_14_11:10: tick!!!
+ INFO LOG: May_14_11:12: tick!!!
+ INFO LOG: May_14_11:14: tick!!!
+ INFO LOG: May_14_11:16: tick!!!
+ INFO LOG: May_14_11:18: tick!!!
+ INFO LOG: May_14_11:20: tick!!!
+ INFO LOG: May_14_11:22: tick!!!
+ INFO LOG: May_14_11:24: tick!!!
+ INFO LOG: May_14_11:26: tick!!!
+ INFO LOG: May_14_11:28: tick!!!
+ INFO LOG: May_14_11:30: tick!!!
+ INFO LOG: May_14_11:32: tick!!!
+ INFO LOG: May_14_11:34: tick!!!
+ INFO LOG: May_14_11:36: tick!!!
+ INFO LOG: May_14_11:38: tick!!!
+ INFO LOG: May_14_11:40: tick!!!
+ INFO LOG: May_14_11:42: tick!!!
+ INFO LOG: May_14_11:44: tick!!!
+ INFO LOG: May_14_11:46: tick!!!
+ INFO LOG: May_14_11:48: tick!!!
+ INFO LOG: May_14_11:50: tick!!!
+ INFO LOG: May_14_11:52: tick!!!
+ INFO LOG: May_14_11:54: tick!!!
+ INFO LOG: May_14_11:56: tick!!!
+ INFO LOG: May_14_11:58: tick!!!
+ INFO LOG: May_14_12:00: tick!!!
+ INFO LOG: May_14_12:02: tick!!!
+ INFO LOG: May_14_12:04: tick!!!
+ INFO LOG: May_14_12:06: tick!!!
+ INFO LOG: May_14_12:08: tick!!!
+ INFO LOG: May_14_12:10: tick!!!
+ INFO LOG: May_14_12:12: tick!!!
+ INFO LOG: May_14_12:14: tick!!!
+ INFO LOG: May_14_12:16: tick!!!
+ INFO LOG: May_14_12:18: tick!!!
+ INFO LOG: May_14_12:20: tick!!!
+ INFO LOG: May_14_12:22: tick!!!
+ INFO LOG: May_14_12:24: tick!!!
+ INFO LOG: May_14_12:26: tick!!!
+ INFO LOG: May_14_12:28: tick!!!
+ INFO LOG: May_14_12:30: tick!!!
+ INFO LOG: May_14_12:32: tick!!!
+ INFO LOG: May_14_12:34: tick!!!
+ INFO LOG: May_14_12:36: tick!!!
+ INFO LOG: May_14_12:38: tick!!!
+ INFO LOG: May_14_12:40: tick!!!
+ INFO LOG: May_14_12:42: tick!!!
+ INFO LOG: May_14_12:44: tick!!!
+ INFO LOG: May_14_12:46: tick!!!
+ INFO LOG: May_14_12:48: tick!!!
+ INFO LOG: May_14_12:50: tick!!!
+ INFO LOG: May_14_12:52: tick!!!
+ INFO LOG: May_14_12:54: tick!!!
+ INFO LOG: May_14_12:56: tick!!!
+ INFO LOG: May_14_12:58: tick!!!
+ INFO LOG: May_14_13:00: tick!!!
+ INFO LOG: May_14_13:02: tick!!!
+ INFO LOG: May_14_13:04: tick!!!
+ INFO LOG: May_14_13:06: tick!!!
+ INFO LOG: May_14_13:08: tick!!!
+ INFO LOG: May_14_13:10: tick!!!
+ INFO LOG: May_14_13:12: tick!!!
+ INFO LOG: May_14_13:14: tick!!!
+ INFO LOG: May_14_13:16: tick!!!
+ INFO LOG: May_14_13:18: tick!!!
+ INFO LOG: May_14_13:20: tick!!!
+ INFO LOG: May_14_13:22: tick!!!
+ INFO LOG: May_14_13:24: tick!!!
+ INFO LOG: May_14_13:26: tick!!!
+ INFO LOG: May_14_13:28: tick!!!
+ INFO LOG: May_14_13:30: tick!!!
+ INFO LOG: May_14_13:32: tick!!!
+ INFO LOG: May_14_13:34: tick!!!
+ INFO LOG: May_14_13:36: tick!!!
+ INFO LOG: May_14_13:38: tick!!!
+ INFO LOG: May_14_13:40: tick!!!
+ INFO LOG: May_14_13:42: tick!!!
+ INFO LOG: May_14_13:44: tick!!!
+ INFO LOG: May_14_13:46: tick!!!
+ INFO LOG: May_14_13:48: tick!!!
+ INFO LOG: May_14_13:50: tick!!!
+ INFO LOG: May_14_13:52: tick!!!
+ INFO LOG: May_14_13:54: tick!!!
+ INFO LOG: May_14_13:56: tick!!!
+ INFO LOG: May_14_13:58: tick!!!
+ INFO LOG: May_14_14:00: tick!!!
+ INFO LOG: May_14_14:02: tick!!!
+ INFO LOG: May_14_14:04: tick!!!
+ INFO LOG: May_14_14:06: tick!!!
+ INFO LOG: May_14_14:08: tick!!!
+ INFO LOG: May_14_14:10: tick!!!
+ INFO LOG: May_14_14:12: tick!!!
+ INFO LOG: May_14_14:14: tick!!!
+ INFO LOG: May_14_14:16: tick!!!
+ INFO LOG: May_14_14:18: tick!!!
+ INFO LOG: May_14_14:20: tick!!!
+ INFO LOG: May_14_14:22: tick!!!
+ INFO LOG: May_14_14:24: tick!!!
+ INFO LOG: May_14_14:26: tick!!!
+ INFO LOG: May_14_14:28: tick!!!
+ INFO LOG: May_14_14:30: tick!!!
+ INFO LOG: May_14_14:32: tick!!!
+ INFO LOG: May_14_14:34: tick!!!
+ INFO LOG: May_14_14:36: tick!!!
+ INFO LOG: May_14_14:38: tick!!!
+ INFO LOG: May_14_14:40: tick!!!
+ INFO LOG: May_14_14:42: tick!!!
+ INFO LOG: May_14_14:44: tick!!!
+ INFO LOG: May_14_14:46: tick!!!
+ INFO LOG: May_14_14:48: tick!!!
+ INFO LOG: May_14_14:50: tick!!!
+ INFO LOG: May_14_14:52: tick!!!
+ INFO LOG: May_14_14:54: tick!!!
+ INFO LOG: May_14_14:56: tick!!!
+ INFO LOG: May_14_14:58: tick!!!
+ INFO LOG: May_14_15:00: tick!!!
+ INFO LOG: May_14_15:02: tick!!!
+ INFO LOG: May_14_15:04: tick!!!
+ INFO LOG: May_14_15:06: tick!!!
+ INFO LOG: May_14_15:08: tick!!!
+ INFO LOG: May_14_15:10: tick!!!
+ INFO LOG: May_14_15:12: tick!!!
+ INFO LOG: May_14_15:14: tick!!!
+ INFO LOG: May_14_15:16: tick!!!
+ INFO LOG: May_14_15:18: tick!!!
+ INFO LOG: May_14_15:20: tick!!!
+ INFO LOG: May_14_15:22: tick!!!
+ INFO LOG: May_14_15:24: tick!!!
+ INFO LOG: May_14_15:26: tick!!!
+ INFO LOG: May_14_15:28: tick!!!
+ INFO LOG: May_14_15:30: tick!!!
+ INFO LOG: May_14_15:32: tick!!!
+ INFO LOG: May_14_15:34: tick!!!
+ INFO LOG: May_14_15:36: tick!!!
+ INFO LOG: May_14_15:38: tick!!!
+ INFO LOG: May_14_15:40: tick!!!
+ INFO LOG: May_14_15:42: tick!!!
+ INFO LOG: May_14_15:44: tick!!!
+ INFO LOG: May_14_15:46: tick!!!
+ INFO LOG: May_14_15:48: tick!!!
+ INFO LOG: May_14_15:50: tick!!!
+ INFO LOG: May_14_15:52: tick!!!
+ INFO LOG: May_14_15:54: tick!!!
+ INFO LOG: May_14_15:56: tick!!!
+ INFO LOG: May_14_15:58: tick!!!
+ INFO LOG: May_14_16:00: tick!!!
+ INFO LOG: May_14_16:02: tick!!!
+ INFO LOG: May_14_16:04: tick!!!
+ INFO LOG: May_14_16:06: tick!!!
+ INFO LOG: May_14_16:08: tick!!!
+ INFO LOG: May_14_16:10: tick!!!
+ INFO LOG: May_14_16:12: tick!!!
+ INFO LOG: May_14_16:14: tick!!!
+ INFO LOG: May_14_16:16: tick!!!
+ INFO LOG: May_14_16:18: tick!!!
+ INFO LOG: May_14_16:20: tick!!!
+ INFO LOG: May_14_16:22: tick!!!
+ INFO LOG: May_14_16:24: tick!!!
+ INFO LOG: May_14_16:26: tick!!!
+ INFO LOG: May_14_16:28: tick!!!
+ INFO LOG: May_14_16:30: tick!!!
+ INFO LOG: May_14_16:32: tick!!!
+ INFO LOG: May_14_16:34: tick!!!
+ INFO LOG: May_14_16:36: tick!!!
+ INFO LOG: May_14_16:38: tick!!!
+ INFO LOG: May_14_16:40: tick!!!
+ INFO LOG: May_14_16:42: tick!!!
+ INFO LOG: May_14_16:44: tick!!!
+ INFO LOG: May_14_16:46: tick!!!
+ INFO LOG: May_14_16:48: tick!!!
+ INFO LOG: May_14_16:50: tick!!!
+ INFO LOG: May_14_16:52: tick!!!
+ INFO LOG: May_14_16:54: tick!!!
+ INFO LOG: May_14_16:56: tick!!!
+ INFO LOG: May_14_16:58: tick!!!
+ INFO LOG: May_14_17:00: tick!!!
+ INFO LOG: May_14_17:02: tick!!!
+ INFO LOG: May_14_17:04: tick!!!
+ INFO LOG: May_14_17:06: tick!!!
+ INFO LOG: May_14_17:08: tick!!!
+ INFO LOG: May_14_17:10: tick!!!
+ INFO LOG: May_14_17:12: tick!!!
+ INFO LOG: May_14_17:14: tick!!!
+ INFO LOG: May_14_17:16: tick!!!
+ INFO LOG: May_14_17:18: tick!!!
+ INFO LOG: May_14_17:20: tick!!!
+ INFO LOG: May_14_17:22: tick!!!
+ INFO LOG: May_14_17:24: tick!!!
+ INFO LOG: May_14_17:26: tick!!!
+ INFO LOG: May_14_17:28: tick!!!
+ INFO LOG: May_14_17:30: tick!!!
+ INFO LOG: May_14_17:32: tick!!!
+ INFO LOG: May_14_17:34: tick!!!
+ INFO LOG: May_14_17:36: tick!!!
+ INFO LOG: May_14_17:38: tick!!!
+ INFO LOG: May_14_17:40: tick!!!
+ INFO LOG: May_14_17:42: tick!!!
+ INFO LOG: May_14_17:44: tick!!!
+ INFO LOG: May_14_17:46: tick!!!
+ INFO LOG: May_14_17:48: tick!!!
+ INFO LOG: May_14_17:50: tick!!!
+ INFO LOG: May_14_17:52: tick!!!
+ INFO LOG: May_14_17:54: tick!!!
+ INFO LOG: May_14_17:56: tick!!!
+ INFO LOG: May_14_17:58: tick!!!
+ INFO LOG: May_14_18:00: tick!!!
+ INFO LOG: May_14_18:02: tick!!!
+ INFO LOG: May_14_18:04: tick!!!
+ INFO LOG: May_14_18:06: tick!!!
+ INFO LOG: May_14_18:08: tick!!!
+ INFO LOG: May_14_18:10: tick!!!
+ INFO LOG: May_14_18:12: tick!!!
+ INFO LOG: May_14_18:14: tick!!!
+ INFO LOG: May_14_18:16: tick!!!
+ INFO LOG: May_14_18:18: tick!!!
+ INFO LOG: May_14_18:20: tick!!!
+ INFO LOG: May_14_18:22: tick!!!
+ INFO LOG: May_14_18:24: tick!!!
+ INFO LOG: May_14_18:26: tick!!!
+ INFO LOG: May_14_18:28: tick!!!
+ INFO LOG: May_14_18:30: tick!!!
+ INFO LOG: May_14_18:32: tick!!!
+ INFO LOG: May_14_18:34: tick!!!
+ INFO LOG: May_14_18:36: tick!!!
+ INFO LOG: May_14_18:38: tick!!!
+ INFO LOG: May_14_18:40: tick!!!
+ INFO LOG: May_14_18:42: tick!!!
+ INFO LOG: May_14_18:44: tick!!!
+ INFO LOG: May_14_18:46: tick!!!
+ INFO LOG: May_14_18:48: tick!!!
+ INFO LOG: May_14_18:50: tick!!!
+ INFO LOG: May_14_18:52: tick!!!
+ INFO LOG: May_14_18:54: tick!!!
+ INFO LOG: May_14_18:56: tick!!!
+ INFO LOG: May_14_18:58: tick!!!
+ INFO LOG: May_14_19:00: tick!!!
+ INFO LOG: May_14_19:02: tick!!!
+ INFO LOG: May_14_19:04: tick!!!
+ INFO LOG: May_14_19:06: tick!!!
+ INFO LOG: May_14_19:08: tick!!!
+ INFO LOG: May_14_19:10: tick!!!
+ INFO LOG: May_14_19:12: tick!!!
+ INFO LOG: May_14_19:14: tick!!!
+ INFO LOG: May_14_19:16: tick!!!
+ INFO LOG: May_14_19:18: tick!!!
+ INFO LOG: May_14_19:20: tick!!!
+ INFO LOG: May_14_19:22: tick!!!
+ INFO LOG: May_14_19:24: tick!!!
+ INFO LOG: May_14_19:26: tick!!!
+ INFO LOG: May_14_19:28: tick!!!
+ INFO LOG: May_14_19:30: tick!!!
+ INFO LOG: May_14_19:32: tick!!!
+ INFO LOG: May_14_19:34: tick!!!
+ INFO LOG: May_14_19:36: tick!!!
+ INFO LOG: May_14_19:38: tick!!!
+ INFO LOG: May_14_19:40: tick!!!
+ INFO LOG: May_14_19:42: tick!!!
+ INFO LOG: May_14_19:44: tick!!!
+ INFO LOG: May_14_19:46: tick!!!
+ INFO LOG: May_14_19:48: tick!!!
+ INFO LOG: May_14_19:50: tick!!!
+ INFO LOG: May_14_19:52: tick!!!
+ INFO LOG: May_14_19:54: tick!!!
+ INFO LOG: May_14_19:56: tick!!!
+ INFO LOG: May_14_19:58: tick!!!
+ INFO LOG: May_14_20:00: tick!!!
+ INFO LOG: May_14_20:02: tick!!!
+ INFO LOG: May_14_20:04: tick!!!
+ INFO LOG: May_14_20:06: tick!!!
+ INFO LOG: May_14_20:08: tick!!!
+ INFO LOG: May_14_20:10: tick!!!
+ INFO LOG: May_14_20:12: tick!!!
+ INFO LOG: May_14_20:14: tick!!!
+ INFO LOG: May_14_20:16: tick!!!
+ INFO LOG: May_14_20:18: tick!!!
+ INFO LOG: May_14_20:20: tick!!!
+ INFO LOG: May_14_20:22: tick!!!
+ INFO LOG: May_14_20:24: tick!!!
+ INFO LOG: May_14_20:26: tick!!!
+ INFO LOG: May_14_20:28: tick!!!
+ INFO LOG: May_14_20:30: tick!!!
+ INFO LOG: May_14_20:32: tick!!!
+ INFO LOG: May_14_20:34: tick!!!
+ INFO LOG: May_14_20:36: tick!!!
+ INFO LOG: May_14_20:38: tick!!!
+ INFO LOG: May_14_20:40: tick!!!
+ INFO LOG: May_14_20:42: tick!!!
+ INFO LOG: May_14_20:44: tick!!!
+ INFO LOG: May_14_20:46: tick!!!
+ INFO LOG: May_14_20:48: tick!!!
+ INFO LOG: May_14_20:50: tick!!!
+ INFO LOG: May_14_20:52: tick!!!
+ INFO LOG: May_14_20:54: tick!!!
+ INFO LOG: May_14_20:56: tick!!!
+ INFO LOG: May_14_20:58: tick!!!
+ INFO LOG: May_14_21:00: tick!!!
+ INFO LOG: May_14_21:02: tick!!!
+ INFO LOG: May_14_21:04: tick!!!
+ INFO LOG: May_14_21:06: tick!!!
+ INFO LOG: May_14_21:08: tick!!!
+ INFO LOG: May_14_21:10: tick!!!
+ INFO LOG: May_14_21:12: tick!!!
+ INFO LOG: May_14_21:14: tick!!!
+ INFO LOG: May_14_21:16: tick!!!
+ INFO LOG: May_14_21:18: tick!!!
+ INFO LOG: May_14_21:20: tick!!!
+ INFO LOG: May_14_21:22: tick!!!
+ INFO LOG: May_14_21:24: tick!!!
+ INFO LOG: May_14_21:26: tick!!!
+ INFO LOG: May_14_21:28: tick!!!
+ INFO LOG: May_14_21:30: tick!!!
+ INFO LOG: May_14_21:32: tick!!!
+ INFO LOG: May_14_21:34: tick!!!
+ INFO LOG: May_14_21:36: tick!!!
+ INFO LOG: May_14_21:38: tick!!!
+ INFO LOG: May_14_21:40: tick!!!
+ INFO LOG: May_14_21:42: tick!!!
+ INFO LOG: May_14_21:44: tick!!!
+ INFO LOG: May_14_21:46: tick!!!
+ INFO LOG: May_14_21:48: tick!!!
+ INFO LOG: May_14_21:50: tick!!!
+ INFO LOG: May_14_21:52: tick!!!
+ INFO LOG: May_14_21:54: tick!!!
+ INFO LOG: May_14_21:56: tick!!!
+ INFO LOG: May_14_21:58: tick!!!
+ INFO LOG: May_14_22:00: tick!!!
+ INFO LOG: May_14_22:02: tick!!!
+ INFO LOG: May_14_22:04: tick!!!
+ INFO LOG: May_14_22:06: tick!!!
+ INFO LOG: May_14_22:08: tick!!!
+ INFO LOG: May_14_22:10: tick!!!
+ INFO LOG: May_14_22:12: tick!!!
+ INFO LOG: May_14_22:14: tick!!!
+ INFO LOG: May_14_22:16: tick!!!
+ INFO LOG: May_14_22:18: tick!!!
+ INFO LOG: May_14_22:20: tick!!!
+ INFO LOG: May_14_22:22: tick!!!
+ INFO LOG: May_14_22:24: tick!!!
+ INFO LOG: May_14_22:26: tick!!!
+ INFO LOG: May_14_22:28: tick!!!
+ INFO LOG: May_14_22:30: tick!!!
+ INFO LOG: May_14_22:32: tick!!!
+ INFO LOG: May_14_22:34: tick!!!
+ INFO LOG: May_14_22:36: tick!!!
+ INFO LOG: May_14_22:38: tick!!!
+ INFO LOG: May_14_22:40: tick!!!
+ INFO LOG: May_14_22:42: tick!!!
+ INFO LOG: May_14_22:44: tick!!!
+ INFO LOG: May_14_22:46: tick!!!
+ INFO LOG: May_14_22:48: tick!!!
+ INFO LOG: May_14_22:50: tick!!!
+ INFO LOG: May_14_22:52: tick!!!
+ INFO LOG: May_14_22:54: tick!!!
+ INFO LOG: May_14_22:56: tick!!!
+ INFO LOG: May_14_22:58: tick!!!
+ INFO LOG: May_14_23:00: tick!!!
+ INFO LOG: May_14_23:02: tick!!!
+ INFO LOG: May_14_23:04: tick!!!
+ INFO LOG: May_14_23:06: tick!!!
+ INFO LOG: May_14_23:08: tick!!!
+ INFO LOG: May_14_23:10: tick!!!
+ INFO LOG: May_14_23:12: tick!!!
+ INFO LOG: May_14_23:14: tick!!!
+ INFO LOG: May_14_23:16: tick!!!
+ INFO LOG: May_14_23:18: tick!!!
+ INFO LOG: May_14_23:20: tick!!!
+ INFO LOG: May_14_23:22: tick!!!
+ INFO LOG: May_14_23:24: tick!!!
+ INFO LOG: May_14_23:26: tick!!!
+ INFO LOG: May_14_23:28: tick!!!
+ INFO LOG: May_14_23:30: tick!!!
+ INFO LOG: May_14_23:32: tick!!!
+ INFO LOG: May_14_23:34: tick!!!
+ INFO LOG: May_14_23:36: tick!!!
+ INFO LOG: May_14_23:38: tick!!!
+ INFO LOG: May_14_23:40: tick!!!
+ INFO LOG: May_14_23:42: tick!!!
+ INFO LOG: May_14_23:44: tick!!!
+ INFO LOG: May_14_23:46: tick!!!
+ INFO LOG: May_14_23:48: tick!!!
+ INFO LOG: May_14_23:50: tick!!!
+ INFO LOG: May_14_23:52: tick!!!
+ INFO LOG: May_14_23:54: tick!!!
+ INFO LOG: May_14_23:56: tick!!!
+ INFO LOG: May_14_23:58: tick!!!
+ INFO LOG: May_15_00:00: tick!!!
+ INFO LOG: May_15_00:02: tick!!!
+ INFO LOG: May_15_00:04: tick!!!
+ INFO LOG: May_15_00:06: tick!!!
+ INFO LOG: May_15_00:08: tick!!!
+ INFO LOG: May_15_00:10: tick!!!
+ INFO LOG: May_15_00:12: tick!!!
+ INFO LOG: May_15_00:14: tick!!!
+ INFO LOG: May_15_00:16: tick!!!
+ INFO LOG: May_15_00:18: tick!!!
+ INFO LOG: May_15_00:20: tick!!!
+ INFO LOG: May_15_00:22: tick!!!
+ INFO LOG: May_15_00:24: tick!!!
+ INFO LOG: May_15_00:26: tick!!!
+ INFO LOG: May_15_00:28: tick!!!
+ INFO LOG: May_15_00:30: tick!!!
+ INFO LOG: May_15_00:32: tick!!!
+ INFO LOG: May_15_00:34: tick!!!
+ INFO LOG: May_15_00:36: tick!!!
+ INFO LOG: May_15_00:38: tick!!!
+ INFO LOG: May_15_00:40: tick!!!
+ INFO LOG: May_15_00:42: tick!!!
+ INFO LOG: May_15_00:44: tick!!!
+ INFO LOG: May_15_00:46: tick!!!
+ INFO LOG: May_15_00:48: tick!!!
+ INFO LOG: May_15_00:50: tick!!!
+ INFO LOG: May_15_00:52: tick!!!
+ INFO LOG: May_15_00:54: tick!!!
+ INFO LOG: May_15_00:56: tick!!!
+ INFO LOG: May_15_00:58: tick!!!
+ INFO LOG: May_15_01:00: tick!!!
+ INFO LOG: May_15_01:02: tick!!!
+ INFO LOG: May_15_01:04: tick!!!
+ INFO LOG: May_15_01:06: tick!!!
+ INFO LOG: May_15_01:08: tick!!!
+ INFO LOG: May_15_01:10: tick!!!
+ INFO LOG: May_15_01:12: tick!!!
+ INFO LOG: May_15_01:14: tick!!!
+ INFO LOG: May_15_01:16: tick!!!
+ INFO LOG: May_15_01:18: tick!!!
+ INFO LOG: May_15_01:20: tick!!!
+ INFO LOG: May_15_01:22: tick!!!
+ INFO LOG: May_15_01:24: tick!!!
+ INFO LOG: May_15_01:26: tick!!!
+ INFO LOG: May_15_01:28: tick!!!
+ INFO LOG: May_15_01:30: tick!!!
+ INFO LOG: May_15_01:32: tick!!!
+ INFO LOG: May_15_01:34: tick!!!
+ INFO LOG: May_15_01:36: tick!!!
+ INFO LOG: May_15_01:38: tick!!!
+ INFO LOG: May_15_01:40: tick!!!
+ INFO LOG: May_15_01:42: tick!!!
+ INFO LOG: May_15_01:44: tick!!!
+ INFO LOG: May_15_01:46: tick!!!
+ INFO LOG: May_15_01:48: tick!!!
+ INFO LOG: May_15_01:50: tick!!!
+ INFO LOG: May_15_01:52: tick!!!
+ INFO LOG: May_15_01:54: tick!!!
+ INFO LOG: May_15_01:56: tick!!!
+ INFO LOG: May_15_01:58: tick!!!
+ INFO LOG: May_15_02:00: tick!!!
+ INFO LOG: May_15_02:02: tick!!!
+ INFO LOG: May_15_02:04: tick!!!
+ INFO LOG: May_15_02:06: tick!!!
+ INFO LOG: May_15_02:08: tick!!!
+ INFO LOG: May_15_02:10: tick!!!
+ INFO LOG: May_15_02:12: tick!!!
+ INFO LOG: May_15_02:14: tick!!!
+ INFO LOG: May_15_02:16: tick!!!
+ INFO LOG: May_15_02:18: tick!!!
+ INFO LOG: May_15_02:20: tick!!!
+ INFO LOG: May_15_02:22: tick!!!
+ INFO LOG: May_15_02:24: tick!!!
+ INFO LOG: May_15_02:26: tick!!!
+ INFO LOG: May_15_02:28: tick!!!
+ INFO LOG: May_15_02:30: tick!!!
+ INFO LOG: May_15_02:32: tick!!!
+ INFO LOG: May_15_02:34: tick!!!
+ INFO LOG: May_15_02:36: tick!!!
+ INFO LOG: May_15_02:38: tick!!!
+ INFO LOG: May_15_02:40: tick!!!
+ INFO LOG: May_15_02:42: tick!!!
+ INFO LOG: May_15_02:44: tick!!!
+ INFO LOG: May_15_02:46: tick!!!
+ INFO LOG: May_15_02:48: tick!!!
+ INFO LOG: May_15_02:50: tick!!!
+ INFO LOG: May_15_02:52: tick!!!
+ INFO LOG: May_15_02:54: tick!!!
+ INFO LOG: May_15_02:56: tick!!!
+ INFO LOG: May_15_02:58: tick!!!
+ INFO LOG: May_15_03:00: tick!!!
+ INFO LOG: May_15_03:02: tick!!!
+ INFO LOG: May_15_03:04: tick!!!
+ INFO LOG: May_15_03:06: tick!!!
+ INFO LOG: May_15_03:08: tick!!!
+ INFO LOG: May_15_03:10: tick!!!
+ INFO LOG: May_15_03:12: tick!!!
+ INFO LOG: May_15_03:14: tick!!!
+ INFO LOG: May_15_03:16: tick!!!
+ INFO LOG: May_15_03:18: tick!!!
+ INFO LOG: May_15_03:20: tick!!!
+ INFO LOG: May_15_03:22: tick!!!
+ INFO LOG: May_15_03:24: tick!!!
+ INFO LOG: May_15_03:26: tick!!!
+ INFO LOG: May_15_03:28: tick!!!
+ INFO LOG: May_15_03:30: tick!!!
+ INFO LOG: May_15_03:32: tick!!!
+ INFO LOG: May_15_03:34: tick!!!
+ INFO LOG: May_15_03:36: tick!!!
+ INFO LOG: May_15_03:38: tick!!!
+ INFO LOG: May_15_03:40: tick!!!
+ INFO LOG: May_15_03:42: tick!!!
+ INFO LOG: May_15_03:44: tick!!!
+ INFO LOG: May_15_03:46: tick!!!
+ INFO LOG: May_15_03:48: tick!!!
+ INFO LOG: May_15_03:50: tick!!!
+ INFO LOG: May_15_03:52: tick!!!
+ INFO LOG: May_15_03:54: tick!!!
+ INFO LOG: May_15_03:56: tick!!!
+ INFO LOG: May_15_03:58: tick!!!
+ INFO LOG: May_15_04:00: tick!!!
+ INFO LOG: May_15_04:02: tick!!!
+ INFO LOG: May_15_04:04: tick!!!
+ INFO LOG: May_15_04:06: tick!!!
+ INFO LOG: May_15_04:08: tick!!!
+ INFO LOG: May_15_04:10: tick!!!
+ INFO LOG: May_15_04:12: tick!!!
+ INFO LOG: May_15_04:14: tick!!!
+ INFO LOG: May_15_04:16: tick!!!
+ INFO LOG: May_15_04:18: tick!!!
+ INFO LOG: May_15_04:20: tick!!!
+ INFO LOG: May_15_04:22: tick!!!
+ INFO LOG: May_15_04:24: tick!!!
+ INFO LOG: May_15_04:26: tick!!!
+ INFO LOG: May_15_04:28: tick!!!
+ INFO LOG: May_15_04:30: tick!!!
+ INFO LOG: May_15_04:32: tick!!!
+ INFO LOG: May_15_04:34: tick!!!
+ INFO LOG: May_15_04:36: tick!!!
+ INFO LOG: May_15_04:38: tick!!!
+ INFO LOG: May_15_04:40: tick!!!
+ INFO LOG: May_15_04:42: tick!!!
+ INFO LOG: May_15_04:44: tick!!!
+ INFO LOG: May_15_04:46: tick!!!
+ INFO LOG: May_15_04:48: tick!!!
+ INFO LOG: May_15_04:50: tick!!!
+ INFO LOG: May_15_04:52: tick!!!
+ INFO LOG: May_15_04:54: tick!!!
+ INFO LOG: May_15_04:56: tick!!!
+ INFO LOG: May_15_04:58: tick!!!
+ INFO LOG: May_15_05:00: tick!!!
+ INFO LOG: May_15_05:02: tick!!!
+ INFO LOG: May_15_05:04: tick!!!
+ INFO LOG: May_15_05:06: tick!!!
+ INFO LOG: May_15_05:08: tick!!!
+ INFO LOG: May_15_05:10: tick!!!
+ INFO LOG: May_15_05:12: tick!!!
+ INFO LOG: May_15_05:14: tick!!!
+ INFO LOG: May_15_05:16: tick!!!
+ INFO LOG: May_15_05:18: tick!!!
+ INFO LOG: May_15_05:20: tick!!!
+ INFO LOG: May_15_05:22: tick!!!
+ INFO LOG: May_15_05:24: tick!!!
+ INFO LOG: May_15_05:26: tick!!!
+ INFO LOG: May_15_05:28: tick!!!
+ INFO LOG: May_15_05:30: tick!!!
+ INFO LOG: May_15_05:32: tick!!!
+ INFO LOG: May_15_05:34: tick!!!
+ INFO LOG: May_15_05:36: tick!!!
+ INFO LOG: May_15_05:38: tick!!!
+ INFO LOG: May_15_05:40: tick!!!
+ INFO LOG: May_15_05:42: tick!!!
+ INFO LOG: May_15_05:44: tick!!!
+ INFO LOG: May_15_05:46: tick!!!
+ INFO LOG: May_15_05:48: tick!!!
+ INFO LOG: May_15_05:50: tick!!!
+ INFO LOG: May_15_05:52: tick!!!
+ INFO LOG: May_15_05:54: tick!!!
+ INFO LOG: May_15_05:56: tick!!!
+ INFO LOG: May_15_05:58: tick!!!
+ INFO LOG: May_15_06:00: tick!!!
+ INFO LOG: May_15_06:02: tick!!!
+ INFO LOG: May_15_06:04: tick!!!
+ INFO LOG: May_15_06:06: tick!!!
+ INFO LOG: May_15_06:08: tick!!!
+ INFO LOG: May_15_06:10: tick!!!
+ INFO LOG: May_15_06:12: tick!!!
+ INFO LOG: May_15_06:14: tick!!!
+ INFO LOG: May_15_06:16: tick!!!
+ INFO LOG: May_15_06:18: tick!!!
+ INFO LOG: May_15_06:20: tick!!!
+ INFO LOG: May_15_06:22: tick!!!
+ INFO LOG: May_15_06:24: tick!!!
+ INFO LOG: May_15_06:26: tick!!!
+ INFO LOG: May_15_06:28: tick!!!
+ INFO LOG: May_15_06:30: tick!!!
+ INFO LOG: May_15_06:32: tick!!!
+ INFO LOG: May_15_06:34: tick!!!
+ INFO LOG: May_15_06:36: tick!!!
+ INFO LOG: May_15_06:38: tick!!!
+ INFO LOG: May_15_06:40: tick!!!
+ INFO LOG: May_15_06:42: tick!!!
+ INFO LOG: May_15_06:44: tick!!!
+ INFO LOG: May_15_06:46: tick!!!
+ INFO LOG: May_15_06:48: tick!!!
+ INFO LOG: May_15_06:50: tick!!!
+ INFO LOG: May_15_06:52: tick!!!
+ INFO LOG: May_15_06:54: tick!!!
+ INFO LOG: May_15_06:56: tick!!!
+ INFO LOG: May_15_06:58: tick!!!
+ INFO LOG: May_15_07:00: tick!!!
+ INFO LOG: May_15_07:02: tick!!!
+ INFO LOG: May_15_07:04: tick!!!
+ INFO LOG: May_15_07:06: tick!!!
+ INFO LOG: May_15_07:08: tick!!!
+ INFO LOG: May_15_07:10: tick!!!
+ INFO LOG: May_15_07:12: tick!!!
+ INFO LOG: May_15_07:14: tick!!!
+ INFO LOG: May_15_07:16: tick!!!
+ INFO LOG: May_15_07:18: tick!!!
+ INFO LOG: May_15_07:20: tick!!!
+ INFO LOG: May_15_07:22: tick!!!
+ INFO LOG: May_15_07:24: tick!!!
+ INFO LOG: May_15_07:26: tick!!!
+ INFO LOG: May_15_07:28: tick!!!
+ INFO LOG: May_15_07:30: tick!!!
+ INFO LOG: May_15_07:32: tick!!!
+ INFO LOG: May_15_07:34: tick!!!
+ INFO LOG: May_15_07:36: tick!!!
+ INFO LOG: May_15_07:38: tick!!!
+ INFO LOG: May_15_07:40: tick!!!
+ INFO LOG: May_15_07:42: tick!!!
+ INFO LOG: May_15_07:44: tick!!!
+ INFO LOG: May_15_07:46: tick!!!
+ INFO LOG: May_15_07:48: tick!!!
+ INFO LOG: May_15_07:50: tick!!!
+ INFO LOG: May_15_07:52: tick!!!
+ INFO LOG: May_15_07:54: tick!!!
+ INFO LOG: May_15_07:56: tick!!!
+ INFO LOG: May_15_07:58: tick!!!
+ INFO LOG: May_15_08:00: tick!!!
+ INFO LOG: May_15_08:02: tick!!!
+ INFO LOG: May_15_08:04: tick!!!
+ INFO LOG: May_15_08:06: tick!!!
+ INFO LOG: May_15_08:08: -- 74.137.64.37:53330 connected to CoralMUD!
+ INFO LOG: May_15_08:08: -- 74.137.64.37:53330: Hishia is trying to connect.
+ INFO LOG: May_15_08:08: -- 74.137.64.37:53330: Hishia:  New Character.
+ INFO LOG: May_15_08:08: tick!!!
+ INFO LOG: May_15_08:10: -- 74.137.64.37:53330: Hishia successfully created.
+ INFO LOG: May_15_08:10: -- Hishia has entered the game.
+ INFO LOG: May_15_08:10: tick!!!
+ INFO LOG: May_15_08:12: tick!!!
+ INFO LOG: May_15_08:14: tick!!!
+ERROR LOG: wrong number of arguments (2 for 1)
+ERROR LOG: /home/heath/coral/lib/commands/goto.rb:3:in `cmd_goto'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_15_08:16: tick!!!
+ INFO LOG: May_15_08:17: Hishia has left the game.
+ INFO LOG: May_15_08:17: -- :74.137.64.37:53330 disconnected from CoralMUD!
+ INFO LOG: May_15_08:18: tick!!!
+ INFO LOG: May_15_08:20: tick!!!
+ INFO LOG: May_15_08:21: -- 74.137.64.37:38207 connected to CoralMUD!
+ INFO LOG: May_15_08:21: -- 74.137.64.37:38207: Hishia is trying to connect.
+ INFO LOG: May_15_08:21: -- 74.137.64.37:38207: Hishia player file found.
+ INFO LOG: May_15_08:21: -- Hishia has entered the game.
+ INFO LOG: May_15_08:22: tick!!!
+ INFO LOG: May_15_08:24: tick!!!
+ INFO LOG: May_15_08:26: -- 94.123.52.40:42352 connected to CoralMUD!
+ INFO LOG: May_15_08:26: -- 94.123.52.40:42352: Elmeric is trying to connect.
+ INFO LOG: May_15_08:26: -- 94.123.52.40:42352: Elmeric:  New Character.
+ INFO LOG: May_15_08:26: tick!!!
+ INFO LOG: May_15_08:28: -- 94.123.52.40:42352: Elmeric successfully created.
+ INFO LOG: May_15_08:28: -- Elmeric has entered the game.
+ INFO LOG: May_15_08:28: tick!!!
+ INFO LOG: May_15_08:29: Elmeric has left the game.
+ INFO LOG: May_15_08:29: -- :94.123.52.40:42352 disconnected from CoralMUD!
+ INFO LOG: May_15_08:30: tick!!!
+ INFO LOG: May_15_08:32: tick!!!
+ INFO LOG: May_15_08:34: tick!!!
+ INFO LOG: May_15_08:36: tick!!!
+ INFO LOG: May_15_08:38: tick!!!
+ERROR LOG: undefined local variable or method `arg2' for #<Room:0x00000001e99c28>
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:458:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:439:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:439:in `display'
+ERROR LOG: /home/heath/coral/lib/commands/put.rb:18:in `cmd_put'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_15_08:41: tick!!!
+ INFO LOG: May_15_08:43: tick!!!
+ INFO LOG: May_15_08:43: Loading commands.rb
+ INFO LOG: May_15_08:45: tick!!!
+ INFO LOG: May_15_08:47: tick!!!
+ INFO LOG: May_15_08:49: tick!!!
+ INFO LOG: May_15_08:51: tick!!!
+ INFO LOG: May_15_08:53: tick!!!
+ INFO LOG: May_15_08:55: tick!!!
+ INFO LOG: May_15_08:57: tick!!!
+ INFO LOG: May_15_08:59: tick!!!
+ INFO LOG: May_15_09:01: tick!!!
+ INFO LOG: May_15_09:03: tick!!!
+ INFO LOG: May_15_09:05: tick!!!
+ INFO LOG: May_15_09:07: tick!!!
+ INFO LOG: May_15_09:09: tick!!!
+ INFO LOG: May_15_09:11: tick!!!
+ INFO LOG: May_15_09:13: tick!!!
+ INFO LOG: May_15_09:15: tick!!!
+ INFO LOG: May_15_09:17: tick!!!
+ INFO LOG: May_15_09:19: tick!!!
+ INFO LOG: May_15_09:21: tick!!!
+ INFO LOG: May_15_09:23: tick!!!
+ INFO LOG: May_15_09:25: tick!!!
+ INFO LOG: May_15_09:27: tick!!!
+ INFO LOG: May_15_09:29: tick!!!
+ INFO LOG: May_15_09:31: tick!!!
+ INFO LOG: May_15_09:33: tick!!!
+ INFO LOG: May_15_09:35: tick!!!
+ERROR LOG: instance variable @undo_stack not defined
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:131:in `remove_instance_variable'
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:131:in `finalize_string'
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:7:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editor/editors.rb:75:in `call'
+ERROR LOG: /home/heath/coral/lib/editor/editors.rb:75:in `block in initialize'
+ERROR LOG: /home/heath/coral/lib/editor/editors.rb:174:in `call'
+ERROR LOG: /home/heath/coral/lib/editor/editors.rb:174:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/commands.rb:234:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_15_09:37: tick!!!
+ INFO LOG: May_15_09:39: tick!!!
+ INFO LOG: May_15_09:41: tick!!!
+ INFO LOG: May_15_09:43: tick!!!
+ INFO LOG: May_15_09:45: tick!!!
+ INFO LOG: May_15_09:47: tick!!!
+ INFO LOG: May_15_09:49: tick!!!
+ INFO LOG: May_15_09:51: tick!!!
+ INFO LOG: May_15_09:53: tick!!!
+ INFO LOG: May_15_09:55: tick!!!
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291 connected to CoralMUD!
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: (q) Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: () Invalid name in character creation.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: Sadasd is trying to connect.
+ INFO LOG: May_15_09:55: -- 94.123.52.40:42291: Sadasd:  New Character.
+ INFO LOG: May_15_09:55: -- #<Player:0x000000024af130>:94.123.52.40:42291 disconnected from CoralMUD!
+ INFO LOG: May_15_09:57: tick!!!
+ INFO LOG: May_15_09:59: tick!!!
+ INFO LOG: May_15_10:01: tick!!!
+ INFO LOG: May_15_10:03: tick!!!
+ INFO LOG: May_15_10:05: tick!!!
+ INFO LOG: May_15_10:07: tick!!!
+ INFO LOG: May_15_10:09: tick!!!
+ INFO LOG: May_15_10:11: tick!!!
+ INFO LOG: May_15_10:13: tick!!!
+ INFO LOG: May_15_10:15: tick!!!
+ INFO LOG: May_15_10:17: tick!!!
+ INFO LOG: May_15_10:19: tick!!!
+ INFO LOG: May_15_10:21: tick!!!
+ INFO LOG: May_15_10:23: tick!!!
+ INFO LOG: May_15_10:25: tick!!!
+ INFO LOG: May_15_10:27: tick!!!
+ INFO LOG: May_15_10:29: tick!!!
+ INFO LOG: May_15_10:31: tick!!!
+ INFO LOG: May_15_10:33: tick!!!
+ INFO LOG: May_15_10:35: tick!!!
+ INFO LOG: May_15_10:37: tick!!!
+ INFO LOG: May_15_10:39: tick!!!
+ INFO LOG: May_15_10:41: tick!!!
+ INFO LOG: May_15_10:43: tick!!!
+ INFO LOG: May_15_10:45: tick!!!
+ INFO LOG: May_15_10:47: tick!!!
+ INFO LOG: May_15_10:49: tick!!!
+ INFO LOG: May_15_10:51: tick!!!
+ INFO LOG: May_15_10:53: tick!!!
+ INFO LOG: May_15_10:55: tick!!!
+ INFO LOG: May_15_10:57: tick!!!
+ INFO LOG: May_15_10:59: tick!!!
+ INFO LOG: May_15_11:01: tick!!!
+ INFO LOG: May_15_11:03: tick!!!
+ INFO LOG: May_15_11:05: tick!!!
+ INFO LOG: May_15_11:07: tick!!!
+ INFO LOG: May_15_11:09: tick!!!
+ INFO LOG: May_15_11:11: tick!!!
+ INFO LOG: May_15_11:13: tick!!!
+ INFO LOG: May_15_11:15: tick!!!
+ INFO LOG: May_15_11:17: tick!!!
+ INFO LOG: May_15_11:19: tick!!!
+ INFO LOG: May_15_11:21: tick!!!
+ INFO LOG: May_15_11:23: tick!!!
+ INFO LOG: May_15_11:25: tick!!!
+ INFO LOG: May_15_11:27: tick!!!
+ INFO LOG: May_15_11:29: tick!!!
+ INFO LOG: May_15_11:31: tick!!!
+ INFO LOG: May_15_11:33: tick!!!
+ INFO LOG: May_15_11:35: tick!!!
+ INFO LOG: May_15_11:37: tick!!!
+ INFO LOG: May_15_11:39: tick!!!
+ INFO LOG: May_15_11:41: tick!!!
+ INFO LOG: May_15_11:43: tick!!!
+ INFO LOG: May_15_11:45: tick!!!
+ INFO LOG: May_15_11:47: tick!!!
+ INFO LOG: May_15_11:49: tick!!!
+ INFO LOG: May_15_11:51: tick!!!
+ INFO LOG: May_15_11:53: tick!!!
+ INFO LOG: May_15_11:55: tick!!!
+ INFO LOG: May_15_11:57: tick!!!
+ INFO LOG: May_15_11:59: tick!!!
+ INFO LOG: May_15_12:01: tick!!!
+ INFO LOG: May_15_12:03: tick!!!
+ INFO LOG: May_15_12:05: tick!!!
+ INFO LOG: May_15_12:07: tick!!!
+ INFO LOG: May_15_12:09: tick!!!
+ INFO LOG: May_15_12:11: tick!!!
+ INFO LOG: May_15_12:13: tick!!!
+ INFO LOG: May_15_12:15: tick!!!
+ INFO LOG: May_15_12:17: tick!!!
+ INFO LOG: May_15_12:19: tick!!!
+ INFO LOG: May_15_12:21: tick!!!
+ INFO LOG: May_15_12:23: tick!!!
+ INFO LOG: May_15_12:25: tick!!!
+ INFO LOG: May_15_12:27: tick!!!
+ INFO LOG: May_15_12:29: tick!!!
+ INFO LOG: May_15_12:31: tick!!!
+ INFO LOG: May_15_12:33: tick!!!
+ INFO LOG: May_15_12:35: tick!!!
+ INFO LOG: May_15_12:37: tick!!!
+ INFO LOG: May_15_12:39: tick!!!
+ INFO LOG: May_15_12:41: tick!!!
+ INFO LOG: May_15_12:43: tick!!!
+ INFO LOG: May_15_12:45: tick!!!
+ INFO LOG: May_15_12:47: tick!!!
+ INFO LOG: May_15_12:49: tick!!!
+ INFO LOG: May_15_12:51: tick!!!
+ INFO LOG: May_15_12:53: tick!!!
+ INFO LOG: May_15_12:55: tick!!!
+ INFO LOG: May_15_12:57: tick!!!
+ INFO LOG: May_15_12:59: tick!!!
+ INFO LOG: May_15_13:01: tick!!!
+ INFO LOG: May_15_13:03: tick!!!
+ INFO LOG: May_15_13:05: tick!!!
+ INFO LOG: May_15_13:07: tick!!!
+ INFO LOG: May_15_13:09: tick!!!
+ INFO LOG: May_15_13:11: tick!!!
+ INFO LOG: May_15_13:13: tick!!!
+ INFO LOG: May_15_13:15: tick!!!
+ INFO LOG: May_15_13:17: tick!!!
+ INFO LOG: May_15_13:19: tick!!!
+ INFO LOG: May_15_13:21: tick!!!
+ INFO LOG: May_15_13:23: tick!!!
+ INFO LOG: May_15_13:25: tick!!!
+ INFO LOG: May_15_13:27: tick!!!
+ INFO LOG: May_15_13:29: tick!!!
+ INFO LOG: May_15_13:31: tick!!!
+ INFO LOG: May_15_13:33: tick!!!
+ INFO LOG: May_15_13:35: tick!!!
+ INFO LOG: May_15_13:37: tick!!!
+ INFO LOG: May_15_13:39: tick!!!
+ INFO LOG: May_15_13:41: tick!!!
+ INFO LOG: May_15_13:41: Hishia has left the game.
+ INFO LOG: May_15_13:41: -- :74.137.64.37:38207 disconnected from CoralMUD!
+ INFO LOG: May_15_13:43: tick!!!
+ INFO LOG: May_15_13:44: Retnur has left the game.
+ INFO LOG: May_15_13:44: -- :76.202.141.206:49957 disconnected from CoralMUD!
+ INFO LOG: May_15_13:44: -- 76.202.141.206:52216 connected to CoralMUD!
+ INFO LOG: May_15_13:44: -- 76.202.141.206:52216: Retnur is trying to connect.
+ INFO LOG: May_15_13:44: -- 76.202.141.206:52216: Retnur player file found.
+ INFO LOG: May_15_13:44: -- Retnur has entered the game.
+ INFO LOG: May_15_13:45: tick!!!
+ INFO LOG: May_15_13:47: tick!!!
+ INFO LOG: May_15_13:49: tick!!!
+ INFO LOG: May_15_13:51: tick!!!
+ INFO LOG: May_15_13:53: tick!!!
+ INFO LOG: May_15_13:55: tick!!!
+ INFO LOG: May_15_13:57: tick!!!
+ INFO LOG: May_15_13:59: tick!!!
+ INFO LOG: May_15_14:01: tick!!!
+ INFO LOG: May_15_14:03: tick!!!
+ INFO LOG: May_15_14:05: tick!!!
+ INFO LOG: May_15_14:07: tick!!!
+ INFO LOG: May_15_14:09: tick!!!
+ INFO LOG: May_15_14:11: tick!!!
+ INFO LOG: May_15_14:13: tick!!!
+ INFO LOG: May_15_14:15: tick!!!
+ INFO LOG: May_15_14:17: tick!!!
+ INFO LOG: May_15_14:19: tick!!!
+ INFO LOG: May_15_14:21: tick!!!
+ INFO LOG: May_15_14:23: tick!!!
+ INFO LOG: May_15_14:25: tick!!!
+ INFO LOG: May_15_14:27: tick!!!
+ INFO LOG: May_15_14:29: tick!!!
+ INFO LOG: May_15_14:31: tick!!!
+ INFO LOG: May_15_14:33: tick!!!
+ INFO LOG: May_15_14:35: tick!!!
+ INFO LOG: May_15_14:37: tick!!!
+ INFO LOG: May_15_14:39: tick!!!
+ INFO LOG: May_15_14:41: tick!!!
+ INFO LOG: May_15_14:43: tick!!!
+ INFO LOG: May_15_14:45: tick!!!
+ INFO LOG: May_15_14:47: tick!!!
+ INFO LOG: May_15_14:49: tick!!!
+ INFO LOG: May_15_14:51: tick!!!
+ INFO LOG: May_15_14:53: tick!!!
+ INFO LOG: May_15_14:55: tick!!!
+ INFO LOG: May_15_14:57: tick!!!
+ INFO LOG: May_15_14:59: tick!!!
+ INFO LOG: May_15_15:01: tick!!!
+ INFO LOG: May_15_15:03: tick!!!
+ INFO LOG: May_15_15:05: tick!!!
+ INFO LOG: May_15_15:07: tick!!!
+ INFO LOG: May_15_15:09: tick!!!
+ INFO LOG: May_15_15:11: tick!!!
+ INFO LOG: May_15_15:13: tick!!!
+ INFO LOG: May_15_15:15: tick!!!
+ INFO LOG: May_15_15:17: tick!!!
+ INFO LOG: May_15_15:19: tick!!!
+ INFO LOG: May_15_15:21: tick!!!
+ INFO LOG: May_15_15:23: tick!!!
+ INFO LOG: May_15_15:25: tick!!!
+ INFO LOG: May_15_15:27: tick!!!
+ INFO LOG: May_15_15:29: tick!!!
+ INFO LOG: May_15_15:31: tick!!!
+ INFO LOG: May_15_15:33: tick!!!
+ INFO LOG: May_15_15:35: tick!!!
+ INFO LOG: May_15_15:37: tick!!!
+ INFO LOG: May_15_15:39: tick!!!
+ INFO LOG: May_15_15:41: tick!!!
+ INFO LOG: May_15_15:43: tick!!!
+ INFO LOG: May_15_15:45: tick!!!
+ INFO LOG: May_15_15:47: tick!!!
+ INFO LOG: May_15_15:49: tick!!!
+ INFO LOG: May_15_15:51: tick!!!
+ INFO LOG: May_15_15:53: tick!!!
+ INFO LOG: May_15_15:55: tick!!!
+ INFO LOG: May_15_15:57: tick!!!
+ INFO LOG: May_15_15:59: tick!!!
+ INFO LOG: May_15_16:01: tick!!!
+ INFO LOG: May_15_16:03: tick!!!
+ INFO LOG: May_15_16:05: tick!!!
+ INFO LOG: May_15_16:07: tick!!!
+ INFO LOG: May_15_16:09: tick!!!
+ INFO LOG: May_15_16:11: tick!!!
+ INFO LOG: May_15_16:13: tick!!!
+ INFO LOG: May_15_16:15: tick!!!
+ INFO LOG: May_15_16:17: tick!!!
+ INFO LOG: May_15_16:19: tick!!!
+ INFO LOG: May_15_16:21: tick!!!
+ INFO LOG: May_15_16:23: tick!!!
+ INFO LOG: May_15_16:25: tick!!!
+ INFO LOG: May_15_16:27: tick!!!
+ INFO LOG: May_15_16:29: tick!!!
+ INFO LOG: May_15_16:31: tick!!!
+ INFO LOG: May_15_16:33: tick!!!
+ INFO LOG: May_15_16:35: tick!!!
+ INFO LOG: May_15_16:37: tick!!!
+ INFO LOG: May_15_16:39: tick!!!
+ INFO LOG: May_15_16:41: tick!!!
+ INFO LOG: May_15_16:43: tick!!!
+ INFO LOG: May_15_16:45: tick!!!
+ INFO LOG: May_15_16:47: tick!!!
+ INFO LOG: May_15_16:49: tick!!!
+ INFO LOG: May_15_16:51: tick!!!
+ INFO LOG: May_15_16:53: tick!!!
+ INFO LOG: May_15_16:55: tick!!!
+ INFO LOG: May_15_16:57: tick!!!
+ INFO LOG: May_15_16:59: tick!!!
+ INFO LOG: May_15_17:01: tick!!!
+ INFO LOG: May_15_17:03: tick!!!
+ INFO LOG: May_15_17:05: tick!!!
+ INFO LOG: May_15_17:07: tick!!!
+ INFO LOG: May_15_17:09: tick!!!
+ INFO LOG: May_15_17:11: tick!!!
+ INFO LOG: May_15_17:13: tick!!!
+ INFO LOG: May_15_17:15: tick!!!
+ INFO LOG: May_15_17:17: tick!!!
+ INFO LOG: May_15_17:19: tick!!!
+ INFO LOG: May_15_17:21: tick!!!
+ INFO LOG: May_15_17:23: tick!!!
+ INFO LOG: May_15_17:25: tick!!!
+ INFO LOG: May_15_17:27: tick!!!
+ INFO LOG: May_15_17:29: tick!!!
+ INFO LOG: May_15_17:31: tick!!!
+ INFO LOG: May_15_17:33: tick!!!
+ INFO LOG: May_15_17:35: tick!!!
+ INFO LOG: May_15_17:37: tick!!!
+ INFO LOG: May_15_17:39: tick!!!
+ INFO LOG: May_15_17:41: tick!!!
+ INFO LOG: May_15_17:43: tick!!!
+ INFO LOG: May_15_17:45: tick!!!
+ INFO LOG: May_15_17:47: tick!!!
+ INFO LOG: May_15_17:49: tick!!!
+ INFO LOG: May_15_17:51: tick!!!
+ INFO LOG: May_15_17:53: tick!!!
+ INFO LOG: May_15_17:55: tick!!!
+ INFO LOG: May_15_17:57: tick!!!
+ INFO LOG: May_15_17:59: tick!!!
+ INFO LOG: May_15_18:01: tick!!!
+ INFO LOG: May_15_18:03: tick!!!
+ INFO LOG: May_15_18:05: tick!!!
+ INFO LOG: May_15_18:07: tick!!!
+ INFO LOG: May_15_18:09: tick!!!
+ INFO LOG: May_15_18:11: tick!!!
+ INFO LOG: May_15_18:13: tick!!!
+ INFO LOG: May_15_18:15: tick!!!
+ INFO LOG: May_15_18:17: tick!!!
+ INFO LOG: May_15_18:19: tick!!!
+ INFO LOG: May_15_18:21: tick!!!
+ INFO LOG: May_15_18:23: tick!!!
+ INFO LOG: May_15_18:25: tick!!!
+ INFO LOG: May_15_18:27: tick!!!
+ INFO LOG: May_15_18:29: tick!!!
+ INFO LOG: May_15_18:31: tick!!!
+ INFO LOG: May_15_18:33: tick!!!
+ INFO LOG: May_15_18:35: tick!!!
+ INFO LOG: May_15_18:37: tick!!!
+ INFO LOG: May_15_18:39: tick!!!
+ INFO LOG: May_15_18:41: tick!!!
+ INFO LOG: May_15_18:43: tick!!!
+ INFO LOG: May_15_18:45: tick!!!
+ INFO LOG: May_15_18:47: tick!!!
+ INFO LOG: May_15_18:49: tick!!!
+ INFO LOG: May_15_18:51: tick!!!
+ INFO LOG: May_15_18:53: tick!!!
+ INFO LOG: May_15_18:55: tick!!!
+ INFO LOG: May_15_18:57: tick!!!
+ INFO LOG: May_15_18:59: tick!!!
+ INFO LOG: May_15_19:01: tick!!!
+ INFO LOG: May_15_19:03: tick!!!
+ INFO LOG: May_15_19:05: tick!!!
+ INFO LOG: May_15_19:07: tick!!!
+ INFO LOG: May_15_19:09: tick!!!
+ INFO LOG: May_15_19:11: tick!!!
+ INFO LOG: May_15_19:13: tick!!!
+ INFO LOG: May_15_19:15: tick!!!
+ INFO LOG: May_15_19:17: tick!!!
+ INFO LOG: May_15_19:19: tick!!!
+ INFO LOG: May_15_19:21: tick!!!
+ INFO LOG: May_15_19:23: tick!!!
+ INFO LOG: May_15_19:25: tick!!!
+ INFO LOG: May_15_19:27: tick!!!
+ INFO LOG: May_15_19:29: tick!!!
+ INFO LOG: May_15_19:31: tick!!!
+ INFO LOG: May_15_19:33: tick!!!
+ INFO LOG: May_15_19:35: tick!!!
+ INFO LOG: May_15_19:37: tick!!!
+ INFO LOG: May_15_19:39: tick!!!
+ INFO LOG: May_15_19:41: tick!!!
+ INFO LOG: May_15_19:43: tick!!!
+ INFO LOG: May_15_19:45: tick!!!
+ INFO LOG: May_15_19:47: tick!!!
+ INFO LOG: May_15_19:49: tick!!!
+ INFO LOG: May_15_19:51: tick!!!
+ INFO LOG: May_15_19:53: tick!!!
+ INFO LOG: May_15_19:55: tick!!!
+ INFO LOG: May_15_19:57: tick!!!
+ INFO LOG: May_15_19:59: tick!!!
+ INFO LOG: May_15_20:01: tick!!!
+ INFO LOG: May_15_20:03: tick!!!
+ INFO LOG: May_15_20:05: tick!!!
+ INFO LOG: May_15_20:07: tick!!!
+ INFO LOG: May_15_20:09: tick!!!
+ INFO LOG: May_15_20:11: tick!!!
+ INFO LOG: May_15_20:13: tick!!!
+ INFO LOG: May_15_20:15: tick!!!
+ INFO LOG: May_15_20:17: tick!!!
+ INFO LOG: May_15_20:19: tick!!!
+ INFO LOG: May_15_20:21: tick!!!
+ INFO LOG: May_15_20:23: tick!!!
+ INFO LOG: May_15_20:25: tick!!!
+ INFO LOG: May_15_20:27: tick!!!
+ INFO LOG: May_15_20:29: tick!!!
+ INFO LOG: May_15_20:31: tick!!!
+ INFO LOG: May_15_20:33: tick!!!
+ INFO LOG: May_15_20:35: tick!!!
+ INFO LOG: May_15_20:37: tick!!!
+ INFO LOG: May_15_20:39: tick!!!
+ INFO LOG: May_15_20:41: tick!!!
+ INFO LOG: May_15_20:43: tick!!!
+ INFO LOG: May_15_20:45: tick!!!
+ INFO LOG: May_15_20:47: tick!!!
+ INFO LOG: May_15_20:49: tick!!!
+ INFO LOG: May_15_20:51: tick!!!
+ INFO LOG: May_15_20:53: tick!!!
+ INFO LOG: May_15_20:55: tick!!!
+ INFO LOG: May_15_20:57: tick!!!
+ INFO LOG: May_15_20:59: tick!!!
+ INFO LOG: May_15_21:01: tick!!!
+ INFO LOG: May_15_21:03: tick!!!
+ INFO LOG: May_15_21:05: tick!!!
+ INFO LOG: May_15_21:07: tick!!!
+ INFO LOG: May_15_21:09: tick!!!
+ INFO LOG: May_15_21:11: tick!!!
+ INFO LOG: May_15_21:13: tick!!!
+ INFO LOG: May_15_21:15: tick!!!
+ INFO LOG: May_15_21:17: tick!!!
+ INFO LOG: May_15_21:19: tick!!!
+ INFO LOG: May_15_21:21: tick!!!
+ INFO LOG: May_15_21:23: tick!!!
+ INFO LOG: May_15_21:25: tick!!!
+ INFO LOG: May_15_21:27: tick!!!
+ INFO LOG: May_15_21:29: tick!!!
+ INFO LOG: May_15_21:31: tick!!!
+ INFO LOG: May_15_21:33: tick!!!
+ INFO LOG: May_15_21:35: tick!!!
+ INFO LOG: May_15_21:37: tick!!!
+ INFO LOG: May_15_21:39: tick!!!
+ INFO LOG: May_15_21:41: tick!!!
+ INFO LOG: May_15_21:43: tick!!!
+ INFO LOG: May_15_21:45: tick!!!
+ INFO LOG: May_15_21:47: tick!!!
+ INFO LOG: May_15_21:49: tick!!!
+ INFO LOG: May_15_21:51: tick!!!
+ INFO LOG: May_15_21:53: tick!!!
+ INFO LOG: May_15_21:55: tick!!!
+ INFO LOG: May_15_21:57: tick!!!
+ INFO LOG: May_15_21:59: tick!!!
+ INFO LOG: May_15_22:01: tick!!!
+ INFO LOG: May_15_22:03: tick!!!
+ INFO LOG: May_15_22:05: tick!!!
+ INFO LOG: May_15_22:07: tick!!!
+ INFO LOG: May_15_22:09: tick!!!
+ INFO LOG: May_15_22:11: tick!!!
+ INFO LOG: May_15_22:13: tick!!!
+ INFO LOG: May_15_22:15: tick!!!
+ INFO LOG: May_15_22:17: tick!!!
+ INFO LOG: May_15_22:19: tick!!!
+ INFO LOG: May_15_22:21: tick!!!
+ INFO LOG: May_15_22:23: tick!!!
+ INFO LOG: May_15_22:25: tick!!!
+ INFO LOG: May_15_22:27: tick!!!
+ INFO LOG: May_15_22:29: tick!!!
+ INFO LOG: May_15_22:31: tick!!!
+ INFO LOG: May_15_22:33: tick!!!
+ INFO LOG: May_15_22:35: tick!!!
+ INFO LOG: May_15_22:37: tick!!!
+ INFO LOG: May_15_22:39: tick!!!
+ INFO LOG: May_15_22:41: tick!!!
+ INFO LOG: May_15_22:43: tick!!!
+ INFO LOG: May_15_22:45: tick!!!
+ INFO LOG: May_15_22:47: tick!!!
+ INFO LOG: May_15_22:49: tick!!!
+ INFO LOG: May_15_22:51: tick!!!
+ INFO LOG: May_15_22:53: tick!!!
+ INFO LOG: May_15_22:55: tick!!!
+ INFO LOG: May_15_22:57: tick!!!
+ INFO LOG: May_15_22:59: tick!!!
+ INFO LOG: May_15_23:01: tick!!!
+ INFO LOG: May_15_23:03: tick!!!
+ INFO LOG: May_15_23:05: tick!!!
+ INFO LOG: May_15_23:07: tick!!!
+ INFO LOG: May_15_23:09: tick!!!
+ INFO LOG: May_15_23:11: tick!!!
+ INFO LOG: May_15_23:13: tick!!!
+ INFO LOG: May_15_23:15: tick!!!
+ INFO LOG: May_15_23:17: tick!!!
+ INFO LOG: May_15_23:19: tick!!!
+ INFO LOG: May_15_23:21: tick!!!
+ INFO LOG: May_15_23:23: tick!!!
+ INFO LOG: May_15_23:25: tick!!!
+ INFO LOG: May_15_23:27: tick!!!
+ INFO LOG: May_15_23:29: tick!!!
+ INFO LOG: May_15_23:31: tick!!!
+ INFO LOG: May_15_23:33: tick!!!
+ INFO LOG: May_15_23:35: tick!!!
+ INFO LOG: May_15_23:37: tick!!!
+ INFO LOG: May_15_23:39: tick!!!
+ INFO LOG: May_15_23:41: tick!!!
+ INFO LOG: May_15_23:43: tick!!!
+ INFO LOG: May_15_23:45: tick!!!
+ INFO LOG: May_15_23:47: tick!!!
+ INFO LOG: May_15_23:49: tick!!!
+ INFO LOG: May_15_23:51: tick!!!
+ INFO LOG: May_15_23:53: tick!!!
+ INFO LOG: May_15_23:55: tick!!!
+ INFO LOG: May_15_23:57: tick!!!
+ INFO LOG: May_15_23:59: tick!!!
+ INFO LOG: May_16_00:01: tick!!!
+ INFO LOG: May_16_00:03: tick!!!
+ INFO LOG: May_16_00:05: tick!!!
+ INFO LOG: May_16_00:07: tick!!!
+ INFO LOG: May_16_00:09: tick!!!
+ INFO LOG: May_16_00:11: tick!!!
+ INFO LOG: May_16_00:13: tick!!!
+ INFO LOG: May_16_00:15: tick!!!
+ INFO LOG: May_16_00:17: tick!!!
+ INFO LOG: May_16_00:19: tick!!!
+ INFO LOG: May_16_00:21: tick!!!
+ INFO LOG: May_16_00:23: tick!!!
+ INFO LOG: May_16_00:25: tick!!!
+ INFO LOG: May_16_00:27: tick!!!
+ INFO LOG: May_16_00:29: tick!!!
+ INFO LOG: May_16_00:31: tick!!!
+ INFO LOG: May_16_00:33: tick!!!
+ INFO LOG: May_16_00:35: tick!!!
+ INFO LOG: May_16_00:37: tick!!!
+ INFO LOG: May_16_00:39: tick!!!
+ INFO LOG: May_16_00:41: tick!!!
+ INFO LOG: May_16_00:43: tick!!!
+ INFO LOG: May_16_00:45: tick!!!
+ INFO LOG: May_16_00:47: tick!!!
+ INFO LOG: May_16_00:49: tick!!!
+ INFO LOG: May_16_00:51: tick!!!
+ INFO LOG: May_16_00:53: tick!!!
+ INFO LOG: May_16_00:55: tick!!!
+ INFO LOG: May_16_00:57: tick!!!
+ INFO LOG: May_16_00:59: tick!!!
+ INFO LOG: May_16_01:01: tick!!!
+ INFO LOG: May_16_01:03: tick!!!
+ INFO LOG: May_16_01:05: tick!!!
+ INFO LOG: May_16_01:07: tick!!!
+ INFO LOG: May_16_01:09: tick!!!
+ INFO LOG: May_16_01:11: tick!!!
+ INFO LOG: May_16_01:13: tick!!!
+ INFO LOG: May_16_01:15: tick!!!
+ INFO LOG: May_16_01:17: tick!!!
+ INFO LOG: May_16_01:19: tick!!!
+ INFO LOG: May_16_01:21: tick!!!
+ INFO LOG: May_16_01:23: tick!!!
+ INFO LOG: May_16_01:25: tick!!!
+ INFO LOG: May_16_01:27: tick!!!
+ INFO LOG: May_16_01:29: tick!!!
+ INFO LOG: May_16_01:31: tick!!!
+ INFO LOG: May_16_01:33: tick!!!
+ INFO LOG: May_16_01:35: tick!!!
+ INFO LOG: May_16_01:37: tick!!!
+ INFO LOG: May_16_01:39: tick!!!
+ INFO LOG: May_16_01:41: tick!!!
+ INFO LOG: May_16_01:43: tick!!!
+ INFO LOG: May_16_01:45: tick!!!
+ INFO LOG: May_16_01:47: tick!!!
+ INFO LOG: May_16_01:49: tick!!!
+ INFO LOG: May_16_01:51: tick!!!
+ INFO LOG: May_16_01:53: tick!!!
+ INFO LOG: May_16_01:55: tick!!!
+ INFO LOG: May_16_01:57: tick!!!
+ INFO LOG: May_16_01:59: tick!!!
+ INFO LOG: May_16_02:01: tick!!!
+ INFO LOG: May_16_02:03: tick!!!
+ INFO LOG: May_16_02:05: tick!!!
+ INFO LOG: May_16_02:07: tick!!!
+ INFO LOG: May_16_02:09: tick!!!
+ INFO LOG: May_16_02:11: tick!!!
+ INFO LOG: May_16_02:13: tick!!!
+ INFO LOG: May_16_02:15: tick!!!
+ INFO LOG: May_16_02:17: tick!!!
+ INFO LOG: May_16_02:19: tick!!!
+ INFO LOG: May_16_02:21: tick!!!
+ INFO LOG: May_16_02:23: tick!!!
+ INFO LOG: May_16_02:25: tick!!!
+ INFO LOG: May_16_02:27: tick!!!
+ INFO LOG: May_16_02:29: tick!!!
+ INFO LOG: May_16_02:31: tick!!!
+ INFO LOG: May_16_02:33: tick!!!
+ INFO LOG: May_16_02:35: tick!!!
+ INFO LOG: May_16_02:37: tick!!!
+ INFO LOG: May_16_02:39: tick!!!
+ INFO LOG: May_16_02:41: tick!!!
+ INFO LOG: May_16_02:43: tick!!!
+ INFO LOG: May_16_02:45: tick!!!
+ INFO LOG: May_16_02:47: tick!!!
+ INFO LOG: May_16_02:49: tick!!!
+ INFO LOG: May_16_02:51: tick!!!
+ INFO LOG: May_16_02:53: tick!!!
+ INFO LOG: May_16_02:55: tick!!!
+ INFO LOG: May_16_02:57: tick!!!
+ INFO LOG: May_16_02:59: tick!!!
+ INFO LOG: May_16_03:01: tick!!!
+ INFO LOG: May_16_03:03: tick!!!
+ INFO LOG: May_16_03:05: tick!!!
+ INFO LOG: May_16_03:07: tick!!!
+ INFO LOG: May_16_03:09: tick!!!
+ INFO LOG: May_16_03:11: tick!!!
+ INFO LOG: May_16_03:13: tick!!!
+ INFO LOG: May_16_03:15: tick!!!
+ INFO LOG: May_16_03:17: tick!!!
+ INFO LOG: May_16_03:19: tick!!!
+ INFO LOG: May_16_03:21: tick!!!
+ INFO LOG: May_16_03:23: tick!!!
+ INFO LOG: May_16_03:25: tick!!!
+ INFO LOG: May_16_03:27: tick!!!
+ INFO LOG: May_16_03:29: tick!!!
+ INFO LOG: May_16_03:31: tick!!!
+ INFO LOG: May_16_03:33: tick!!!
+ INFO LOG: May_16_03:35: tick!!!
+ INFO LOG: May_16_03:37: tick!!!
+ INFO LOG: May_16_03:39: tick!!!
+ INFO LOG: May_16_03:41: tick!!!
+ INFO LOG: May_16_03:43: tick!!!
+ INFO LOG: May_16_03:45: tick!!!
+ INFO LOG: May_16_03:47: tick!!!
+ INFO LOG: May_16_03:49: tick!!!
+ INFO LOG: May_16_03:51: tick!!!
+ INFO LOG: May_16_03:53: tick!!!
+ INFO LOG: May_16_03:55: tick!!!
+ INFO LOG: May_16_03:57: tick!!!
+ INFO LOG: May_16_03:59: tick!!!
+ INFO LOG: May_16_04:01: tick!!!
+ INFO LOG: May_16_04:03: tick!!!
+ INFO LOG: May_16_04:05: tick!!!
+ INFO LOG: May_16_04:07: tick!!!
+ INFO LOG: May_16_04:09: tick!!!
+ INFO LOG: May_16_04:11: tick!!!
+ INFO LOG: May_16_04:13: tick!!!
+ INFO LOG: May_16_04:15: tick!!!
+ INFO LOG: May_16_04:17: tick!!!
+ INFO LOG: May_16_04:19: tick!!!
+ INFO LOG: May_16_04:21: tick!!!
+ INFO LOG: May_16_04:23: tick!!!
+ INFO LOG: May_16_04:25: tick!!!
+ INFO LOG: May_16_04:27: tick!!!
+ INFO LOG: May_16_04:29: tick!!!
+ INFO LOG: May_16_04:31: tick!!!
+ INFO LOG: May_16_04:33: tick!!!
+ INFO LOG: May_16_04:35: tick!!!
+ INFO LOG: May_16_04:37: tick!!!
+ INFO LOG: May_16_04:39: tick!!!
+ INFO LOG: May_16_04:41: tick!!!
+ INFO LOG: May_16_04:43: tick!!!
+ INFO LOG: May_16_04:45: tick!!!
+ INFO LOG: May_16_04:47: tick!!!
+ INFO LOG: May_16_04:49: tick!!!
+ INFO LOG: May_16_04:51: tick!!!
+ INFO LOG: May_16_04:53: tick!!!
+ INFO LOG: May_16_04:55: tick!!!
+ INFO LOG: May_16_04:57: tick!!!
+ INFO LOG: May_16_04:59: tick!!!
+ INFO LOG: May_16_05:01: tick!!!
+ INFO LOG: May_16_05:03: tick!!!
+ INFO LOG: May_16_05:05: tick!!!
+ INFO LOG: May_16_05:07: tick!!!
+ INFO LOG: May_16_05:09: tick!!!
+ INFO LOG: May_16_05:11: tick!!!
+ INFO LOG: May_16_05:13: tick!!!
+ INFO LOG: May_16_05:15: tick!!!
+ INFO LOG: May_16_05:17: tick!!!
+ INFO LOG: May_16_05:19: tick!!!
+ INFO LOG: May_16_05:21: tick!!!
+ INFO LOG: May_16_05:23: tick!!!
+ INFO LOG: May_16_05:25: tick!!!
+ INFO LOG: May_16_05:27: tick!!!
+ INFO LOG: May_16_05:29: tick!!!
+ INFO LOG: May_16_05:31: tick!!!
+ INFO LOG: May_16_05:33: tick!!!
+ INFO LOG: May_16_05:35: tick!!!
+ INFO LOG: May_16_05:37: tick!!!
+ INFO LOG: May_16_05:39: tick!!!
+ INFO LOG: May_16_05:41: tick!!!
+ INFO LOG: May_16_05:43: tick!!!
+ INFO LOG: May_16_05:45: tick!!!
+ INFO LOG: May_16_05:47: tick!!!
+ INFO LOG: May_16_05:49: tick!!!
+ INFO LOG: May_16_05:51: tick!!!
+ INFO LOG: May_16_05:53: tick!!!
+ INFO LOG: May_16_05:55: tick!!!
+ INFO LOG: May_16_05:57: tick!!!
+ INFO LOG: May_16_05:59: tick!!!
+ INFO LOG: May_16_06:01: tick!!!
+ INFO LOG: May_16_06:03: tick!!!
+ INFO LOG: May_16_06:05: tick!!!
+ INFO LOG: May_16_06:07: tick!!!
+ INFO LOG: May_16_06:09: tick!!!
+ INFO LOG: May_16_06:11: tick!!!
+ INFO LOG: May_16_06:13: tick!!!
+ INFO LOG: May_16_06:15: tick!!!
+ INFO LOG: May_16_06:17: tick!!!
+ INFO LOG: May_16_06:19: tick!!!
+ INFO LOG: May_16_06:21: tick!!!
+ INFO LOG: May_16_06:23: tick!!!
+ INFO LOG: May_16_06:25: tick!!!
+ INFO LOG: May_16_06:27: tick!!!
+ INFO LOG: May_16_06:29: tick!!!
+ INFO LOG: May_16_06:31: tick!!!
+ INFO LOG: May_16_06:33: tick!!!
+ INFO LOG: May_16_06:35: tick!!!
+ INFO LOG: May_16_06:37: tick!!!
+ INFO LOG: May_16_06:39: tick!!!
+ INFO LOG: May_16_06:41: tick!!!
+ INFO LOG: May_16_06:43: tick!!!
+ INFO LOG: May_16_06:45: tick!!!
+ INFO LOG: May_16_06:47: tick!!!
+ INFO LOG: May_16_06:49: tick!!!
+ INFO LOG: May_16_06:51: tick!!!
+ INFO LOG: May_16_06:53: tick!!!
+ INFO LOG: May_16_06:55: tick!!!
+ INFO LOG: May_16_06:57: tick!!!
+ INFO LOG: May_16_06:59: tick!!!
+ INFO LOG: May_16_07:01: tick!!!
+ INFO LOG: May_16_07:03: tick!!!
+ INFO LOG: May_16_07:05: tick!!!
+ INFO LOG: May_16_07:07: tick!!!
+ INFO LOG: May_16_07:09: tick!!!
+ INFO LOG: May_16_07:11: tick!!!
+ INFO LOG: May_16_07:13: tick!!!
+ INFO LOG: May_16_07:15: tick!!!
+ INFO LOG: May_16_07:17: tick!!!
+ INFO LOG: May_16_07:19: tick!!!
+ INFO LOG: May_16_07:21: tick!!!
+ INFO LOG: May_16_07:23: tick!!!
+ INFO LOG: May_16_07:25: tick!!!
+ INFO LOG: May_16_07:27: tick!!!
+ INFO LOG: May_16_07:29: tick!!!
+ INFO LOG: May_16_07:31: tick!!!
+ INFO LOG: May_16_07:33: tick!!!
+ INFO LOG: May_16_07:35: tick!!!
+ INFO LOG: May_16_07:37: tick!!!
+ INFO LOG: May_16_07:39: tick!!!
+ INFO LOG: May_16_07:41: tick!!!
+ INFO LOG: May_16_07:43: tick!!!
+ INFO LOG: May_16_07:45: tick!!!
+ INFO LOG: May_16_07:47: tick!!!
+ INFO LOG: May_16_07:49: tick!!!
+ INFO LOG: May_16_07:51: tick!!!
+ INFO LOG: May_16_07:53: tick!!!
+ INFO LOG: May_16_07:55: tick!!!
+ INFO LOG: May_16_07:57: tick!!!
+ INFO LOG: May_16_07:59: tick!!!
+ INFO LOG: May_16_08:01: tick!!!
+ INFO LOG: May_16_08:03: tick!!!
+ INFO LOG: May_16_08:05: tick!!!
+ INFO LOG: May_16_08:07: tick!!!
+ INFO LOG: May_16_08:09: tick!!!
+ INFO LOG: May_16_08:11: tick!!!
+ INFO LOG: May_16_08:13: tick!!!
+ INFO LOG: May_16_08:15: tick!!!
+ INFO LOG: May_16_08:17: tick!!!
+ INFO LOG: May_16_08:19: tick!!!
+ INFO LOG: May_16_08:21: tick!!!
+ INFO LOG: May_16_08:23: tick!!!
+ INFO LOG: May_16_08:25: tick!!!
+ INFO LOG: May_16_08:27: tick!!!
+ INFO LOG: May_16_08:29: tick!!!
+ INFO LOG: May_16_08:31: tick!!!
+ INFO LOG: May_16_08:33: tick!!!
+ INFO LOG: May_16_08:35: tick!!!
+ INFO LOG: May_16_08:37: tick!!!
+ INFO LOG: May_16_08:39: tick!!!
+ INFO LOG: May_16_08:41: tick!!!
+ INFO LOG: May_16_08:43: tick!!!
+ INFO LOG: May_16_08:45: tick!!!
+ INFO LOG: May_16_08:47: tick!!!
+ INFO LOG: May_16_08:49: tick!!!
+ INFO LOG: May_16_08:51: tick!!!
+ INFO LOG: May_16_08:53: tick!!!
+ INFO LOG: May_16_08:55: tick!!!
+ INFO LOG: May_16_08:57: tick!!!
+ INFO LOG: May_16_08:59: tick!!!
+ INFO LOG: May_16_09:01: tick!!!
+ INFO LOG: May_16_09:03: tick!!!
+ INFO LOG: May_16_09:05: tick!!!
+ INFO LOG: May_16_09:07: tick!!!
+ INFO LOG: May_16_09:09: tick!!!
+ INFO LOG: May_16_09:11: tick!!!
+ INFO LOG: May_16_09:13: tick!!!
+ INFO LOG: May_16_09:15: tick!!!
+ INFO LOG: May_16_09:17: tick!!!
+ INFO LOG: May_16_09:19: tick!!!
+ INFO LOG: May_16_09:21: tick!!!
+ INFO LOG: May_16_09:23: tick!!!
+ INFO LOG: May_16_09:25: tick!!!
+ INFO LOG: May_16_09:27: tick!!!
+ INFO LOG: May_16_09:29: tick!!!
+ INFO LOG: May_16_09:31: tick!!!
+ INFO LOG: May_16_09:33: tick!!!
+ INFO LOG: May_16_09:35: tick!!!
+ INFO LOG: May_16_09:37: tick!!!
+ INFO LOG: May_16_09:39: tick!!!
+ INFO LOG: May_16_09:41: tick!!!
+ INFO LOG: May_16_09:43: tick!!!
+ INFO LOG: May_16_09:45: tick!!!
+ INFO LOG: May_16_09:47: tick!!!
+ INFO LOG: May_16_09:49: tick!!!
+ INFO LOG: May_16_09:51: tick!!!
+ INFO LOG: May_16_09:53: tick!!!
+ INFO LOG: May_16_09:55: tick!!!
+ INFO LOG: May_16_09:57: tick!!!
+ INFO LOG: May_16_09:59: tick!!!
+ INFO LOG: May_16_10:01: tick!!!
+ INFO LOG: May_16_10:03: tick!!!
+ INFO LOG: May_16_10:05: tick!!!
+ INFO LOG: May_16_10:07: tick!!!
+ INFO LOG: May_16_10:09: tick!!!
+ INFO LOG: May_16_10:11: tick!!!
+ INFO LOG: May_16_10:13: tick!!!
+ INFO LOG: May_16_10:15: tick!!!
+ INFO LOG: May_16_10:17: tick!!!
+ INFO LOG: May_16_10:19: tick!!!
+ INFO LOG: May_16_10:21: tick!!!
+ INFO LOG: May_16_10:23: tick!!!
+ INFO LOG: May_16_10:25: tick!!!
+ INFO LOG: May_16_10:27: tick!!!
+ INFO LOG: May_16_10:29: tick!!!
+ INFO LOG: May_16_10:31: tick!!!
+ INFO LOG: May_16_10:33: tick!!!
+ INFO LOG: May_16_10:35: tick!!!
+ INFO LOG: May_16_10:37: tick!!!
+ INFO LOG: May_16_10:39: tick!!!
+ INFO LOG: May_16_10:41: tick!!!
+ INFO LOG: May_16_10:43: tick!!!
+ INFO LOG: May_16_10:45: tick!!!
+ INFO LOG: May_16_10:47: tick!!!
+ INFO LOG: May_16_10:49: tick!!!
+ INFO LOG: May_16_10:51: tick!!!
+ INFO LOG: May_16_10:53: tick!!!
+ INFO LOG: May_16_10:55: tick!!!
+ INFO LOG: May_16_10:56: -- 74.137.64.37:36424 connected to CoralMUD!
+ INFO LOG: May_16_10:56: -- 74.137.64.37:36424: Hishia is trying to connect.
+ INFO LOG: May_16_10:56: -- 74.137.64.37:36424: Hishia player file found.
+ INFO LOG: May_16_10:56: -- Hishia has entered the game.
+ INFO LOG: May_16_10:57: tick!!!
+ INFO LOG: May_16_10:58: -- 74.136.37.25:58673 connected to CoralMUD!
+ INFO LOG: May_16_10:58: -- 74.136.37.25:58673: Einoch is trying to connect.
+ INFO LOG: May_16_10:58: -- 74.136.37.25:58673: Einoch:  New Character.
+ INFO LOG: May_16_10:59: -- 74.136.37.25:58673: Einoch successfully created.
+ INFO LOG: May_16_10:59: -- Einoch has entered the game.
+ INFO LOG: May_16_10:59: tick!!!
+ INFO LOG: May_16_11:01: tick!!!
+ INFO LOG: May_16_11:03: tick!!!
+ INFO LOG: May_16_11:05: tick!!!
+ INFO LOG: May_16_11:07: tick!!!
+ INFO LOG: May_16_11:09: tick!!!
+ INFO LOG: May_16_11:11: tick!!!
+ INFO LOG: May_16_11:13: tick!!!
+ INFO LOG: May_16_11:15: tick!!!
+ INFO LOG: May_16_11:17: tick!!!
+ INFO LOG: May_16_11:19: tick!!!
+ INFO LOG: May_16_11:21: tick!!!
+ INFO LOG: May_16_11:23: tick!!!
+ INFO LOG: May_16_11:25: tick!!!
+ INFO LOG: May_16_11:27: tick!!!
+ INFO LOG: May_16_11:29: tick!!!
+ INFO LOG: May_16_11:31: tick!!!
+ INFO LOG: May_16_11:33: -- 24.117.151.130:1474 connected to CoralMUD!
+ INFO LOG: May_16_11:33: -- 24.117.151.130:1474: Chrisbailey is trying to connect.
+ INFO LOG: May_16_11:33: -- 24.117.151.130:1474: Chrisbailey:  New Character.
+ INFO LOG: May_16_11:33: tick!!!
+ INFO LOG: May_16_11:34: -- 24.117.151.130:1474: Chrisbailey successfully created.
+ INFO LOG: May_16_11:34: -- Chrisbailey has entered the game.
+ERROR LOG: undefined method `-' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:250:in `each_stuff_not_worn'
+ERROR LOG: /home/heath/coral/lib/commands/inventory.rb:5:in `cmd_inventory'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ERROR LOG: undefined method `-' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:250:in `each_stuff_not_worn'
+ERROR LOG: /home/heath/coral/lib/commands/inventory.rb:5:in `cmd_inventory'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ERROR LOG: undefined method `-' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:250:in `each_stuff_not_worn'
+ERROR LOG: /home/heath/coral/lib/commands/inventory.rb:5:in `cmd_inventory'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_16_11:35: tick!!!
+ INFO LOG: May_16_11:37: tick!!!
+ERROR LOG: undefined method `-' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:250:in `each_stuff_not_worn'
+ERROR LOG: /home/heath/coral/lib/commands/inventory.rb:5:in `cmd_inventory'
+ERROR LOG: /home/heath/coral/lib/commands.rb:280:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:171:in `<main>'
+ INFO LOG: May_16_11:39: tick!!!
+ INFO LOG: May_16_11:41: tick!!!
+ INFO LOG: May_16_11:43: tick!!!
+ INFO LOG: May_16_11:45: tick!!!
+ INFO LOG: May_16_11:47: tick!!!
+ INFO LOG: May_16_11:49: Chrisbailey has left the game.
+ INFO LOG: May_16_11:49: -- :24.117.151.130:1474 disconnected from CoralMUD!
+ INFO LOG: May_16_11:49: -- 24.117.151.130:1583 connected to CoralMUD!
+ INFO LOG: May_16_11:49: -- 24.117.151.130:1583: Chrisbailey is trying to connect.
+ INFO LOG: May_16_11:49: -- 24.117.151.130:1583: Chrisbailey player file found.
+ERROR LOG: No such file or directory - data/players/Chrisbailey.yml
+ERROR LOG: /usr/local/lib/ruby/1.9.1/yaml.rb:143:in `initialize'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/yaml.rb:143:in `open'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/yaml.rb:143:in `load_file'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:312:in `load_from_file'
+ERROR LOG: /home/heath/coral/lib/player.rb:85:in `load_pfile'
+ERROR LOG: /home/heath/coral/core/creation.rb:101:in `block in assign_nanny'
+ERROR LOG: May_16_11:49: unable to load YAML.
+ INFO LOG: May_16_11:49: --  has entered the game.
+ INFO LOG: May_16_11:49: -- #<Player:0x000000020ba020>:76.202.141.206:52216 disconnected from CoralMUD!
+ INFO LOG: May_16_11:49: -- #<Player:0x00000001c3d240>:74.137.64.37:36424 disconnected from CoralMUD!
+ INFO LOG: May_16_11:49: -- #<Player:0x00000001b65b60>:74.136.37.25:58673 disconnected from CoralMUD!
+ INFO LOG: May_16_11:49: -- #<Player:0x00000001fcc488>:24.117.151.130:1583 disconnected from CoralMUD!

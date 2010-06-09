@@ -1,0 +1,2934 @@
+--- 
+"@name": Default Area Name
+"@vtag": !ruby/object:Tag 
+  vtag: 
+  - - first
+    - area
+"@rooms": 
+- "@name": Default Value
+  "@vtag": room.quebec.fife
+  "@vnum": 118
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 119
+    - {}
+
+  - - 3
+    - 117
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.seven
+  "@vnum": 81
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 2
+    - 80
+    - {}
+
+  - - 3
+    - 82
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.tree
+  "@vnum": 35
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 36
+    - {}
+
+  - - 1
+    - 47
+    - {}
+
+  - - 2
+    - 34
+    - {}
+
+  - - 3
+    - 59
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.fife
+  "@vnum": 111
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 110
+    - {}
+
+  - - 1
+    - 147
+    - {}
+
+  - - 3
+    - 143
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.wun
+  "@vnum": 167
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 158
+    - {}
+
+  - - 1
+    - 160
+    - {}
+
+  - - 3
+    - 173
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.tree
+  "@vnum": 142
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 141
+    - {}
+
+  - - 2
+    - 121
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.seven
+  "@vnum": 24
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 23
+    - {}
+
+  - - 1
+    - 25
+    - {}
+
+  - - 2
+    - 50
+    - {}
+
+  - - 3
+    - 51
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.zeero
+  "@vnum": 40
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 87
+    - {}
+
+  - - 1
+    - 41
+    - {}
+
+  - - 2
+    - 43
+    - {}
+
+  - - 3
+    - 39
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.fower
+  "@vnum": 46
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 45
+    - {}
+
+  - - 1
+    - 52
+    - {}
+
+  - - 2
+    - 47
+    - {}
+
+  - - 3
+    - 36
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.wun
+  "@vnum": 159
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 157
+    - {}
+
+  - - 1
+    - 163
+    - {}
+
+  - - 2
+    - 160
+    - {}
+
+  - - 3
+    - 158
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.ait
+  "@vnum": 50
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 24
+    - {}
+
+  - - 1
+    - 26
+    - {}
+
+  - - 2
+    - 30
+    - {}
+
+  - - 3
+    - 49
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.ait
+  "@vnum": 163
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 76
+    - {}
+
+  - - 1
+    - 165
+    - {}
+
+  - - 2
+    - 161
+    - {}
+
+  - - 3
+    - 159
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.siks
+  "@vnum": 156
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 102
+    - {}
+
+  - - 3
+    - 155
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.ait
+  "@vnum": 30
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 50
+    - {}
+
+  - - 1
+    - 29
+    - {}
+
+  - - 2
+    - 169
+    - {}
+
+  - - 3
+    - 31
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.too
+  "@vnum": 145
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 1
+    - 107
+    - {}
+
+  - - 2
+    - 144
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.wun
+  "@vnum": 65
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 66
+    - {}
+
+  - - 3
+    - 64
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.seven
+  "@vnum": 38
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 39
+    - {}
+
+  - - 1
+    - 43
+    - {}
+
+  - - 2
+    - 37
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.ait
+  "@vnum": 90
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 89
+    - {}
+
+  - - 2
+    - 88
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.wun
+  "@vnum": 88
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 90
+    - {}
+
+  - - 1
+    - 87
+    - {}
+
+  - - 2
+    - 39
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.siks
+  "@vnum": 173
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 168
+    - {}
+
+  - - 1
+    - 167
+    - {}
+
+  - - 3
+    - 174
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.fower
+  "@vnum": 10
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 9
+    - {}
+
+  - - 2
+    - 74
+    - {}
+
+  - - 3
+    - 11
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.siks
+  "@vnum": 134
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 140
+    - {}
+
+  - - 3
+    - 139
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.wun
+  "@vnum": 25
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 14
+    - {}
+
+  - - 1
+    - 11
+    - {}
+
+  - - 2
+    - 26
+    - {}
+
+  - - 3
+    - 24
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.zeero
+  "@vnum": 120
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 123
+    - {}
+
+  - - 3
+    - 119
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.fife
+  "@vnum": 72
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 73
+    - {}
+
+  - - 2
+    - 71
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.tree
+  "@vnum": 67
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 60
+    - {}
+
+  - - 3
+    - 68
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.tree
+  "@vnum": 91
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 4
+    - {}
+
+  - - 3
+    - 99
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.seven
+  "@vnum": 56
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 57
+    - {}
+
+  - - 2
+    - 55
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.wun
+  "@vnum": 39
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 88
+    - {}
+
+  - - 1
+    - 40
+    - {}
+
+  - - 2
+    - 38
+    - {}
+
+  - - 3
+    - 66
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.too
+  "@vnum": 104
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 132
+    - {}
+
+  - - 1
+    - 105
+    - {}
+
+  - - 2
+    - 133
+    - {}
+
+  - - 3
+    - 95
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.tree
+  "@vnum": 125
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 124
+    - {}
+
+  - - 3
+    - 126
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.too
+  "@vnum": 174
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 169
+    - {}
+
+  - - 1
+    - 173
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.wun
+  "@vnum": 45
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 43
+    - {}
+
+  - - 1
+    - 44
+    - {}
+
+  - - 2
+    - 46
+    - {}
+
+  - - 3
+    - 37
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.niner
+  "@vnum": 101
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 152
+    - {}
+
+  - - 2
+    - 100
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.fife
+  "@vnum": 78
+  "@sector": :sect_city
+  "@exit_list": []
+
+- "@name": Default Value
+  "@vtag": room.mike.niner
+  "@vnum": 12
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 13
+    - {}
+
+  - - 2
+    - 11
+    - {}
+
+  - - 3
+    - 14
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.seven
+  "@vnum": 70
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 71
+    - {}
+
+  - - 1
+    - 69
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.seven
+  "@vnum": 107
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 137
+    - :soft_door: true
+      :has_door: true
+      :closed: true
+  - - 1
+    - 110
+    - {}
+
+  - - 3
+    - 145
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.fower
+  "@vnum": 31
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 49
+    - {}
+
+  - - 1
+    - 30
+    - {}
+
+  - - 2
+    - 170
+    - {}
+
+  - - 3
+    - 32
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.tree
+  "@vnum": 132
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 104
+    - {}
+
+  - - 3
+    - 131
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.seven
+  "@vnum": 157
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 74
+    - {}
+
+  - - 1
+    - 76
+    - {}
+
+  - - 2
+    - 159
+    - {}
+
+  - - 3
+    - 28
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.fife
+  "@vnum": 29
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 26
+    - {}
+
+  - - 1
+    - 28
+    - {}
+
+  - - 2
+    - 168
+    - {}
+
+  - - 3
+    - 30
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.zeero
+  "@vnum": 28
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 27
+    - {}
+
+  - - 1
+    - 157
+    - {}
+
+  - - 2
+    - 158
+    - {}
+
+  - - 3
+    - 29
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.too
+  "@vnum": 69
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 68
+    - {}
+
+  - - 3
+    - 70
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.niner
+  "@vnum": 36
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 37
+    - {}
+
+  - - 1
+    - 46
+    - {}
+
+  - - 2
+    - 35
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.niner
+  "@vnum": 26
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 25
+    - {}
+
+  - - 1
+    - 27
+    - {}
+
+  - - 2
+    - 29
+    - {}
+
+  - - 3
+    - 50
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.zeero
+  "@vnum": 136
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 137
+    - {}
+
+  - - 3
+    - 135
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.seven
+  "@vnum": 11
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 12
+    - {}
+
+  - - 1
+    - 10
+    - {}
+
+  - - 2
+    - 27
+    - {}
+
+  - - 3
+    - 25
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.wun
+  "@vnum": 5
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 6
+    - {}
+
+  - - 3
+    - 2
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.wun
+  "@vnum": 20
+  "@sector": :sect_dock
+  "@exit_list": 
+  - - 1
+    - 19
+    - {}
+
+  - - 3
+    - 41
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.tree
+  "@vnum": 158
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 28
+    - {}
+
+  - - 1
+    - 159
+    - {}
+
+  - - 2
+    - 167
+    - {}
+
+  - - 3
+    - 168
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.too
+  "@vnum": 115
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 96
+    - {}
+
+  - - 2
+    - 116
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.siks
+  "@vnum": 155
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 156
+    - {}
+
+  - - 3
+    - 154
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.niner
+  "@vnum": 54
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 53
+    - {}
+
+  - - 3
+    - 55
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.ait
+  "@vnum": 143
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 1
+    - 111
+    - {}
+
+  - - 2
+    - 146
+    - {}
+
+  - - 3
+    - 144
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.siks
+  "@vnum": 23
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 22
+    - {}
+
+  - - 1
+    - 14
+    - {}
+
+  - - 2
+    - 24
+    - {}
+
+  - - 3
+    - 52
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.fower
+  "@vnum": 15
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 16
+    - {}
+
+  - - 2
+    - 14
+    - {}
+
+  - - 3
+    - 22
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.tree
+  "@vnum": 128
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 129
+    - {}
+
+  - - 1
+    - 127
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.fife
+  "@vnum": 75
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 9
+    - {}
+
+  - - 1
+    - 175
+    - {}
+
+  - - 2
+    - 76
+    - {}
+
+  - - 3
+    - 74
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.fower
+  "@vnum": 85
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 86
+    - {}
+
+  - - 1
+    - 83
+    - {}
+
+  - - 2
+    - 41
+    - {}
+
+  - - 3
+    - 87
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.niner
+  "@vnum": 154
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 155
+    - {}
+
+  - - 3
+    - 153
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.fife
+  "@vnum": 119
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 120
+    - {}
+
+  - - 3
+    - 118
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.fife
+  "@vnum": 133
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 104
+    - {}
+
+  - - 3
+    - 96
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.too
+  "@vnum": 124
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 116
+    - {}
+
+  - - 2
+    - 125
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.zeero
+  "@vnum": 137
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 138
+    - {}
+
+  - - 2
+    - 107
+    - :soft_door: true
+      :has_door: true
+      :closed: true
+  - - 3
+    - 136
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.zeero
+  "@vnum": 165
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 164
+    - {}
+
+  - - 2
+    - 162
+    - {}
+
+  - - 3
+    - 163
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.tree
+  "@vnum": 114
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 3
+    - 113
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.too
+  "@vnum": 144
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 145
+    - {}
+
+  - - 1
+    - 143
+    - {}
+
+  - - 3
+    - 149
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.siks
+  "@vnum": 6
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 5
+    - {}
+
+  - - 1
+    - 3
+    - :closed: true
+      :has_door: true
+  - - 2
+    - 8
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.niner
+  "@vnum": 141
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 140
+    - {}
+
+  - - 2
+    - 142
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.wun
+  "@vnum": 83
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 84
+    - {}
+
+  - - 1
+    - 79
+    - {}
+
+  - - 2
+    - 20
+    - {}
+
+  - - 3
+    - 85
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.ait
+  "@vnum": 66
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 39
+    - {}
+
+  - - 3
+    - 65
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.fower
+  "@vnum": 34
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 35
+    - {}
+
+  - - 1
+    - 48
+    - {}
+
+  - - 2
+    - 33
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.fife
+  "@vnum": 73
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 2
+    - 72
+    - {}
+
+  - - 3
+    - 176
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.seven
+  "@vnum": 1
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 2
+    - {}
+
+  - - 3
+    - 13
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.ait
+  "@vnum": 48
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 47
+    - {}
+
+  - - 1
+    - 49
+    - {}
+
+  - - 2
+    - 32
+    - {}
+
+  - - 3
+    - 34
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.tree
+  "@vnum": 64
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 65
+    - {}
+
+  - - 2
+    - 63
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.niner
+  "@vnum": 86
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 84
+    - {}
+
+  - - 2
+    - 85
+    - {}
+
+  - - 3
+    - 89
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.wun
+  "@vnum": 44
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 42
+    - {}
+
+  - - 1
+    - 22
+    - {}
+
+  - - 2
+    - 52
+    - {}
+
+  - - 3
+    - 45
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.fower
+  "@vnum": 2
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 5
+    - {}
+
+  - - 3
+    - 1
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.too
+  "@vnum": 123
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 122
+    - {}
+
+  - - 2
+    - 120
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.siks
+  "@vnum": 108
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 109
+    - :closed: true
+      :has_door: true
+  - - 1
+    - 121
+    - {}
+
+  - - 2
+    - 122
+    - {}
+
+  - - 3
+    - 106
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.fife
+  "@vnum": 14
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 15
+    - {}
+
+  - - 1
+    - 12
+    - {}
+
+  - - 2
+    - 25
+    - {}
+
+  - - 3
+    - 23
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.tree
+  "@vnum": 169
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 30
+    - {}
+
+  - - 1
+    - 168
+    - {}
+
+  - - 2
+    - 174
+    - {}
+
+  - - 3
+    - 170
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.seven
+  "@vnum": 8
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 6
+    - {}
+
+  - - 3
+    - 9
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.too
+  "@vnum": 27
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 11
+    - {}
+
+  - - 1
+    - 74
+    - {}
+
+  - - 2
+    - 28
+    - {}
+
+  - - 3
+    - 26
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.too
+  "@vnum": 171
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 32
+    - {}
+
+  - - 1
+    - 170
+    - {}
+
+  - - 3
+    - 172
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.wun
+  "@vnum": 130
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 3
+    - {}
+
+  - - 2
+    - 129
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.too
+  "@vnum": 121
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 142
+    - {}
+
+  - - 1
+    - 113
+    - {}
+
+  - - 3
+    - 108
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.too
+  "@vnum": 153
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 154
+    - {}
+
+  - - 2
+    - 152
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.fower
+  "@vnum": 53
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 33
+    - {}
+
+  - - 3
+    - 54
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.fower
+  "@vnum": 135
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 136
+    - {}
+
+  - - 3
+    - 103
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.zeero
+  "@vnum": 42
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 41
+    - {}
+
+  - - 1
+    - 21
+    - {}
+
+  - - 2
+    - 44
+    - {}
+
+  - - 3
+    - 43
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.fife
+  "@vnum": 63
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 64
+    - {}
+
+  - - 2
+    - 62
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.niner
+  "@vnum": 147
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 148
+    - {}
+
+  - - 3
+    - 111
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.wun
+  "@vnum": 122
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 108
+    - {}
+
+  - - 2
+    - 123
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.seven
+  "@vnum": 7
+  "@sector": :sect_city
+  "@exit_list": []
+
+- "@name": Default Value
+  "@vtag": room.echo.fower
+  "@vnum": 151
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 3
+    - 146
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.niner
+  "@vnum": 152
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 153
+    - {}
+
+  - - 2
+    - 101
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.fife
+  "@vnum": 71
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 72
+    - {}
+
+  - - 2
+    - 70
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.niner
+  "@vnum": 43
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 40
+    - {}
+
+  - - 1
+    - 42
+    - {}
+
+  - - 2
+    - 45
+    - {}
+
+  - - 3
+    - 38
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.tree
+  "@vnum": 150
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 2
+    - 149
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.fower
+  "@vnum": 41
+  "@sector": :sect_dock
+  "@exit_list": 
+  - - 1
+    - 20
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.fower
+  "@vnum": 52
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 44
+    - {}
+
+  - - 1
+    - 23
+    - {}
+
+  - - 2
+    - 51
+    - {}
+
+  - - 3
+    - 46
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.siks
+  "@vnum": 166
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 3
+    - 162
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.bravo.seven
+  "@vnum": 62
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 63
+    - {}
+
+  - - 1
+    - 61
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.tree
+  "@vnum": 84
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 82
+    - {}
+
+  - - 2
+    - 83
+    - {}
+
+  - - 3
+    - 86
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.niner
+  "@vnum": 149
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 150
+    - {}
+
+  - - 1
+    - 144
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.tree
+  "@vnum": 59
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 35
+    - {}
+
+  - - 3
+    - 58
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.too
+  "@vnum": 113
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 114
+    - {}
+
+  - - 3
+    - 121
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.siks
+  "@vnum": 77
+  "@sector": :sect_city
+  "@exit_list": []
+
+- "@name": Default Value
+  "@vtag": room.charlie.zeero
+  "@vnum": 116
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 115
+    - {}
+
+  - - 1
+    - 117
+    - {}
+
+  - - 2
+    - 124
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.siks
+  "@vnum": 9
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 8
+    - {}
+
+  - - 2
+    - 75
+    - {}
+
+  - - 3
+    - 10
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.zeero
+  "@vnum": 127
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 126
+    - {}
+
+  - - 3
+    - 128
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.ait
+  "@vnum": 98
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 102
+    - {}
+
+  - - 2
+    - 97
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.too
+  "@vnum": 49
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 51
+    - {}
+
+  - - 1
+    - 50
+    - {}
+
+  - - 2
+    - 31
+    - {}
+
+  - - 3
+    - 48
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.wun
+  "@vnum": 95
+  "@sector": :sect_fount
+  "@exit_list": 
+  - - 0
+    - 131
+    - {}
+
+  - - 1
+    - 104
+    - {}
+
+  - - 2
+    - 96
+    - {}
+
+  - - 3
+    - 94
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.fife
+  "@vnum": 146
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 0
+    - 143
+    - {}
+
+  - - 1
+    - 151
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.tree
+  "@vnum": 3
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 4
+    - {}
+
+  - - 2
+    - 130
+    - {}
+
+  - - 3
+    - 6
+    - :closed: true
+      :has_door: true
+- "@name": Default Value
+  "@vtag": room.quebec.niner
+  "@vnum": 96
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 95
+    - {}
+
+  - - 1
+    - 133
+    - {}
+
+  - - 2
+    - 115
+    - {}
+
+  - - 3
+    - 93
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.too
+  "@vnum": 60
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 37
+    - {}
+
+  - - 2
+    - 67
+    - :soft_door: true
+  - - 3
+    - 61
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.niner
+  "@vnum": 61
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 60
+    - {}
+
+  - - 3
+    - 62
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.wun
+  "@vnum": 82
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 81
+    - {}
+
+  - - 2
+    - 79
+    - {}
+
+  - - 3
+    - 84
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.niner
+  "@vnum": 112
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 103
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.fower
+  "@vnum": 99
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 91
+    - {}
+
+  - - 3
+    - 100
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.zeero
+  "@vnum": 170
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 31
+    - {}
+
+  - - 1
+    - 169
+    - {}
+
+  - - 3
+    - 171
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.fower
+  "@vnum": 33
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 34
+    - {}
+
+  - - 1
+    - 32
+    - {}
+
+  - - 2
+    - 172
+    - {}
+
+  - - 3
+    - 53
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.siks
+  "@vnum": 22
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 21
+    - {}
+
+  - - 1
+    - 15
+    - {}
+
+  - - 2
+    - 23
+    - {}
+
+  - - 3
+    - 44
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.delta.ait
+  "@vnum": 106
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 108
+    - {}
+
+  - - 3
+    - 105
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.seven
+  "@vnum": 131
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 132
+    - {}
+
+  - - 2
+    - 95
+    - {}
+
+  - - 3
+    - 97
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.echo.tree
+  "@vnum": 94
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 97
+    - {}
+
+  - - 1
+    - 95
+    - {}
+
+  - - 2
+    - 93
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.niner
+  "@vnum": 97
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 98
+    - {}
+
+  - - 1
+    - 131
+    - {}
+
+  - - 2
+    - 94
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.too
+  "@vnum": 102
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 103
+    - {}
+
+  - - 2
+    - 98
+    - {}
+
+  - - 3
+    - 156
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.fower
+  "@vnum": 161
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 163
+    - {}
+
+  - - 1
+    - 162
+    - {}
+
+  - - 3
+    - 160
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.ait
+  "@vnum": 100
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 101
+    - {}
+
+  - - 1
+    - 99
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.ait
+  "@vnum": 138
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 139
+    - {}
+
+  - - 3
+    - 137
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.siks
+  "@vnum": 37
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 38
+    - {}
+
+  - - 1
+    - 45
+    - {}
+
+  - - 2
+    - 36
+    - {}
+
+  - - 3
+    - 60
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.zeero
+  "@vnum": 162
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 165
+    - {}
+
+  - - 1
+    - 166
+    - {}
+
+  - - 3
+    - 161
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.fife
+  "@vnum": 164
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 165
+    - {}
+
+  - - 3
+    - 76
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.seven
+  "@vnum": 126
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 125
+    - {}
+
+  - - 3
+    - 127
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.quebec.ait
+  "@vnum": 79
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 82
+    - {}
+
+  - - 1
+    - 80
+    - {}
+
+  - - 2
+    - 19
+    - {}
+
+  - - 3
+    - 83
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.zeero
+  "@vnum": 92
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 93
+    - {}
+
+  - - 3
+    - 4
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.seven
+  "@vnum": 19
+  "@sector": :sect_dock
+  "@exit_list": 
+  - - 1
+    - 18
+    - {}
+
+  - - 3
+    - 20
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.siks
+  "@vnum": 68
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 67
+    - {}
+
+  - - 3
+    - 69
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.papa.ait
+  "@vnum": 16
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 19
+    - {}
+
+  - - 1
+    - 17
+    - {}
+
+  - - 2
+    - 15
+    - {}
+
+  - - 3
+    - 21
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.seven
+  "@vnum": 110
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 2
+    - 111
+    - {}
+
+  - - 3
+    - 107
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.fife
+  "@vnum": 103
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 112
+    - {}
+
+  - - 1
+    - 135
+    - {}
+
+  - - 2
+    - 102
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.fife
+  "@vnum": 4
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 91
+    - {}
+
+  - - 1
+    - 92
+    - {}
+
+  - - 2
+    - 3
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.fife
+  "@vnum": 168
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 29
+    - {}
+
+  - - 1
+    - 158
+    - {}
+
+  - - 2
+    - 173
+    - {}
+
+  - - 3
+    - 169
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.siks
+  "@vnum": 58
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 59
+    - {}
+
+  - - 3
+    - 57
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.fower
+  "@vnum": 93
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 94
+    - {}
+
+  - - 1
+    - 96
+    - {}
+
+  - - 3
+    - 92
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.zeero
+  "@vnum": 18
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 80
+    - {}
+
+  - - 2
+    - 17
+    - {}
+
+  - - 3
+    - 19
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.seven
+  "@vnum": 17
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 18
+    - {}
+
+  - - 3
+    - 16
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.charlie.wun
+  "@vnum": 21
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 20
+    - {}
+
+  - - 1
+    - 16
+    - {}
+
+  - - 2
+    - 22
+    - {}
+
+  - - 3
+    - 42
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.zeero
+  "@vnum": 87
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 89
+    - {}
+
+  - - 1
+    - 85
+    - {}
+
+  - - 2
+    - 40
+    - {}
+
+  - - 3
+    - 88
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.tree
+  "@vnum": 172
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 33
+    - {}
+
+  - - 1
+    - 171
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.fife
+  "@vnum": 32
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 48
+    - {}
+
+  - - 1
+    - 31
+    - {}
+
+  - - 2
+    - 171
+    - {}
+
+  - - 3
+    - 33
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.fower
+  "@vnum": 74
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 10
+    - {}
+
+  - - 1
+    - 75
+    - {}
+
+  - - 2
+    - 157
+    - {}
+
+  - - 3
+    - 27
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.foxtrot.ait
+  "@vnum": 109
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 2
+    - 108
+    - :has_door: true
+      :closed: true
+- "@name": Default Value
+  "@vtag": room.november.zeero
+  "@vnum": 55
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 56
+    - {}
+
+  - - 1
+    - 54
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.juliet.zeero
+  "@vnum": 139
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 134
+    - {}
+
+  - - 3
+    - 138
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.too
+  "@vnum": 47
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 46
+    - {}
+
+  - - 1
+    - 51
+    - {}
+
+  - - 2
+    - 48
+    - {}
+
+  - - 3
+    - 35
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.wun
+  "@vnum": 105
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 106
+    - {}
+
+  - - 3
+    - 104
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.ait
+  "@vnum": 140
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 134
+    - {}
+
+  - - 2
+    - 141
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.tree
+  "@vnum": 89
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 86
+    - {}
+
+  - - 2
+    - 87
+    - {}
+
+  - - 3
+    - 90
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.ait
+  "@vnum": 76
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 75
+    - {}
+
+  - - 1
+    - 164
+    - {}
+
+  - - 2
+    - 163
+    - {}
+
+  - - 3
+    - 157
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.november.niner
+  "@vnum": 57
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 58
+    - {}
+
+  - - 2
+    - 56
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.india.siks
+  "@vnum": 13
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 1
+    - {}
+
+  - - 2
+    - 12
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.mike.wun
+  "@vnum": 51
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 52
+    - {}
+
+  - - 1
+    - 24
+    - {}
+
+  - - 2
+    - 49
+    - {}
+
+  - - 3
+    - 47
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.golf.zeero
+  "@vnum": 80
+  "@sector": :sect_beach
+  "@exit_list": 
+  - - 0
+    - 81
+    - {}
+
+  - - 2
+    - 18
+    - {}
+
+  - - 3
+    - 79
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.lima.ait
+  "@vnum": 148
+  "@sector": :sect_fancy
+  "@exit_list": 
+  - - 2
+    - 147
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.oscar.fower
+  "@vnum": 117
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 1
+    - 118
+    - {}
+
+  - - 3
+    - 116
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.hotel.siks
+  "@vnum": 129
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 0
+    - 130
+    - {}
+
+  - - 2
+    - 128
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.kilo.siks
+  "@vnum": 160
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 159
+    - {}
+
+  - - 1
+    - 161
+    - {}
+
+  - - 3
+    - 167
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.alpha.too
+  "@vnum": 175
+  "@sector": :sect_city
+  "@exit_list": 
+  - - 3
+    - 75
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.siks
+  "@vnum": 176
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 73
+    - {}
+
+  - - 2
+    - 177
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.seven
+  "@vnum": 177
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 176
+    - {}
+
+  - - 2
+    - 178
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.ait
+  "@vnum": 178
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 177
+    - {}
+
+  - - 2
+    - 179
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.niner
+  "@vnum": 179
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 178
+    - {}
+
+  - - 3
+    - 180
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.romeo.zeero
+  "@vnum": 180
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 179
+    - {}
+
+  - - 3
+    - 181
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.wun
+  "@vnum": 181
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 186
+    - {}
+
+  - - 1
+    - 180
+    - {}
+
+  - - 3
+    - 182
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.too
+  "@vnum": 182
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 185
+    - {}
+
+  - - 1
+    - 181
+    - {}
+
+  - - 3
+    - 183
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.tree
+  "@vnum": 183
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 184
+    - {}
+
+  - - 1
+    - 182
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.fower
+  "@vnum": 184
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 1
+    - 185
+    - {}
+
+  - - 2
+    - 183
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.fife
+  "@vnum": 185
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 0
+    - 187
+    - {}
+
+  - - 1
+    - 186
+    - {}
+
+  - - 2
+    - 182
+    - {}
+
+  - - 3
+    - 184
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.siks
+  "@vnum": 186
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 2
+    - 181
+    - {}
+
+  - - 3
+    - 185
+    - {}
+
+- "@name": Default Value
+  "@vtag": room.sierra.seven
+  "@vnum": 187
+  "@sector": :sect_water
+  "@exit_list": 
+  - - 2
+    - 185
+    - {}
+

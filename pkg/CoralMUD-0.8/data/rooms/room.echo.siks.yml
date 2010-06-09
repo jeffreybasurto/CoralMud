@@ -1,0 +1,11 @@
+--- 
+"@name": Default Value
+"@vtag": room.echo.siks
+"@namespace": first.area
+"@vnum": 166
+"@sector": :sect_water
+"@exit_list": 
+- - 3
+  - 162
+  - {}
+

@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.oscar.siks
+"@namespace": first.area
+"@vnum": 68
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 67
+  - {}
+
+- - 3
+  - 69
+  - {}
+

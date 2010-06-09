@@ -1,0 +1,58 @@
+--- 
+"@name": Hishia
+"@password": "424426"
+"@level": 55
+"@security": 
+  :wizhelp: true
+  :goto: true
+  :linkdead: true
+  :shutdown: true
+  :buildwalk: true
+  :snoop: true
+  :source: true
+  :edit: true
+  :create: true
+  :instance: true
+  :vtag: true
+  :test: true
+  :hit: true
+  :vlist: true
+  :asave: true
+  :purge: true
+"@channel_flags": {}
+
+"@clas": :class_cleric
+"@race": :race_human
+"@traits": 
+- :trait_learned
+- :trait_hearty
+- :trait_protected
+"@sign": :sign_sea
+"@stuff": 
+- "@id": 1570
+  "@hides": do.not.change::paper.doll
+- "@id": 1575
+  "@hides": first.area::small.rock
+- "@id": 1581
+  "@hides": first.area::small.rock
+- "@id": 1577
+  "@hides": first.area::small.rock
+- "@id": 1579
+  "@hides": first.area::small.rock
+- "@id": 1583
+  "@hides": first.area::small.rock
+- "@id": 1580
+  "@hides": first.area::small.rock
+- "@id": 1589
+  "@hides": do.not.change::paper.doll
+- "@id": 1592
+  "@hides": do.not.change::paper.doll
+- "@id": 1585
+  "@hides": do.not.change::paper.doll
+- "@id": 1483
+  "@hides": first.area::small.bag
+  "@stuff": 
+  - "@id": 1586
+    "@hides": do.not.change::paper.doll
+  - "@id": 1588
+    "@hides": do.not.change::paper.doll

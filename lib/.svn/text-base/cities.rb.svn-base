@@ -1,0 +1,391 @@
+class Area
+  attr_accessor :maps, :number, :rooms
+  def initialize(n) 
+	  @number = n
+	  @rooms = []
+	  $area_list[n] = self
+    @maps = []
+    @mo_list = []
+  end
+  #Finds a map for room if it exists.
+  def get_map room
+    
+    @maps.each do |m|
+      if m.rooms[room.vnum]
+          return m
+      end
+    end
+    return nil  
+  end
+
+  #generates a new map for room.
+  def gen_map room 
+    m = AreaMap.new(room, 300) # generate map and mark rooms.
+    @maps << m # add map to list of maps
+    return m;
+  end
+
+  # Removes old maps from the list.
+  def fix_maps map
+    # Any other map should not contain the room sin map
+
+    @maps.each do |m|
+      next if m == map
+      map.rooms.each_value do |t|
+        if m.rooms.has_value?(t)
+          @maps.delete m
+        end
+      end
+    end
+  end
+
+  # find a free vnum within the given area
+  def Area.gen_vnum area_num
+    if (area_num == 0)
+      real_n = 1
+    else
+      real_n = area_num * 1000
+    end
+
+    while (real_n < ((area_num + 1) * 1000))
+      if !get_room_index(real_n)
+        return real_n
+      end
+      real_n += 1
+    end
+
+    return nil
+  end
+
+    
+  # Adds a room to this area. The room has to be within the vnum range.
+  def inject_room r 
+	  @rooms[r.vnum % 1000] = r
+  end
+end
+
+class Exit
+  attr_accessor :towards_room, :from_room, :direction
+                  
+  def initialize(xnum=nil,xnum2=nil,dir=nil)
+    return if xnum == nil
+    
+    @direction = dir
+    @towards_room = get_room_index(xnum) 
+    @from_room = get_room_index(xnum2) 
+    @from_room.exit_list[dir] = self 
+  end
+
+  def enter xplayer, arr=nil
+    if arr != nil
+      #if we're sent to an edge of the map we need to check for an exit.
+      if arr[0] == 0 # go west
+        arr = [23, arr[1]]
+      elsif arr[0] == 24 # go east
+        arr = [1, arr[1]]
+      elsif arr[1] == 0 # south
+        arr = [arr[0], 23]
+      elsif arr[1] == 24 #north
+        arr = [arr[0], 1]
+      end
+    else
+      arr = [11,11]
+    end
+
+    xplayer.from_room
+    from_room.text_to_room sprintf("%s leaves %s.\r\n", xplayer.name, @direction.exit_code_to_s)
+
+
+    towards_room.text_to_room sprintf("%s has arrived.\r\n", xplayer.name)
+    xplayer.to_room(towards_room, arr)
+ 
+
+    xplayer.stop   
+    xplayer.cmd_look(nil)
+
+    TrigEnter.poll xplayer,towards_room.vnum
+  end  
+end
+
+class CityRoom 
+  attr_accessor :vnum, :exit_list, :map_x, :map_y, :people, :events, :area
+  attr_accessor :location_map, :mo_list
+  def initialize xnum
+    @mo_list ||= []
+    @location_map ||= nil # should start off empty.  If something is sent to it then it should allocate itself.
+    #Grid.new(25, 25, self) #sets up a 25 by 25 locations in this room.
+
+    # Instance variables  
+    @people ||= []
+    @events ||= []
+    @map_x ||= nil
+    @map_y ||= nil
+    @vnum ||= xnum
+    @exit_list ||= [nil, nil, nil, nil, nil, nil]
+
+	  a = area_lookup(xnum)
+	  a = Area.new(xnum/1000) if a == nil
+	  a.inject_room self
+
+    @area = a
+
+    $room_list << self
+	  $room_save_list << self  
+  end
+  public :initialize
+
+  def to_yaml_properties
+    ['@vnum']
+  end
+
+  def save_yaml
+    File.open(sprintf("rooms/%d.yml", @vnum), "w") do |f|
+      ### Dumps room attributes.
+      YAML::dump self,f
+      ### Dump Exits in an array format.
+      YAML::dump "Exits:", f
+      @exit_list.each do |e|
+        if e != nil
+          YAML::dump [e.direction, e.towards_room.vnum], f
+        end
+      end
+    end
+  rescue
+    log_string "Unable to write to room %d.", @vnum
+    log_string $!.to_s
+  end
+
+  # does a circular exit check.
+  def circular_check a
+    return false if (self.exit_list[a[0]] == nil || self.exit_list[a[1]] == nil)
+    return false if (self.exit_list[a[0]].towards_room.exit_list[a[1]] == nil || self.exit_list[a[1]].towards_room.exit_list[a[0]] == nil)
+    return false if (self.exit_list[a[0]].towards_room.exit_list[a[1]].towards_room != self.exit_list[a[1]].towards_room.exit_list[a[0]].towards_room)
+    return true
+  end
+
+  # do a dfs search with a code block
+  def each_bfs
+    color_list, white_list = [], []
+
+    white_list << self
+    color_list << self
+
+    while !white_list.empty?
+      r = white_list.shift()
+
+      # do some code for each room found in the BFS.
+      yield r
+
+      # 4 exits
+      4.times do |i|
+        if r.exit_list[i] != nil
+          if !color_list.include?(r.exit_list[i].towards_room)
+            white_list << r.exit_list[i].towards_room
+            color_list << r.exit_list[i].towards_room
+          end
+        end
+      end
+    end
+    return nil
+  end
+
+  # does something for each room in a certain direction, in order.
+  def each_dir
+    # look in all 4 directions.
+    4.times do |i|
+      depth = 0
+      r = self
+      # Continue running in a single direction until we hit a wall.
+      while r.exit_list[i] != nil
+        r = r.exit_list[i].towards_room
+        depth += 1
+        
+        #call our algorithm and let it know the room, the direction, and the depth.
+        yield r, i, depth
+      end
+    end
+    return nil
+  end
+
+  # do a dfs search with a code block
+  def each_dfs
+    color_list, white_list = [], []
+
+    white_list << self
+    color_list << self
+
+    while !white_list.empty?
+      r = white_list.pop()
+
+      # do some code for each room found in the BFS.
+      yield r
+
+      # 4 exits
+      4.times do |i|
+        if r.exit_list[i] != nil
+          if !color_list.include?(r.exit_list[i].towards_room)
+            white_list << r.exit_list[i].towards_room
+            color_list << r.exit_list[i].towards_room
+          end
+        end
+      end
+    end
+    return nil
+  end
+
+  # Create new rooms. Connect them. Nil is valid 
+  # By default direction is unset. If no direction both must exist.
+  # Also, input should havbeen checked by now.
+  def CityRoom.dig_rooms(rvnum1, rvnum2, direction)
+    if direction >= 6 || direction < 0
+      return false #failed
+    end
+
+    # lookup 2 rooms.
+    r1, r2 = get_room_index(rvnum1), get_room_index(rvnum2)
+
+    # if either is nil now set it up.
+    r1 = CityRoom.new(rvnum1) if !r1
+    r2 = CityRoom.new(rvnum2) if !r2
+
+    # creates exits with hook back
+    Exit.new(rvnum2, rvnum1, direction)
+    Exit.new(rvnum1, rvnum2, direction.exit_code_rev)
+
+    m = $area_list[r1.vnum / 1000].get_map(r1)
+
+    ($area_list[r1.vnum / 1000].maps.delete m) if m
+    return true
+  end
+
+  def player_to_room(player, a=nil)
+    a = [11, 11] if a == nil # defaults to center of room
+
+    player.to_x_y_location self, a
+
+    @people << player
+
+    player.in_room = self
+  end
+
+
+  def player_from_room(player)
+    player.from_location
+    @people.delete player
+    player.in_room = nil
+  end
+  #method to send to every character in the room.
+  def text_to_room txt
+    people.each do |p| p.text_to_player(txt) end
+  end
+
+  #method to produce a map originating at this room.
+  def map_to_player player, vx=36, vy=14
+    map = $area_list[player.in_room.vnum / 1000].get_map(player.in_room)
+    map = $area_list[player.in_room.vnum / 1000].gen_map(player.in_room) if map == nil
+    $area_list[player.in_room.vnum/1000].fix_maps(map);
+
+    pn = AreaMap.pathfind(player.in_room, player.pathtarget) if player.pathtarget != nil
+
+
+
+    startx = @map_x-vx/2
+    starty = @map_y+vy/2
+    finishx = @map_x+vx/2
+    finishy = @map_y-vy/2
+    finishy += 1
+    if pn != nil
+      startx -= (@map_x - pn.room.map_x)
+      starty -= (@map_y - pn.room.map_y)
+      finishx -=(@map_x - pn.room.map_x)
+      finishy -= (@map_y - pn.room.map_y)
+    end
+
+    while startx > @map_x-1
+      startx -= 1
+    end
+
+    while starty < @map_y+1
+      starty += 1
+    end
+    ts = ""
+        
+    pn.draw(map) if (pn != nil)
+    map.write_pallete(@map_x,@map_y, :sect_self)
+
+    ts << sprintf("#W O #D,%s, #WO\r\n", "[#W#{player.where_am_i?}#D]".center(finishx - startx-1, '-'))
+    while starty >= finishy
+      curx = startx
+      ts << "#D|||"
+
+      while curx <= finishx
+        meh = case map.pallete[curx][starty]
+          when nil then " "
+          when :sect_void then " "
+          when :sect_city then "#C."
+          when :sect_cityw then "#W##"
+          when :sect_self then "#Y@"
+          when :track_ns  then "#R|"
+          when :track_we  then "#R-"
+          when :track_ne  then "#R/"
+          when :track_nw  then "#R\\"
+          when :track_found then "#RX"
+        else
+          "?"
+        end
+
+        ts = ts + meh
+        curx += 1
+      end
+
+      ts << "#D|||\r\n"
+      starty = starty - 1
+    end
+    ts << sprintf("#D||| #W%s #D|||\r\n", "Exits:".ljust(finishx - startx - 1))
+
+    buf = "[#B"
+    if player.in_room.exit_list.empty?
+      buf << " None#D ]"
+    else
+      player.in_room.exit_list.each do |xexit|
+        if xexit
+          buf << (sprintf " %s", xexit.direction.exit_code_to_s)
+        end
+      end
+      buf << "#D ]"
+    end
+
+    ts << sprintf("#W @ #D'%s'#W @\r\n", "#{buf}".center(finishx - startx-1, '-'))
+    map.write_pallete(@map_x,@map_y, :sect_city)
+    player.text_to_player ts
+
+    pn.undraw(map) if pn != nil
+    if pn != nil
+      pn.undraw(map)
+      return pn.path_to_directions
+    end
+    return nil
+    
+  end
+
+end
+
+def save_rooms 
+    while !$room_save_list.empty?
+	r = $room_save_list.pop
+ 	save_room r
+    end
+end
+
+def area_lookup num
+    t = num / 1000
+    return $area_list[t]
+end
+
+
+#CityRoom.dig_rooms(1, 2, 0)
+#CityRoom.dig_rooms(1, 3, 1)
+#CityRoom.dig_rooms(1, 4, 2)
+#CityRoom.dig_rooms(1, 5, 3)
+#CityRoom.dig_rooms(5, 6, 0)
+

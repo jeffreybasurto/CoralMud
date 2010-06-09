@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.alpha.siks
+"@namespace": first.area
+"@vnum": 58
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 59
+  - {}
+
+- - 3
+  - 57
+  - {}
+

@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.mike.niner
+"@namespace": first.area
+"@vnum": 12
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 13
+  - {}
+
+- - 2
+  - 11
+  - {}
+
+- - 3
+  - 14
+  - {}
+

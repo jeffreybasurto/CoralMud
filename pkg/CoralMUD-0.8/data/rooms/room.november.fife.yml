@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.november.fife
+"@namespace": first.area
+"@vnum": 111
+"@sector": :sect_fancy
+"@exit_list": 
+- - 0
+  - 110
+  - {}
+
+- - 1
+  - 147
+  - {}
+
+- - 3
+  - 143
+  - {}
+

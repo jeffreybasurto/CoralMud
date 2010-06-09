@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.oscar.tree
+"@namespace": first.area
+"@vnum": 3
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 4
+  - {}
+
+- - 2
+  - 130
+  - {}
+
+- - 3
+  - 6
+  - :closed: true
+    :has_door: true

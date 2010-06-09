@@ -1,0 +1,13 @@
+--- 
+"@name": Default Name
+"@vnum": 25
+"@sector": :sect_inside
+"@exit_list": 
+- - 2
+  - 24
+  - {}
+
+- - 3
+  - 26
+  - {}
+

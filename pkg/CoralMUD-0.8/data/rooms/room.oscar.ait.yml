@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.oscar.ait
+"@namespace": first.area
+"@vnum": 140
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 134
+  - {}
+
+- - 2
+  - 141
+  - {}
+

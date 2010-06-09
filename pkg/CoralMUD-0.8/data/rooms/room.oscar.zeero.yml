@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.oscar.zeero
+"@namespace": first.area
+"@vnum": 40
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 87
+  - {}
+
+- - 1
+  - 41
+  - {}
+
+- - 2
+  - 43
+  - {}
+
+- - 3
+  - 39
+  - {}
+

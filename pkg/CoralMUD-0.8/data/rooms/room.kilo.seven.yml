@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.kilo.seven
+"@namespace": first.area
+"@vnum": 19
+"@sector": :sect_dock
+"@exit_list": 
+- - 1
+  - 18
+  - {}
+
+- - 3
+  - 20
+  - {}
+

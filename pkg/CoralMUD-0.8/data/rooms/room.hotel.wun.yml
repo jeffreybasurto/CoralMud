@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.hotel.wun
+"@namespace": first.area
+"@vnum": 83
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 84
+  - {}
+
+- - 1
+  - 79
+  - {}
+
+- - 2
+  - 20
+  - {}
+
+- - 3
+  - 85
+  - {}
+

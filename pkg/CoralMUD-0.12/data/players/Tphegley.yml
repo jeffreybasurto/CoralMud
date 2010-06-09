@@ -1,0 +1,13 @@
+--- 
+"@name": Tphegley
+"@password": bobbo1
+"@level": 1
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_dwarf
+"@traits": 
+- :trait_hearty
+- :trait_deft
+- :trait_powerful
+"@sign": :sign_ram

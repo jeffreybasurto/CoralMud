@@ -1,0 +1,7 @@
+#!/bin/csh
+set MUDNAME = "coral.rb"
+
+while ( 1 )
+  ruby ./core/$MUDNAME &
+  sleep 5
+end

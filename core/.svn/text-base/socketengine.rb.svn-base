@@ -1,0 +1,394 @@
+
+# socket class to handle all connection and data IO. Except raw sockets.
+module SocketData
+  attr_accessor :player, :bust_prompt, :state, :port, :addr
+  # Called after our socket is fully initialized and ready to receive/send data.
+  def post_init
+    @state = :state_new_connection
+
+    @player, @nanny, @network_parser = nil, nil, nil
+    @input_queue = []
+
+    @bust_prompt = false
+    $dsock_list << self
+
+    @port, @addr = Socket.unpack_sockaddr_in(get_peername)
+    puts "-- #{@addr}:#{@port} connected to CoralMUD!"
+    assign_nanny
+    assign_network_parser
+  end
+
+  ### Permanently assigns a parser to this socket.
+  def assign_network_parser
+
+    @network_parser = Fiber.new do
+      mode = :data
+
+      arr = []
+      buffer = ""
+      loop do ### loops forever while the socket exists.
+        data = Fiber.yield arr
+        arr = []
+        ### process data and place it into arr
+        while !data.empty?
+          c = data.slice!(0)
+
+          ### examine c for telnet escape.
+          if c.ord == IAC
+            #arr << (c + 
+            data.slice!(0..1)
+            #arr.strip
+            next
+          elsif c.ord == "\n"[0].ord
+            buffer.strip!
+            if !buffer.empty?
+              arr << buffer 
+            end
+            buffer = ""
+            next
+          end
+
+          buffer << c
+        end
+      end
+    end
+    @network_parser.resume
+  end
+
+  ### Attaches a nanny to a socket.  It only exists while in creation.
+  def assign_nanny 
+    @nanny = Fiber.new do
+      ### Splash screen when nanny is created.
+      text_to_socket $greeting
+      text_to_socket "#nWhat is your name? "
+      
+      ### yield and on next call set arg
+      while !check_name((narg = Fiber.yield false).capitalize)
+        ### We could also explain here what a valid name is.
+        text_to_socket "That's not a valid name.  What is your name?" + ENDL
+      end
+
+      ### ensures the name is capital.
+      narg.capitalize!
+
+      ### Log character login attempt.
+      log_string "#{narg} is trying to connect."
+
+      ### valid name found. We should create their player now.
+      text_to_socket "Thank you.\r\n"
+
+      ### If a new player is not found we need to create a new one.
+      if (@player = Player.load_yaml(narg)) == nil
+        @player = Player.new 
+
+        @player.name = narg.dup
+        # prepare for next step
+
+        send_data DONT_ECHO  
+        ### This will loop until both passwords match.
+        loop do
+          text_to_socket "Please enter a new password: "
+          while !check_pass((parg = Fiber.yield false))
+            ### We could also explain here what constitutes a valid password.
+            text_to_socket "That's not a valid password.  What is your new password#{ENDL}: "
+          end
+        
+          ### Ask them to reenter their password.
+          text_to_socket "Thank you.  Can you please verify the password?" + ENDL
+
+          p2arg = Fiber.yield false
+
+          if parg.eql? p2arg
+            text_to_socket "Passwords match." + ENDL
+            @player.password = parg.dup
+            break
+          else
+            text_to_socket "Passwords do not match." + ENDL
+          end
+        end 
+        send_data DO_ECHO
+
+        ### dump the menu options 
+        ### generate the menu each pass.
+        length = 79
+        ### CREATION TABLE
+        ### To add more creation categories add to this table.
+        ccmenu =[
+               {:tag=>'1', :desc=>"race",          :data=>CCDEFAULT_DATA, :count=>1, :table=>$ccmenu_element[:menu_race],:question=>"Please choose a race."},
+               {:tag=>'2', :desc=>"class",         :data=>CCDEFAULT_DATA, :count=>1, :table=>$ccmenu_element[:menu_class],:question=>"Please choose a class."},
+               {:tag=>'3', :desc=>"sign",          :data=>CCDEFAULT_DATA, :count=>1, :table=>$ccmenu_element[:menu_signs],:question=>"Under which sign were you born?"},
+               {:tag=>'4', :desc=>"traits",        :data=>CCDEFAULT_DATA, :count=>3, :table=>$ccmenu_element[:menu_traits],:question=>"Please pick 3 traits."},
+               {:data=>"".ljust(length-2, "-")},                      ### This line has no way of accessing it but the data still will be printed.
+               {:tag=>'q', :desc=>"quit"}]
+        ### At this point we should enter our menu driven system. 
+
+        text_to_socket "Entering character creation." + ENDL
+        text_to_socket "Enter any key to continue . . ." + ENDL
+        Fiber.yield false
+
+        loop do
+          buf =  "#w" + "#W________________________".ljust(length, '_') + ENDL
+          buf << "#w" + "#W___#BCHARACTER CREATION#W___".ljust(length, '_') + ENDL
+          ccmenu.each do |m|
+            t = ""
+            ### Each m is a map
+            t << "%3s)" % m[:tag] + " " if m[:tag] != nil
+            t << m[:desc].o_ljust(18) + " " if m[:desc] != nil
+
+            ### Depending on the type of data we may do something different with it.
+            ### Type String:  Print it
+            ### Type Array: Print on each line.
+            if m[:data] == nil
+              buf << "#W=" + t.o_ljust(length-2) + "#W=" + ENDL
+            elsif m[:data].is_a? String
+              tmp = m[:data]
+              if tmp.eql? CCDEFAULT_DATA
+                t.insert(0, "#R")
+              else
+                t.insert(0, "#W")
+              end
+              t << tmp
+              buf << "#W=" + t.ljust(length-2) + "#W=" + ENDL
+            elsif m[:data].is_a? Array
+              datum = m[:data]
+              if datum.length == 1
+                t << m[:table][datum[0]][:name]
+                buf << "#W=" + t.ljust(length-2) + "#W=" + ENDL
+                next
+              end
+              t.gsub!(" ", "_")
+              buf << "#W=" + "#W" + t.o_ljust(length-2, '_') + "#W=" + ENDL
+              datum.each do |e|
+                ### For each element in the array dump an explaination on its own line.
+                tmp = m[:table][e][:desc].dup
+                tmp_n = m[:table][e][:name]
+                ccc = 0
+                while !tmp.empty?
+                  if ccc == 0
+                    buf << "#W= " + " #C#{'%-20s' % tmp_n}#C " + tmp.pop_some(length-4-22).ljust(length-4-22) + "#W =" + ENDL
+                  else
+                    buf << "#W= " + "#C" + tmp.pop_some(length-4).ljust(length-4) + "#W =" + ENDL
+                  end
+                  ccc += 1
+                end
+              end
+            end
+          end
+          buf << "#W"+ "==[#{Time.now.strftime("#R%I:%M%p#w")}#W]==".rjust(length, '=') + ENDL
+          text_to_socket buf
+          text_to_socket "Please make a selection:"
+
+          argselect = Fiber.yield false   
+
+          ### parse the options and see if any match
+          menufound = nil
+          ccmenu.each do |v|
+            next if v[:tag] == nil
+
+            if argselect.eql? v[:tag].downcase
+              ### And this is ugly because each field has a totally different check against the parameter.
+              ### We're trying to streamline it based on how many options and the table of options.
+              menufound = v
+            end
+          end  
+          if menufound == nil ### This means the user option was not found on the menu.
+            text_to_socket "That is not a valid option." + ENDL
+          else
+            ### We found The key
+            if menufound[:tag].eql? "q"
+              ### This is the quit option.  Special case for this since it is for breaking the loop.
+              ### Check to see if every condition is met.
+              all_cond_met = true
+              ccmenu.each do |check_each|
+                next if check_each[:tag] == nil || check_each[:data] == nil
+
+                if !check_each[:data].is_a?(Array)
+                  all_cond_met = false
+                  break
+                end
+                if check_each[:data].length != check_each[:count] 
+                  all_cond_met = false
+                  break
+                end
+              end
+              if !all_cond_met
+                text_to_socket "All conditions are not met." + ENDL
+                text_to_socket "Enter any key to continue . . ." + ENDL
+                Fiber.yield false
+              else
+                text_to_socket "Thank you.  All conditions are met." + ENDL
+                text_to_socket "Enter any key to continue . . ." + ENDL
+                Fiber.yield false
+                break
+              end
+            else ### Otherwise figure out which table we're using and let them select a certain number of options.
+             
+              ### First clear the data
+              menufound[:data] = [] 
+              print_menu_options(self, menufound)
+              loop do ### print the current menu and its selections.  
+                if menufound[:data].length != 0
+                  text_to_socket "#W".center(length, '_') + ENDL
+                  text_to_socket "#W__#BYOUR #{menufound[:desc].upcase}#W".ljust(length, '_') + ENDL
+                  text_to_socket "= Empty".ljust(length-2) + " =" + ENDL if menufound.empty?
+                  menufound[:data].each do |mmm|
+                    text_to_socket "= " + menufound[:table][mmm][:name].ljust(length-4) + " =" + ENDL
+                  end
+                  text_to_socket "#W= " + "".center(length-4, '=') + " =#n" + ENDL
+                end
+                break if menufound[:data].count >= menufound[:count]
+
+                text_to_socket menufound[:question] + ENDL
+                text_to_socket ">>>"
+
+                argselect = Fiber.yield false ### Accept input
+
+                ### Match argselect against menufound[:table] values
+                mfound = false
+                menufound[:table].each do |k, v|
+                  if argselect.eql?(v[:name].downcase) && !menufound[:data].include?(k)
+                    ### we found a valid object. We should add the key to the data.
+                    menufound[:data] << k 
+                    mfound = true
+                    break
+                  end
+                end
+                next if mfound == true
+                text_to_socket "That is not a valid selection." + ENDL
+                text_to_socket "Enter any key to continue . . ." + ENDL
+                Fiber.yield false
+
+                print_menu_options(self, menufound)
+
+              end
+            end 
+          end
+        end ### MENU LOOP
+        ### End character creation loop
+        ###
+        ###
+        log_string "New player: %s has entered the game.", @player.name
+        @player.to_room(ROOM_ON_CREATE)
+        @state = :state_playing
+        text_to_socket $motd
+      else
+        ### old player found.
+        ### do this until passwords match.
+        attempt = 0
+        send_data DONT_ECHO
+        begin 
+          attempt += 1
+          if attempt > 3 
+            log_string "#{@ip}: #{@port} has been disconnected for 3 failed attempts for #{@player.name}."
+            Fiber.yield true
+          end
+          text_to_socket "Password: "
+          parg = Fiber.yield false
+        end while parg != @player.password
+        send_data DO_ECHO
+        text_to_socket "Password matches.  Thank you.\r\n"
+
+        @state = :state_playing
+        if (@player = check_reconnect(@player.name)) != nil
+          log_string "%s has reconnected.", @player.name
+          # and let him enter the game
+          text_to_socket "You take over a body already in use.\r\n"
+        elsif (@player = Player.load_yaml(narg)) == nil
+          text_to_socket "ERROR: Your pfile is missing!\r\n"
+          log_string "#{narg}'s pfile was missing after originally found."
+          Fiber.yield true
+        else
+          log_string "%s has entered the game.", @player.name
+          @player.to_room(ROOM_ON_CREATE)
+          text_to_socket $motd
+        end
+      end
+      @player.socket = self
+      $dplayer_list << @player if !$dplayer_list.include? @player
+      @player.cmd_look(nil)
+      @player.save_yaml
+      false
+    end
+
+    @nanny.resume ""
+  end
+
+  # Called any time data is received from a connected socket.
+  def receive_data data
+    if @state == :state_playing
+      @bust_prompt = true
+      $last_sent = '\n'
+    end
+
+    return if data == nil
+    data.gsub!(/\r\n|\r\x00|\n\r|\r|\n/,"\n")
+   
+
+    return if data.empty?
+
+    a = @network_parser.resume data
+ 
+    a.each do |d|
+      @input_queue.push d
+    end
+    ## Ok, check we need to shift a command off the top.
+    while !@input_queue.empty?
+      comm = @input_queue.shift
+      return if comm == nil 
+      return if comm.length == 0
+      case @state
+        when :state_new_connection
+          if @nanny.alive?
+            if (@nanny.resume comm.downcase) == true
+              text_to_socket "Closing connection.\r\n"
+              close_connection
+              return
+            end
+          end
+        when :state_playing
+          handle_cmd_input comm
+        else
+          bug "Socket in bad state."
+      end
+    end
+  end
+
+  ### Actually handles the input.
+  def handle_cmd_input arg
+    comm = ""
+    dPlayer = @player
+    return if dPlayer == nil
+
+    one_arg! arg, comm
+
+    if comm.empty?
+      return
+    end
+
+    if (c = dPlayer.command_table.cmd_lookup(comm))
+      dPlayer.send(c.cmd_funct, arg.send(c.cmd_args))
+    else
+      dPlayer.text_to_player "No such command.\r\n"
+    end
+  rescue
+    log_string "handle_cmd_input Error"
+    log_string $!.to_s
+  end
+
+  def text_to_socket txt    
+    $last_sent = txt[-1]
+    send_data render_color txt
+    if @state == :state_playing
+      @bust_prompt = true
+    end
+    return true
+  rescue Exception
+    return false
+  end
+  # Closes the connection for a single socket.
+  def unbind
+    $dsock_list.delete self
+    puts "-- #{@addr}:#{@port} disconnected from CoralMUD!"
+  end
+end
+

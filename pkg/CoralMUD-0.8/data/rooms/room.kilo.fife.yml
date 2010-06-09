@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.kilo.fife
+"@namespace": first.area
+"@vnum": 4
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 91
+  - {}
+
+- - 1
+  - 92
+  - {}
+
+- - 2
+  - 3
+  - {}
+

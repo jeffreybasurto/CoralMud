@@ -1,0 +1,70 @@
+class Help
+  attr_accessor :load_time, :keyword, :text
+  def initialize k, t
+    @load_time = Time.now.to_i
+    @keyword = k
+    @text = t
+  end
+end
+
+
+def check_help dPlayer, helpfile
+  pHelp = nil
+  entry = nil
+  hFile = helpfile.upcase
+
+  $help_list.each do |p|
+    if is_prefix hFile, p.keyword
+      pHelp = p
+      break
+    end
+  end
+
+  # If there is an updated version we load it
+  if pHelp
+    if last_modified(sprintf("help/%s", hFile)) > pHelp.load_time
+      pHelp.text = read_help_entry "help/#{hFile}"
+    end
+  else # is there a version at all ??
+    entry = read_help_entry "help/#{hFile}"
+    if entry == nil
+      return false
+    else
+      pHelp = Help.new hFile, entry
+      $help_list << pHelp
+    end
+  end
+
+  dPlayer.text_to_player sprintf("=== %s ===\r\n%s", pHelp.keyword, pHelp.text)
+
+  return true
+end
+
+#
+# Loads all the helpfiles found in ../help/
+#
+def load_helps
+  log_string "Load_helps: getting all help files."
+
+  Dir.entries("help").each do |entry|
+    next if File.stat("help/#{entry}").directory?
+    s = read_help_entry "help/#{entry}"
+
+    if s.nil?
+      bug "load_helps: Helpfile %s does not exist.", entry
+      next
+    end
+
+    new_help = Help.new entry, s
+    $help_list << new_help
+
+    if "GREETING".casecmp(new_help.keyword) == 0
+      log_string "Greeting loaded."
+      $greeting = new_help.text
+    elsif "MOTD".casecmp(new_help.keyword) == 0
+      log_string "MOTD loaded."
+      $motd = new_help.text
+    end
+  end
+end
+

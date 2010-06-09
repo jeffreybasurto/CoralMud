@@ -1,0 +1,33 @@
+RocketMud version 0.3
+---
+
+This is a ruby version of Brian Graversen's SocketMUD(tm).  It should run 
+on any platform that Ruby runs on.  It's been minimally re-architected to 
+be more object-oriented.
+
+RocketMUD has pretty much the same feature set of SocketMUD with the 
+exception of MCCP support.  I didn't see any point in bothering with it.  
+
+* Supports 'say', 'quit', 'help', 'who', 'linkdead', 'shutdown', 'commands' 
+  and 'save' commands.
+* Supports ansi - see help ansi for details
+* Event scheduling system
+* Any help file changes are automatically detected and loaded.
+* Code is reloaded by the tick event so there is no need for a copyover 
+  command.  This is rather simple and crude and if you mess up the code and 
+  it can't be loaded you just might have to kill and restart the server.
+* Player files are stored in YAML format instead of the Dikulike format.  
+  There is just a single player file, .yml, not a .pfile and .profile.
+
+The server is run with the command:
+$ ruby rocket.rb &
+
+The default port is 9009.  You can change the constant MUDPORT in the code 
+to use a different one.
+
+An administrative user is supplied with the name, 'One' and the password is
+'potrzebie'.  
+
+To build the html documentation run the following rake task:
+$ rake rdoc
+

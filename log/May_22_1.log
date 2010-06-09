@@ -1,0 +1,601 @@
+ INFO LOG: May_22_11:29: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_22_11:29: Loading spellcheck.rb
+ INFO LOG: May_22_11:29: Loading facade.rb
+ INFO LOG: May_22_11:29: Loading query_list.rb
+ INFO LOG: May_22_11:29: Loading utils.rb
+ INFO LOG: May_22_11:29: Loading constants.rb
+ INFO LOG: May_22_11:29: Loading damage.rb
+ INFO LOG: May_22_11:29: Loading class_property.rb
+ INFO LOG: May_22_11:29: Loading scripts.rb
+ INFO LOG: May_22_11:29: Loading tags.rb
+ INFO LOG: May_22_11:29: Loading editor/editors.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.strings.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.rooms.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.exits.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.zones.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.npc.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.items.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.socials.rb
+ INFO LOG: May_22_11:29: Loading socials.rb
+ INFO LOG: May_22_11:29: Loading mxp.rb
+ INFO LOG: May_22_11:29: Loading mccp.rb
+ INFO LOG: May_22_11:29: Loading flags.rb
+ INFO LOG: May_22_11:29: Loading areas.rb
+ INFO LOG: May_22_11:29: Loading security.rb
+ INFO LOG: May_22_11:29: Loading event.rb
+ INFO LOG: May_22_11:29: Loading automap/automap.rb
+ INFO LOG: May_22_11:29: Loading cities.olc.rb
+ INFO LOG: May_22_11:29: Loading cities.rb
+ INFO LOG: May_22_11:29: Loading sector definitions.
+ INFO LOG: May_22_11:29: Loading help.rb
+ INFO LOG: May_22_11:29: Loading imcruby.rb
+ INFO LOG: May_22_11:29: Loading player.rb
+ INFO LOG: May_22_11:29: Loading commands.rb
+ INFO LOG: May_22_11:29: Loading editor/editor.player.rb
+ INFO LOG: May_22_11:29: Loading random.rb
+ INFO LOG: May_22_11:29: Loading npc.rb
+ INFO LOG: May_22_11:29: Loading items/types.rb
+ INFO LOG: May_22_11:29: Loading items/items.rb
+ INFO LOG: May_22_11:29: Loading spells.rb
+ INFO LOG: May_22_11:29: Loading all zones.
+ INFO LOG: May_22_11:29: Loading all socials.
+ INFO LOG: May_22_11:29: Starting server.
+ INFO LOG: May_22_11:29: CoralMUD is now up on port 4000.
+ INFO LOG: May_22_11:29: -- 76.202.141.206:34679 connected to CoralMUD!
+ INFO LOG: May_22_11:29: -- 76.202.141.206:34679: Retnur is trying to connect.
+ INFO LOG: May_22_11:29: -- 76.202.141.206:34679: Retnur player file found.
+ INFO LOG: May_22_11:29: -- Retnur has entered the game.
+ INFO LOG: May_22_11:31: tick!!!
+ INFO LOG: May_22_11:33: tick!!!
+ INFO LOG: May_22_11:35: tick!!!
+ INFO LOG: May_22_11:37: tick!!!
+ INFO LOG: May_22_11:39: tick!!!
+ INFO LOG: May_22_11:41: tick!!!
+ INFO LOG: May_22_11:43: tick!!!
+ INFO LOG: May_22_11:45: tick!!!
+ INFO LOG: May_22_11:47: tick!!!
+ INFO LOG: May_22_11:49: tick!!!
+ INFO LOG: May_22_11:51: tick!!!
+ INFO LOG: May_22_11:53: tick!!!
+ INFO LOG: May_22_11:55: tick!!!
+ INFO LOG: May_22_11:57: tick!!!
+ INFO LOG: May_22_11:59: tick!!!
+ INFO LOG: May_22_12:01: tick!!!
+ INFO LOG: May_22_12:03: tick!!!
+ INFO LOG: May_22_12:05: tick!!!
+ INFO LOG: May_22_12:07: tick!!!
+ INFO LOG: May_22_12:09: tick!!!
+ INFO LOG: May_22_12:11: tick!!!
+ INFO LOG: May_22_12:13: tick!!!
+ INFO LOG: May_22_12:15: tick!!!
+ INFO LOG: May_22_12:17: tick!!!
+ INFO LOG: May_22_12:19: tick!!!
+ INFO LOG: May_22_12:21: tick!!!
+ INFO LOG: May_22_12:23: tick!!!
+ INFO LOG: May_22_12:25: tick!!!
+ INFO LOG: May_22_12:27: tick!!!
+ INFO LOG: May_22_12:29: tick!!!
+ INFO LOG: May_22_12:31: tick!!!
+ INFO LOG: May_22_12:33: tick!!!
+ INFO LOG: May_22_12:35: tick!!!
+ INFO LOG: May_22_12:37: tick!!!
+ INFO LOG: May_22_12:39: tick!!!
+ INFO LOG: May_22_12:41: tick!!!
+ INFO LOG: May_22_12:43: tick!!!
+ INFO LOG: May_22_12:45: tick!!!
+ INFO LOG: May_22_12:47: tick!!!
+ INFO LOG: May_22_12:49: tick!!!
+ INFO LOG: May_22_12:51: tick!!!
+ INFO LOG: May_22_12:53: tick!!!
+ INFO LOG: May_22_12:55: tick!!!
+ INFO LOG: May_22_12:57: tick!!!
+ INFO LOG: May_22_12:59: tick!!!
+ INFO LOG: May_22_13:01: tick!!!
+ INFO LOG: May_22_13:03: tick!!!
+ INFO LOG: May_22_13:05: tick!!!
+ INFO LOG: May_22_13:07: tick!!!
+ INFO LOG: May_22_13:09: tick!!!
+ INFO LOG: May_22_13:11: tick!!!
+ INFO LOG: May_22_13:13: tick!!!
+ INFO LOG: May_22_13:15: tick!!!
+ INFO LOG: May_22_13:17: tick!!!
+ INFO LOG: May_22_13:19: tick!!!
+ INFO LOG: May_22_13:21: tick!!!
+ INFO LOG: May_22_13:23: tick!!!
+ INFO LOG: May_22_13:25: tick!!!
+ INFO LOG: May_22_13:27: tick!!!
+ INFO LOG: May_22_13:29: tick!!!
+ INFO LOG: May_22_13:31: tick!!!
+ INFO LOG: May_22_13:33: tick!!!
+ INFO LOG: May_22_13:35: tick!!!
+ INFO LOG: May_22_13:37: tick!!!
+ INFO LOG: May_22_13:39: tick!!!
+ INFO LOG: May_22_13:41: tick!!!
+ INFO LOG: May_22_13:43: tick!!!
+ INFO LOG: May_22_13:45: tick!!!
+ INFO LOG: May_22_13:47: tick!!!
+ INFO LOG: May_22_13:49: tick!!!
+ INFO LOG: May_22_13:51: tick!!!
+ INFO LOG: May_22_13:53: tick!!!
+ INFO LOG: May_22_13:55: tick!!!
+ INFO LOG: May_22_13:57: tick!!!
+ INFO LOG: May_22_13:59: tick!!!
+ INFO LOG: May_22_14:01: tick!!!
+ INFO LOG: May_22_14:03: tick!!!
+ INFO LOG: May_22_14:05: tick!!!
+ INFO LOG: May_22_14:07: tick!!!
+ INFO LOG: May_22_14:09: tick!!!
+ INFO LOG: May_22_14:11: tick!!!
+ INFO LOG: May_22_14:13: tick!!!
+ INFO LOG: May_22_14:15: tick!!!
+ INFO LOG: May_22_14:17: tick!!!
+ INFO LOG: May_22_14:19: tick!!!
+ INFO LOG: May_22_14:21: tick!!!
+ INFO LOG: May_22_14:23: tick!!!
+ INFO LOG: May_22_14:25: tick!!!
+ INFO LOG: May_22_14:27: tick!!!
+ INFO LOG: May_22_14:29: tick!!!
+ INFO LOG: May_22_14:31: tick!!!
+ INFO LOG: May_22_14:33: tick!!!
+ INFO LOG: May_22_14:35: tick!!!
+ INFO LOG: May_22_14:37: tick!!!
+ INFO LOG: May_22_14:39: tick!!!
+ INFO LOG: May_22_14:41: tick!!!
+ INFO LOG: May_22_14:43: tick!!!
+ INFO LOG: May_22_14:45: tick!!!
+ INFO LOG: May_22_14:47: tick!!!
+ INFO LOG: May_22_14:49: tick!!!
+ INFO LOG: May_22_14:51: tick!!!
+ INFO LOG: May_22_14:53: tick!!!
+ INFO LOG: May_22_14:55: tick!!!
+ INFO LOG: May_22_14:57: tick!!!
+ INFO LOG: May_22_14:59: tick!!!
+ INFO LOG: May_22_15:01: tick!!!
+ INFO LOG: May_22_15:03: tick!!!
+ INFO LOG: May_22_15:05: tick!!!
+ INFO LOG: May_22_15:07: tick!!!
+ INFO LOG: May_22_15:09: tick!!!
+ INFO LOG: May_22_15:11: tick!!!
+ INFO LOG: May_22_15:13: tick!!!
+ INFO LOG: May_22_15:15: tick!!!
+ INFO LOG: May_22_15:17: tick!!!
+ INFO LOG: May_22_15:19: tick!!!
+ INFO LOG: May_22_15:21: tick!!!
+ INFO LOG: May_22_15:23: tick!!!
+ INFO LOG: May_22_15:25: tick!!!
+ INFO LOG: May_22_15:27: tick!!!
+ INFO LOG: May_22_15:29: tick!!!
+ INFO LOG: May_22_15:31: tick!!!
+ INFO LOG: May_22_15:33: tick!!!
+ INFO LOG: May_22_15:35: tick!!!
+ INFO LOG: May_22_15:37: tick!!!
+ INFO LOG: May_22_15:39: tick!!!
+ INFO LOG: May_22_15:41: tick!!!
+ INFO LOG: May_22_15:43: tick!!!
+ INFO LOG: May_22_15:45: tick!!!
+ INFO LOG: May_22_15:47: tick!!!
+ INFO LOG: May_22_15:49: tick!!!
+ INFO LOG: May_22_15:51: tick!!!
+ INFO LOG: May_22_15:53: tick!!!
+ INFO LOG: May_22_15:55: tick!!!
+ INFO LOG: May_22_15:57: tick!!!
+ INFO LOG: May_22_15:59: tick!!!
+ INFO LOG: May_22_16:01: tick!!!
+ INFO LOG: May_22_16:03: tick!!!
+ INFO LOG: May_22_16:05: tick!!!
+ INFO LOG: May_22_16:07: tick!!!
+ INFO LOG: May_22_16:09: tick!!!
+ INFO LOG: May_22_16:09: -- 71.163.130.32:51312 connected to CoralMUD!
+ INFO LOG: May_22_16:09: -- 71.163.130.32:51312: Tourun is trying to connect.
+ INFO LOG: May_22_16:09: -- 71.163.130.32:51312: Tourun:  New Character.
+ INFO LOG: May_22_16:10: -- 71.163.130.32:51312: Tourun successfully created.
+ INFO LOG: May_22_16:10: -- Tourun has entered the game.
+ INFO LOG: May_22_16:11: tick!!!
+ INFO LOG: May_22_16:13: tick!!!
+ INFO LOG: May_22_16:15: tick!!!
+ INFO LOG: May_22_16:17: tick!!!
+ INFO LOG: May_22_16:19: tick!!!
+ INFO LOG: May_22_16:21: tick!!!
+ INFO LOG: May_22_16:23: tick!!!
+ INFO LOG: May_22_16:25: tick!!!
+ INFO LOG: May_22_16:27: tick!!!
+ INFO LOG: May_22_16:29: tick!!!
+ INFO LOG: May_22_16:31: tick!!!
+ INFO LOG: May_22_16:33: tick!!!
+ INFO LOG: May_22_16:35: tick!!!
+ INFO LOG: May_22_16:37: tick!!!
+ INFO LOG: May_22_16:39: tick!!!
+ INFO LOG: May_22_16:41: tick!!!
+ INFO LOG: May_22_16:43: tick!!!
+ INFO LOG: May_22_16:45: tick!!!
+ INFO LOG: May_22_16:47: tick!!!
+ INFO LOG: May_22_16:49: tick!!!
+ INFO LOG: May_22_16:51: tick!!!
+ INFO LOG: May_22_16:53: tick!!!
+ INFO LOG: May_22_16:55: tick!!!
+ INFO LOG: May_22_16:57: tick!!!
+ INFO LOG: May_22_16:59: tick!!!
+ INFO LOG: May_22_17:01: tick!!!
+ INFO LOG: May_22_17:03: tick!!!
+ INFO LOG: May_22_17:05: tick!!!
+ INFO LOG: May_22_17:07: tick!!!
+ INFO LOG: May_22_17:09: tick!!!
+ INFO LOG: May_22_17:11: tick!!!
+ INFO LOG: May_22_17:13: tick!!!
+ INFO LOG: May_22_17:15: tick!!!
+ INFO LOG: May_22_17:17: tick!!!
+ INFO LOG: May_22_17:19: tick!!!
+ INFO LOG: May_22_17:21: tick!!!
+ INFO LOG: May_22_17:23: tick!!!
+ INFO LOG: May_22_17:25: tick!!!
+ INFO LOG: May_22_17:27: tick!!!
+ INFO LOG: May_22_17:29: tick!!!
+ INFO LOG: May_22_17:31: tick!!!
+ INFO LOG: May_22_17:33: tick!!!
+ INFO LOG: May_22_17:35: tick!!!
+ INFO LOG: May_22_17:37: tick!!!
+ INFO LOG: May_22_17:39: tick!!!
+ INFO LOG: May_22_17:41: tick!!!
+ INFO LOG: May_22_17:43: tick!!!
+ INFO LOG: May_22_17:45: tick!!!
+ INFO LOG: May_22_17:47: tick!!!
+ INFO LOG: May_22_17:49: tick!!!
+ INFO LOG: May_22_17:51: tick!!!
+ INFO LOG: May_22_17:53: tick!!!
+ INFO LOG: May_22_17:55: tick!!!
+ INFO LOG: May_22_17:57: tick!!!
+ INFO LOG: May_22_17:58: -- #<Player:0x000000028e6050>:71.163.130.32:51312 disconnected from CoralMUD!
+ INFO LOG: May_22_17:59: tick!!!
+ INFO LOG: May_22_18:01: tick!!!
+ INFO LOG: May_22_18:03: tick!!!
+ INFO LOG: May_22_18:05: tick!!!
+ INFO LOG: May_22_18:07: tick!!!
+ INFO LOG: May_22_18:09: tick!!!
+ INFO LOG: May_22_18:11: tick!!!
+ INFO LOG: May_22_18:13: tick!!!
+ INFO LOG: May_22_18:15: tick!!!
+ INFO LOG: May_22_18:17: tick!!!
+ INFO LOG: May_22_18:19: tick!!!
+ INFO LOG: May_22_18:21: tick!!!
+ INFO LOG: May_22_18:23: tick!!!
+ INFO LOG: May_22_18:25: tick!!!
+ INFO LOG: May_22_18:27: tick!!!
+ INFO LOG: May_22_18:29: tick!!!
+ INFO LOG: May_22_18:31: tick!!!
+ INFO LOG: May_22_18:33: tick!!!
+ INFO LOG: May_22_18:35: tick!!!
+ INFO LOG: May_22_18:37: tick!!!
+ INFO LOG: May_22_18:39: tick!!!
+ INFO LOG: May_22_18:41: tick!!!
+ INFO LOG: May_22_18:41: -- 71.163.130.32:51378 connected to CoralMUD!
+ INFO LOG: May_22_18:42: -- 71.163.130.32:51378: Tourun is trying to connect.
+ INFO LOG: May_22_18:42: -- 71.163.130.32:51378: Tourun player file found.
+ INFO LOG: May_22_18:42: -- 71.163.130.32:51378: #<Player:0x000000028e6050> has reconnected.
+ INFO LOG: May_22_18:43: tick!!!
+ INFO LOG: May_22_18:45: tick!!!
+ INFO LOG: May_22_18:47: tick!!!
+ INFO LOG: May_22_18:49: tick!!!
+ INFO LOG: May_22_18:51: tick!!!
+ INFO LOG: May_22_18:53: tick!!!
+ INFO LOG: May_22_18:55: tick!!!
+ INFO LOG: May_22_18:57: tick!!!
+ INFO LOG: May_22_18:59: tick!!!
+ INFO LOG: May_22_19:01: tick!!!
+ INFO LOG: May_22_19:03: tick!!!
+ INFO LOG: May_22_19:05: tick!!!
+ INFO LOG: May_22_19:07: tick!!!
+ INFO LOG: May_22_19:09: tick!!!
+ INFO LOG: May_22_19:11: tick!!!
+ INFO LOG: May_22_19:13: tick!!!
+ INFO LOG: May_22_19:15: tick!!!
+ INFO LOG: May_22_19:17: tick!!!
+ INFO LOG: May_22_19:19: tick!!!
+ INFO LOG: May_22_19:21: tick!!!
+ INFO LOG: May_22_19:23: tick!!!
+ INFO LOG: May_22_19:25: tick!!!
+ INFO LOG: May_22_19:27: tick!!!
+ INFO LOG: May_22_19:29: tick!!!
+ INFO LOG: May_22_19:31: tick!!!
+ INFO LOG: May_22_19:33: tick!!!
+ INFO LOG: May_22_19:35: tick!!!
+ INFO LOG: May_22_19:37: tick!!!
+ INFO LOG: May_22_19:39: tick!!!
+ INFO LOG: May_22_19:41: tick!!!
+ INFO LOG: May_22_19:43: tick!!!
+ INFO LOG: May_22_19:45: tick!!!
+ INFO LOG: May_22_19:47: tick!!!
+ INFO LOG: May_22_19:49: tick!!!
+ INFO LOG: May_22_19:51: -- 127.0.0.1:54575 connected to CoralMUD!
+ INFO LOG: May_22_19:51: -- 127.0.0.1:54575: Rtest is trying to connect.
+ INFO LOG: May_22_19:51: -- 127.0.0.1:54575: Rtest player file found.
+ INFO LOG: May_22_19:51: -- Rtest has entered the game.
+ INFO LOG: May_22_19:51: tick!!!
+ INFO LOG: May_22_19:53: tick!!!
+ INFO LOG: May_22_19:55: tick!!!
+ INFO LOG: May_22_19:57: tick!!!
+ INFO LOG: May_22_19:59: tick!!!
+ INFO LOG: May_22_20:01: tick!!!
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ INFO LOG: May_22_20:03: tick!!!
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ INFO LOG: May_22_20:05: tick!!!
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ INFO LOG: May_22_20:07: tick!!!
+ INFO LOG: May_22_20:09: tick!!!
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ERROR LOG: undefined method `channel_flags' for #<NPC:0x000000022410d8>
+ERROR LOG: /home/heath/coral/lib/facade.rb:50:in `method_missing'
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:459:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:440:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:457:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:306:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:176:in `<main>'
+ INFO LOG: May_22_20:11: tick!!!
+ INFO LOG: May_22_20:13: tick!!!
+ INFO LOG: May_22_20:15: tick!!!
+ INFO LOG: May_22_20:17: tick!!!
+ INFO LOG: May_22_20:19: tick!!!
+ INFO LOG: May_22_20:21: tick!!!
+ INFO LOG: May_22_20:23: tick!!!
+ INFO LOG: May_22_20:25: tick!!!
+ INFO LOG: May_22_20:27: tick!!!
+ INFO LOG: May_22_20:29: tick!!!
+ INFO LOG: May_22_20:31: tick!!!
+ INFO LOG: May_22_20:33: tick!!!
+ INFO LOG: May_22_20:35: tick!!!
+ INFO LOG: May_22_20:37: tick!!!
+ INFO LOG: May_22_20:39: tick!!!
+ INFO LOG: May_22_20:41: tick!!!
+ INFO LOG: May_22_20:43: tick!!!
+ INFO LOG: May_22_20:43: -- #<Player:0x00000002f14800>:76.202.141.206:34679 disconnected from CoralMUD!
+ INFO LOG: May_22_20:43: -- #<Player:0x000000028e6050>:71.163.130.32:51378 disconnected from CoralMUD!
+ INFO LOG: May_22_20:43: -- #<Player:0x00000002c34450>:127.0.0.1:54575 disconnected from CoralMUD!

@@ -1,0 +1,174 @@
+ INFO LOG: Jun__1_20:24: Logging enabled.   Loading logs.rb.
+ INFO LOG: Jun__1_20:24: Loading spellcheck.rb
+ INFO LOG: Jun__1_20:24: Loading facade.rb
+ INFO LOG: Jun__1_20:24: Loading query_list.rb
+ INFO LOG: Jun__1_20:24: Loading utils.rb
+ INFO LOG: Jun__1_20:24: Loading constants.rb
+ INFO LOG: Jun__1_20:24: Loading damage.rb
+ INFO LOG: Jun__1_20:24: Loading class_property.rb
+ INFO LOG: Jun__1_20:24: Loading scripts.rb
+ INFO LOG: Jun__1_20:24: Loading tags.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editors.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.strings.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.rooms.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.exits.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.zones.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.npc.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.items.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.socials.rb
+ INFO LOG: Jun__1_20:24: Loading socials.rb
+ INFO LOG: Jun__1_20:24: Loading mxp.rb
+ INFO LOG: Jun__1_20:24: Loading mccp.rb
+ INFO LOG: Jun__1_20:24: Loading mail.rb
+ INFO LOG: Jun__1_20:24: Loading flags.rb
+ INFO LOG: Jun__1_20:24: Loading areas.rb
+ INFO LOG: Jun__1_20:24: Loading security.rb
+ INFO LOG: Jun__1_20:24: Loading resets.rb
+ INFO LOG: Jun__1_20:24: Loading event.rb
+ INFO LOG: Jun__1_20:24: Loading automap/automap.rb
+ INFO LOG: Jun__1_20:24: Loading cities.rb
+ INFO LOG: Jun__1_20:24: Loading sector definitions.
+ INFO LOG: Jun__1_20:24: Loading help.rb
+ INFO LOG: Jun__1_20:24: Loading imcruby.rb
+ INFO LOG: Jun__1_20:24: Loading player.rb
+ INFO LOG: Jun__1_20:24: Loading commands.rb
+ INFO LOG: Jun__1_20:24: Loading editor/editor.player.rb
+ INFO LOG: Jun__1_20:24: Loading random.rb
+ INFO LOG: Jun__1_20:24: Loading npc.rb
+ INFO LOG: Jun__1_20:24: Loading items/types.rb
+ INFO LOG: Jun__1_20:24: Loading items/items.rb
+ INFO LOG: Jun__1_20:24: Loading spells.rb
+ INFO LOG: Jun__1_20:24: Loading all zones.
+ INFO LOG: Jun__1_20:24: Loading all socials.
+ INFO LOG: Jun__1_20:24: Upgrading database
+ INFO LOG: Jun__1_20:24: Starting server.
+ INFO LOG: Jun__1_20:24: CoralMUD is now up on port 4000.
+ INFO LOG: Jun__1_20:24: -- 76.202.141.206:59683 connected to CoralMUD!
+ INFO LOG: Jun__1_20:24: -- 76.202.141.206:59683: Retnur is trying to connect.
+ INFO LOG: Jun__1_20:24: -- 76.202.141.206:59683: Retnur player file found.
+ INFO LOG: Jun__1_20:24: -- Retnur has entered the game.
+ INFO LOG: Jun__1_20:24: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:26: tick!!!
+ INFO LOG: Jun__1_20:26: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:28: tick!!!
+ INFO LOG: Jun__1_20:28: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:30: tick!!!
+ INFO LOG: Jun__1_20:30: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:32: tick!!!
+ INFO LOG: Jun__1_20:32: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:34: tick!!!
+ INFO LOG: Jun__1_20:34: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:36: tick!!!
+ INFO LOG: Jun__1_20:36: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:38: tick!!!
+ INFO LOG: Jun__1_20:38: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:40: tick!!!
+ INFO LOG: Jun__1_20:40: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:42: tick!!!
+ INFO LOG: Jun__1_20:42: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:44: tick!!!
+ INFO LOG: Jun__1_20:44: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:46: tick!!!
+ INFO LOG: Jun__1_20:46: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:48: tick!!!
+ INFO LOG: Jun__1_20:48: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:50: tick!!!
+ INFO LOG: Jun__1_20:50: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:52: tick!!!
+ INFO LOG: Jun__1_20:52: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:54: tick!!!
+ INFO LOG: Jun__1_20:54: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:56: tick!!!
+ INFO LOG: Jun__1_20:56: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_20:58: tick!!!
+ INFO LOG: Jun__1_20:58: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:00: tick!!!
+ INFO LOG: Jun__1_21:00: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:02: tick!!!
+ INFO LOG: Jun__1_21:02: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:04: tick!!!
+ INFO LOG: Jun__1_21:04: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:06: tick!!!
+ INFO LOG: Jun__1_21:06: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:08: tick!!!
+ INFO LOG: Jun__1_21:08: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:10: tick!!!
+ INFO LOG: Jun__1_21:10: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:12: tick!!!
+ INFO LOG: Jun__1_21:12: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:14: tick!!!
+ INFO LOG: Jun__1_21:14: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:16: tick!!!
+ INFO LOG: Jun__1_21:16: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:18: tick!!!
+ INFO LOG: Jun__1_21:18: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:20: tick!!!
+ INFO LOG: Jun__1_21:20: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:22: tick!!!
+ INFO LOG: Jun__1_21:22: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:24: tick!!!
+ INFO LOG: Jun__1_21:24: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:26: tick!!!
+ INFO LOG: Jun__1_21:26: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:28: tick!!!
+ INFO LOG: Jun__1_21:28: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:30: tick!!!
+ INFO LOG: Jun__1_21:30: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:32: tick!!!
+ INFO LOG: Jun__1_21:32: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:34: tick!!!
+ INFO LOG: Jun__1_21:34: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:36: tick!!!
+ INFO LOG: Jun__1_21:36: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:38: tick!!!
+ INFO LOG: Jun__1_21:38: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:40: tick!!!
+ INFO LOG: Jun__1_21:40: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:42: tick!!!
+ INFO LOG: Jun__1_21:42: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:44: tick!!!
+ INFO LOG: Jun__1_21:44: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:46: tick!!!
+ INFO LOG: Jun__1_21:46: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:48: tick!!!
+ INFO LOG: Jun__1_21:48: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:50: tick!!!
+ INFO LOG: Jun__1_21:50: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:52: tick!!!
+ INFO LOG: Jun__1_21:52: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:54: tick!!!
+ INFO LOG: Jun__1_21:54: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:56: tick!!!
+ INFO LOG: Jun__1_21:56: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_21:58: tick!!!
+ INFO LOG: Jun__1_21:58: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:00: tick!!!
+ INFO LOG: Jun__1_22:00: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:02: tick!!!
+ INFO LOG: Jun__1_22:02: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:04: tick!!!
+ INFO LOG: Jun__1_22:04: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:06: tick!!!
+ INFO LOG: Jun__1_22:06: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:08: tick!!!
+ INFO LOG: Jun__1_22:08: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:10: tick!!!
+ INFO LOG: Jun__1_22:10: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:12: tick!!!
+ INFO LOG: Jun__1_22:12: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:14: tick!!!
+ INFO LOG: Jun__1_22:14: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:16: tick!!!
+ INFO LOG: Jun__1_22:16: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:18: tick!!!
+ INFO LOG: Jun__1_22:18: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:20: tick!!!
+ INFO LOG: Jun__1_22:20: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:22: tick!!!
+ INFO LOG: Jun__1_22:22: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:24: tick!!!
+ INFO LOG: Jun__1_22:24: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:26: tick!!!
+ INFO LOG: Jun__1_22:26: saving #<Player:0x00000003050d40> to database.
+ INFO LOG: Jun__1_22:27: -- #<Player:0x00000003050d40>:76.202.141.206:59683 disconnected from CoralMUD!
+ INFO LOG: Jun__1_22:27: Program closed.

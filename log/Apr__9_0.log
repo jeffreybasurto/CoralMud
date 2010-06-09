@@ -1,0 +1,428 @@
+ INFO LOG: Apr__9_08: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_08: Loading utils.rb
+ INFO LOG: Apr__9_08: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_08: Loading utils.rb
+ INFO LOG: Apr__9_08: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_08: Loading utils.rb
+ INFO LOG: Apr__9_08: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_08: Loading utils.rb
+ INFO LOG: Apr__9_08: Loading constants.rb
+ INFO LOG: Apr__9_08: Loading class_property.rb
+ INFO LOG: Apr__9_08: Loading editors.rb
+ INFO LOG: Apr__9_08: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_08: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_08: Loading utils.rb
+ INFO LOG: Apr__9_08: Loading constants.rb
+ INFO LOG: Apr__9_08: Loading class_property.rb
+ INFO LOG: Apr__9_08: Loading editors.rb
+ INFO LOG: Apr__9_08: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_08: Loading mxp.rb
+ INFO LOG: Apr__9_08: Loading mccp.rb
+ INFO LOG: Apr__9_08: Loading flags.rb
+ INFO LOG: Apr__9_08: Loading damage.rb
+ INFO LOG: Apr__9_08: Loading event.rb
+ INFO LOG: Apr__9_08: Loading automap/automap.rb
+ INFO LOG: Apr__9_08: Loading cities.automap.rb
+ INFO LOG: Apr__9_08: Loading cities.olc.rb
+ INFO LOG: Apr__9_08: Loading cities.rb
+ INFO LOG: Apr__9_08: Loading help.rb
+ INFO LOG: Apr__9_08: Loading imcruby.rb
+ INFO LOG: Apr__9_08: Loading player.rb
+ INFO LOG: Apr__9_08: Loading player.commands.rb
+ INFO LOG: Apr__9_08: Loading random.rb
+ INFO LOG: Apr__9_08: Loading spells.rb
+ INFO LOG: Apr__9_08: Starting server.
+ INFO LOG: Apr__9_08: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_08: -- 99.191.82.191:46180 connected to CoralMUD!
+ INFO LOG: Apr__9_08: -- 99.191.82.191:46180: Retnur is trying to connect.
+ INFO LOG: Apr__9_08: -- 99.191.82.191:46180: Retnur player file found.
+ INFO LOG: Apr__9_08: -- Retnur has entered the game.
+ INFO LOG: Apr__9_08: tick!!!
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ERROR LOG: undefined method `o_center' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:149:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:95:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: -- #<Player:0x00000001b0cd80>:99.191.82.191:46180 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:60846 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- :99.191.82.191:60846 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:60851 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:60851: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:60851: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ERROR LOG: undefined method `o_center' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:149:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:95:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: tick!!!
+ERROR LOG: wrong number of arguments (0 for 1)
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:11:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: -- #<Player:0x00000000c13d88>:99.191.82.191:60851 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:59395 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:59395: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:59395: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: tick!!!
+ERROR LOG: undefined local variable or method `ss' for "roar roar2":String
+ERROR LOG: /home/heath/coral/lib/utils.rb:66:in `block in multi_args'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `loop'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `multi_args'
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:11:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: -- #<Player:0x00000002776eb8>:99.191.82.191:59395 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35976 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35976: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35976: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ERROR LOG: unexpected return
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:14:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__9_09: -- #<Player:0x000000014da390>:99.191.82.191:35976 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:49679 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:49679: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:49679: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: -- #<Player:0x000000026b3f08>:99.191.82.191:49679 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:50020 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:50020: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:50020: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: -- #<Player:0x00000002590a18>:99.191.82.191:50020 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35784 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35784: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:35784: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: -- #<Player:0x0000000229b538>:99.191.82.191:35784 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:57065 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:57065: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:57065: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ERROR LOG: undefined method `strip' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:69:in `block in multi_args'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `loop'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `multi_args'
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:24:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ERROR LOG: undefined method `strip' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:69:in `block in multi_args'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `loop'
+ERROR LOG: /home/heath/coral/lib/utils.rb:65:in `multi_args'
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:24:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:144:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__9_09: -- #<Player:0x0000000265e2d8>:99.191.82.191:57065 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:54497 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:54497: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:54497: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: -- #<Player:0x0000000111c730>:99.191.82.191:54497 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.
+ INFO LOG: Apr__9_09: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__9_09: Loading utils.rb
+ INFO LOG: Apr__9_09: Loading constants.rb
+ INFO LOG: Apr__9_09: Loading class_property.rb
+ INFO LOG: Apr__9_09: Loading editors.rb
+ INFO LOG: Apr__9_09: Loading editor/editor.strings.rb
+ INFO LOG: Apr__9_09: Loading mxp.rb
+ INFO LOG: Apr__9_09: Loading mccp.rb
+ INFO LOG: Apr__9_09: Loading flags.rb
+ INFO LOG: Apr__9_09: Loading damage.rb
+ INFO LOG: Apr__9_09: Loading event.rb
+ INFO LOG: Apr__9_09: Loading automap/automap.rb
+ INFO LOG: Apr__9_09: Loading cities.automap.rb
+ INFO LOG: Apr__9_09: Loading cities.olc.rb
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: Loading help.rb
+ INFO LOG: Apr__9_09: Loading imcruby.rb
+ INFO LOG: Apr__9_09: Loading player.rb
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: Loading random.rb
+ INFO LOG: Apr__9_09: Loading spells.rb
+ INFO LOG: Apr__9_09: Starting server.
+ INFO LOG: Apr__9_09: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:45999 connected to CoralMUD!
+ INFO LOG: Apr__9_09: -- 99.191.82.191:45999: Retnur is trying to connect.
+ INFO LOG: Apr__9_09: -- 99.191.82.191:45999: Retnur player file found.
+ INFO LOG: Apr__9_09: -- Retnur has entered the game.
+ INFO LOG: Apr__9_09: Loading player.commands.rb
+ INFO LOG: Apr__9_09: tick!!!
+ INFO LOG: Apr__9_09: Loading cities.rb
+ INFO LOG: Apr__9_09: -- #<Player:0x000000026ce948>:99.191.82.191:45999 disconnected from CoralMUD!
+ INFO LOG: Apr__9_09: Program closed.

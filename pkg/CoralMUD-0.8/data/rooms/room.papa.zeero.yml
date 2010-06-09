@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.papa.zeero
+"@namespace": first.area
+"@vnum": 127
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 126
+  - {}
+
+- - 3
+  - 128
+  - {}
+

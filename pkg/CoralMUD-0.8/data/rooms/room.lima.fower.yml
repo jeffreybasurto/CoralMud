@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.lima.fower
+"@namespace": first.area
+"@vnum": 15
+"@sector": :sect_beach
+"@exit_list": 
+- - 0
+  - 16
+  - {}
+
+- - 2
+  - 14
+  - {}
+
+- - 3
+  - 22
+  - {}
+

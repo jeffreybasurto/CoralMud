@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.golf.fife
+"@namespace": first.area
+"@vnum": 168
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 29
+  - {}
+
+- - 1
+  - 158
+  - {}
+
+- - 2
+  - 173
+  - {}
+
+- - 3
+  - 169
+  - {}
+

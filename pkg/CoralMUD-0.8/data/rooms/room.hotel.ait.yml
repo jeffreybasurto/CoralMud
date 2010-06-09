@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.hotel.ait
+"@namespace": first.area
+"@vnum": 138
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 139
+  - {}
+
+- - 3
+  - 137
+  - {}
+

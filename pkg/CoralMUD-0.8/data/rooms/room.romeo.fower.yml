@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.romeo.fower
+"@namespace": first.area
+"@vnum": 10
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 9
+  - {}
+
+- - 2
+  - 74
+  - {}
+
+- - 3
+  - 11
+  - {}
+

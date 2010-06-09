@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/corundum_cdev/!svn/ver/58/lib
+END
+cities.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/corundum_cdev/!svn/ver/60/lib/cities.rb
+END
+mudobj.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/corundum_cdev/!svn/ver/64/lib/mudobj.rb
+END
+random.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/corundum_cdev/!svn/ver/61/lib/random.rb
+END
+utils.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/corundum_cdev/!svn/ver/61/lib/utils.rb
+END
+event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/corundum_cdev/!svn/ver/63/lib/event.rb
+END
+cities.automap.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/corundum_cdev/!svn/ver/46/lib/cities.automap.rb
+END
+cities.grids.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/corundum_cdev/!svn/ver/46/lib/cities.grids.rb
+END
+help.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/corundum_cdev/!svn/ver/57/lib/help.rb
+END
+editors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/corundum_cdev/!svn/ver/58/lib/editors.rb
+END
+imcruby.rb
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/corundum_cdev/!svn/ver/63/lib/imcruby.rb
+END
+cities.olc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/corundum_cdev/!svn/ver/31/lib/cities.olc.rb
+END
+player.commands.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/corundum_cdev/!svn/ver/64/lib/player.commands.rb
+END
+player.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/corundum_cdev/!svn/ver/64/lib/player.rb
+END
+constants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/corundum_cdev/!svn/ver/62/lib/constants.rb
+END

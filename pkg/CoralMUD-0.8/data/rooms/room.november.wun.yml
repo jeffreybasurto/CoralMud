@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.november.wun
+"@namespace": first.area
+"@vnum": 20
+"@sector": :sect_dock
+"@exit_list": 
+- - 1
+  - 19
+  - {}
+
+- - 3
+  - 41
+  - {}
+

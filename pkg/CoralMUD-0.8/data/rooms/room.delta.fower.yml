@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.delta.fower
+"@namespace": first.area
+"@vnum": 85
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 86
+  - {}
+
+- - 1
+  - 83
+  - {}
+
+- - 2
+  - 41
+  - {}
+
+- - 3
+  - 87
+  - {}
+

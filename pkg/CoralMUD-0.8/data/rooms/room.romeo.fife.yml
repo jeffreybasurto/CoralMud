@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.romeo.fife
+"@namespace": first.area
+"@vnum": 119
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 120
+  - {}
+
+- - 3
+  - 118
+  - {}
+

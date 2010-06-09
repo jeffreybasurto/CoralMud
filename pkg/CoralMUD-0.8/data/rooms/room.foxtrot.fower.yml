@@ -1,0 +1,11 @@
+--- 
+"@name": Default Value
+"@vtag": room.foxtrot.fower
+"@namespace": first.area
+"@vnum": 41
+"@sector": :sect_dock
+"@exit_list": 
+- - 1
+  - 20
+  - {}
+

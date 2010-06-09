@@ -1,0 +1,13 @@
+--- 
+"@name": Retnur
+"@password": plokij098
+"@level": 55
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_human
+"@traits": 
+- :trait_hearty
+- :trait_enchanted
+- :trait_fleeting
+"@sign": :sign_ram

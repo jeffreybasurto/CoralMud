@@ -1,0 +1,5 @@
+DEBUG mylog: This is a message with level DEBUG
+ INFO mylog: This is a message with level INFO
+ WARN mylog: This is a message with level WARN
+ERROR mylog: This is a message with level ERROR
+FATAL mylog: This is a message with level FATAL

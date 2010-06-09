@@ -1,0 +1,13 @@
+--- 
+"@name": Default Name
+"@vnum": 20
+"@sector": :sect_dock
+"@exit_list": 
+- - 1
+  - 19
+  - {}
+
+- - 3
+  - 41
+  - {}
+

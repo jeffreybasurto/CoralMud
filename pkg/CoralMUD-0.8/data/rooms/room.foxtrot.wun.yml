@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.foxtrot.wun
+"@namespace": first.area
+"@vnum": 25
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 14
+  - {}
+
+- - 1
+  - 11
+  - {}
+
+- - 2
+  - 26
+  - {}
+
+- - 3
+  - 24
+  - {}
+

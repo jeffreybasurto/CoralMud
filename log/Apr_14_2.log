@@ -1,0 +1,656 @@
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Loading spells.rb
+ INFO LOG: Apr_14_20: Loading all zones.
+ INFO LOG: Apr_14_20: Starting server.
+ INFO LOG: Apr_14_20: CoralMUD is now up on port 4000.
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42666 connected to CoralMUD!
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42666: Retnur is trying to connect.
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42666: Retnur player file found.
+ INFO LOG: Apr_14_20: -- Retnur has entered the game.
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: -- #<Player:0x00000001f2fca0>:99.191.82.191:42666 disconnected from CoralMUD!
+ INFO LOG: Apr_14_20: Program closed.
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Loading spells.rb
+ INFO LOG: Apr_14_20: Loading all zones.
+ INFO LOG: Apr_14_20: Starting server.
+ INFO LOG: Apr_14_20: CoralMUD is now up on port 4000.
+ INFO LOG: Apr_14_20: -- 99.191.82.191:54984 connected to CoralMUD!
+ INFO LOG: Apr_14_20: -- 99.191.82.191:54984: () Invalid name in character creation.
+ INFO LOG: Apr_14_20: -- :99.191.82.191:54984 disconnected from CoralMUD!
+ INFO LOG: Apr_14_20: Program closed.
+ INFO LOG: Apr_14_20: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_14_20: Loading facade.rb
+ INFO LOG: Apr_14_20: Loading utils.rb
+ INFO LOG: Apr_14_20: Loading constants.rb
+ INFO LOG: Apr_14_20: Loading class_property.rb
+ INFO LOG: Apr_14_20: Loading tags.rb
+ INFO LOG: Apr_14_20: Loading editor/editors.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.strings.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.exits.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.zones.rb
+ INFO LOG: Apr_14_20: Loading editor/editor.items.rb
+ INFO LOG: Apr_14_20: Loading mxp.rb
+ INFO LOG: Apr_14_20: Loading mccp.rb
+ INFO LOG: Apr_14_20: Loading flags.rb
+ INFO LOG: Apr_14_20: Loading damage.rb
+ INFO LOG: Apr_14_20: Loading areas.rb
+ INFO LOG: Apr_14_20: Loading event.rb
+ INFO LOG: Apr_14_20: Loading automap/automap.rb
+ INFO LOG: Apr_14_20: Loading cities.olc.rb
+ INFO LOG: Apr_14_20: Loading cities.rb
+ INFO LOG: Apr_14_20: Loading sector definitions.
+ INFO LOG: Apr_14_20: Loading help.rb
+ INFO LOG: Apr_14_20: Loading imcruby.rb
+ INFO LOG: Apr_14_20: Loading player.rb
+ INFO LOG: Apr_14_20: Loading player.commands.rb
+ INFO LOG: Apr_14_20: Loading random.rb
+ INFO LOG: Apr_14_20: Loading items.rb
+ INFO LOG: Apr_14_20: Loading spells.rb
+ INFO LOG: Apr_14_20: Loading all zones.
+ INFO LOG: Apr_14_20: Starting server.
+ INFO LOG: Apr_14_20: CoralMUD is now up on port 4000.
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42737 connected to CoralMUD!
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42737: Retnur is trying to connect.
+ INFO LOG: Apr_14_20: -- 99.191.82.191:42737: Retnur player file found.
+ INFO LOG: Apr_14_20: -- Retnur has entered the game.
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_20: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_21: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_22: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_14_23: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_00: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_01: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_02: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_03: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_04: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_05: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_06: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_07: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_08: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: tick!!!
+ INFO LOG: Apr_15_09: Loading player.commands.rb
+ INFO LOG: Apr_15_09: -- #<Player:0x00000000c94168>:99.191.82.191:42737 disconnected from CoralMUD!
+ INFO LOG: Apr_15_09: Program closed.

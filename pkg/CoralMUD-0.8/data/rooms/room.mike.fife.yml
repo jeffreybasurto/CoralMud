@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.mike.fife
+"@namespace": first.area
+"@vnum": 146
+"@sector": :sect_fancy
+"@exit_list": 
+- - 0
+  - 143
+  - {}
+
+- - 1
+  - 151
+  - {}
+

@@ -1,0 +1,400 @@
+ INFO LOG: May__9_13:13: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:13: Loading facade.rb
+ INFO LOG: May__9_13:13: Loading query_list.rb
+ INFO LOG: May__9_13:13: Loading utils.rb
+ INFO LOG: May__9_13:13: Loading constants.rb
+ INFO LOG: May__9_13:13: Loading damage.rb
+ INFO LOG: May__9_13:13: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:13: Loading facade.rb
+ INFO LOG: May__9_13:13: Loading query_list.rb
+ INFO LOG: May__9_13:13: Loading utils.rb
+ INFO LOG: May__9_13:13: Loading constants.rb
+ INFO LOG: May__9_13:13: Loading damage.rb
+ INFO LOG: May__9_13:13: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:13: Loading facade.rb
+ INFO LOG: May__9_13:13: Loading query_list.rb
+ INFO LOG: May__9_13:13: Loading utils.rb
+ INFO LOG: May__9_13:13: Loading constants.rb
+ INFO LOG: May__9_13:13: Loading damage.rb
+ INFO LOG: May__9_13:13: Loading class_property.rb
+ INFO LOG: May__9_13:13: Loading scripts.rb
+ INFO LOG: May__9_13:13: Loading tags.rb
+ INFO LOG: May__9_13:13: Loading editor/editors.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.strings.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.rooms.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.exits.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.zones.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.npc.rb
+ INFO LOG: May__9_13:13: Loading editor/editor.items.rb
+ INFO LOG: May__9_13:13: Loading mxp.rb
+ INFO LOG: May__9_13:13: Loading mccp.rb
+ INFO LOG: May__9_13:13: Loading flags.rb
+ INFO LOG: May__9_13:13: Loading areas.rb
+ INFO LOG: May__9_13:13: Loading event.rb
+ INFO LOG: May__9_13:13: Loading automap/automap.rb
+ INFO LOG: May__9_13:13: Loading cities.olc.rb
+ INFO LOG: May__9_13:13: Loading cities.rb
+ INFO LOG: May__9_13:13: Loading sector definitions.
+ INFO LOG: May__9_13:13: Loading help.rb
+ INFO LOG: May__9_13:13: Loading imcruby.rb
+ INFO LOG: May__9_13:13: Loading player.rb
+ INFO LOG: May__9_13:13: Loading commands.rb
+ INFO LOG: May__9_13:13: Loading random.rb
+ INFO LOG: May__9_13:13: Loading npc.rb
+ INFO LOG: May__9_13:13: Loading items.rb
+ INFO LOG: May__9_13:13: Loading spells.rb
+ INFO LOG: May__9_13:13: Loading all zones.
+ INFO LOG: May__9_13:13: Starting server.
+ INFO LOG: May__9_13:13: CoralMUD is now up on port 4000.
+ INFO LOG: May__9_13:13: -- 76.202.141.206:60909 connected to CoralMUD!
+ INFO LOG: May__9_13:13: -- 76.202.141.206:60909: Retnur is trying to connect.
+ INFO LOG: May__9_13:13: -- 76.202.141.206:60909: Retnur player file found.
+ INFO LOG: May__9_13:14: -- Retnur has entered the game.
+ INFO LOG: May__9_13:14: Loading npc.rb
+ INFO LOG: May__9_13:15: tick!!!
+ INFO LOG: May__9_13:17: tick!!!
+ INFO LOG: May__9_13:19: tick!!!
+ INFO LOG: May__9_13:21: tick!!!
+ INFO LOG: May__9_13:23: -- #<Player:0x000000018e1830>:76.202.141.206:60909 disconnected from CoralMUD!
+ INFO LOG: May__9_13:23: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:23: Loading facade.rb
+ INFO LOG: May__9_13:23: Loading query_list.rb
+ INFO LOG: May__9_13:23: Loading utils.rb
+ INFO LOG: May__9_13:23: Loading constants.rb
+ INFO LOG: May__9_13:23: Loading damage.rb
+ INFO LOG: May__9_13:23: Loading class_property.rb
+ INFO LOG: May__9_13:23: Loading scripts.rb
+ INFO LOG: May__9_13:23: Loading tags.rb
+ INFO LOG: May__9_13:23: Loading editor/editors.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.strings.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.rooms.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.exits.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.zones.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.npc.rb
+ INFO LOG: May__9_13:23: Loading editor/editor.items.rb
+ INFO LOG: May__9_13:23: Loading mxp.rb
+ INFO LOG: May__9_13:23: Loading mccp.rb
+ INFO LOG: May__9_13:23: Loading flags.rb
+ INFO LOG: May__9_13:23: Loading areas.rb
+ INFO LOG: May__9_13:23: Loading event.rb
+ INFO LOG: May__9_13:23: Loading automap/automap.rb
+ INFO LOG: May__9_13:23: Loading cities.olc.rb
+ INFO LOG: May__9_13:23: Loading cities.rb
+ INFO LOG: May__9_13:23: Loading sector definitions.
+ INFO LOG: May__9_13:23: Loading help.rb
+ INFO LOG: May__9_13:23: Loading imcruby.rb
+ INFO LOG: May__9_13:23: Loading player.rb
+ INFO LOG: May__9_13:23: Loading commands.rb
+ INFO LOG: May__9_13:23: Loading random.rb
+ INFO LOG: May__9_13:23: Loading npc.rb
+ INFO LOG: May__9_13:23: Loading items.rb
+ INFO LOG: May__9_13:23: Loading spells.rb
+ INFO LOG: May__9_13:23: Loading all zones.
+ INFO LOG: May__9_13:23: Starting server.
+ INFO LOG: May__9_13:23: CoralMUD is now up on port 4000.
+ INFO LOG: May__9_13:23: -- 76.202.141.206:42263 connected to CoralMUD!
+ INFO LOG: May__9_13:23: -- 76.202.141.206:42263: Retnur is trying to connect.
+ INFO LOG: May__9_13:23: -- 76.202.141.206:42263: Retnur player file found.
+ INFO LOG: May__9_13:23: -- Retnur has entered the game.
+ INFO LOG: May__9_13:25: tick!!!
+ INFO LOG: May__9_13:27: tick!!!
+ INFO LOG: May__9_13:29: tick!!!
+ INFO LOG: May__9_13:31: tick!!!
+ INFO LOG: May__9_13:33: tick!!!
+ INFO LOG: May__9_13:35: tick!!!
+ INFO LOG: May__9_13:37: tick!!!
+ INFO LOG: May__9_13:39: tick!!!
+ INFO LOG: May__9_13:41: tick!!!
+ INFO LOG: May__9_13:42: -- #<Player:0x00000001492720>:76.202.141.206:42263 disconnected from CoralMUD!
+ INFO LOG: May__9_13:42: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:42: Loading facade.rb
+ INFO LOG: May__9_13:42: Loading query_list.rb
+ INFO LOG: May__9_13:42: Loading utils.rb
+ INFO LOG: May__9_13:42: Loading constants.rb
+ INFO LOG: May__9_13:42: Loading damage.rb
+ INFO LOG: May__9_13:42: Loading class_property.rb
+ INFO LOG: May__9_13:42: Loading scripts.rb
+ INFO LOG: May__9_13:42: Loading tags.rb
+ INFO LOG: May__9_13:42: Loading editor/editors.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.strings.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.rooms.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.exits.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.zones.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.npc.rb
+ INFO LOG: May__9_13:42: Loading editor/editor.items.rb
+ INFO LOG: May__9_13:42: Loading mxp.rb
+ INFO LOG: May__9_13:42: Loading mccp.rb
+ INFO LOG: May__9_13:42: Loading flags.rb
+ INFO LOG: May__9_13:42: Loading areas.rb
+ INFO LOG: May__9_13:42: Loading event.rb
+ INFO LOG: May__9_13:42: Loading automap/automap.rb
+ INFO LOG: May__9_13:42: Loading cities.olc.rb
+ INFO LOG: May__9_13:42: Loading cities.rb
+ INFO LOG: May__9_13:42: Loading sector definitions.
+ INFO LOG: May__9_13:42: Loading help.rb
+ INFO LOG: May__9_13:42: Loading imcruby.rb
+ INFO LOG: May__9_13:42: Loading player.rb
+ INFO LOG: May__9_13:42: Loading commands.rb
+ INFO LOG: May__9_13:42: Loading random.rb
+ INFO LOG: May__9_13:42: Loading npc.rb
+ INFO LOG: May__9_13:42: Loading items.rb
+ INFO LOG: May__9_13:42: Loading spells.rb
+ INFO LOG: May__9_13:42: Loading all zones.
+ INFO LOG: May__9_13:42: Starting server.
+ INFO LOG: May__9_13:42: CoralMUD is now up on port 4000.
+ INFO LOG: May__9_13:42: -- 76.202.141.206:51854 connected to CoralMUD!
+ INFO LOG: May__9_13:42: -- 76.202.141.206:51854: Retnur is trying to connect.
+ INFO LOG: May__9_13:42: -- 76.202.141.206:51854: Retnur player file found.
+ INFO LOG: May__9_13:42: -- Retnur has entered the game.
+ INFO LOG: May__9_13:44: tick!!!
+ INFO LOG: May__9_13:44: -- #<Player:0x0000000107f0e8>:76.202.141.206:51854 disconnected from CoralMUD!
+ INFO LOG: May__9_13:44: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__9_13:44: Loading facade.rb
+ INFO LOG: May__9_13:44: Loading query_list.rb
+ INFO LOG: May__9_13:44: Loading utils.rb
+ INFO LOG: May__9_13:44: Loading constants.rb
+ INFO LOG: May__9_13:44: Loading damage.rb
+ INFO LOG: May__9_13:44: Loading class_property.rb
+ INFO LOG: May__9_13:44: Loading scripts.rb
+ INFO LOG: May__9_13:44: Loading tags.rb
+ INFO LOG: May__9_13:44: Loading editor/editors.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.strings.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.rooms.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.exits.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.zones.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.npc.rb
+ INFO LOG: May__9_13:44: Loading editor/editor.items.rb
+ INFO LOG: May__9_13:44: Loading mxp.rb
+ INFO LOG: May__9_13:44: Loading mccp.rb
+ INFO LOG: May__9_13:44: Loading flags.rb
+ INFO LOG: May__9_13:44: Loading areas.rb
+ INFO LOG: May__9_13:44: Loading event.rb
+ INFO LOG: May__9_13:44: Loading automap/automap.rb
+ INFO LOG: May__9_13:44: Loading cities.olc.rb
+ INFO LOG: May__9_13:44: Loading cities.rb
+ INFO LOG: May__9_13:44: Loading sector definitions.
+ INFO LOG: May__9_13:44: Loading help.rb
+ INFO LOG: May__9_13:44: Loading imcruby.rb
+ INFO LOG: May__9_13:44: Loading player.rb
+ INFO LOG: May__9_13:44: Loading commands.rb
+ INFO LOG: May__9_13:44: Loading random.rb
+ INFO LOG: May__9_13:44: Loading npc.rb
+ INFO LOG: May__9_13:44: Loading items.rb
+ INFO LOG: May__9_13:44: Loading spells.rb
+ INFO LOG: May__9_13:44: Loading all zones.
+ INFO LOG: May__9_13:44: Starting server.
+ INFO LOG: May__9_13:44: CoralMUD is now up on port 4000.
+ INFO LOG: May__9_13:44: -- 76.202.141.206:34617 connected to CoralMUD!
+ INFO LOG: May__9_13:44: -- 76.202.141.206:34617: Retnur is trying to connect.
+ INFO LOG: May__9_13:44: -- 76.202.141.206:34617: Retnur player file found.
+ INFO LOG: May__9_13:44: -- Retnur has entered the game.
+ INFO LOG: May__9_13:46: tick!!!
+ INFO LOG: May__9_13:48: tick!!!
+ INFO LOG: May__9_13:50: tick!!!
+ INFO LOG: May__9_13:52: tick!!!
+ INFO LOG: May__9_13:54: tick!!!
+ INFO LOG: May__9_13:56: tick!!!
+ INFO LOG: May__9_13:58: tick!!!
+ INFO LOG: May__9_14:00: tick!!!
+ INFO LOG: May__9_14:02: tick!!!
+ INFO LOG: May__9_14:04: tick!!!
+ INFO LOG: May__9_14:06: tick!!!
+ INFO LOG: May__9_14:08: tick!!!
+ INFO LOG: May__9_14:10: tick!!!
+ INFO LOG: May__9_14:12: tick!!!
+ INFO LOG: May__9_14:14: tick!!!
+ INFO LOG: May__9_14:16: tick!!!
+ INFO LOG: May__9_14:18: tick!!!
+ INFO LOG: May__9_14:20: tick!!!
+ INFO LOG: May__9_14:22: tick!!!
+ INFO LOG: May__9_14:24: tick!!!
+ INFO LOG: May__9_14:26: tick!!!
+ INFO LOG: May__9_14:28: tick!!!
+ INFO LOG: May__9_14:30: tick!!!
+ INFO LOG: May__9_14:32: tick!!!
+ INFO LOG: May__9_14:34: tick!!!
+ INFO LOG: May__9_14:36: tick!!!
+ INFO LOG: May__9_14:38: tick!!!
+ INFO LOG: May__9_14:40: tick!!!
+ INFO LOG: May__9_14:42: tick!!!
+ INFO LOG: May__9_14:44: tick!!!
+ INFO LOG: May__9_14:46: tick!!!
+ INFO LOG: May__9_14:48: tick!!!
+ INFO LOG: May__9_14:50: tick!!!
+ INFO LOG: May__9_14:52: tick!!!
+ INFO LOG: May__9_14:54: tick!!!
+ INFO LOG: May__9_14:56: tick!!!
+ INFO LOG: May__9_14:58: tick!!!
+ INFO LOG: May__9_15:00: tick!!!
+ INFO LOG: May__9_15:02: tick!!!
+ INFO LOG: May__9_15:04: tick!!!
+ INFO LOG: May__9_15:06: tick!!!
+ INFO LOG: May__9_15:08: tick!!!
+ INFO LOG: May__9_15:10: tick!!!
+ INFO LOG: May__9_15:12: tick!!!
+ INFO LOG: May__9_15:14: tick!!!
+ INFO LOG: May__9_15:16: tick!!!
+ INFO LOG: May__9_15:18: tick!!!
+ INFO LOG: May__9_15:20: tick!!!
+ INFO LOG: May__9_15:22: tick!!!
+ INFO LOG: May__9_15:24: tick!!!
+ INFO LOG: May__9_15:26: tick!!!
+ INFO LOG: May__9_15:28: tick!!!
+ INFO LOG: May__9_15:30: tick!!!
+ INFO LOG: May__9_15:32: tick!!!
+ INFO LOG: May__9_15:34: tick!!!
+ INFO LOG: May__9_15:36: tick!!!
+ INFO LOG: May__9_15:38: tick!!!
+ INFO LOG: May__9_15:40: tick!!!
+ INFO LOG: May__9_15:42: tick!!!
+ INFO LOG: May__9_15:44: tick!!!
+ INFO LOG: May__9_15:46: tick!!!
+ INFO LOG: May__9_15:48: tick!!!
+ INFO LOG: May__9_15:50: tick!!!
+ INFO LOG: May__9_15:52: tick!!!
+ INFO LOG: May__9_15:54: tick!!!
+ INFO LOG: May__9_15:56: tick!!!
+ INFO LOG: May__9_15:58: tick!!!
+ INFO LOG: May__9_16:00: tick!!!
+ INFO LOG: May__9_16:02: tick!!!
+ INFO LOG: May__9_16:04: tick!!!
+ INFO LOG: May__9_16:06: tick!!!
+ INFO LOG: May__9_16:08: tick!!!
+ INFO LOG: May__9_16:10: tick!!!
+ INFO LOG: May__9_16:12: tick!!!
+ INFO LOG: May__9_16:14: tick!!!
+ INFO LOG: May__9_16:16: tick!!!
+ INFO LOG: May__9_16:18: tick!!!
+ INFO LOG: May__9_16:20: tick!!!
+ INFO LOG: May__9_16:22: tick!!!
+ INFO LOG: May__9_16:24: tick!!!
+ INFO LOG: May__9_16:26: tick!!!
+ INFO LOG: May__9_16:28: tick!!!
+ INFO LOG: May__9_16:30: tick!!!
+ INFO LOG: May__9_16:32: tick!!!
+ INFO LOG: May__9_16:34: tick!!!
+ INFO LOG: May__9_16:36: tick!!!
+ INFO LOG: May__9_16:38: tick!!!
+ INFO LOG: May__9_16:40: tick!!!
+ INFO LOG: May__9_16:42: tick!!!
+ INFO LOG: May__9_16:44: tick!!!
+ INFO LOG: May__9_16:46: tick!!!
+ INFO LOG: May__9_16:48: tick!!!
+ INFO LOG: May__9_16:50: tick!!!
+ INFO LOG: May__9_16:52: tick!!!
+ INFO LOG: May__9_16:54: tick!!!
+ INFO LOG: May__9_16:56: tick!!!
+ INFO LOG: May__9_16:58: tick!!!
+ INFO LOG: May__9_17:00: tick!!!
+ INFO LOG: May__9_17:02: tick!!!
+ INFO LOG: May__9_17:04: tick!!!
+ INFO LOG: May__9_17:06: tick!!!
+ INFO LOG: May__9_17:08: tick!!!
+ INFO LOG: May__9_17:10: tick!!!
+ INFO LOG: May__9_17:12: tick!!!
+ INFO LOG: May__9_17:14: tick!!!
+ INFO LOG: May__9_17:16: tick!!!
+ INFO LOG: May__9_17:18: tick!!!
+ INFO LOG: May__9_17:20: tick!!!
+ INFO LOG: May__9_17:22: tick!!!
+ INFO LOG: May__9_17:24: tick!!!
+ INFO LOG: May__9_17:26: tick!!!
+ INFO LOG: May__9_17:28: tick!!!
+ INFO LOG: May__9_17:30: tick!!!
+ INFO LOG: May__9_17:32: tick!!!
+ INFO LOG: May__9_17:34: tick!!!
+ INFO LOG: May__9_17:36: tick!!!
+ INFO LOG: May__9_17:38: tick!!!
+ INFO LOG: May__9_17:40: tick!!!
+ INFO LOG: May__9_17:42: tick!!!
+ INFO LOG: May__9_17:44: tick!!!
+ INFO LOG: May__9_17:46: tick!!!
+ INFO LOG: May__9_17:48: tick!!!
+ INFO LOG: May__9_17:50: tick!!!
+ INFO LOG: May__9_17:52: tick!!!
+ INFO LOG: May__9_17:54: tick!!!
+ INFO LOG: May__9_17:56: tick!!!
+ INFO LOG: May__9_17:58: tick!!!
+ INFO LOG: May__9_18:00: tick!!!
+ INFO LOG: May__9_18:02: tick!!!
+ INFO LOG: May__9_18:04: tick!!!
+ INFO LOG: May__9_18:06: tick!!!
+ INFO LOG: May__9_18:08: tick!!!
+ INFO LOG: May__9_18:10: tick!!!
+ INFO LOG: May__9_18:12: tick!!!
+ INFO LOG: May__9_18:14: tick!!!
+ INFO LOG: May__9_18:16: tick!!!
+ INFO LOG: May__9_18:18: tick!!!
+ INFO LOG: May__9_18:20: tick!!!
+ INFO LOG: May__9_18:22: tick!!!
+ INFO LOG: May__9_18:24: tick!!!
+ INFO LOG: May__9_18:26: tick!!!
+ INFO LOG: May__9_18:28: tick!!!
+ INFO LOG: May__9_18:30: tick!!!
+ INFO LOG: May__9_18:32: tick!!!
+ INFO LOG: May__9_18:34: tick!!!
+ INFO LOG: May__9_18:36: tick!!!
+ INFO LOG: May__9_18:38: tick!!!
+ INFO LOG: May__9_18:40: tick!!!
+ INFO LOG: May__9_18:42: tick!!!
+ INFO LOG: May__9_18:44: tick!!!
+ INFO LOG: May__9_18:46: tick!!!
+ INFO LOG: May__9_18:48: tick!!!
+ INFO LOG: May__9_18:50: tick!!!
+ INFO LOG: May__9_18:52: tick!!!
+ INFO LOG: May__9_18:54: tick!!!
+ INFO LOG: May__9_18:56: tick!!!
+ INFO LOG: May__9_18:58: tick!!!
+ INFO LOG: May__9_19:00: tick!!!
+ INFO LOG: May__9_19:02: tick!!!
+ INFO LOG: May__9_19:04: tick!!!
+ INFO LOG: May__9_19:06: tick!!!
+ INFO LOG: May__9_19:08: tick!!!
+ INFO LOG: May__9_19:10: tick!!!
+ INFO LOG: May__9_19:12: tick!!!
+ INFO LOG: May__9_19:14: tick!!!
+ INFO LOG: May__9_19:16: tick!!!
+ INFO LOG: May__9_19:18: tick!!!
+ INFO LOG: May__9_19:20: tick!!!
+ INFO LOG: May__9_19:22: tick!!!
+ INFO LOG: May__9_19:24: tick!!!
+ INFO LOG: May__9_19:26: tick!!!
+ INFO LOG: May__9_19:28: tick!!!
+ INFO LOG: May__9_19:30: tick!!!
+ INFO LOG: May__9_19:32: tick!!!
+ INFO LOG: May__9_19:34: tick!!!
+ INFO LOG: May__9_19:36: tick!!!
+ INFO LOG: May__9_19:38: tick!!!
+ INFO LOG: May__9_19:40: tick!!!
+ INFO LOG: May__9_19:42: tick!!!
+ INFO LOG: May__9_19:44: tick!!!
+ INFO LOG: May__9_19:46: tick!!!
+ INFO LOG: May__9_19:48: tick!!!
+ INFO LOG: May__9_19:50: tick!!!
+ INFO LOG: May__9_19:52: tick!!!
+ INFO LOG: May__9_19:54: tick!!!
+ INFO LOG: May__9_19:56: tick!!!
+ INFO LOG: May__9_19:58: tick!!!
+ INFO LOG: May__9_20:00: tick!!!
+ INFO LOG: May__9_20:02: tick!!!
+ INFO LOG: May__9_20:04: tick!!!
+ INFO LOG: May__9_20:06: tick!!!
+ INFO LOG: May__9_20:08: tick!!!
+ INFO LOG: May__9_20:10: tick!!!
+ INFO LOG: May__9_20:12: tick!!!
+ INFO LOG: May__9_20:14: tick!!!
+ INFO LOG: May__9_20:16: tick!!!
+ INFO LOG: May__9_20:18: tick!!!
+ INFO LOG: May__9_20:20: tick!!!
+ INFO LOG: May__9_20:22: tick!!!
+ INFO LOG: May__9_20:24: tick!!!
+ INFO LOG: May__9_20:26: tick!!!
+ INFO LOG: May__9_20:28: tick!!!
+ INFO LOG: May__9_20:30: tick!!!
+ INFO LOG: May__9_20:32: tick!!!
+ INFO LOG: May__9_20:34: tick!!!
+ INFO LOG: May__9_20:36: tick!!!
+ INFO LOG: May__9_20:38: tick!!!
+ INFO LOG: May__9_20:38: Loading items.rb
+ INFO LOG: May__9_20:39: -- #<Player:0x000000023c7bf0>:76.202.141.206:34617 disconnected from CoralMUD!
+ INFO LOG: May__9_20:39: Program closed.

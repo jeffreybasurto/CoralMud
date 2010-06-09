@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.romeo.too
+"@namespace": first.area
+"@vnum": 124
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 116
+  - {}
+
+- - 2
+  - 125
+  - {}
+

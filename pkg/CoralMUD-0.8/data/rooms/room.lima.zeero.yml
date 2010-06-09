@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.lima.zeero
+"@namespace": first.area
+"@vnum": 165
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 164
+  - {}
+
+- - 2
+  - 162
+  - {}
+
+- - 3
+  - 163
+  - {}
+

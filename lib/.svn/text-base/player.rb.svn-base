@@ -1,0 +1,105 @@
+class Player
+  attr_accessor :pathtarget, :flags, :socket, :name, :password, :level, :command_table, :channel_flags
+  include MudObj
+  def initialize
+    # use conditional initialization
+    @command_table  ||= CommandTable.new
+    @socket       ||= nil
+    @name         ||= nil
+    @password     ||= nil
+    @level        ||= LEVEL_PLAYER
+    @flags        ||= []
+    @pathtarget      ||= nil
+    @channel_flags   ||= {}
+    mo_init
+  end
+  public :initialize   # make it public so we can call it after YAML load
+
+  def to_yaml_properties
+    ['@name', '@password', '@level', '@channel_flags']
+  end
+
+  def save_yaml
+    File.open(sprintf("players/%s.yml", @name.downcase.capitalize), "w") do |f|
+      YAML::dump self,f
+    end
+  rescue
+    log_string "Unable to write to %s's pfile", @name
+    log_string $!.to_s
+  end
+
+  #loads pfile
+  def self.load_yaml passed_name
+    dPlayer = YAML::load_file sprintf("players/%s.yml", passed_name.downcase.capitalize)
+    dPlayer.initialize
+    return dPlayer
+  rescue
+    log_string "Load_player: File open error for %s's pfile.", passed_name
+    log_string $!.to_s
+    return nil
+  end
+
+  def is_admin?
+    @level > LEVEL_PLAYER ? true : false
+  end
+
+  def text_to_player txt
+    if @socket
+      @socket.text_to_socket txt
+    end
+  end
+
+  def free_player
+    $dplayer_list.delete self
+    from_room if in_room != nil
+    free_mo
+    @socket.player = nil if @socket
+  end
+
+  # find each in line of sight and return their distance from obj_alpha and azimuth.
+  def each_los
+    sloc = self.get_location
+    self.in_room.mo_list.each do |obj|
+      next if self == obj
+      yield obj, dist_form(obj.get_location, sloc), get_azi(sloc, obj.get_location)
+    end
+
+    self.in_room.each_dir do |room, dir, dep|
+      distance = (dep-1) * 23
+      case dir
+        when "north".exit_code_to_i
+          distance += (23 - sloc[1])
+          room.mo_list.each do |obj|
+            l = obj.get_location
+            l[1] = sloc[1] + distance + l[1]
+            yield obj, dist_form(sloc, l), get_azi(sloc, l)
+          end
+        when "east".exit_code_to_i
+          distance += (23 - sloc[0])
+          room.mo_list.each do |obj|
+            l = obj.get_location
+            l[0] = sloc[0] + distance + l[0]
+            yield obj, dist_form(sloc, l), get_azi(sloc, l)
+          end
+        when "south".exit_code_to_i
+          distance += sloc[1] + 1
+          room.mo_list.each do |obj|
+            l = obj.get_location
+            l[1] = sloc[1] - distance - (23 - l[1]) + 1
+            yield obj, dist_form(sloc, l), get_azi(sloc, l)
+          end
+        when "west".exit_code_to_i
+          distance += sloc[0] + 1
+          room.mo_list.each do |obj|
+            l = obj.get_location
+            l[0] = sloc[0] - distance - (23 - l[0]) + 1
+            yield obj, dist_form(sloc, l), get_azi(sloc, l)
+          end
+      end
+    end
+    return nil
+  end
+
+end
+
+

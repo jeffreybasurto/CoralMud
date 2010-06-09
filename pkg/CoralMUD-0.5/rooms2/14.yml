@@ -1,0 +1,13 @@
+--- 
+"@name": Default Name
+"@vnum": 14
+"@sector": :sect_alley
+"@exit_list": 
+- - 0
+  - 15
+  - {}
+
+- - 1
+  - 13
+  - {}
+

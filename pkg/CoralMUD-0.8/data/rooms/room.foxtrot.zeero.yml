@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.foxtrot.zeero
+"@namespace": first.area
+"@vnum": 136
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 137
+  - {}
+
+- - 3
+  - 135
+  - {}
+

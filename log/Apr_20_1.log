@@ -1,0 +1,1101 @@
+ INFO LOG: Apr_20_11:00: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_20_11:00: Loading facade.rb
+ INFO LOG: Apr_20_11:00: Loading utils.rb
+ INFO LOG: Apr_20_11:00: Loading constants.rb
+ INFO LOG: Apr_20_11:00: Loading class_property.rb
+ INFO LOG: Apr_20_11:00: Loading tags.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editors.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.strings.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.exits.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.zones.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.npc.rb
+ INFO LOG: Apr_20_11:00: Loading editor/editor.items.rb
+ INFO LOG: Apr_20_11:00: Loading mxp.rb
+ INFO LOG: Apr_20_11:00: Loading mccp.rb
+ INFO LOG: Apr_20_11:00: Loading flags.rb
+ INFO LOG: Apr_20_11:00: Loading damage.rb
+ INFO LOG: Apr_20_11:00: Loading areas.rb
+ INFO LOG: Apr_20_11:00: Loading event.rb
+ INFO LOG: Apr_20_11:00: Loading automap/automap.rb
+ INFO LOG: Apr_20_11:00: Loading cities.olc.rb
+ INFO LOG: Apr_20_11:00: Loading cities.rb
+ INFO LOG: Apr_20_11:00: Loading sector definitions.
+ INFO LOG: Apr_20_11:00: Loading help.rb
+ INFO LOG: Apr_20_11:00: Loading imcruby.rb
+ INFO LOG: Apr_20_11:00: Loading player.rb
+ INFO LOG: Apr_20_11:00: Loading commands.rb
+ INFO LOG: Apr_20_11:00: Loading random.rb
+ INFO LOG: Apr_20_11:00: Loading npc.rb
+ INFO LOG: Apr_20_11:00: Loading items.rb
+ INFO LOG: Apr_20_11:00: Loading spells.rb
+ INFO LOG: Apr_20_11:00: Loading all zones.
+ INFO LOG: Apr_20_11:00: Starting server.
+ INFO LOG: Apr_20_11:00: CoralMUD is now up on port 4000.
+ INFO LOG: Apr_20_11:00: -- 99.191.82.191:35146 connected to CoralMUD!
+ INFO LOG: Apr_20_11:00: -- 99.191.82.191:35146: Retnur is trying to connect.
+ INFO LOG: Apr_20_11:00: -- 99.191.82.191:35146: Retnur player file found.
+ERROR LOG: undefined method `[]' for false:FalseClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:162:in `configure'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:151:in `load_from_file'
+ERROR LOG: /home/heath/coral/lib/player.rb:53:in `load_pfile'
+ERROR LOG: /home/heath/coral/core/creation.rb:79:in `block in assign_nanny'
+ERROR LOG: Apr_20_11:00: Unable to configure: data/players/Retnur.yml
+ INFO LOG: Apr_20_11:00: -- 99.191.82.191:35146:  password incorrect.
+ INFO LOG: Apr_20_11:00: -- 99.191.82.191:35146:  password incorrect.
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:35146:  password incorrect.
+ INFO LOG: Apr_20_11:01: -- : 35146 has been disconnected for 3 failed attempts for .
+ INFO LOG: Apr_20_11:01: -- #<Player:0x00000001db2940>:99.191.82.191:35146 disconnected from CoralMUD!
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:48478 connected to CoralMUD!
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:48478: Retnur is trying to connect.
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:48478: Retnur player file found.
+ERROR LOG: undefined method `[]' for false:FalseClass
+ERROR LOG: /home/heath/coral/lib/class_property.rb:162:in `configure'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:151:in `load_from_file'
+ERROR LOG: /home/heath/coral/lib/player.rb:53:in `load_pfile'
+ERROR LOG: /home/heath/coral/core/creation.rb:79:in `block in assign_nanny'
+ERROR LOG: Apr_20_11:01: Unable to configure: data/players/Retnur.yml
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:48478:  password incorrect.
+ INFO LOG: Apr_20_11:01: -- 99.191.82.191:48478:  password incorrect.
+ INFO LOG: Apr_20_11:02: tick!!!
+ INFO LOG: Apr_20_11:02: -- #<Player:0x00000001e11120>:99.191.82.191:48478 disconnected from CoralMUD!
+ INFO LOG: Apr_20_11:02: Program closed.
+ INFO LOG: Apr_20_11:04: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr_20_11:04: Loading facade.rb
+ INFO LOG: Apr_20_11:04: Loading utils.rb
+ INFO LOG: Apr_20_11:04: Loading constants.rb
+ INFO LOG: Apr_20_11:04: Loading class_property.rb
+ INFO LOG: Apr_20_11:04: Loading tags.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editors.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.strings.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.rooms.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.exits.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.zones.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.npc.rb
+ INFO LOG: Apr_20_11:04: Loading editor/editor.items.rb
+ INFO LOG: Apr_20_11:04: Loading mxp.rb
+ INFO LOG: Apr_20_11:04: Loading mccp.rb
+ INFO LOG: Apr_20_11:04: Loading flags.rb
+ INFO LOG: Apr_20_11:04: Loading damage.rb
+ INFO LOG: Apr_20_11:04: Loading areas.rb
+ INFO LOG: Apr_20_11:04: Loading event.rb
+ INFO LOG: Apr_20_11:04: Loading automap/automap.rb
+ INFO LOG: Apr_20_11:04: Loading cities.olc.rb
+ INFO LOG: Apr_20_11:04: Loading cities.rb
+ INFO LOG: Apr_20_11:04: Loading sector definitions.
+ INFO LOG: Apr_20_11:04: Loading help.rb
+ INFO LOG: Apr_20_11:04: Loading imcruby.rb
+ INFO LOG: Apr_20_11:04: Loading player.rb
+ INFO LOG: Apr_20_11:04: Loading commands.rb
+ INFO LOG: Apr_20_11:04: Loading random.rb
+ INFO LOG: Apr_20_11:04: Loading npc.rb
+ INFO LOG: Apr_20_11:04: Loading items.rb
+ INFO LOG: Apr_20_11:04: Loading spells.rb
+ INFO LOG: Apr_20_11:04: Loading all zones.
+ INFO LOG: Apr_20_11:04: Starting server.
+ INFO LOG: Apr_20_11:04: CoralMUD is now up on port 4000.
+ INFO LOG: Apr_20_11:04: -- 99.191.82.191:47561 connected to CoralMUD!
+ INFO LOG: Apr_20_11:04: -- 99.191.82.191:47561: Retnur is trying to connect.
+ INFO LOG: Apr_20_11:04: -- 99.191.82.191:47561: Retnur:  New Character.
+ INFO LOG: Apr_20_11:05: -- 99.191.82.191:47561: Retnur successfully created.
+ INFO LOG: Apr_20_11:05: -- Retnur has entered the game.
+ INFO LOG: Apr_20_11:06: tick!!!
+ INFO LOG: Apr_20_11:07: Retnur has left the game.
+ INFO LOG: Apr_20_11:07: -- :99.191.82.191:47561 disconnected from CoralMUD!
+ INFO LOG: Apr_20_11:07: -- 99.191.82.191:36450 connected to CoralMUD!
+ INFO LOG: Apr_20_11:07: -- 99.191.82.191:36450: Retnur is trying to connect.
+ INFO LOG: Apr_20_11:07: -- 99.191.82.191:36450: Retnur player file found.
+ INFO LOG: Apr_20_11:07: -- Retnur has entered the game.
+ INFO LOG: Apr_20_11:08: tick!!!
+ INFO LOG: Apr_20_11:10: tick!!!
+ INFO LOG: Apr_20_11:12: tick!!!
+ INFO LOG: Apr_20_11:14: tick!!!
+ INFO LOG: Apr_20_11:16: tick!!!
+ INFO LOG: Apr_20_11:18: tick!!!
+ INFO LOG: Apr_20_11:20: tick!!!
+ INFO LOG: Apr_20_11:22: tick!!!
+ INFO LOG: Apr_20_11:24: tick!!!
+ INFO LOG: Apr_20_11:26: tick!!!
+ INFO LOG: Apr_20_11:28: tick!!!
+ INFO LOG: Apr_20_11:30: tick!!!
+ INFO LOG: Apr_20_11:32: tick!!!
+ INFO LOG: Apr_20_11:34: tick!!!
+ INFO LOG: Apr_20_11:36: tick!!!
+ INFO LOG: Apr_20_11:38: tick!!!
+ INFO LOG: Apr_20_11:40: tick!!!
+ INFO LOG: Apr_20_11:42: tick!!!
+ INFO LOG: Apr_20_11:44: tick!!!
+ INFO LOG: Apr_20_11:46: tick!!!
+ INFO LOG: Apr_20_11:48: tick!!!
+ INFO LOG: Apr_20_11:50: tick!!!
+ INFO LOG: Apr_20_11:52: tick!!!
+ INFO LOG: Apr_20_11:54: tick!!!
+ INFO LOG: Apr_20_11:56: tick!!!
+ INFO LOG: Apr_20_11:58: tick!!!
+ INFO LOG: Apr_20_12:00: tick!!!
+ INFO LOG: Apr_20_12:02: tick!!!
+ INFO LOG: Apr_20_12:04: tick!!!
+ INFO LOG: Apr_20_12:06: tick!!!
+ INFO LOG: Apr_20_12:08: tick!!!
+ INFO LOG: Apr_20_12:10: tick!!!
+ INFO LOG: Apr_20_12:12: tick!!!
+ INFO LOG: Apr_20_12:14: tick!!!
+ INFO LOG: Apr_20_12:16: tick!!!
+ INFO LOG: Apr_20_12:18: tick!!!
+ INFO LOG: Apr_20_12:20: tick!!!
+ INFO LOG: Apr_20_12:22: tick!!!
+ INFO LOG: Apr_20_12:24: tick!!!
+ INFO LOG: Apr_20_12:26: tick!!!
+ INFO LOG: Apr_20_12:28: tick!!!
+ INFO LOG: Apr_20_12:30: tick!!!
+ INFO LOG: Apr_20_12:32: tick!!!
+ INFO LOG: Apr_20_12:34: tick!!!
+ INFO LOG: Apr_20_12:36: tick!!!
+ INFO LOG: Apr_20_12:38: tick!!!
+ INFO LOG: Apr_20_12:40: tick!!!
+ INFO LOG: Apr_20_12:42: tick!!!
+ INFO LOG: Apr_20_12:44: tick!!!
+ INFO LOG: Apr_20_12:46: tick!!!
+ INFO LOG: Apr_20_12:48: tick!!!
+ INFO LOG: Apr_20_12:50: tick!!!
+ INFO LOG: Apr_20_12:52: tick!!!
+ INFO LOG: Apr_20_12:54: tick!!!
+ INFO LOG: Apr_20_12:56: tick!!!
+ INFO LOG: Apr_20_12:58: tick!!!
+ INFO LOG: Apr_20_13:00: tick!!!
+ INFO LOG: Apr_20_13:02: tick!!!
+ INFO LOG: Apr_20_13:04: tick!!!
+ INFO LOG: Apr_20_13:06: tick!!!
+ INFO LOG: Apr_20_13:08: tick!!!
+ INFO LOG: Apr_20_13:10: tick!!!
+ INFO LOG: Apr_20_13:12: tick!!!
+ INFO LOG: Apr_20_13:14: tick!!!
+ INFO LOG: Apr_20_13:16: tick!!!
+ INFO LOG: Apr_20_13:18: tick!!!
+ INFO LOG: Apr_20_13:20: tick!!!
+ INFO LOG: Apr_20_13:22: tick!!!
+ INFO LOG: Apr_20_13:24: tick!!!
+ INFO LOG: Apr_20_13:26: tick!!!
+ INFO LOG: Apr_20_13:28: tick!!!
+ INFO LOG: Apr_20_13:30: tick!!!
+ INFO LOG: Apr_20_13:32: tick!!!
+ INFO LOG: Apr_20_13:34: tick!!!
+ INFO LOG: Apr_20_13:36: tick!!!
+ INFO LOG: Apr_20_13:38: tick!!!
+ INFO LOG: Apr_20_13:40: tick!!!
+ INFO LOG: Apr_20_13:42: tick!!!
+ INFO LOG: Apr_20_13:44: tick!!!
+ INFO LOG: Apr_20_13:46: tick!!!
+ INFO LOG: Apr_20_13:48: tick!!!
+ INFO LOG: Apr_20_13:50: tick!!!
+ INFO LOG: Apr_20_13:52: tick!!!
+ INFO LOG: Apr_20_13:54: tick!!!
+ INFO LOG: Apr_20_13:56: tick!!!
+ INFO LOG: Apr_20_13:58: tick!!!
+ INFO LOG: Apr_20_14:00: tick!!!
+ INFO LOG: Apr_20_14:02: tick!!!
+ INFO LOG: Apr_20_14:04: tick!!!
+ INFO LOG: Apr_20_14:06: tick!!!
+ INFO LOG: Apr_20_14:08: tick!!!
+ INFO LOG: Apr_20_14:10: tick!!!
+ INFO LOG: Apr_20_14:12: tick!!!
+ INFO LOG: Apr_20_14:14: tick!!!
+ INFO LOG: Apr_20_14:16: tick!!!
+ INFO LOG: Apr_20_14:18: tick!!!
+ INFO LOG: Apr_20_14:20: tick!!!
+ INFO LOG: Apr_20_14:22: tick!!!
+ INFO LOG: Apr_20_14:24: tick!!!
+ INFO LOG: Apr_20_14:26: tick!!!
+ INFO LOG: Apr_20_14:28: tick!!!
+ INFO LOG: Apr_20_14:30: tick!!!
+ INFO LOG: Apr_20_14:32: tick!!!
+ INFO LOG: Apr_20_14:34: tick!!!
+ INFO LOG: Apr_20_14:36: tick!!!
+ INFO LOG: Apr_20_14:38: tick!!!
+ INFO LOG: Apr_20_14:40: tick!!!
+ INFO LOG: Apr_20_14:42: tick!!!
+ INFO LOG: Apr_20_14:44: tick!!!
+ INFO LOG: Apr_20_14:46: tick!!!
+ INFO LOG: Apr_20_14:48: tick!!!
+ INFO LOG: Apr_20_14:50: tick!!!
+ INFO LOG: Apr_20_14:52: tick!!!
+ INFO LOG: Apr_20_14:54: tick!!!
+ INFO LOG: Apr_20_14:56: tick!!!
+ INFO LOG: Apr_20_14:58: tick!!!
+ INFO LOG: Apr_20_15:00: tick!!!
+ INFO LOG: Apr_20_15:02: tick!!!
+ INFO LOG: Apr_20_15:04: tick!!!
+ INFO LOG: Apr_20_15:06: tick!!!
+ INFO LOG: Apr_20_15:08: tick!!!
+ INFO LOG: Apr_20_15:10: tick!!!
+ INFO LOG: Apr_20_15:12: tick!!!
+ INFO LOG: Apr_20_15:14: tick!!!
+ INFO LOG: Apr_20_15:16: tick!!!
+ INFO LOG: Apr_20_15:18: tick!!!
+ INFO LOG: Apr_20_15:20: tick!!!
+ INFO LOG: Apr_20_15:22: tick!!!
+ INFO LOG: Apr_20_15:24: tick!!!
+ INFO LOG: Apr_20_15:26: tick!!!
+ INFO LOG: Apr_20_15:28: tick!!!
+ INFO LOG: Apr_20_15:30: tick!!!
+ INFO LOG: Apr_20_15:32: tick!!!
+ INFO LOG: Apr_20_15:34: tick!!!
+ INFO LOG: Apr_20_15:36: tick!!!
+ INFO LOG: Apr_20_15:38: tick!!!
+ INFO LOG: Apr_20_15:40: tick!!!
+ INFO LOG: Apr_20_15:42: tick!!!
+ INFO LOG: Apr_20_15:44: tick!!!
+ INFO LOG: Apr_20_15:46: tick!!!
+ INFO LOG: Apr_20_15:48: tick!!!
+ INFO LOG: Apr_20_15:50: tick!!!
+ INFO LOG: Apr_20_15:52: tick!!!
+ INFO LOG: Apr_20_15:54: tick!!!
+ INFO LOG: Apr_20_15:56: tick!!!
+ INFO LOG: Apr_20_15:58: tick!!!
+ INFO LOG: Apr_20_16:00: tick!!!
+ INFO LOG: Apr_20_16:02: tick!!!
+ INFO LOG: Apr_20_16:04: tick!!!
+ INFO LOG: Apr_20_16:06: tick!!!
+ INFO LOG: Apr_20_16:08: tick!!!
+ INFO LOG: Apr_20_16:10: tick!!!
+ INFO LOG: Apr_20_16:12: tick!!!
+ INFO LOG: Apr_20_16:14: tick!!!
+ INFO LOG: Apr_20_16:16: tick!!!
+ INFO LOG: Apr_20_16:18: tick!!!
+ INFO LOG: Apr_20_16:20: tick!!!
+ INFO LOG: Apr_20_16:22: tick!!!
+ INFO LOG: Apr_20_16:24: tick!!!
+ INFO LOG: Apr_20_16:26: tick!!!
+ INFO LOG: Apr_20_16:28: tick!!!
+ INFO LOG: Apr_20_16:30: tick!!!
+ INFO LOG: Apr_20_16:32: tick!!!
+ INFO LOG: Apr_20_16:34: -- 71.163.130.32:49911 connected to CoralMUD!
+ INFO LOG: Apr_20_16:34: -- 71.163.130.32:49911: Tourun is trying to connect.
+ INFO LOG: Apr_20_16:34: -- 71.163.130.32:49911: Tourun player file found.
+ INFO LOG: Apr_20_16:34: -- Tourun has entered the game.
+ INFO LOG: Apr_20_16:34: tick!!!
+ INFO LOG: Apr_20_16:36: tick!!!
+ INFO LOG: Apr_20_16:38: tick!!!
+ INFO LOG: Apr_20_16:40: tick!!!
+ INFO LOG: Apr_20_16:41: Retnur has left the game.
+ INFO LOG: Apr_20_16:41: -- :99.191.82.191:36450 disconnected from CoralMUD!
+ INFO LOG: Apr_20_16:41: -- 99.191.82.191:38370 connected to CoralMUD!
+ INFO LOG: Apr_20_16:41: -- 99.191.82.191:38370: Retnur is trying to connect.
+ INFO LOG: Apr_20_16:41: -- 99.191.82.191:38370: Retnur player file found.
+ INFO LOG: Apr_20_16:42: -- Retnur has entered the game.
+ INFO LOG: Apr_20_16:42: tick!!!
+ INFO LOG: Apr_20_16:44: tick!!!
+ INFO LOG: Apr_20_16:46: tick!!!
+ INFO LOG: Apr_20_16:48: tick!!!
+ INFO LOG: Apr_20_16:49: Tourun has left the game.
+ INFO LOG: Apr_20_16:49: -- :71.163.130.32:49911 disconnected from CoralMUD!
+ INFO LOG: Apr_20_16:50: -- 71.163.130.32:49923 connected to CoralMUD!
+ INFO LOG: Apr_20_16:50: -- 71.163.130.32:49923: Tourun is trying to connect.
+ INFO LOG: Apr_20_16:50: -- 71.163.130.32:49923: Tourun player file found.
+ INFO LOG: Apr_20_16:50: -- Tourun has entered the game.
+ INFO LOG: Apr_20_16:50: tick!!!
+ INFO LOG: Apr_20_16:52: tick!!!
+ INFO LOG: Apr_20_16:54: tick!!!
+ INFO LOG: Apr_20_16:56: tick!!!
+ INFO LOG: Apr_20_16:58: tick!!!
+ INFO LOG: Apr_20_17:00: tick!!!
+ INFO LOG: Apr_20_17:02: tick!!!
+ INFO LOG: Apr_20_17:04: tick!!!
+ INFO LOG: Apr_20_17:06: tick!!!
+ INFO LOG: Apr_20_17:08: tick!!!
+ INFO LOG: Apr_20_17:10: tick!!!
+ INFO LOG: Apr_20_17:12: tick!!!
+ INFO LOG: Apr_20_17:14: tick!!!
+ INFO LOG: Apr_20_17:16: tick!!!
+ INFO LOG: Apr_20_17:18: tick!!!
+ INFO LOG: Apr_20_17:20: tick!!!
+ INFO LOG: Apr_20_17:22: tick!!!
+ INFO LOG: Apr_20_17:23: Loading commands.rb
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ INFO LOG: Apr_20_17:24: tick!!!
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ERROR LOG: undefined local variable or method `poopitypoop' for #<Player:0x00000002e49fd8>
+ERROR LOG: /home/heath/coral/lib/commands/test.rb:5:in `cmd_test'
+ERROR LOG: /home/heath/coral/lib/commands.rb:224:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:160:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:162:in `<main>'
+ INFO LOG: Apr_20_17:26: tick!!!
+ INFO LOG: Apr_20_17:28: tick!!!
+ INFO LOG: Apr_20_17:30: tick!!!
+ INFO LOG: Apr_20_17:32: tick!!!
+ INFO LOG: Apr_20_17:34: tick!!!
+ INFO LOG: Apr_20_17:36: tick!!!
+ INFO LOG: Apr_20_17:38: tick!!!
+ INFO LOG: Apr_20_17:40: tick!!!
+ INFO LOG: Apr_20_17:42: tick!!!
+ INFO LOG: Apr_20_17:44: tick!!!
+ INFO LOG: Apr_20_17:47: tick!!!
+ INFO LOG: Apr_20_17:49: tick!!!
+ INFO LOG: Apr_20_17:51: tick!!!
+ INFO LOG: Apr_20_17:53: tick!!!
+ INFO LOG: Apr_20_17:55: tick!!!
+ INFO LOG: Apr_20_17:57: tick!!!
+ INFO LOG: Apr_20_17:59: tick!!!
+ INFO LOG: Apr_20_18:01: tick!!!
+ INFO LOG: Apr_20_18:03: tick!!!
+ INFO LOG: Apr_20_18:05: tick!!!
+ INFO LOG: Apr_20_18:07: tick!!!
+ INFO LOG: Apr_20_18:09: tick!!!
+ INFO LOG: Apr_20_18:11: tick!!!
+ INFO LOG: Apr_20_18:13: tick!!!
+ INFO LOG: Apr_20_18:15: tick!!!
+ INFO LOG: Apr_20_18:17: tick!!!
+ INFO LOG: Apr_20_18:19: tick!!!
+ INFO LOG: Apr_20_18:21: tick!!!
+ INFO LOG: Apr_20_18:23: tick!!!
+ INFO LOG: Apr_20_18:25: tick!!!
+ INFO LOG: Apr_20_18:27: tick!!!
+ INFO LOG: Apr_20_18:29: tick!!!
+ INFO LOG: Apr_20_18:31: tick!!!
+ INFO LOG: Apr_20_18:33: tick!!!
+ INFO LOG: Apr_20_18:35: tick!!!
+ INFO LOG: Apr_20_18:37: tick!!!
+ INFO LOG: Apr_20_18:39: tick!!!
+ INFO LOG: Apr_20_18:41: tick!!!
+ INFO LOG: Apr_20_18:43: tick!!!
+ INFO LOG: Apr_20_18:45: tick!!!
+ INFO LOG: Apr_20_18:47: tick!!!
+ INFO LOG: Apr_20_18:49: tick!!!
+ INFO LOG: Apr_20_18:51: tick!!!
+ INFO LOG: Apr_20_18:53: tick!!!
+ INFO LOG: Apr_20_18:55: tick!!!
+ INFO LOG: Apr_20_18:57: tick!!!
+ INFO LOG: Apr_20_18:59: tick!!!
+ INFO LOG: Apr_20_19:01: tick!!!
+ INFO LOG: Apr_20_19:03: tick!!!
+ INFO LOG: Apr_20_19:05: tick!!!
+ INFO LOG: Apr_20_19:07: tick!!!
+ INFO LOG: Apr_20_19:09: tick!!!
+ INFO LOG: Apr_20_19:11: tick!!!
+ INFO LOG: Apr_20_19:13: tick!!!
+ INFO LOG: Apr_20_19:15: tick!!!
+ INFO LOG: Apr_20_19:17: tick!!!
+ INFO LOG: Apr_20_19:19: tick!!!
+ INFO LOG: Apr_20_19:21: tick!!!
+ INFO LOG: Apr_20_19:23: tick!!!
+ INFO LOG: Apr_20_19:25: tick!!!
+ INFO LOG: Apr_20_19:26: -- 98.157.144.34:55665 connected to CoralMUD!
+ INFO LOG: Apr_20_19:26: -- 98.157.144.34:55665: Tphegley is trying to connect.
+ INFO LOG: Apr_20_19:26: -- 98.157.144.34:55665: Tphegley player file found.
+ INFO LOG: Apr_20_19:26: -- Tphegley has entered the game.
+ INFO LOG: Apr_20_19:27: tick!!!
+ INFO LOG: Apr_20_19:29: tick!!!
+ INFO LOG: Apr_20_19:30: Tphegley has left the game.
+ INFO LOG: Apr_20_19:30: -- :98.157.144.34:55665 disconnected from CoralMUD!
+ INFO LOG: Apr_20_19:31: tick!!!
+ INFO LOG: Apr_20_19:33: tick!!!
+ INFO LOG: Apr_20_19:35: tick!!!
+ INFO LOG: Apr_20_19:37: tick!!!
+ INFO LOG: Apr_20_19:39: tick!!!
+ INFO LOG: Apr_20_19:41: tick!!!
+ INFO LOG: Apr_20_19:43: tick!!!
+ INFO LOG: Apr_20_19:45: tick!!!
+ INFO LOG: Apr_20_19:47: tick!!!
+ INFO LOG: Apr_20_19:49: tick!!!
+ INFO LOG: Apr_20_19:51: tick!!!
+ INFO LOG: Apr_20_19:53: tick!!!
+ INFO LOG: Apr_20_19:55: tick!!!
+ INFO LOG: Apr_20_19:57: tick!!!
+ INFO LOG: Apr_20_19:59: tick!!!
+ INFO LOG: Apr_20_20:01: tick!!!
+ INFO LOG: Apr_20_20:03: tick!!!
+ INFO LOG: Apr_20_20:05: tick!!!
+ INFO LOG: Apr_20_20:07: tick!!!
+ INFO LOG: Apr_20_20:09: tick!!!
+ INFO LOG: Apr_20_20:11: tick!!!
+ INFO LOG: Apr_20_20:11: -- #<Player:0x00000002e49fd8>:71.163.130.32:49923 disconnected from CoralMUD!
+ INFO LOG: Apr_20_20:13: tick!!!
+ INFO LOG: Apr_20_20:15: tick!!!
+ INFO LOG: Apr_20_20:17: tick!!!
+ INFO LOG: Apr_20_20:19: tick!!!
+ INFO LOG: Apr_20_20:21: tick!!!
+ INFO LOG: Apr_20_20:23: tick!!!
+ INFO LOG: Apr_20_20:25: tick!!!
+ INFO LOG: Apr_20_20:27: tick!!!
+ INFO LOG: Apr_20_20:29: tick!!!
+ INFO LOG: Apr_20_20:31: tick!!!
+ INFO LOG: Apr_20_20:33: tick!!!
+ INFO LOG: Apr_20_20:35: tick!!!
+ INFO LOG: Apr_20_20:37: tick!!!
+ INFO LOG: Apr_20_20:39: tick!!!
+ INFO LOG: Apr_20_20:41: tick!!!
+ INFO LOG: Apr_20_20:43: tick!!!
+ INFO LOG: Apr_20_20:45: tick!!!
+ INFO LOG: Apr_20_20:47: tick!!!
+ INFO LOG: Apr_20_20:49: tick!!!
+ INFO LOG: Apr_20_20:51: tick!!!
+ INFO LOG: Apr_20_20:53: tick!!!
+ INFO LOG: Apr_20_20:55: tick!!!
+ INFO LOG: Apr_20_20:57: tick!!!
+ INFO LOG: Apr_20_20:59: tick!!!
+ INFO LOG: Apr_20_21:01: tick!!!
+ INFO LOG: Apr_20_21:03: tick!!!
+ INFO LOG: Apr_20_21:05: tick!!!
+ INFO LOG: Apr_20_21:07: tick!!!
+ INFO LOG: Apr_20_21:09: tick!!!
+ INFO LOG: Apr_20_21:11: tick!!!
+ INFO LOG: Apr_20_21:13: tick!!!
+ INFO LOG: Apr_20_21:15: tick!!!
+ INFO LOG: Apr_20_21:17: tick!!!
+ INFO LOG: Apr_20_21:19: tick!!!
+ INFO LOG: Apr_20_21:21: tick!!!
+ INFO LOG: Apr_20_21:23: tick!!!
+ INFO LOG: Apr_20_21:25: tick!!!
+ INFO LOG: Apr_20_21:27: tick!!!
+ INFO LOG: Apr_20_21:29: tick!!!
+ INFO LOG: Apr_20_21:31: tick!!!
+ INFO LOG: Apr_20_21:33: tick!!!
+ INFO LOG: Apr_20_21:35: tick!!!
+ INFO LOG: Apr_20_21:37: tick!!!
+ INFO LOG: Apr_20_21:39: tick!!!
+ INFO LOG: Apr_20_21:41: tick!!!
+ INFO LOG: Apr_20_21:43: tick!!!
+ INFO LOG: Apr_20_21:45: tick!!!
+ INFO LOG: Apr_20_21:47: tick!!!
+ INFO LOG: Apr_20_21:49: tick!!!
+ INFO LOG: Apr_20_21:51: tick!!!
+ INFO LOG: Apr_20_21:53: tick!!!
+ INFO LOG: Apr_20_21:55: tick!!!
+ INFO LOG: Apr_20_21:57: tick!!!
+ INFO LOG: Apr_20_21:59: tick!!!
+ INFO LOG: Apr_20_22:01: tick!!!
+ INFO LOG: Apr_20_22:03: tick!!!
+ INFO LOG: Apr_20_22:05: tick!!!
+ INFO LOG: Apr_20_22:07: tick!!!
+ INFO LOG: Apr_20_22:09: tick!!!
+ INFO LOG: Apr_20_22:11: tick!!!
+ INFO LOG: Apr_20_22:13: tick!!!
+ INFO LOG: Apr_20_22:15: tick!!!
+ INFO LOG: Apr_20_22:17: tick!!!
+ INFO LOG: Apr_20_22:19: tick!!!
+ INFO LOG: Apr_20_22:21: tick!!!
+ INFO LOG: Apr_20_22:23: tick!!!
+ INFO LOG: Apr_20_22:25: tick!!!
+ INFO LOG: Apr_20_22:27: tick!!!
+ INFO LOG: Apr_20_22:29: tick!!!
+ INFO LOG: Apr_20_22:31: tick!!!
+ INFO LOG: Apr_20_22:33: tick!!!
+ INFO LOG: Apr_20_22:35: tick!!!
+ INFO LOG: Apr_20_22:37: tick!!!
+ INFO LOG: Apr_20_22:39: tick!!!
+ INFO LOG: Apr_20_22:41: tick!!!
+ INFO LOG: Apr_20_22:43: tick!!!
+ INFO LOG: Apr_20_22:45: tick!!!
+ INFO LOG: Apr_20_22:47: tick!!!
+ INFO LOG: Apr_20_22:49: tick!!!
+ INFO LOG: Apr_20_22:51: tick!!!
+ INFO LOG: Apr_20_22:53: tick!!!
+ INFO LOG: Apr_20_22:55: tick!!!
+ INFO LOG: Apr_20_22:57: tick!!!
+ INFO LOG: Apr_20_22:59: tick!!!
+ INFO LOG: Apr_20_23:01: tick!!!
+ INFO LOG: Apr_20_23:03: tick!!!
+ INFO LOG: Apr_20_23:05: tick!!!
+ INFO LOG: Apr_20_23:07: tick!!!
+ INFO LOG: Apr_20_23:09: tick!!!
+ INFO LOG: Apr_20_23:11: tick!!!
+ INFO LOG: Apr_20_23:12: -- #<Player:0x00000002e42d28>:99.191.82.191:38370 disconnected from CoralMUD!
+ INFO LOG: Apr_20_23:13: tick!!!
+ INFO LOG: Apr_20_23:15: tick!!!
+ INFO LOG: Apr_20_23:17: tick!!!
+ INFO LOG: Apr_20_23:19: tick!!!
+ INFO LOG: Apr_20_23:21: tick!!!
+ INFO LOG: Apr_20_23:23: tick!!!
+ INFO LOG: Apr_20_23:25: tick!!!
+ INFO LOG: Apr_20_23:27: tick!!!
+ INFO LOG: Apr_20_23:29: tick!!!
+ INFO LOG: Apr_20_23:31: tick!!!
+ INFO LOG: Apr_20_23:33: tick!!!
+ INFO LOG: Apr_20_23:35: tick!!!
+ INFO LOG: Apr_20_23:37: tick!!!
+ INFO LOG: Apr_20_23:39: tick!!!
+ INFO LOG: Apr_20_23:41: tick!!!
+ INFO LOG: Apr_20_23:43: tick!!!
+ INFO LOG: Apr_20_23:45: tick!!!
+ INFO LOG: Apr_20_23:47: tick!!!
+ INFO LOG: Apr_20_23:49: tick!!!
+ INFO LOG: Apr_20_23:51: tick!!!
+ INFO LOG: Apr_20_23:53: tick!!!
+ INFO LOG: Apr_20_23:55: tick!!!
+ INFO LOG: Apr_20_23:57: tick!!!
+ INFO LOG: Apr_20_23:59: tick!!!
+ INFO LOG: Apr_21_00:01: tick!!!
+ INFO LOG: Apr_21_00:03: tick!!!
+ INFO LOG: Apr_21_00:05: tick!!!
+ INFO LOG: Apr_21_00:07: tick!!!
+ INFO LOG: Apr_21_00:09: tick!!!
+ INFO LOG: Apr_21_00:11: tick!!!
+ INFO LOG: Apr_21_00:13: tick!!!
+ INFO LOG: Apr_21_00:15: tick!!!
+ INFO LOG: Apr_21_00:17: tick!!!
+ INFO LOG: Apr_21_00:19: tick!!!
+ INFO LOG: Apr_21_00:21: tick!!!
+ INFO LOG: Apr_21_00:23: tick!!!
+ INFO LOG: Apr_21_00:25: tick!!!
+ INFO LOG: Apr_21_00:27: tick!!!
+ INFO LOG: Apr_21_00:29: tick!!!
+ INFO LOG: Apr_21_00:31: tick!!!
+ INFO LOG: Apr_21_00:33: tick!!!
+ INFO LOG: Apr_21_00:35: tick!!!
+ INFO LOG: Apr_21_00:37: tick!!!
+ INFO LOG: Apr_21_00:39: tick!!!
+ INFO LOG: Apr_21_00:41: tick!!!
+ INFO LOG: Apr_21_00:43: tick!!!
+ INFO LOG: Apr_21_00:45: tick!!!
+ INFO LOG: Apr_21_00:47: tick!!!
+ INFO LOG: Apr_21_00:49: tick!!!
+ INFO LOG: Apr_21_00:51: tick!!!
+ INFO LOG: Apr_21_00:53: tick!!!
+ INFO LOG: Apr_21_00:55: tick!!!
+ INFO LOG: Apr_21_00:57: tick!!!
+ INFO LOG: Apr_21_00:59: tick!!!
+ INFO LOG: Apr_21_01:01: tick!!!
+ INFO LOG: Apr_21_01:03: tick!!!
+ INFO LOG: Apr_21_01:05: tick!!!
+ INFO LOG: Apr_21_01:07: tick!!!
+ INFO LOG: Apr_21_01:09: tick!!!
+ INFO LOG: Apr_21_01:11: tick!!!
+ INFO LOG: Apr_21_01:13: tick!!!
+ INFO LOG: Apr_21_01:15: tick!!!
+ INFO LOG: Apr_21_01:17: tick!!!
+ INFO LOG: Apr_21_01:19: tick!!!
+ INFO LOG: Apr_21_01:21: tick!!!
+ INFO LOG: Apr_21_01:23: tick!!!
+ INFO LOG: Apr_21_01:25: tick!!!
+ INFO LOG: Apr_21_01:27: tick!!!
+ INFO LOG: Apr_21_01:29: tick!!!
+ INFO LOG: Apr_21_01:31: tick!!!
+ INFO LOG: Apr_21_01:33: tick!!!
+ INFO LOG: Apr_21_01:35: tick!!!
+ INFO LOG: Apr_21_01:37: tick!!!
+ INFO LOG: Apr_21_01:39: tick!!!
+ INFO LOG: Apr_21_01:41: tick!!!
+ INFO LOG: Apr_21_01:43: tick!!!
+ INFO LOG: Apr_21_01:45: tick!!!
+ INFO LOG: Apr_21_01:47: tick!!!
+ INFO LOG: Apr_21_01:49: tick!!!
+ INFO LOG: Apr_21_01:51: tick!!!
+ INFO LOG: Apr_21_01:53: tick!!!
+ INFO LOG: Apr_21_01:55: tick!!!
+ INFO LOG: Apr_21_01:57: tick!!!
+ INFO LOG: Apr_21_01:59: tick!!!
+ INFO LOG: Apr_21_02:01: tick!!!
+ INFO LOG: Apr_21_02:03: tick!!!
+ INFO LOG: Apr_21_02:05: tick!!!
+ INFO LOG: Apr_21_02:07: tick!!!
+ INFO LOG: Apr_21_02:09: tick!!!
+ INFO LOG: Apr_21_02:11: tick!!!
+ INFO LOG: Apr_21_02:13: tick!!!
+ INFO LOG: Apr_21_02:15: tick!!!
+ INFO LOG: Apr_21_02:17: tick!!!
+ INFO LOG: Apr_21_02:19: tick!!!
+ INFO LOG: Apr_21_02:21: tick!!!
+ INFO LOG: Apr_21_02:23: tick!!!
+ INFO LOG: Apr_21_02:25: tick!!!
+ INFO LOG: Apr_21_02:27: tick!!!
+ INFO LOG: Apr_21_02:29: tick!!!
+ INFO LOG: Apr_21_02:31: tick!!!
+ INFO LOG: Apr_21_02:33: tick!!!
+ INFO LOG: Apr_21_02:35: tick!!!
+ INFO LOG: Apr_21_02:37: tick!!!
+ INFO LOG: Apr_21_02:39: tick!!!
+ INFO LOG: Apr_21_02:41: tick!!!
+ INFO LOG: Apr_21_02:43: tick!!!
+ INFO LOG: Apr_21_02:45: tick!!!
+ INFO LOG: Apr_21_02:47: tick!!!
+ INFO LOG: Apr_21_02:49: tick!!!
+ INFO LOG: Apr_21_02:51: tick!!!
+ INFO LOG: Apr_21_02:53: tick!!!
+ INFO LOG: Apr_21_02:55: tick!!!
+ INFO LOG: Apr_21_02:57: tick!!!
+ INFO LOG: Apr_21_02:59: tick!!!
+ INFO LOG: Apr_21_03:01: tick!!!
+ INFO LOG: Apr_21_03:03: tick!!!
+ INFO LOG: Apr_21_03:05: tick!!!
+ INFO LOG: Apr_21_03:07: tick!!!
+ INFO LOG: Apr_21_03:09: tick!!!
+ INFO LOG: Apr_21_03:11: tick!!!
+ INFO LOG: Apr_21_03:13: tick!!!
+ INFO LOG: Apr_21_03:15: tick!!!
+ INFO LOG: Apr_21_03:17: tick!!!
+ INFO LOG: Apr_21_03:19: tick!!!
+ INFO LOG: Apr_21_03:21: tick!!!
+ INFO LOG: Apr_21_03:23: tick!!!
+ INFO LOG: Apr_21_03:25: tick!!!
+ INFO LOG: Apr_21_03:27: tick!!!
+ INFO LOG: Apr_21_03:29: tick!!!
+ INFO LOG: Apr_21_03:31: tick!!!
+ INFO LOG: Apr_21_03:33: tick!!!
+ INFO LOG: Apr_21_03:35: tick!!!
+ INFO LOG: Apr_21_03:37: tick!!!
+ INFO LOG: Apr_21_03:39: tick!!!
+ INFO LOG: Apr_21_03:41: tick!!!
+ INFO LOG: Apr_21_03:43: tick!!!
+ INFO LOG: Apr_21_03:45: tick!!!
+ INFO LOG: Apr_21_03:47: tick!!!
+ INFO LOG: Apr_21_03:49: tick!!!
+ INFO LOG: Apr_21_03:51: tick!!!
+ INFO LOG: Apr_21_03:53: tick!!!
+ INFO LOG: Apr_21_03:55: tick!!!
+ INFO LOG: Apr_21_03:57: tick!!!
+ INFO LOG: Apr_21_03:59: tick!!!
+ INFO LOG: Apr_21_04:01: tick!!!
+ INFO LOG: Apr_21_04:03: tick!!!
+ INFO LOG: Apr_21_04:05: tick!!!
+ INFO LOG: Apr_21_04:07: tick!!!
+ INFO LOG: Apr_21_04:09: tick!!!
+ INFO LOG: Apr_21_04:11: tick!!!
+ INFO LOG: Apr_21_04:13: tick!!!
+ INFO LOG: Apr_21_04:15: tick!!!
+ INFO LOG: Apr_21_04:17: tick!!!
+ INFO LOG: Apr_21_04:19: tick!!!
+ INFO LOG: Apr_21_04:21: tick!!!
+ INFO LOG: Apr_21_04:23: tick!!!
+ INFO LOG: Apr_21_04:25: tick!!!
+ INFO LOG: Apr_21_04:27: tick!!!
+ INFO LOG: Apr_21_04:29: tick!!!
+ INFO LOG: Apr_21_04:31: tick!!!
+ INFO LOG: Apr_21_04:33: tick!!!
+ INFO LOG: Apr_21_04:35: tick!!!
+ INFO LOG: Apr_21_04:37: tick!!!
+ INFO LOG: Apr_21_04:39: tick!!!
+ INFO LOG: Apr_21_04:41: tick!!!
+ INFO LOG: Apr_21_04:43: tick!!!
+ INFO LOG: Apr_21_04:45: tick!!!
+ INFO LOG: Apr_21_04:47: tick!!!
+ INFO LOG: Apr_21_04:49: tick!!!
+ INFO LOG: Apr_21_04:51: tick!!!
+ INFO LOG: Apr_21_04:53: tick!!!
+ INFO LOG: Apr_21_04:55: tick!!!
+ INFO LOG: Apr_21_04:57: tick!!!
+ INFO LOG: Apr_21_04:59: tick!!!
+ INFO LOG: Apr_21_05:01: tick!!!
+ INFO LOG: Apr_21_05:03: tick!!!
+ INFO LOG: Apr_21_05:05: tick!!!
+ INFO LOG: Apr_21_05:07: tick!!!
+ INFO LOG: Apr_21_05:09: tick!!!
+ INFO LOG: Apr_21_05:11: tick!!!
+ INFO LOG: Apr_21_05:13: tick!!!
+ INFO LOG: Apr_21_05:15: tick!!!
+ INFO LOG: Apr_21_05:17: tick!!!
+ INFO LOG: Apr_21_05:19: tick!!!
+ INFO LOG: Apr_21_05:21: tick!!!
+ INFO LOG: Apr_21_05:23: tick!!!
+ INFO LOG: Apr_21_05:25: tick!!!
+ INFO LOG: Apr_21_05:27: tick!!!
+ INFO LOG: Apr_21_05:29: tick!!!
+ INFO LOG: Apr_21_05:31: tick!!!
+ INFO LOG: Apr_21_05:33: tick!!!
+ INFO LOG: Apr_21_05:35: tick!!!
+ INFO LOG: Apr_21_05:37: tick!!!
+ INFO LOG: Apr_21_05:39: tick!!!
+ INFO LOG: Apr_21_05:41: tick!!!
+ INFO LOG: Apr_21_05:43: tick!!!
+ INFO LOG: Apr_21_05:45: tick!!!
+ INFO LOG: Apr_21_05:47: tick!!!
+ INFO LOG: Apr_21_05:49: tick!!!
+ INFO LOG: Apr_21_05:51: tick!!!
+ INFO LOG: Apr_21_05:53: tick!!!
+ INFO LOG: Apr_21_05:55: tick!!!
+ INFO LOG: Apr_21_05:57: tick!!!
+ INFO LOG: Apr_21_05:59: tick!!!
+ INFO LOG: Apr_21_06:01: tick!!!
+ INFO LOG: Apr_21_06:03: tick!!!
+ INFO LOG: Apr_21_06:05: tick!!!
+ INFO LOG: Apr_21_06:07: tick!!!
+ INFO LOG: Apr_21_06:09: tick!!!
+ INFO LOG: Apr_21_06:11: tick!!!
+ INFO LOG: Apr_21_06:13: tick!!!
+ INFO LOG: Apr_21_06:15: tick!!!
+ INFO LOG: Apr_21_06:17: tick!!!
+ INFO LOG: Apr_21_06:19: tick!!!
+ INFO LOG: Apr_21_06:21: tick!!!
+ INFO LOG: Apr_21_06:23: tick!!!
+ INFO LOG: Apr_21_06:25: tick!!!
+ INFO LOG: Apr_21_06:27: tick!!!
+ INFO LOG: Apr_21_06:29: tick!!!
+ INFO LOG: Apr_21_06:31: tick!!!
+ INFO LOG: Apr_21_06:33: tick!!!
+ INFO LOG: Apr_21_06:35: tick!!!
+ INFO LOG: Apr_21_06:37: tick!!!
+ INFO LOG: Apr_21_06:39: tick!!!
+ INFO LOG: Apr_21_06:41: tick!!!
+ INFO LOG: Apr_21_06:43: tick!!!
+ INFO LOG: Apr_21_06:45: tick!!!
+ INFO LOG: Apr_21_06:47: tick!!!
+ INFO LOG: Apr_21_06:49: tick!!!
+ INFO LOG: Apr_21_06:51: tick!!!
+ INFO LOG: Apr_21_06:53: tick!!!
+ INFO LOG: Apr_21_06:55: tick!!!
+ INFO LOG: Apr_21_06:57: tick!!!
+ INFO LOG: Apr_21_06:59: tick!!!
+ INFO LOG: Apr_21_07:01: tick!!!
+ INFO LOG: Apr_21_07:03: tick!!!
+ INFO LOG: Apr_21_07:05: tick!!!
+ INFO LOG: Apr_21_07:07: tick!!!
+ INFO LOG: Apr_21_07:09: tick!!!
+ INFO LOG: Apr_21_07:11: tick!!!
+ INFO LOG: Apr_21_07:13: tick!!!
+ INFO LOG: Apr_21_07:15: tick!!!
+ INFO LOG: Apr_21_07:17: tick!!!
+ INFO LOG: Apr_21_07:19: tick!!!
+ INFO LOG: Apr_21_07:21: tick!!!
+ INFO LOG: Apr_21_07:23: tick!!!
+ INFO LOG: Apr_21_07:25: tick!!!
+ INFO LOG: Apr_21_07:27: tick!!!
+ INFO LOG: Apr_21_07:29: tick!!!
+ INFO LOG: Apr_21_07:31: tick!!!
+ INFO LOG: Apr_21_07:33: tick!!!
+ INFO LOG: Apr_21_07:35: tick!!!
+ INFO LOG: Apr_21_07:37: tick!!!
+ INFO LOG: Apr_21_07:39: tick!!!
+ INFO LOG: Apr_21_07:41: tick!!!
+ INFO LOG: Apr_21_07:43: tick!!!
+ INFO LOG: Apr_21_07:45: tick!!!
+ INFO LOG: Apr_21_07:47: tick!!!
+ INFO LOG: Apr_21_07:49: tick!!!
+ INFO LOG: Apr_21_07:51: tick!!!
+ INFO LOG: Apr_21_07:53: tick!!!
+ INFO LOG: Apr_21_07:55: tick!!!
+ INFO LOG: Apr_21_07:57: tick!!!
+ INFO LOG: Apr_21_07:59: tick!!!
+ INFO LOG: Apr_21_08:01: tick!!!
+ INFO LOG: Apr_21_08:03: tick!!!
+ INFO LOG: Apr_21_08:05: tick!!!
+ INFO LOG: Apr_21_08:07: tick!!!
+ INFO LOG: Apr_21_08:09: tick!!!
+ INFO LOG: Apr_21_08:11: tick!!!
+ INFO LOG: Apr_21_08:13: tick!!!
+ INFO LOG: Apr_21_08:15: tick!!!
+ INFO LOG: Apr_21_08:17: tick!!!
+ INFO LOG: Apr_21_08:19: tick!!!
+ INFO LOG: Apr_21_08:21: tick!!!
+ INFO LOG: Apr_21_08:23: tick!!!
+ INFO LOG: Apr_21_08:25: tick!!!
+ INFO LOG: Apr_21_08:27: tick!!!
+ INFO LOG: Apr_21_08:29: tick!!!
+ INFO LOG: Apr_21_08:31: tick!!!
+ INFO LOG: Apr_21_08:33: tick!!!
+ INFO LOG: Apr_21_08:35: tick!!!
+ INFO LOG: Apr_21_08:37: tick!!!
+ INFO LOG: Apr_21_08:39: tick!!!
+ INFO LOG: Apr_21_08:41: tick!!!
+ INFO LOG: Apr_21_08:43: tick!!!
+ INFO LOG: Apr_21_08:45: tick!!!
+ INFO LOG: Apr_21_08:47: tick!!!
+ INFO LOG: Apr_21_08:49: tick!!!
+ INFO LOG: Apr_21_08:51: tick!!!
+ INFO LOG: Apr_21_08:53: tick!!!
+ INFO LOG: Apr_21_08:55: tick!!!
+ INFO LOG: Apr_21_08:57: tick!!!
+ INFO LOG: Apr_21_08:59: tick!!!
+ INFO LOG: Apr_21_09:01: tick!!!
+ INFO LOG: Apr_21_09:03: tick!!!
+ INFO LOG: Apr_21_09:05: tick!!!
+ INFO LOG: Apr_21_09:07: tick!!!
+ INFO LOG: Apr_21_09:09: tick!!!
+ INFO LOG: Apr_21_09:11: tick!!!
+ INFO LOG: Apr_21_09:13: tick!!!
+ INFO LOG: Apr_21_09:15: tick!!!
+ INFO LOG: Apr_21_09:17: tick!!!
+ INFO LOG: Apr_21_09:19: tick!!!
+ INFO LOG: Apr_21_09:21: tick!!!
+ INFO LOG: Apr_21_09:23: tick!!!
+ INFO LOG: Apr_21_09:25: tick!!!
+ INFO LOG: Apr_21_09:27: tick!!!
+ INFO LOG: Apr_21_09:29: tick!!!
+ INFO LOG: Apr_21_09:31: tick!!!
+ INFO LOG: Apr_21_09:33: tick!!!
+ INFO LOG: Apr_21_09:35: tick!!!
+ INFO LOG: Apr_21_09:37: tick!!!
+ INFO LOG: Apr_21_09:39: tick!!!
+ INFO LOG: Apr_21_09:41: tick!!!
+ INFO LOG: Apr_21_09:43: tick!!!
+ INFO LOG: Apr_21_09:45: tick!!!
+ INFO LOG: Apr_21_09:47: tick!!!
+ INFO LOG: Apr_21_09:49: tick!!!
+ INFO LOG: Apr_21_09:51: tick!!!
+ INFO LOG: Apr_21_09:53: tick!!!
+ INFO LOG: Apr_21_09:55: tick!!!
+ INFO LOG: Apr_21_09:57: tick!!!
+ INFO LOG: Apr_21_09:59: tick!!!
+ INFO LOG: Apr_21_10:01: tick!!!
+ INFO LOG: Apr_21_10:03: tick!!!
+ INFO LOG: Apr_21_10:05: tick!!!
+ INFO LOG: Apr_21_10:07: tick!!!
+ INFO LOG: Apr_21_10:09: tick!!!
+ INFO LOG: Apr_21_10:11: tick!!!
+ INFO LOG: Apr_21_10:13: tick!!!
+ INFO LOG: Apr_21_10:15: tick!!!
+ INFO LOG: Apr_21_10:17: tick!!!
+ INFO LOG: Apr_21_10:19: tick!!!
+ INFO LOG: Apr_21_10:21: tick!!!
+ INFO LOG: Apr_21_10:23: tick!!!
+ INFO LOG: Apr_21_10:25: tick!!!
+ INFO LOG: Apr_21_10:27: tick!!!
+ INFO LOG: Apr_21_10:29: tick!!!
+ INFO LOG: Apr_21_10:31: tick!!!
+ INFO LOG: Apr_21_10:33: tick!!!
+ INFO LOG: Apr_21_10:35: tick!!!
+ INFO LOG: Apr_21_10:37: tick!!!
+ INFO LOG: Apr_21_10:39: tick!!!
+ INFO LOG: Apr_21_10:41: tick!!!
+ INFO LOG: Apr_21_10:43: tick!!!
+ INFO LOG: Apr_21_10:45: tick!!!
+ INFO LOG: Apr_21_10:47: tick!!!
+ INFO LOG: Apr_21_10:49: tick!!!
+ INFO LOG: Apr_21_10:51: tick!!!
+ INFO LOG: Apr_21_10:53: tick!!!
+ INFO LOG: Apr_21_10:55: tick!!!
+ INFO LOG: Apr_21_10:57: tick!!!
+ INFO LOG: Apr_21_10:59: tick!!!
+ INFO LOG: Apr_21_11:01: tick!!!
+ INFO LOG: Apr_21_11:03: tick!!!
+ INFO LOG: Apr_21_11:05: tick!!!
+ INFO LOG: Apr_21_11:07: tick!!!
+ INFO LOG: Apr_21_11:09: tick!!!
+ INFO LOG: Apr_21_11:11: tick!!!
+ INFO LOG: Apr_21_11:13: tick!!!
+ INFO LOG: Apr_21_11:15: tick!!!
+ INFO LOG: Apr_21_11:17: tick!!!
+ INFO LOG: Apr_21_11:19: tick!!!
+ INFO LOG: Apr_21_11:21: tick!!!
+ INFO LOG: Apr_21_11:23: tick!!!
+ INFO LOG: Apr_21_11:25: tick!!!
+ INFO LOG: Apr_21_11:27: tick!!!
+ INFO LOG: Apr_21_11:29: tick!!!
+ INFO LOG: Apr_21_11:31: tick!!!
+ INFO LOG: Apr_21_11:33: tick!!!
+ INFO LOG: Apr_21_11:35: tick!!!
+ INFO LOG: Apr_21_11:37: tick!!!
+ INFO LOG: Apr_21_11:39: tick!!!
+ INFO LOG: Apr_21_11:41: tick!!!
+ INFO LOG: Apr_21_11:43: tick!!!
+ INFO LOG: Apr_21_11:45: tick!!!
+ INFO LOG: Apr_21_11:47: tick!!!
+ INFO LOG: Apr_21_11:49: tick!!!
+ INFO LOG: Apr_21_11:51: tick!!!
+ INFO LOG: Apr_21_11:53: tick!!!
+ INFO LOG: Apr_21_11:55: tick!!!
+ INFO LOG: Apr_21_11:57: tick!!!
+ INFO LOG: Apr_21_11:59: tick!!!
+ INFO LOG: Apr_21_12:01: tick!!!
+ INFO LOG: Apr_21_12:03: tick!!!
+ INFO LOG: Apr_21_12:05: tick!!!
+ INFO LOG: Apr_21_12:07: tick!!!
+ INFO LOG: Apr_21_12:09: tick!!!
+ INFO LOG: Apr_21_12:11: tick!!!
+ INFO LOG: Apr_21_12:13: tick!!!
+ INFO LOG: Apr_21_12:15: tick!!!
+ INFO LOG: Apr_21_12:17: tick!!!
+ INFO LOG: Apr_21_12:19: tick!!!
+ INFO LOG: Apr_21_12:21: tick!!!
+ INFO LOG: Apr_21_12:22: -- 99.191.82.191:44896 connected to CoralMUD!
+ INFO LOG: Apr_21_12:22: -- 99.191.82.191:44896: Retnur is trying to connect.
+ INFO LOG: Apr_21_12:22: -- 99.191.82.191:44896: Retnur player file found.
+ INFO LOG: Apr_21_12:22: -- Retnur has entered the game.
+ INFO LOG: Apr_21_12:23: tick!!!
+ INFO LOG: Apr_21_12:25: tick!!!
+ INFO LOG: Apr_21_12:27: tick!!!
+ INFO LOG: Apr_21_12:29: tick!!!
+ INFO LOG: Apr_21_12:31: tick!!!
+ INFO LOG: Apr_21_12:33: tick!!!
+ INFO LOG: Apr_21_12:35: tick!!!
+ INFO LOG: Apr_21_12:37: tick!!!
+ INFO LOG: Apr_21_12:39: tick!!!
+ INFO LOG: Apr_21_12:41: tick!!!
+ INFO LOG: Apr_21_12:43: tick!!!
+ INFO LOG: Apr_21_12:45: tick!!!
+ INFO LOG: Apr_21_12:47: tick!!!
+ INFO LOG: Apr_21_12:49: tick!!!
+ INFO LOG: Apr_21_12:51: tick!!!
+ INFO LOG: Apr_21_12:53: tick!!!
+ INFO LOG: Apr_21_12:55: tick!!!
+ INFO LOG: Apr_21_12:57: tick!!!
+ INFO LOG: Apr_21_12:59: tick!!!
+ INFO LOG: Apr_21_13:01: tick!!!
+ INFO LOG: Apr_21_13:03: tick!!!
+ INFO LOG: Apr_21_13:05: tick!!!
+ INFO LOG: Apr_21_13:07: tick!!!
+ INFO LOG: Apr_21_13:09: tick!!!
+ INFO LOG: Apr_21_13:11: tick!!!
+ INFO LOG: Apr_21_13:13: tick!!!
+ INFO LOG: Apr_21_13:15: tick!!!
+ INFO LOG: Apr_21_13:17: tick!!!
+ INFO LOG: Apr_21_13:19: tick!!!
+ INFO LOG: Apr_21_13:21: tick!!!
+ INFO LOG: Apr_21_13:23: tick!!!
+ INFO LOG: Apr_21_13:25: tick!!!
+ INFO LOG: Apr_21_13:27: tick!!!
+ INFO LOG: Apr_21_13:29: tick!!!
+ INFO LOG: Apr_21_13:31: tick!!!
+ INFO LOG: Apr_21_13:33: tick!!!
+ INFO LOG: Apr_21_13:35: tick!!!
+ INFO LOG: Apr_21_13:37: tick!!!
+ INFO LOG: Apr_21_13:39: tick!!!
+ INFO LOG: Apr_21_13:41: tick!!!
+ INFO LOG: Apr_21_13:43: tick!!!
+ INFO LOG: Apr_21_13:45: tick!!!
+ INFO LOG: Apr_21_13:47: tick!!!
+ INFO LOG: Apr_21_13:49: tick!!!
+ INFO LOG: Apr_21_13:51: tick!!!
+ INFO LOG: Apr_21_13:53: tick!!!
+ INFO LOG: Apr_21_13:55: tick!!!
+ INFO LOG: Apr_21_13:57: tick!!!
+ INFO LOG: Apr_21_13:59: tick!!!
+ INFO LOG: Apr_21_14:01: tick!!!
+ INFO LOG: Apr_21_14:03: tick!!!
+ INFO LOG: Apr_21_14:05: tick!!!
+ INFO LOG: Apr_21_14:07: tick!!!
+ INFO LOG: Apr_21_14:09: tick!!!
+ INFO LOG: Apr_21_14:11: tick!!!
+ INFO LOG: Apr_21_14:13: tick!!!
+ INFO LOG: Apr_21_14:15: tick!!!
+ INFO LOG: Apr_21_14:17: tick!!!
+ INFO LOG: Apr_21_14:19: tick!!!
+ INFO LOG: Apr_21_14:21: tick!!!
+ INFO LOG: Apr_21_14:23: tick!!!
+ INFO LOG: Apr_21_14:23: -- #<Player:0x00000002fa9018>:99.191.82.191:44896 disconnected from CoralMUD!
+ INFO LOG: Apr_21_14:23: Program closed.

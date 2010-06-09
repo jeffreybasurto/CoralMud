@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.kilo.siks
+"@namespace": first.area
+"@vnum": 160
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 159
+  - {}
+
+- - 1
+  - 161
+  - {}
+
+- - 3
+  - 167
+  - {}
+

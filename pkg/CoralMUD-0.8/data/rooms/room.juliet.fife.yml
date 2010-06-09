@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.juliet.fife
+"@namespace": first.area
+"@vnum": 164
+"@sector": :sect_city
+"@exit_list": 
+- - 2
+  - 165
+  - {}
+
+- - 3
+  - 76
+  - {}
+

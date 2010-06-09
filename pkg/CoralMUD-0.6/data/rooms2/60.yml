@@ -1,0 +1,16 @@
+--- 
+"@name": Default Name
+"@vnum": 60
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 37
+  - {}
+
+- - 2
+  - 67
+  - :soft_door: true
+- - 3
+  - 61
+  - {}
+

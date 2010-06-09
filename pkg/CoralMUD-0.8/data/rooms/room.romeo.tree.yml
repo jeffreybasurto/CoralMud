@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.romeo.tree
+"@namespace": first.area
+"@vnum": 84
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 82
+  - {}
+
+- - 2
+  - 83
+  - {}
+
+- - 3
+  - 86
+  - {}
+

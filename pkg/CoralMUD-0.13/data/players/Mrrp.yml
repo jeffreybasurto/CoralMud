@@ -1,0 +1,13 @@
+--- 
+"@name": Mrrp
+"@password": mrrp
+"@level": 1
+"@channel_flags": {}
+
+"@clas": :class_cleric
+"@race": :race_human
+"@traits": 
+- :trait_hearty
+- :trait_deft
+- :trait_destined
+"@sign": :sign_ram

@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.alpha.fower
+"@namespace": first.area
+"@vnum": 135
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 136
+  - {}
+
+- - 3
+  - 103
+  - {}
+

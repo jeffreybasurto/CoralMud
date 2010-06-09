@@ -1,0 +1,9 @@
+--- !ruby/object:Room 
+vnum: 12
+--- "Exits:"
+--- 
+- 0
+- 11
+--- 
+- 3
+- 13

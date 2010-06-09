@@ -1,0 +1,91 @@
+# Any class that includes MudObj can be treated like a physical object in the game.
+# And this will ensure it can interact with functions in the game engine.
+module MudObj
+  attr_accessor :target, :in_location, :in_room, :events, :targeted_by
+  include MudObj_Movement
+  def mo_init
+    @vitality       ||= DamageLog.new     
+    @vitality.register_health 100 ### default it to 100 hp for now
+    @speed          ||= 0
+    @target         ||= nil
+    @targeted_by    ||= []  #things or people targeting us
+    @xtar           ||= nil
+    @ytar           ||= nil
+    @in_room        ||= nil
+    @in_location    ||= nil
+    @events         ||= []
+    
+    $mo_list << self # add this object to the main list.
+  end
+
+  def damage amt=nil, type=:type_normal, aggressor=nil
+    return @vitality.how_much_taken? if amt == nil
+    @vitality.add_damage(amt, type, aggressor)
+  end
+
+  ### DamageLog object will calculate how much health is left.
+  def health 
+    @vitality.how_much_left?
+  end
+
+  # things we need to do when we free.
+  def free_mo
+    $mo_list.delete self
+    #we may end up needing to set other peoples target to nil if they are targetting us.
+    @targeted_by.each do |cee|
+      if cee.target == self
+        cee.stop
+      end
+    end
+    from_location
+  end
+
+  ### Sends this MudObj to a room.
+  def to_room(room, a=nil)
+    a = [11, 11] if a == nil # defaults to center of room
+
+    ### if the passed room is in int form.
+    room = get_room_index(room) if room.is_a?(Integer)
+    ### We're assuming the int was valid...but you can add a check here with a log string for a nil. 
+    ### You'll get a crash if the int was invalid. 
+
+    to_x_y_location room, a
+
+    room.people << self
+
+    @in_room = room
+  end
+
+
+  ### Removes this MudObj from a room.
+  def from_room
+    self.from_location
+    @in_room.people.delete self
+    @in_room = nil
+  end
+
+
+  def text_to_obj t
+    if respond_to? :text_to_player
+      text_to_player t
+    end
+  end
+  #gets location as array.
+  def get_location
+    return [@in_location.x.to_i, @in_location.y.to_i]
+  end
+
+  #gets location as array.
+  def get_location
+    return [@in_location.x.to_i, @in_location.y.to_i]
+  end
+
+  def where_am_i?
+    "Room Vnum: #{@in_room.vnum} @ (#{@in_location.x.to_i}, #{@in_location.y.to_i})"
+  end
+
+  def who_am_i?
+    return "#{self.class.name}"
+  end
+end
+

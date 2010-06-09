@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.november.fower
+"@namespace": first.area
+"@vnum": 93
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 94
+  - {}
+
+- - 1
+  - 96
+  - {}
+
+- - 3
+  - 92
+  - {}
+

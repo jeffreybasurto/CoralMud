@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.golf.seven
+"@namespace": first.area
+"@vnum": 157
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 74
+  - {}
+
+- - 1
+  - 76
+  - {}
+
+- - 2
+  - 159
+  - {}
+
+- - 3
+  - 28
+  - {}
+

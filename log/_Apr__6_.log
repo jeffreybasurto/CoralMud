@@ -1,0 +1,761 @@
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.olc.rb
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ INFO LOG: _Apr__6_0: Loading help.rb
+ INFO LOG: _Apr__6_0: Loading imcruby.rb
+ INFO LOG: _Apr__6_0: Loading player.rb
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: Loading random.rb
+ INFO LOG: _Apr__6_0: Loading spells.rb
+ INFO LOG: _Apr__6_0: Starting server.
+ INFO LOG: _Apr__6_0: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:45548 connected to CoralMUD!
+ INFO LOG: _Apr__6_0: Retnur is trying to connect.
+ INFO LOG: _Apr__6_0: Retnur has entered the game.
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ERROR LOG: undefined local variable or method `this_sector' for :sect_city:Symbol
+ERROR LOG: /home/heath/coral/lib/utils.rb:13:in `sect_to_str'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:49:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:46:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined local variable or method `this_sector' for :sect_city:Symbol
+ERROR LOG: /home/heath/coral/lib/utils.rb:13:in `sect_to_str'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:49:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:46:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:45548 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_0: Program closed.
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.olc.rb
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ INFO LOG: _Apr__6_0: Loading help.rb
+ INFO LOG: _Apr__6_0: Loading imcruby.rb
+ INFO LOG: _Apr__6_0: Loading player.rb
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: Loading random.rb
+ INFO LOG: _Apr__6_0: Loading spells.rb
+ INFO LOG: _Apr__6_0: Starting server.
+ INFO LOG: _Apr__6_0: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:35802 connected to CoralMUD!
+ INFO LOG: _Apr__6_0: Retnur is trying to connect.
+ INFO LOG: _Apr__6_0: Retnur has entered the game.
+ERROR LOG: wrong number of arguments (0 for 2)
+ERROR LOG: /home/heath/coral/lib/cities.rb:338:in `block in each_bfs'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:336:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:46:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:111:in `block in assign_nanny'
+ERROR LOG: wrong number of arguments (0 for 2)
+ERROR LOG: /home/heath/coral/lib/cities.rb:338:in `block in each_bfs'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:336:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:46:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ERROR LOG: undefined method `>' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:48:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:46:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ERROR LOG: undefined local variable or method `ch' for #<Player:0x00000001b8d368>
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:511:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:35802 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_0: Program closed.
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.olc.rb
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ INFO LOG: _Apr__6_0: Loading help.rb
+ INFO LOG: _Apr__6_0: Loading imcruby.rb
+ INFO LOG: _Apr__6_0: Loading player.rb
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: Loading random.rb
+ INFO LOG: _Apr__6_0: Loading spells.rb
+ INFO LOG: _Apr__6_0: Starting server.
+ INFO LOG: _Apr__6_0: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:58318 connected to CoralMUD!
+ INFO LOG: _Apr__6_0: Retnur is trying to connect.
+ INFO LOG: _Apr__6_0: Retnur has entered the game.
+ERROR LOG: undefined local variable or method `ch' for #<Player:0x00000001162370>
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:511:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:111:in `block in assign_nanny'
+ERROR LOG: undefined local variable or method `ch' for #<Player:0x00000001162370>
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:511:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:41:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:51:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:48:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:51:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:48:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:21:in `block (2 levels) in view'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:20:in `each'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:20:in `block in view'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:19:in `each'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:19:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:511:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:58318 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_0: Loading utils.rb
+ INFO LOG: _Apr__6_0: Loading constants.rb
+ INFO LOG: _Apr__6_0: Loading class_property.rb
+ INFO LOG: _Apr__6_0: Loading editors.rb
+ INFO LOG: _Apr__6_0: Loading mxp.rb
+ INFO LOG: _Apr__6_0: Loading mccp.rb
+ INFO LOG: _Apr__6_0: Loading flags.rb
+ INFO LOG: _Apr__6_0: Loading damage.rb
+ INFO LOG: _Apr__6_0: Loading event.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.automap.rb
+ INFO LOG: _Apr__6_0: Loading cities.olc.rb
+ INFO LOG: _Apr__6_0: Loading cities.rb
+ INFO LOG: _Apr__6_0: Loading help.rb
+ INFO LOG: _Apr__6_0: Loading imcruby.rb
+ INFO LOG: _Apr__6_0: Loading player.rb
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ INFO LOG: _Apr__6_0: Loading random.rb
+ INFO LOG: _Apr__6_0: Loading spells.rb
+ INFO LOG: _Apr__6_0: Starting server.
+ INFO LOG: _Apr__6_0: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_0: -- 99.191.82.191:44540 connected to CoralMUD!
+ INFO LOG: _Apr__6_0: Retnur is trying to connect.
+ INFO LOG: _Apr__6_0: Retnur has entered the game.
+ERROR LOG: wrong number of arguments (3 for 2)
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:111:in `block in assign_nanny'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined local variable or method `current_room' for #<Automap:0x000000022b23f0>
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:49:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined local variable or method `dir' for #<Automap:0x00000002591620>
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined local variable or method `e' for #<Automap:0x000000022c7a98>
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:41:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:64:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:61:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:65:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:62:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:65:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:62:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:65:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:62:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: Loading player.commands.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:65:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:62:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_0: tick!!!
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ERROR LOG: undefined method `[]=' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:42:in `write_pallete'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:55:in `block in write_room'
+ERROR LOG: /home/heath/coral/lib/cities.rb:302:in `block in each_dir'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:301:in `each_dir'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:54:in `write_room'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:65:in `block in build_map'
+ERROR LOG: /home/heath/coral/lib/cities.rb:331:in `each_bfs'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:62:in `build_map'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:9:in `initialize'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `new'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:510:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:187:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4615 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Tphegleytr is trying to connect.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4615 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4622 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4622 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4784 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4798 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Tphegley is trying to connect.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: New player: Tphegley.
+ INFO LOG: _Apr__6_1: Tphegley has entered the game.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: Tphegley has left the game.
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4798 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Loading player.commands.rb
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.automap.rb
+ INFO LOG: _Apr__6_1: -- 98.157.144.34:4784 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:44540 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Program closed.
+ INFO LOG: _Apr__6_1: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_1: Loading utils.rb
+ INFO LOG: _Apr__6_1: Loading constants.rb
+ INFO LOG: _Apr__6_1: Loading class_property.rb
+ INFO LOG: _Apr__6_1: Loading editors.rb
+ INFO LOG: _Apr__6_1: Loading mxp.rb
+ INFO LOG: _Apr__6_1: Loading mccp.rb
+ INFO LOG: _Apr__6_1: Loading flags.rb
+ INFO LOG: _Apr__6_1: Loading damage.rb
+ INFO LOG: _Apr__6_1: Loading event.rb
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.olc.rb
+ INFO LOG: _Apr__6_1: Loading cities.rb
+ INFO LOG: _Apr__6_1: Loading help.rb
+ INFO LOG: _Apr__6_1: Loading imcruby.rb
+ INFO LOG: _Apr__6_1: Loading player.rb
+ INFO LOG: _Apr__6_1: Loading player.commands.rb
+ INFO LOG: _Apr__6_1: Loading random.rb
+ INFO LOG: _Apr__6_1: Loading spells.rb
+ INFO LOG: _Apr__6_1: Starting server.
+ INFO LOG: _Apr__6_1: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_1: Loading cities.rb
+ INFO LOG: _Apr__6_1: Loading player.rb
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:43903 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Retnur is trying to connect.
+ INFO LOG: _Apr__6_1: Retnur has entered the game.
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:43903 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Program closed.
+ INFO LOG: _Apr__6_1: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_1: Loading utils.rb
+ INFO LOG: _Apr__6_1: Loading constants.rb
+ INFO LOG: _Apr__6_1: Loading class_property.rb
+ INFO LOG: _Apr__6_1: Loading editors.rb
+ INFO LOG: _Apr__6_1: Loading mxp.rb
+ INFO LOG: _Apr__6_1: Loading mccp.rb
+ INFO LOG: _Apr__6_1: Loading flags.rb
+ INFO LOG: _Apr__6_1: Loading damage.rb
+ INFO LOG: _Apr__6_1: Loading event.rb
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.olc.rb
+ INFO LOG: _Apr__6_1: Loading cities.rb
+ INFO LOG: _Apr__6_1: Loading help.rb
+ INFO LOG: _Apr__6_1: Loading imcruby.rb
+ INFO LOG: _Apr__6_1: Loading player.rb
+ INFO LOG: _Apr__6_1: Loading player.commands.rb
+ INFO LOG: _Apr__6_1: Loading random.rb
+ INFO LOG: _Apr__6_1: Loading spells.rb
+ INFO LOG: _Apr__6_1: Starting server.
+ INFO LOG: _Apr__6_1: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:48053 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Retnur is trying to connect.
+ INFO LOG: _Apr__6_1: Retnur has entered the game.
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:34010 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Rest is trying to connect.
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:34010 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:58940 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Rtest is trying to connect.
+ INFO LOG: _Apr__6_1: Rtest has entered the game.
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:48053 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:58940 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Program closed.
+ INFO LOG: _Apr__6_1: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_1: Loading utils.rb
+ INFO LOG: _Apr__6_1: Loading constants.rb
+ INFO LOG: _Apr__6_1: Loading class_property.rb
+ INFO LOG: _Apr__6_1: Loading editors.rb
+ INFO LOG: _Apr__6_1: Loading mxp.rb
+ INFO LOG: _Apr__6_1: Loading mccp.rb
+ INFO LOG: _Apr__6_1: Loading flags.rb
+ INFO LOG: _Apr__6_1: Loading damage.rb
+ INFO LOG: _Apr__6_1: Loading event.rb
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.olc.rb
+ INFO LOG: _Apr__6_1: Loading cities.rb
+ INFO LOG: _Apr__6_1: Loading help.rb
+ INFO LOG: _Apr__6_1: Loading imcruby.rb
+ INFO LOG: _Apr__6_1: Loading player.rb
+ INFO LOG: _Apr__6_1: Loading player.commands.rb
+ INFO LOG: _Apr__6_1: Loading random.rb
+ INFO LOG: _Apr__6_1: Loading spells.rb
+ INFO LOG: _Apr__6_1: Starting server.
+ INFO LOG: _Apr__6_1: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:55585 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:35404 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Retnur is trying to connect.
+ INFO LOG: _Apr__6_1: Retnur has entered the game.
+ INFO LOG: _Apr__6_1: Rtest is trying to connect.
+ INFO LOG: _Apr__6_1: Rtest has entered the game.
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:55585 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:35404 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Program closed.
+ INFO LOG: _Apr__6_1: Logging enabled.   Loading logs.rb.
+ INFO LOG: _Apr__6_1: Loading utils.rb
+ INFO LOG: _Apr__6_1: Loading constants.rb
+ INFO LOG: _Apr__6_1: Loading class_property.rb
+ INFO LOG: _Apr__6_1: Loading editors.rb
+ INFO LOG: _Apr__6_1: Loading mxp.rb
+ INFO LOG: _Apr__6_1: Loading mccp.rb
+ INFO LOG: _Apr__6_1: Loading flags.rb
+ INFO LOG: _Apr__6_1: Loading damage.rb
+ INFO LOG: _Apr__6_1: Loading event.rb
+ INFO LOG: _Apr__6_1: Loading automap/automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.automap.rb
+ INFO LOG: _Apr__6_1: Loading cities.olc.rb
+ INFO LOG: _Apr__6_1: Loading cities.rb
+ INFO LOG: _Apr__6_1: Loading help.rb
+ INFO LOG: _Apr__6_1: Loading imcruby.rb
+ INFO LOG: _Apr__6_1: Loading player.rb
+ INFO LOG: _Apr__6_1: Loading player.commands.rb
+ INFO LOG: _Apr__6_1: Loading random.rb
+ INFO LOG: _Apr__6_1: Loading spells.rb
+ INFO LOG: _Apr__6_1: Starting server.
+ INFO LOG: _Apr__6_1: CoralMUD is now up on port 4000.
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:50215 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:45410 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Rtest is trying to connect.
+ INFO LOG: _Apr__6_1: Rtest has entered the game.
+ INFO LOG: _Apr__6_1: Retnur is trying to connect.
+ INFO LOG: _Apr__6_1: Retnur has entered the game.
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:45410 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:47004 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Rtest is trying to connect.
+ INFO LOG: _Apr__6_1: #<Player:0x00000001067290> has reconnected.
+ INFO LOG: _Apr__6_1: Rtest has entered the game.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 172.190.125.77:1563 connected to CoralMUD!
+ INFO LOG: _Apr__6_1: Diern is trying to connect.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: New player: Diern.
+ INFO LOG: _Apr__6_1: Diern has entered the game.
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: tick!!!
+ INFO LOG: _Apr__6_1: -- 99.191.82.191:50215 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 127.0.0.1:47004 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: -- 172.190.125.77:1563 disconnected from CoralMUD!
+ INFO LOG: _Apr__6_1: Program closed.

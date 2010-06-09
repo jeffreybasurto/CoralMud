@@ -1,0 +1,13 @@
+--- 
+"@name": Alian
+"@password": 0000a
+"@level": 1
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_human
+"@traits": 
+- :trait_powerful
+- :trait_precise
+- :trait_hearty
+"@sign": :sign_lion

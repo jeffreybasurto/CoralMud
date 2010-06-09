@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.juliet.too
+"@namespace": first.area
+"@vnum": 144
+"@sector": :sect_fancy
+"@exit_list": 
+- - 0
+  - 145
+  - {}
+
+- - 1
+  - 143
+  - {}
+
+- - 3
+  - 149
+  - {}
+

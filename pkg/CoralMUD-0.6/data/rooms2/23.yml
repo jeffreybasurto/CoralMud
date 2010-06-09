@@ -1,0 +1,21 @@
+--- 
+"@name": Default Name
+"@vnum": 23
+"@sector": :sect_beach
+"@exit_list": 
+- - 0
+  - 22
+  - {}
+
+- - 1
+  - 14
+  - {}
+
+- - 2
+  - 24
+  - {}
+
+- - 3
+  - 52
+  - {}
+

@@ -1,0 +1,13 @@
+--- 
+"@name": Grave
+"@password": "12345"
+"@level": 1
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_human
+"@traits": 
+- :trait_hearty
+- :trait_fleeting
+- :trait_powerful
+"@sign": :sign_ram

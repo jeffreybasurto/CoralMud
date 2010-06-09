@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.delta.wun
+"@namespace": first.area
+"@vnum": 65
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 66
+  - {}
+
+- - 3
+  - 64
+  - {}
+

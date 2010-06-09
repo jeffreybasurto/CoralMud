@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.mike.siks
+"@namespace": first.area
+"@vnum": 173
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 168
+  - {}
+
+- - 1
+  - 167
+  - {}
+
+- - 3
+  - 174
+  - {}
+

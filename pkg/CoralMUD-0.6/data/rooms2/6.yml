@@ -1,0 +1,17 @@
+--- 
+"@name": Default Name
+"@vnum": 6
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 5
+  - {}
+
+- - 1
+  - 3
+  - :closed: true
+    :has_door: true
+- - 2
+  - 8
+  - {}
+

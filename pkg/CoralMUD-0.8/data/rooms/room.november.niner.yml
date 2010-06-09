@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.november.niner
+"@namespace": first.area
+"@vnum": 57
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 58
+  - {}
+
+- - 2
+  - 56
+  - {}
+

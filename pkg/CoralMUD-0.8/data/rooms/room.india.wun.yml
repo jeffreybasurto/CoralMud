@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.india.wun
+"@namespace": first.area
+"@vnum": 130
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 3
+  - {}
+
+- - 2
+  - 129
+  - {}
+

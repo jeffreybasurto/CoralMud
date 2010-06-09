@@ -1,0 +1,978 @@
+ INFO LOG: Apr__8_16: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_16: Loading utils.rb
+ INFO LOG: Apr__8_16: Loading constants.rb
+ INFO LOG: Apr__8_16: Loading class_property.rb
+ INFO LOG: Apr__8_16: Loading editors.rb
+ INFO LOG: Apr__8_16: Loading mxp.rb
+ INFO LOG: Apr__8_16: Loading mccp.rb
+ INFO LOG: Apr__8_16: Loading flags.rb
+ INFO LOG: Apr__8_16: Loading damage.rb
+ INFO LOG: Apr__8_16: Loading event.rb
+ INFO LOG: Apr__8_16: Loading automap/automap.rb
+ INFO LOG: Apr__8_16: Loading cities.automap.rb
+ INFO LOG: Apr__8_16: Loading cities.olc.rb
+ INFO LOG: Apr__8_16: Loading cities.rb
+ INFO LOG: Apr__8_16: Loading help.rb
+ INFO LOG: Apr__8_16: Loading imcruby.rb
+ INFO LOG: Apr__8_16: Loading player.rb
+ INFO LOG: Apr__8_16: Loading player.commands.rb
+ INFO LOG: Apr__8_16: Loading random.rb
+ INFO LOG: Apr__8_16: Loading spells.rb
+ INFO LOG: Apr__8_16: Starting server.
+ INFO LOG: Apr__8_16: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_16: -- 99.191.82.191:49135 connected to CoralMUD!
+ INFO LOG: Apr__8_16: -- 99.191.82.191:49135: Retnur is trying to connect.
+ INFO LOG: Apr__8_16: -- 99.191.82.191:49135: Retnur player file found.
+ INFO LOG: Apr__8_16: -- Retnur has entered the game.
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: -- 76.174.153.192:52590 connected to CoralMUD!
+ INFO LOG: Apr__8_16: -- 76.174.153.192:52590: Twisol is trying to connect.
+ INFO LOG: Apr__8_16: -- 76.174.153.192:52590: Twisol player file found.
+ INFO LOG: Apr__8_16: -- Twisol has entered the game.
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_16: tick!!!
+ INFO LOG: Apr__8_17: -- #<Player:0x00000001700728>:99.191.82.191:49135 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: -- #<Player:0x000000018d4f90>:76.174.153.192:52590 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: Program closed.
+ INFO LOG: Apr__8_17: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_17: Loading utils.rb
+ INFO LOG: Apr__8_17: Loading constants.rb
+ INFO LOG: Apr__8_17: Loading class_property.rb
+ INFO LOG: Apr__8_17: Loading editors.rb
+ INFO LOG: Apr__8_17: Loading mxp.rb
+ INFO LOG: Apr__8_17: Loading mccp.rb
+ INFO LOG: Apr__8_17: Loading flags.rb
+ INFO LOG: Apr__8_17: Loading damage.rb
+ INFO LOG: Apr__8_17: Loading event.rb
+ INFO LOG: Apr__8_17: Loading automap/automap.rb
+ INFO LOG: Apr__8_17: Loading cities.automap.rb
+ INFO LOG: Apr__8_17: Loading cities.olc.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading help.rb
+ INFO LOG: Apr__8_17: Loading imcruby.rb
+ INFO LOG: Apr__8_17: Loading player.rb
+ INFO LOG: Apr__8_17: Loading player.commands.rb
+ INFO LOG: Apr__8_17: Loading random.rb
+ INFO LOG: Apr__8_17: Loading spells.rb
+ INFO LOG: Apr__8_17: Starting server.
+ INFO LOG: Apr__8_17: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:41869 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 99.191.82.191:41869: Retnur is trying to connect.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:41869: Retnur player file found.
+ INFO LOG: Apr__8_17: -- Retnur has entered the game.
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52654 connected to CoralMUD!
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52654: Twisol is trying to connect.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52654: Twisol player file found.
+ INFO LOG: Apr__8_17: -- Twisol has entered the game.
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/lib/cities.rb:210:in `enter'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:507:in `cmd_west'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/lib/cities.rb:210:in `enter'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:471:in `cmd_east'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: Twisol has left the game.
+ INFO LOG: Apr__8_17: -- :76.174.153.192:52654 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52655 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52655: Twisol is trying to connect.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52655: Twisol player file found.
+ INFO LOG: Apr__8_17: -- Twisol has entered the game.
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ERROR LOG: undefined method `strip_mxp!' for nil:NilClass
+ERROR LOG: /home/heath/coral/lib/utils.rb:117:in `plaintext'
+ERROR LOG: /home/heath/coral/lib/utils.rb:129:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: -- #<Player:0x00000002258aa8>:99.191.82.191:41869 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: -- #<Player:0x0000000215b3d0>:76.174.153.192:52655 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: Program closed.
+ INFO LOG: Apr__8_17: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_17: Loading utils.rb
+ INFO LOG: Apr__8_17: Loading constants.rb
+ INFO LOG: Apr__8_17: Loading class_property.rb
+ INFO LOG: Apr__8_17: Loading editors.rb
+ INFO LOG: Apr__8_17: Loading mxp.rb
+ INFO LOG: Apr__8_17: Loading mccp.rb
+ INFO LOG: Apr__8_17: Loading flags.rb
+ INFO LOG: Apr__8_17: Loading damage.rb
+ INFO LOG: Apr__8_17: Loading event.rb
+ INFO LOG: Apr__8_17: Loading automap/automap.rb
+ INFO LOG: Apr__8_17: Loading cities.automap.rb
+ INFO LOG: Apr__8_17: Loading cities.olc.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading help.rb
+ INFO LOG: Apr__8_17: Loading imcruby.rb
+ INFO LOG: Apr__8_17: Loading player.rb
+ INFO LOG: Apr__8_17: Loading player.commands.rb
+ INFO LOG: Apr__8_17: Loading random.rb
+ INFO LOG: Apr__8_17: Loading spells.rb
+ INFO LOG: Apr__8_17: Starting server.
+ INFO LOG: Apr__8_17: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36433 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52657 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36433: Retnur is trying to connect.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36433: Retnur player file found.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52657: Twisol is trying to connect.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52657: Twisol player file found.
+ INFO LOG: Apr__8_17: -- Retnur has entered the game.
+ERROR LOG: undefined local variable or method `s' for #<String:0x00000001497590>
+ERROR LOG: /home/heath/coral/lib/utils.rb:130:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ERROR LOG: undefined local variable or method `s' for #<String:0x000000014adef8>
+ERROR LOG: /home/heath/coral/lib/utils.rb:130:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: -- Twisol has entered the game.
+ERROR LOG: undefined local variable or method `s' for #<String:0x0000000127d408>
+ERROR LOG: /home/heath/coral/lib/utils.rb:130:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/creation.rb:114:in `block in assign_nanny'
+ERROR LOG: undefined local variable or method `s' for #<String:0x0000000116d3d8>
+ERROR LOG: /home/heath/coral/lib/utils.rb:130:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: tick!!!
+ERROR LOG: undefined local variable or method `s' for #<String:0x00000001025750>
+ERROR LOG: /home/heath/coral/lib/utils.rb:130:in `center'
+ERROR LOG: /home/heath/coral/lib/automap/automap.rb:85:in `view'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:549:in `cmd_look'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:188:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:109:in `<main>'
+ INFO LOG: Apr__8_17: -- #<Player:0x00000000e27430>:99.191.82.191:36433 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: -- #<Player:0x0000000141c228>:76.174.153.192:52657 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: Program closed.
+ INFO LOG: Apr__8_17: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_17: Loading utils.rb
+ INFO LOG: Apr__8_17: Loading constants.rb
+ INFO LOG: Apr__8_17: Loading class_property.rb
+ INFO LOG: Apr__8_17: Loading editors.rb
+ INFO LOG: Apr__8_17: Loading mxp.rb
+ INFO LOG: Apr__8_17: Loading mccp.rb
+ INFO LOG: Apr__8_17: Loading flags.rb
+ INFO LOG: Apr__8_17: Loading damage.rb
+ INFO LOG: Apr__8_17: Loading event.rb
+ INFO LOG: Apr__8_17: Loading automap/automap.rb
+ INFO LOG: Apr__8_17: Loading cities.automap.rb
+ INFO LOG: Apr__8_17: Loading cities.olc.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading help.rb
+ INFO LOG: Apr__8_17: Loading imcruby.rb
+ INFO LOG: Apr__8_17: Loading player.rb
+ INFO LOG: Apr__8_17: Loading player.commands.rb
+ INFO LOG: Apr__8_17: Loading random.rb
+ INFO LOG: Apr__8_17: Loading spells.rb
+ INFO LOG: Apr__8_17: Starting server.
+ INFO LOG: Apr__8_17: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:51859 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 99.191.82.191:51859: Retnur is trying to connect.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:51859: Retnur player file found.
+ INFO LOG: Apr__8_17: -- Retnur has entered the game.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52670 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52670: Twisol is trying to connect.
+ INFO LOG: Apr__8_17: -- 76.174.153.192:52670: Twisol player file found.
+ INFO LOG: Apr__8_17: -- Twisol has entered the game.
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: -- #<Player:0x00000000c21f78>:99.191.82.191:51859 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: -- #<Player:0x00000000e640b0>:76.174.153.192:52670 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: Program closed.
+ INFO LOG: Apr__8_17: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_17: Loading utils.rb
+ INFO LOG: Apr__8_17: Loading constants.rb
+ INFO LOG: Apr__8_17: Loading class_property.rb
+ INFO LOG: Apr__8_17: Loading editors.rb
+ INFO LOG: Apr__8_17: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_17: Loading mxp.rb
+ INFO LOG: Apr__8_17: Loading mccp.rb
+ INFO LOG: Apr__8_17: Loading flags.rb
+ INFO LOG: Apr__8_17: Loading damage.rb
+ INFO LOG: Apr__8_17: Loading event.rb
+ INFO LOG: Apr__8_17: Loading automap/automap.rb
+ INFO LOG: Apr__8_17: Loading cities.automap.rb
+ INFO LOG: Apr__8_17: Loading cities.olc.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading help.rb
+ INFO LOG: Apr__8_17: Loading imcruby.rb
+ INFO LOG: Apr__8_17: Loading player.rb
+ INFO LOG: Apr__8_17: Loading player.commands.rb
+ INFO LOG: Apr__8_17: Loading random.rb
+ INFO LOG: Apr__8_17: Loading spells.rb
+ INFO LOG: Apr__8_17: Starting server.
+ INFO LOG: Apr__8_17: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:38471 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 99.191.82.191:38471: Retnur is trying to connect.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:38471: Retnur player file found.
+ INFO LOG: Apr__8_17: -- Retnur has entered the game.
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: -- #<Player:0x00000002860d88>:99.191.82.191:38471 disconnected from CoralMUD!
+ INFO LOG: Apr__8_17: Program closed.
+ INFO LOG: Apr__8_17: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_17: Loading utils.rb
+ INFO LOG: Apr__8_17: Loading constants.rb
+ INFO LOG: Apr__8_17: Loading class_property.rb
+ INFO LOG: Apr__8_17: Loading editors.rb
+ INFO LOG: Apr__8_17: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_17: Loading mxp.rb
+ INFO LOG: Apr__8_17: Loading mccp.rb
+ INFO LOG: Apr__8_17: Loading flags.rb
+ INFO LOG: Apr__8_17: Loading damage.rb
+ INFO LOG: Apr__8_17: Loading event.rb
+ INFO LOG: Apr__8_17: Loading automap/automap.rb
+ INFO LOG: Apr__8_17: Loading cities.automap.rb
+ INFO LOG: Apr__8_17: Loading cities.olc.rb
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: Loading help.rb
+ INFO LOG: Apr__8_17: Loading imcruby.rb
+ INFO LOG: Apr__8_17: Loading player.rb
+ INFO LOG: Apr__8_17: Loading player.commands.rb
+ INFO LOG: Apr__8_17: Loading random.rb
+ INFO LOG: Apr__8_17: Loading spells.rb
+ INFO LOG: Apr__8_17: Starting server.
+ INFO LOG: Apr__8_17: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36974 connected to CoralMUD!
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36974: Retnur is trying to connect.
+ INFO LOG: Apr__8_17: -- 99.191.82.191:36974: Retnur player file found.
+ INFO LOG: Apr__8_17: -- Retnur has entered the game.
+ INFO LOG: Apr__8_17: Loading cities.rb
+ INFO LOG: Apr__8_17: tick!!!
+ INFO LOG: Apr__8_18: -- #<Player:0x00000002909168>:99.191.82.191:36974 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51561 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51561: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51561: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: -- #<Player:0x0000000142a350>:99.191.82.191:51561 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:53977 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:53977: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:53977: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: -- #<Player:0x00000001f9bbf8>:99.191.82.191:53977 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:35249 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:35249: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:35249: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ERROR LOG: undefined method `change' for String:Class
+ERROR LOG: /home/heath/coral/lib/editor/editor.strings.rb:15:in `block in <class:String>'
+ERROR LOG: /home/heath/coral/lib/editors.rb:139:in `call'
+ERROR LOG: /home/heath/coral/lib/editors.rb:139:in `call_fun'
+ERROR LOG: /home/heath/coral/lib/player.commands.rb:141:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:156:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:136:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:110:in `<main>'
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: -- #<Player:0x00000000b72140>:99.191.82.191:35249 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:48895 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:48895: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:48895: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: -- #<Player:0x000000016fffd0>:99.191.82.191:48895 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:40904 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:40904: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:40904: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: -- #<Player:0x000000011479f8>:99.191.82.191:40904 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:46386 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:46386: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:46386: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: -- #<Player:0x00000001f4ea60>:99.191.82.191:46386 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:49890 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:49890: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:49890: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: -- #<Player:0x000000018e5ac0>:99.191.82.191:49890 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51962 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51962: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:51962: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: -- #<Player:0x00000001151390>:99.191.82.191:51962 disconnected from CoralMUD!
+ INFO LOG: Apr__8_18: Program closed.
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Logging enabled.   Loading logs.rb.
+ INFO LOG: Apr__8_18: Loading utils.rb
+ INFO LOG: Apr__8_18: Loading constants.rb
+ INFO LOG: Apr__8_18: Loading class_property.rb
+ INFO LOG: Apr__8_18: Loading editors.rb
+ INFO LOG: Apr__8_18: Loading editor/editor.strings.rb
+ INFO LOG: Apr__8_18: Loading mxp.rb
+ INFO LOG: Apr__8_18: Loading mccp.rb
+ INFO LOG: Apr__8_18: Loading flags.rb
+ INFO LOG: Apr__8_18: Loading damage.rb
+ INFO LOG: Apr__8_18: Loading event.rb
+ INFO LOG: Apr__8_18: Loading automap/automap.rb
+ INFO LOG: Apr__8_18: Loading cities.automap.rb
+ INFO LOG: Apr__8_18: Loading cities.olc.rb
+ INFO LOG: Apr__8_18: Loading cities.rb
+ INFO LOG: Apr__8_18: Loading help.rb
+ INFO LOG: Apr__8_18: Loading imcruby.rb
+ INFO LOG: Apr__8_18: Loading player.rb
+ INFO LOG: Apr__8_18: Loading player.commands.rb
+ INFO LOG: Apr__8_18: Loading random.rb
+ INFO LOG: Apr__8_18: Loading spells.rb
+ INFO LOG: Apr__8_18: Starting server.
+ INFO LOG: Apr__8_18: CoralMUD is now up on port 4000.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:57957 connected to CoralMUD!
+ INFO LOG: Apr__8_18: -- 99.191.82.191:57957: Retnur is trying to connect.
+ INFO LOG: Apr__8_18: -- 99.191.82.191:57957: Retnur player file found.
+ INFO LOG: Apr__8_18: -- Retnur has entered the game.
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_18: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_19: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_20: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_21: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_22: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__8_23: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_00: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_01: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_02: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!
+ INFO LOG: Apr__9_03: tick!!!

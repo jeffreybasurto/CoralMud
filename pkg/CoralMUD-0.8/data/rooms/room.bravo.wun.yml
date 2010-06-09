@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.bravo.wun
+"@namespace": first.area
+"@vnum": 88
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 90
+  - {}
+
+- - 1
+  - 87
+  - {}
+
+- - 2
+  - 39
+  - {}
+

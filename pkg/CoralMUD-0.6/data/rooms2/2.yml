@@ -1,0 +1,13 @@
+--- 
+"@name": Default Name
+"@vnum": 2
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 5
+  - {}
+
+- - 3
+  - 1
+  - {}
+

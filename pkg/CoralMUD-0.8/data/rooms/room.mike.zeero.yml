@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.mike.zeero
+"@namespace": first.area
+"@vnum": 18
+"@sector": :sect_beach
+"@exit_list": 
+- - 0
+  - 80
+  - {}
+
+- - 2
+  - 17
+  - {}
+
+- - 3
+  - 19
+  - {}
+

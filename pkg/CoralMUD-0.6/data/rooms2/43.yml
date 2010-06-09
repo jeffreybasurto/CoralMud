@@ -1,0 +1,21 @@
+--- 
+"@name": Default Name
+"@vnum": 43
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 40
+  - {}
+
+- - 1
+  - 42
+  - {}
+
+- - 2
+  - 45
+  - {}
+
+- - 3
+  - 38
+  - {}
+

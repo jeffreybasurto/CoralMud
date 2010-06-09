@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.oscar.too
+"@namespace": first.area
+"@vnum": 102
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 103
+  - {}
+
+- - 2
+  - 98
+  - {}
+
+- - 3
+  - 156
+  - {}
+

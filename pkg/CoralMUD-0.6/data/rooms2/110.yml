@@ -1,0 +1,13 @@
+--- 
+"@name": Default Name
+"@vnum": 110
+"@sector": :sect_fancy
+"@exit_list": 
+- - 2
+  - 111
+  - {}
+
+- - 3
+  - 107
+  - {}
+

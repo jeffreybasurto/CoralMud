@@ -1,0 +1,14 @@
+--- 
+"@vtag": !ruby/object:Tag 
+  vtag: 
+  - - social
+    - alpha
+    - "1"
+"@name": default
+"@noarg": You default.
+"@onoarg": $n defaults.
+"@found": You default at $M.
+"@ofound": $n defaults at $N.
+"@tfound": $n defaults at you.
+"@auto": You default at yourself.
+"@oauto": $n defaults at $mself.

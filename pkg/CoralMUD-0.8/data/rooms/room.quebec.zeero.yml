@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.quebec.zeero
+"@namespace": first.area
+"@vnum": 120
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 123
+  - {}
+
+- - 3
+  - 119
+  - {}
+

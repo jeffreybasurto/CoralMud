@@ -1,0 +1,156 @@
+#!/usr/local/bin/ruby
+=begin
+ CoralMUD prerelease candidate by Jeffrey Heath Basurto                   
+                                 AKA Retnur AKA Runter                    
+
+ Copyright (c) 2009, Jeffrey Heath Basurto <bigng22@gmail.com>
+
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+=end
+
+### Include files
+%w[fcntl singleton eventmachine yaml fiber pp net/telnet.rb strscan core/socketengine thread].each { |lib| require lib }
+
+##############################################################
+# All global variables for the CoralMUD is below this point. #
+##############################################################
+$mudmachine = nil        # instance of mud running.
+$dsock_list = []         # Active sockets. Generally managed.
+$dplayer_list = []       # the player list of active players
+$mo_list =  []           # A list of all mo mixed'in objects.  This includes players, mobiles, and equipment.
+$shut_down = false       # used for shutdown
+$help_list = []        # Help files.
+$tabCmd = []           # the command table
+$greeting = ""         # the welcome greeting
+$motd = ""             # the MOTD help file
+$last_sent = nil
+$load_time = nil
+$area_list = []        # list of areas. Internally managed, really.
+$room_save_list = []   # List of rooms that need to be saved on next save event.
+$room_list = []        # The core list of rooms in the game.
+
+##############################################################
+# load_library is the function called to attempt to reload   #
+#   Any changed library files. (With a few exclusions)       #
+##############################################################
+### Loads these files dynamically from /lib in this order.
+$load_library_list = [["utils.rb",      true], ### Utility functions. Only loaded once.
+                      ["constants.rb",  true], ### constants only loaded once.
+                      ### Below here is loaded every time.
+                      ["damage.rb", false],
+                      ["event.rb", false],            ### Triggers and autonomy.
+                      ["mudobj.move.rb", false],      ### Defines movement ability in mudobj
+                      ["mudobj.rb", false],           ### Defines a MudObj
+                      ["cities.automap.rb", false],   ### Automapper support for rooms.
+                      ["cities.grids.rb", false],     ### Virtual space for rooms
+                      ["cities.olc.rb", false],       ### CityRoom specific OLC
+                      ["cities.rb", false],           ### CityRoom structure
+                      ["help.rb", false],             ### Helpfile support
+                      ["imcruby.rb", false],          ### imcruby client
+                      ["player.rb", false],           ### player structure
+                      ["player.commands.rb", false],  ### player command & wizard functions
+                      ["random.rb", false],           ### rand extensions
+                      ["editors.rb", false]]          ### OLC
+### Only loads everything when initial is true
+def load_library initial=false
+  loaded = false
+  $load_library_list.each do |entry|
+    next if not initial and entry[1]
+    if (File.stat("lib/" + entry[0]).mtime.to_i rescue 0) > $load_time.to_i
+      Kernel::load("lib/" + entry[0])
+      log_string "Loading #{entry[0]}"
+      loaded = true
+    end
+  end
+  if loaded
+    $load_time = Time.now
+  end
+end
+
+# CoralMUD entry of code. Execution starts here.
+#
+if __FILE__ == $0
+  # core loop. Only comes back when EventMachine gives up control.
+  # If shut_down is not set then we will restart the mud in place.
+  while !$shut_down
+    load_library true
+    load_helps
+
+    load_rooms :one # loads all rooms.
+    load_rooms :two # does all secondary processing for rooms that depend on all rooms (and possibly other things.) being loaded already.
+
+    # note that we are booting up
+    log_string "Starting server."
+
+    # start the server.
+    # This loop will not exit until a shutdown or reboot occurs.
+    EventMachine::run do
+      ### There is no real purpose for this but it is nice when rebooting. You could make the timer any amount.
+      ### Adds a non-reoccuring timer for 1 seconds.  After 1 seconds it boots up the MUD.
+      ### SocketData is the structure for connections.
+      ### MUDPORT can be changed in lib/const.rb
+      EventMachine::add_timer(1) do
+        begin
+          $mudmachine = EventMachine::start_server "0.0.0.0", MUDPORT, SocketData
+          log_string "CoralMUD is now up on port #{MUDPORT}."
+        rescue Exception
+          log_string "Error: CoralMUD boot failure."
+        end 
+      end
+
+      EventMachine::add_periodic_timer(120) do
+        ### Save pfiles automatically every 2 minute.
+        ### Keep in mind we want to make sure everyone is saved at the same time.
+        ### It prevents possible exploits with duping items in the future with crashes.
+        $dplayer_list.each do |ch|
+          ch.save_yaml
+        end
+      end
+
+
+      ### Start an event for every second.
+      EventMachine::add_periodic_timer(1) do
+        ### Calls every mudobj in the game and tells them it is time to move.
+        ### This may be phased out after production versions. 
+        ### Currently researching individual events for this---unfortunately the efficiency is really
+        ### depenadant on the number of objects needing to move.
+        $mo_list.each do |mo|
+          mo.move
+        end
+        ### Only purpose of this function is to reload our lib files autonomously.
+        ### Keep in mind that some of the file dependancies in lib won't be loaded here.
+        ### They are excluded from this function.
+        ### It's also called no fewer than once per second.
+        load_library
+      end
+      
+      ## This is our gameloop.
+      EventMachine::add_periodic_timer(0.05) do
+        if $shut_down == true
+          EM::next_tick do
+            EM::stop_server $mudmachine
+            $mudmachine = nil
+            EM::stop_event_loop
+          end
+        end
+        heartbeat     # this will be called no fewer than 10 times a second
+      end
+
+    end # EventMachine::run block
+  end
+
+  # Logs the program exiting.
+  log_string "Program closed."
+  exit 0
+end
+

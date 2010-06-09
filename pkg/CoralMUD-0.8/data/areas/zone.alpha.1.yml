@@ -1,0 +1,9 @@
+--- 
+"@name": Default Value
+"@vtag": !ruby/object:Tag 
+  vtag: 
+  - - zone
+    - alpha
+    - "1"
+"@rooms": []
+

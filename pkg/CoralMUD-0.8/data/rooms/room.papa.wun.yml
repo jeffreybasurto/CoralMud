@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.papa.wun
+"@namespace": first.area
+"@vnum": 82
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 81
+  - {}
+
+- - 2
+  - 79
+  - {}
+
+- - 3
+  - 84
+  - {}
+

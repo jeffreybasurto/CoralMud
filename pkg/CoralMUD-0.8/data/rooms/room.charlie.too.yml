@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.charlie.too
+"@namespace": first.area
+"@vnum": 69
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 68
+  - {}
+
+- - 3
+  - 70
+  - {}
+

@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.charlie.tree
+"@namespace": first.area
+"@vnum": 67
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 60
+  - {}
+
+- - 3
+  - 68
+  - {}
+

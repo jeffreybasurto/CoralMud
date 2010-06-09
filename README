@@ -1,0 +1,14 @@
+
+
+
+
+FILE HANDLING/SAVING & LOADING
+
+Early in the project we used simple object serialization.  This was fraught with peril.  I'll spare you the details and
+simply explain how we do things now.  Each class can mix-in CORALMUD::FileIO to define the methods #configure and 
+#gen_configure.   #gen_configure will construct a map based on all instance variables by default.  If #to_configure_properties
+is overloaded it should return an array of instance variables.  #configure will take this map as an argument to initialize
+its variables.   #configure allows you to overload #version_control and #data_transform_on_load which allows you to hook
+into the way it translates the hash into variables.  #gen_configure lets you overload #data_transform_on_save to accomplish
+the same thing to transform the hash before it is returned.  
+

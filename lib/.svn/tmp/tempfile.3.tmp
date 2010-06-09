@@ -1,0 +1,58 @@
+class String
+  def exit_code_to_i
+
+    case self
+    when "north" then sel = 0
+    when "east"  then sel = 1
+    when "south" then sel = 2
+    when "west"  then sel = 3
+    when "up"    then sel = 4
+    when "down"  then sel = 5
+    end
+    return sel
+  end
+
+end
+
+class Integer 
+  def exit_code_to_s
+    ea = ["north", "east", "south", "west", "up", "down"]
+
+    return nil if (self > 5 || self < 0)
+    return ea[self]
+  end
+
+  def exit_code_rev
+    ea = [2, 3, 0, 1, 5, 4]
+
+    return nil if (self > 5 || self < 0)
+    return ea[self]
+  end
+end
+
+class CityRoom
+  # Create new rooms. Connect them. Nil is valid 
+  # By default direction is unset. If no direction both must exist.
+  # Also, input should havbeen checked by now.
+  def dig_rooms(rvnum1, rvnum2, direction)
+    if direction >= 6 || direction < 0
+      return false #failed
+    end
+
+    # lookup 2 rooms.
+    r1, r2 = get_room_index(rvnum1), get_room_index(rvnum2)
+
+    # if either is nil now set it up.
+    r1 = CityRoom.new(rvnum1) if !r1
+    r2 = CityRoom.new(rvnum2) if !r2 
+
+    # creates exits with hook back
+    Exit.new(rvnum2, rvnum1, direction)
+    Exit.new(rvnum1, rvnum2, direction.exit_code_rev)
+
+    m = $area_list[r1.vnum / 1000].get_map(r1)
+
+    ($area_list[r1.vnum / 1000].maps.delete m) if m
+    return true
+  end
+end

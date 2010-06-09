@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.quebec.niner
+"@namespace": first.area
+"@vnum": 96
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 95
+  - {}
+
+- - 1
+  - 133
+  - {}
+
+- - 2
+  - 115
+  - {}
+
+- - 3
+  - 93
+  - {}
+

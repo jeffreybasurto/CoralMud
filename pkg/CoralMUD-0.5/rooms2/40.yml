@@ -1,0 +1,16 @@
+--- 
+"@name": Default Name
+"@vnum": 40
+"@sector": :sect_city
+"@exit_list": 
+- - 1
+  - 39
+  - {}
+
+- - 2
+  - 45
+  - :soft_door: true
+- - 3
+  - 41
+  - {}
+

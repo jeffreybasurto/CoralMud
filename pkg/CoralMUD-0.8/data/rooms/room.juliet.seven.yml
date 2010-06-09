@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.juliet.seven
+"@namespace": first.area
+"@vnum": 24
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 23
+  - {}
+
+- - 1
+  - 25
+  - {}
+
+- - 2
+  - 50
+  - {}
+
+- - 3
+  - 51
+  - {}
+

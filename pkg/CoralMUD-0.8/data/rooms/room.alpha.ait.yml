@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.alpha.ait
+"@namespace": first.area
+"@vnum": 98
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 102
+  - {}
+
+- - 2
+  - 97
+  - {}
+

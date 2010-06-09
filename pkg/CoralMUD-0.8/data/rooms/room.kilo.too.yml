@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.kilo.too
+"@namespace": first.area
+"@vnum": 115
+"@sector": :sect_city
+"@exit_list": 
+- - 0
+  - 96
+  - {}
+
+- - 2
+  - 116
+  - {}
+

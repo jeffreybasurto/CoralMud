@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.india.seven
+"@namespace": first.area
+"@vnum": 38
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 39
+  - {}
+
+- - 1
+  - 43
+  - {}
+
+- - 2
+  - 37
+  - {}
+

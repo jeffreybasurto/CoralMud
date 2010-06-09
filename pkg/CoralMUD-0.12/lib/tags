@@ -1,0 +1,254 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Area	cities.rb	/^class Area$/;"	c
+Array	random.rb	/^class Array$/;"	c
+Class	editors.rb	/^class Class  $/;"	c
+Command	constants.rb	/^class Command$/;"	c
+CommandTable	player.commands.rb	/^class CommandTable$/;"	c
+CoralMUD	class_property.rb	/^module CoralMUD$/;"	m
+Damage	damage.rb	/^class Damage$/;"	c
+DamageLog	damage.rb	/^class DamageLog ### For internal use$/;"	c
+DescriptiveTag	class_property.rb	/^  module DescriptiveTag$/;"	m	class:CoralMUD
+Editor	editors.rb	/^class Editor$/;"	c
+EditorCommand	editors.rb	/^class EditorCommand $/;"	c
+Exit	cities.rb	/^class Exit$/;"	c
+FileIO	class_property.rb	/^  module FileIO$/;"	m	class:CoralMUD
+Filter	editors.rb	/^class Filter$/;"	c
+Float	utils.rb	/^class Float$/;"	c
+Hash	flags.rb	/^class Hash$/;"	c
+Help	help.rb	/^class Help$/;"	c
+Helpfile	new_help.rb	/^class Helpfile$/;"	c
+IMCclient	imcruby.rb	/^class IMCclient$/;"	c
+Integer	cities.rb	/^class Integer$/;"	c
+Integer	utils.rb	/^class Integer$/;"	c
+Movable	class_property.rb	/^module Movable$/;"	m
+Net	imcruby.rb	/^class Net::Telnet$/;"	c
+Player	player.commands.rb	/^class Player$/;"	c
+Player	player.rb	/^class Player$/;"	c
+Room	cities.rb	/^class Room $/;"	c	class:Exit
+Sector	cities.rb	/^class Sector $/;"	c
+Spell	spells.rb	/^class Spell$/;"	c
+Storable	class_property.rb	/^module Storable$/;"	m
+String	editors.rb	/^class String$/;"	c
+String	imcruby.rb	/^class String$/;"	c
+String	player.commands.rb	/^class String$/;"	c
+String	utils.rb	/^class String$/;"	c
+Symbol	utils.rb	/^class Symbol$/;"	c
+TrigEnter	event.rb	/^class TrigEnter < TriggerBase$/;"	c
+TrigProx	event.rb	/^class TrigProx < TriggerBase$/;"	c
+TriggerBase	event.rb	/^class TriggerBase$/;"	c
+accept_data	imcruby.rb	/^  def accept_data $/;"	f	class:IMCclient
+accept_player	cities.rb	/^  def accept_player(player)$/;"	f	class:Exit.Room
+add_command	editors.rb	/^  def add_command command_arg$/;"	f	class:Editor
+add_damage	damage.rb	/^  def add_damage amt, type, aggressor=nil$/;"	f	class:DamageLog
+adjust_context	cities.rb	/^    def adjust_context context, dir$/;"	f	class:Exit.Room.each_bfs
+area_lookup	cities.rb	/^def area_lookup num$/;"	f	class:Exit.Room
+arg_dir	utils.rb	/^  def arg_dir$/;"	f
+arg_int!	utils.rb	/^  def arg_int!$/;"	f
+arg_none	utils.rb	/^  def arg_none$/;"	f
+arg_player_in_game!	utils.rb	/^  def arg_player_in_game!$/;"	f
+arg_str	utils.rb	/^  def arg_str$/;"	f
+arg_tag!	utils.rb	/^  def arg_tag!$/;"	f
+arg_word!	utils.rb	/^  def arg_word!$/;"	f
+associate_with_area	cities.rb	/^  def associate_with_area$/;"	f	class:Exit.Room
+buildwalk	player.commands.rb	/^  def buildwalk(dir)$/;"	f	class:Player
+call_display	editors.rb	/^  def call_display ch, obj$/;"	f	class:EditorCommand
+call_fun	editors.rb	/^  def call_fun ch, obj, arg$/;"	f	class:EditorCommand
+center	utils.rb	/^  def center count, fill=' '$/;"	f
+channel_send	imcruby.rb	/^  def channel_send( sender, channel, message, type='ice-msg-b')$/;"	f
+check_args	player.commands.rb	/^  def check_args expected$/;"	f	class:String
+check_name	utils.rb	/^def check_name name$/;"	f
+check_pass	utils.rb	/^def check_pass pass$/;"	f
+check_reconnect	utils.rb	/^def check_reconnect player$/;"	f
+circular_check	cities.rb	/^  def circular_check a$/;"	f	class:Exit.Room
+close	cities.rb	/^  def close$/;"	f	class:Exit
+cmd_asave	player.commands.rb	/^  def cmd_asave c_t_e, arg$/;"	f	class:Player
+cmd_buildwalk	player.commands.rb	/^  def cmd_buildwalk command_table_entry, arg$/;"	f	class:Player
+cmd_close	player.commands.rb	/^  def cmd_close cte, arg$/;"	f
+cmd_commands	player.commands.rb	/^  def cmd_commands command_table_entry, arg$/;"	f
+cmd_debug	player.commands.rb	/^  def cmd_debug command_table_entry, arg$/;"	f	class:Player
+cmd_dig	player.commands.rb	/^  def cmd_dig command_table_entry, arg$/;"	f	class:Player
+cmd_east	player.commands.rb	/^  def cmd_east command_table_entry, arg$/;"	f	class:Player
+cmd_edit	player.commands.rb	/^  def cmd_edit command_table_entry, arg1, arg2$/;"	f	class:Player
+cmd_goto	player.commands.rb	/^  def cmd_goto command_table_entry, arg$/;"	f	class:Player
+cmd_help	player.commands.rb	/^  def cmd_help command_table_entry, arg$/;"	f
+cmd_iadmin	player.commands.rb	/^  def cmd_iadmin command_table_entry, arg$/;"	f	class:Player
+cmd_ichannels	player.commands.rb	/^  def cmd_ichannels command_table_entry, arg$/;"	f	class:Player
+cmd_ichat	player.commands.rb	/^  def cmd_ichat command_table_entry, arg$/;"	f	class:Player
+cmd_icode	player.commands.rb	/^  def cmd_icode command_table_entry, arg$/;"	f	class:Player
+cmd_igame	player.commands.rb	/^  def cmd_igame command_table_entry, arg$/;"	f	class:Player
+cmd_inews	player.commands.rb	/^  def cmd_inews command_table_entry, arg$/;"	f	class:Player
+cmd_iruby	player.commands.rb	/^  def cmd_iruby command_table_entry, arg$/;"	f	class:Player
+cmd_linkdead	player.commands.rb	/^  def cmd_linkdead command_table_entry, arg$/;"	f
+cmd_look	player.commands.rb	/^  def cmd_look command_table_entry, arg$/;"	f	class:Player
+cmd_lookup	player.commands.rb	/^  def cmd_lookup com$/;"	f	class:CommandTable
+cmd_north	player.commands.rb	/^  def cmd_north command_table_entry, arg$/;"	f	class:Player
+cmd_open	player.commands.rb	/^  def cmd_open cte, arg$/;"	f
+cmd_qui	player.commands.rb	/^  def cmd_qui command_table_entry, arg$/;"	f
+cmd_quit	player.commands.rb	/^  def cmd_quit command_table_entry, arg$/;"	f
+cmd_save	player.commands.rb	/^  def cmd_save command_table_entry, arg$/;"	f
+cmd_say	player.commands.rb	/^  def cmd_say command_table_entry, arg$/;"	f
+cmd_shutdown	player.commands.rb	/^  def cmd_shutdown command_table_entry, arg$/;"	f
+cmd_south	player.commands.rb	/^  def cmd_south command_table_entry, arg$/;"	f	class:Player
+cmd_sprint	player.commands.rb	/^  def cmd_sprint command_table_entry, arg$/;"	f	class:Player
+cmd_stop	player.commands.rb	/^  def cmd_stop arg$/;"	f	class:Player
+cmd_target	player.commands.rb	/^  def cmd_target command_table_entry, arg$/;"	f	class:Player
+cmd_test	player.commands.rb	/^  def cmd_test cte, arg$/;"	f
+cmd_track	player.commands.rb	/^  def cmd_track command_table_entry, r$/;"	f	class:Player
+cmd_west	player.commands.rb	/^  def cmd_west command_table_entry, arg$/;"	f	class:Player
+cmd_who	player.commands.rb	/^  def cmd_who command_table_entry, arg$/;"	f
+cmd_wizhelp	player.commands.rb	/^  def cmd_wizhelp command_table_entry, arg$/;"	f
+commands_list_get	editors.rb	/^  def commands_list_get$/;"	f	class:Editor
+communicate	utils.rb	/^def communicate dPlayer, txt, range$/;"	f
+configure	class_property.rb	/^    def configure data$/;"	f	class:CoralMUD.FileIO
+convert_mxp	utils.rb	/^def convert_mxp(s)$/;"	f
+convert_mxp!	utils.rb	/^  def convert_mxp!$/;"	f	class:String
+data_transform_on_load	cities.rb	/^  def data_transform_on_load version, map$/;"	f	class:Exit.Room
+data_transform_on_save	cities.rb	/^  def data_transform_on_save map$/;"	f	class:Exit.Room
+define_editor	editors.rb	/^  def define_editor sym=:none, h={}$/;"	f	class:Class
+define_editor_field	editors.rb	/^  def define_editor_field(*accessors)$/;"	f
+delete	event.rb	/^  def delete$/;"	f	class:TriggerBase
+dig_rooms	cities.rb	/^  def Room.dig_rooms(rvnum1, rvnum2, direction)$/;"	F	class:Exit.Room
+display_flags	flags.rb	/^  def display_flags key, prefix="flags"$/;"	f	class:Hash
+display_values	editors.rb	/^  def display_values objs$/;"	f	class:Editor
+dist_form	utils.rb	/^def dist_form(a1, a2)$/;"	f
+do_delete	cities.rb	/^  def do_delete$/;"	f	class:Exit
+do_delete	cities.rb	/^  def do_delete$/;"	f	class:Exit.Room
+each_bfs	cities.rb	/^  def each_bfs (option_hash={:full_traverse=>true})$/;"	f	class:Exit.Room
+each_dfs	cities.rb	/^  def each_dfs$/;"	f	class:Exit.Room
+each_dir	cities.rb	/^  def each_dir$/;"	f	class:Exit.Room
+encapsulate	imcruby.rb	/^  def encapsulate$/;"	f	class:String
+enter	cities.rb	/^  def enter xplayer$/;"	f	class:Exit
+eql?	constants.rb	/^  def eql?(other)$/;"	f	class:Command
+execute_command	player.commands.rb	/^  def execute_command comm, arg=""$/;"	f	class:Player
+exit_code_rev	utils.rb	/^  def exit_code_rev$/;"	f	class:Integer
+exit_code_to_i	utils.rb	/^  def exit_code_to_i$/;"	f
+exit_code_to_s	utils.rb	/^  def exit_code_to_s$/;"	f	class:Integer
+filt_none	editors.rb	/^  def filt_none old$/;"	f	class:Filter
+filt_to_exit	editors.rb	/^  def filt_to_exit old$/;"	f	class:Filter
+filt_to_flag	editors.rb	/^  def filt_to_flag str, key$/;"	f	class:Filter
+filt_to_sect	editors.rb	/^  def filt_to_sect old$/;"	f	class:Filter
+filter	editors.rb	/^  def filter arg$/;"	f	class:EditorCommand
+finalize_mxp!	utils.rb	/^  def finalize_mxp!$/;"	f	class:String
+find	help.rb	/^  def self.find arg$/;"	F	class:Help
+find_command	editors.rb	/^  def find_command arg$/;"	f	class:Editor
+find_player	utils.rb	/^def find_player arg$/;"	f
+fire	event.rb	/^  def fire obj$/;"	f	class:TriggerBase
+format_generator	player.commands.rb	/^def format_generator length=4$/;"	f
+free_player	player.rb	/^  def free_player$/;"	f	class:Player
+from_room	class_property.rb	/^  def from_room$/;"	f	class:Movable
+gen_configure	class_property.rb	/^    def gen_configure$/;"	f	class:CoralMUD.FileIO
+gen_vnum	cities.rb	/^  def Area.gen_vnum area_num$/;"	F	class:Area
+get_azi	utils.rb	/^def get_azi a, b$/;"	f
+get_coords	utils.rb	/^  def get_coords$/;"	f
+get_player	utils.rb	/^  def get_player  name$/;"	f
+get_room_index	utils.rb	/^def get_room_index xnum$/;"	f
+get_time	logs.rb	/^def get_time$/;"	f
+go_anywhere	player.rb	/^  def go_anywhere$/;"	f	class:Player
+goto_make_room	player.commands.rb	/^  def goto_make_room vnum$/;"	f	class:Player
+gri	cities.rb	/^  def gri$/;"	f	class:Exit.Room
+gri	cities.rb	/^  def gri$/;"	f	class:Integer
+handle_packet	imcruby.rb	/^  def handle_packet( sender, type, target, data=nil )$/;"	f
+handle_server_input	imcruby.rb	/^  def handle_server_input(s)$/;"	f
+hash	constants.rb	/^  def hash$/;"	f	class:Command
+heal_damage	damage.rb	/^  def heal_damage amt, type, aggressor=nil$/;"	f	class:DamageLog
+heartbeat	event.rb	/^def heartbeat $/;"	f
+how_much_left?	damage.rb	/^  def how_much_left?$/;"	f	class:DamageLog
+how_much_taken?	damage.rb	/^  def how_much_taken?$/;"	f	class:DamageLog
+init_cmd_table	player.commands.rb	/^  def init_cmd_table$/;"	f	class:CommandTable
+initialize	cities.rb	/^  def initialize n, sym, wall_op, path_op$/;"	f	class:Sector
+initialize	cities.rb	/^  def initialize xnum=nil$/;"	f	class:Exit.Room
+initialize	cities.rb	/^  def initialize(n) $/;"	f	class:Area
+initialize	cities.rb	/^  def initialize(xnum=nil,xnum2=nil,dir=nil)$/;"	f	class:Exit
+initialize	constants.rb	/^  def initialize n, a, full=false, h=false$/;"	f	class:Command
+initialize	damage.rb	/^  def initialize amt, type, aggressor=nil$/;"	f	class:Damage
+initialize	damage.rb	/^  def initialize$/;"	f	class:DamageLog
+initialize	editors.rb	/^  def initialize name, function, arg_type, filter, p, d,key, editor, hidden = false, type=:set$/;"	f	class:EditorCommand
+initialize	editors.rb	/^  def initialize name, p, p_on_exit$/;"	f	class:Editor
+initialize	event.rb	/^  def initialize(o, v, f, arg, dies=false)$/;"	f	class:TrigProx
+initialize	event.rb	/^  def initialize(o, v, f, arg, dies=true)$/;"	f	class:TrigEnter
+initialize	event.rb	/^  def initialize(owner, type, function, args, dies=true)$/;"	f	class:TriggerBase
+initialize	imcruby.rb	/^  def initialize(name, pw)$/;"	f	class:IMCclient
+initialize	new_help.rb	/^  def initialize $/;"	f	class:Helpfile
+initialize	player.commands.rb	/^  def initialize$/;"	f	class:CommandTable
+initialize	player.rb	/^  def initialize$/;"	f	class:Player
+initialize	spells.rb	/^  def initialize(name, method, type=:normal)$/;"	f	class:Spell
+inject_room	cities.rb	/^  def inject_room r $/;"	f	class:Area
+is_admin?	player.rb	/^  def is_admin?$/;"	f	class:Player
+is_coords?	utils.rb	/^  def is_coords?$/;"	f
+is_imm?	player.rb	/^  def is_imm?$/;"	f	class:Player
+is_number?	utils.rb	/^  def is_number?$/;"	f
+is_prefix	utils.rb	/^def is_prefix astr, bstr$/;"	f
+is_set	flags.rb	/^  def is_set sym$/;"	f	class:Hash
+last_modified	utils.rb	/^def last_modified file$/;"	f
+list	editors.rb	/^  def self.list$/;"	F	class:Editor
+ljust	utils.rb	/^  def ljust count, fill=' '$/;"	f
+load_from_file	class_property.rb	/^    def load_from_file dir$/;"	f	class:CoralMUD.FileIO
+load_helps	help.rb	/^def load_helps$/;"	f
+load_muddata	utils.rb	/^def load_muddata$/;"	f
+load_pfile	player.rb	/^  def self.load_pfile passed_name$/;"	F	class:Player
+load_rooms	cities.rb	/^  def self.load_rooms$/;"	F	class:Exit.Room
+log	logs.rb	/^def log(sym, str)$/;"	f
+log_chat	imcruby.rb	/^  def log_chat time, chan, string$/;"	f
+log_exception	logs.rb	/^def log_exception(e, sym=:error)$/;"	f
+lookup	cities.rb	/^  def self.lookup name$/;"	F	class:Sector
+lookup	spells.rb	/^  def self.lookup(name)$/;"	F	class:Spell
+lookup_by_tag	class_property.rb	/^    def self.lookup_by_tag tag$/;"	F	class:CoralMUD.DescriptiveTag
+mccp_initialize	mccp.rb	/^def mccp_initialize d$/;"	f
+multi_args	utils.rb	/^  def multi_args $/;"	f	class:String
+mxp_initialize	mxp.rb	/^def mxp_initialize d$/;"	f
+mxpmode	mxp.rb	/^def mxpmode(arg) $/;"	f
+mxptag	mxp.rb	/^def mxptag arg$/;"	f
+one_arg!	utils.rb	/^def one_arg! fstr, bstr$/;"	f
+open	cities.rb	/^  def open$/;"	f	class:Exit
+packet_send	imcruby.rb	/^  def packet_send( sender, type, target, destination, data)$/;"	f
+plaintext	utils.rb	/^  def plaintext$/;"	f
+poll	event.rb	/^  def TrigEnter.poll obj, needle$/;"	F	class:TrigEnter
+poll	event.rb	/^  def TrigProx.poll obj, coord, roomnum $/;"	F	class:TrigProx
+pop_line	utils.rb	/^  def pop_line$/;"	f
+pop_some	utils.rb	/^  def pop_some amt$/;"	f
+rand	random.rb	/^  def rand$/;"	f	class:Array
+rand	random.rb	/^def rand a1=nil, a2=nil$/;"	f
+recalc	damage.rb	/^  def recalc$/;"	f	class:DamageLog
+register_health	damage.rb	/^  def register_health hp$/;"	f	class:DamageLog
+remove	flags.rb	/^  def remove sym$/;"	f	class:Hash
+remove_player	cities.rb	/^  def remove_player(player)$/;"	f	class:Exit.Room
+render_color	utils.rb	/^def render_color(data)$/;"	f
+render_color2	utils.rb	/^def render_color2(data)$/;"	f
+ret_log	imcruby.rb	/^  def ret_log chan $/;"	f
+rjust	utils.rb	/^  def rjust count, fill=' '$/;"	f
+roundf	utils.rb	/^  def roundf(places)$/;"	f	class:Float
+save_all_rooms	cities.rb	/^def save_all_rooms$/;"	f	class:Exit.Room
+save_helps	help.rb	/^def save_helps$/;"	f
+save_pfile	player.rb	/^  def save_pfile $/;"	f	class:Player
+save_room	cities.rb	/^  def save_room$/;"	f	class:Exit.Room
+save_rooms	cities.rb	/^def save_rooms $/;"	f	class:Exit.Room
+save_to_file	class_property.rb	/^    def save_to_file file$/;"	f	class:CoralMUD.FileIO
+sect_to_str	utils.rb	/^  def sect_to_str$/;"	f	class:Symbol
+send_isalive	imcruby.rb	/^  def send_isalive$/;"	f
+set	flags.rb	/^  def set sym$/;"	f	class:Hash
+set_tag	class_property.rb	/^    def set_tag str$/;"	f	class:CoralMUD.DescriptiveTag
+shutdown	imcruby.rb	/^  def shutdown$/;"	f
+str_to_str	editors.rb	/^  def str_to_str$/;"	f	class:String
+strip_color	utils.rb	/^def strip_color txt$/;"	f
+strip_mxp!	utils.rb	/^  def strip_mxp!$/;"	f
+sub_color!	utils.rb	/^  def sub_color!$/;"	f
+test_mccp	mccp.rb	/^def test_mccp string$/;"	f
+text_to_player	player.rb	/^  def text_to_player txt$/;"	f	class:Player
+text_to_room	cities.rb	/^  def text_to_room txt$/;"	f	class:Exit.Room
+text_to_world	utils.rb	/^def text_to_world txt$/;"	f
+to_configure_properties	cities.rb	/^  def to_configure_properties$/;"	f	class:Exit.Room
+to_configure_properties	help.rb	/^  def to_configure_properties$/;"	f	class:Help
+to_configure_properties	player.rb	/^  def to_configure_properties$/;"	f	class:Player
+to_room	class_property.rb	/^  def to_room  room  ### anything including this should may be placed into a room.$/;"	f	class:Movable
+to_s	cities.rb	/^  def to_s$/;"	f	class:Exit
+to_s	cities.rb	/^  def to_s$/;"	f	class:Exit.Room
+to_s	cities.rb	/^  def to_s$/;"	f	class:Sector
+to_str	editors.rb	/^  def to_str$/;"	f	class:EditorCommand
+toggle	flags.rb	/^  def toggle sym$/;"	f	class:Hash
+version_config	player.rb	/^  def version_config version, data$/;"	f	class:Player
+waitfor	imcruby.rb	/^    def waitfor(options) # :yield: recvdata$/;"	f	class:Net

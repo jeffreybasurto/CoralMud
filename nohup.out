@@ -1,0 +1,95 @@
+DEBUG CONSOLE: May_18_16:58: Debugging is turned on.  Debug logs are NOT saved. They only appear here. (In STDOUT.)
+ INFO CONSOLE: May_18_16:58: Logging enabled.   Loading logs.rb.
+ INFO CONSOLE: May_18_16:58: Loading facade.rb
+test.name:   test
+facade.name: test
+test.name:   test
+facade.name: testownted
+test.name:   test
+facade.name: test
+ INFO CONSOLE: May_18_16:58: Loading query_list.rb
+ INFO CONSOLE: May_18_16:58: Loading utils.rb
+ INFO CONSOLE: May_18_16:58: Loading constants.rb
+ INFO CONSOLE: May_18_16:58: Loading damage.rb
+ INFO CONSOLE: May_18_16:58: Loading class_property.rb
+ INFO CONSOLE: May_18_16:58: Loading scripts.rb
+ INFO CONSOLE: May_18_16:58: Loading tags.rb
+ INFO CONSOLE: May_18_16:58: Loading editor/editors.rb
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.strings.rb
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.rooms.rb
+DEBUG CONSOLE: May_18_16:58: Creatable class: room=>Room
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.exits.rb
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.zones.rb
+DEBUG CONSOLE: May_18_16:58: Creatable class: zone=>Zone
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.npc.rb
+DEBUG CONSOLE: May_18_16:58: Creatable class: npc=>NPC
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.items.rb
+DEBUG CONSOLE: May_18_16:58: Creatable class: item=>Item
+ INFO CONSOLE: May_18_16:58: Loading mxp.rb
+ INFO CONSOLE: May_18_16:58: Loading mccp.rb
+ INFO CONSOLE: May_18_16:58: Loading flags.rb
+ INFO CONSOLE: May_18_16:58: Loading areas.rb
+ INFO CONSOLE: May_18_16:58: Loading security.rb
+ INFO CONSOLE: May_18_16:58: Loading event.rb
+ INFO CONSOLE: May_18_16:58: Loading automap/automap.rb
+ INFO CONSOLE: May_18_16:58: Loading cities.olc.rb
+ INFO CONSOLE: May_18_16:58: Loading cities.rb
+ INFO CONSOLE: May_18_16:58: Loading sector definitions.
+ INFO CONSOLE: May_18_16:58: Loading help.rb
+ INFO CONSOLE: May_18_16:58: Loading imcruby.rb
+ INFO CONSOLE: May_18_16:58: Loading player.rb
+ INFO CONSOLE: May_18_16:58: Loading commands.rb
+ INFO CONSOLE: May_18_16:58: Loading editor/editor.player.rb
+ INFO CONSOLE: May_18_16:58: Loading random.rb
+ INFO CONSOLE: May_18_16:58: Loading npc.rb
+ INFO CONSOLE: May_18_16:58: Loading items/types.rb
+ INFO CONSOLE: May_18_16:58: Loading items/items.rb
+ INFO CONSOLE: May_18_16:58: Loading spells.rb
+DEBUG CONSOLE: May_18_16:58: Load_helps: getting all help files.
+DEBUG CONSOLE: May_18_16:58: Greeting loaded.
+DEBUG CONSOLE: May_18_16:58: MOTD loaded.
+ INFO CONSOLE: May_18_16:58: Loading all zones.
+DEBUG CONSOLE: May_18_16:58: Loading zone: second.area
+DEBUG CONSOLE: May_18_16:58: Transforming mobile.
+DEBUG CONSOLE: May_18_16:58: Transforming mobile.
+DEBUG CONSOLE: May_18_16:58: Loading zone: first.area
+DEBUG CONSOLE: May_18_16:58: Loading zone: do.not.change
+ INFO CONSOLE: May_18_16:58: Starting server.
+ERROR CONSOLE: May_18_16:58: CoralMUD boot failure.
+ INFO CONSOLE: May_18_17:00: tick!!!
+ INFO CONSOLE: May_18_17:01: Loading commands.rb
+/home/heath/coral/lib/commands/equipment.rb:2: warning: already initialized constant OPTION_SHOW_ALL
+ INFO CONSOLE: May_18_17:02: tick!!!
+ INFO CONSOLE: May_18_17:04: tick!!!
+ INFO CONSOLE: May_18_17:06: tick!!!
+ INFO CONSOLE: May_18_17:08: tick!!!
+ INFO CONSOLE: May_18_17:10: tick!!!
+ INFO CONSOLE: May_18_17:12: tick!!!
+ INFO CONSOLE: May_18_17:14: tick!!!
+ INFO CONSOLE: May_18_17:16: tick!!!
+ INFO CONSOLE: May_18_17:18: tick!!!
+ INFO CONSOLE: May_18_17:20: tick!!!
+ INFO CONSOLE: May_18_17:22: tick!!!
+ INFO CONSOLE: May_18_17:24: tick!!!
+ INFO CONSOLE: May_18_17:26: tick!!!
+ INFO CONSOLE: May_18_17:28: tick!!!
+ INFO CONSOLE: May_18_17:30: tick!!!
+ INFO CONSOLE: May_18_17:32: tick!!!
+ INFO CONSOLE: May_18_17:34: tick!!!
+ INFO CONSOLE: May_18_17:36: tick!!!
+ INFO CONSOLE: May_18_17:38: tick!!!
+ INFO CONSOLE: May_18_17:38: Loading commands.rb
+coral.rb:104:in `load': /home/heath/coral/lib/commands.rb:175: syntax error, unexpected ')', expecting ']' (SyntaxError)
+  Command.new("goto",  [[:arg_player_in_game!], [:arg_str!]),
+                                                            ^
+/home/heath/coral/lib/commands.rb:176: syntax error, unexpected ',', expecting $end
+	from coral.rb:104:in `block in load_library'
+	from coral.rb:100:in `each'
+	from coral.rb:100:in `load_library'
+	from coral.rb:205:in `block (2 levels) in <main>'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:386:in `call'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:386:in `block in add_periodic_timer'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `call'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+	from /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+	from coral.rb:173:in `<main>'

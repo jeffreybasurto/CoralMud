@@ -1,0 +1,13 @@
+--- 
+"@name": Twisol
+"@password": asdfasdfasdf
+"@level": 55
+"@channel_flags": {}
+
+"@clas": :class_mage
+"@race": :race_feline
+"@traits": 
+- :trait_destined
+- :trait_protected
+- :trait_hearty
+"@sign": :sign_lion

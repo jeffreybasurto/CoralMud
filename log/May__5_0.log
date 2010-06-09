@@ -1,0 +1,751 @@
+ INFO LOG: May__5_00:24: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:24: Loading facade.rb
+ INFO LOG: May__5_00:24: Loading query_list.rb
+ INFO LOG: May__5_00:24: Loading utils.rb
+ INFO LOG: May__5_00:24: Loading constants.rb
+ INFO LOG: May__5_00:24: Loading class_property.rb
+ INFO LOG: May__5_00:24: Loading scripts.rb
+ INFO LOG: May__5_00:24: Loading tags.rb
+ INFO LOG: May__5_00:24: Loading editor/editors.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:24: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:24: Loading mxp.rb
+ INFO LOG: May__5_00:24: Loading mccp.rb
+ INFO LOG: May__5_00:24: Loading flags.rb
+ INFO LOG: May__5_00:24: Loading damage.rb
+ INFO LOG: May__5_00:24: Loading areas.rb
+ INFO LOG: May__5_00:24: Loading event.rb
+ INFO LOG: May__5_00:24: Loading automap/automap.rb
+ INFO LOG: May__5_00:24: Loading cities.olc.rb
+ INFO LOG: May__5_00:24: Loading cities.rb
+ INFO LOG: May__5_00:24: Loading sector definitions.
+ INFO LOG: May__5_00:24: Loading help.rb
+ INFO LOG: May__5_00:24: Loading imcruby.rb
+ INFO LOG: May__5_00:24: Loading player.rb
+ INFO LOG: May__5_00:24: Loading commands.rb
+ INFO LOG: May__5_00:24: Loading random.rb
+ INFO LOG: May__5_00:24: Loading npc.rb
+ INFO LOG: May__5_00:24: Loading items.rb
+ INFO LOG: May__5_00:24: Loading spells.rb
+ INFO LOG: May__5_00:24: Loading all zones.
+ INFO LOG: May__5_00:24: Starting server.
+ INFO LOG: May__5_00:24: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_00:24: -- 76.202.141.206:44322 connected to CoralMUD!
+ INFO LOG: May__5_00:24: -- 76.202.141.206:44322: Retnur is trying to connect.
+ INFO LOG: May__5_00:24: -- 76.202.141.206:44322: Retnur player file found.
+ INFO LOG: May__5_00:24: -- Retnur has entered the game.
+ INFO LOG: May__5_00:26: tick!!!
+ INFO LOG: May__5_00:26: -- #<Player:0x00000002a40130>:76.202.141.206:44322 disconnected from CoralMUD!
+ INFO LOG: May__5_00:26: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:26: Loading facade.rb
+ INFO LOG: May__5_00:26: Loading query_list.rb
+ INFO LOG: May__5_00:26: Loading utils.rb
+ INFO LOG: May__5_00:26: Loading constants.rb
+ INFO LOG: May__5_00:26: Loading class_property.rb
+ INFO LOG: May__5_00:26: Loading scripts.rb
+ INFO LOG: May__5_00:26: Loading tags.rb
+ INFO LOG: May__5_00:26: Loading editor/editors.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:26: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:26: Loading mxp.rb
+ INFO LOG: May__5_00:26: Loading mccp.rb
+ INFO LOG: May__5_00:26: Loading flags.rb
+ INFO LOG: May__5_00:26: Loading damage.rb
+ INFO LOG: May__5_00:26: Loading areas.rb
+ INFO LOG: May__5_00:26: Loading event.rb
+ INFO LOG: May__5_00:26: Loading automap/automap.rb
+ INFO LOG: May__5_00:26: Loading cities.olc.rb
+ INFO LOG: May__5_00:26: Loading cities.rb
+ INFO LOG: May__5_00:26: Loading sector definitions.
+ INFO LOG: May__5_00:26: Loading help.rb
+ INFO LOG: May__5_00:26: Loading imcruby.rb
+ INFO LOG: May__5_00:26: Loading player.rb
+ INFO LOG: May__5_00:26: Loading commands.rb
+ INFO LOG: May__5_00:26: Loading random.rb
+ INFO LOG: May__5_00:26: Loading npc.rb
+ INFO LOG: May__5_00:26: Loading items.rb
+ INFO LOG: May__5_00:26: Loading spells.rb
+ INFO LOG: May__5_00:26: Loading all zones.
+ INFO LOG: May__5_00:26: Starting server.
+ INFO LOG: May__5_00:26: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_00:26: -- 76.202.141.206:41267 connected to CoralMUD!
+ INFO LOG: May__5_00:26: -- 76.202.141.206:41267: Retnur is trying to connect.
+ INFO LOG: May__5_00:26: -- 76.202.141.206:41267: Retnur player file found.
+ INFO LOG: May__5_00:26: -- Retnur has entered the game.
+ INFO LOG: May__5_00:28: tick!!!
+ INFO LOG: May__5_00:30: tick!!!
+ INFO LOG: May__5_00:31: Loading commands.rb
+ INFO LOG: May__5_00:31: -- #<Player:0x000000017ee4f0>:76.202.141.206:41267 disconnected from CoralMUD!
+ INFO LOG: May__5_00:31: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:31: Loading facade.rb
+ INFO LOG: May__5_00:31: Loading query_list.rb
+ INFO LOG: May__5_00:31: Loading utils.rb
+ INFO LOG: May__5_00:31: Loading constants.rb
+ INFO LOG: May__5_00:31: Loading class_property.rb
+ INFO LOG: May__5_00:31: Loading scripts.rb
+ INFO LOG: May__5_00:31: Loading tags.rb
+ INFO LOG: May__5_00:31: Loading editor/editors.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:31: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:31: Loading mxp.rb
+ INFO LOG: May__5_00:31: Loading mccp.rb
+ INFO LOG: May__5_00:31: Loading flags.rb
+ INFO LOG: May__5_00:31: Loading damage.rb
+ INFO LOG: May__5_00:31: Loading areas.rb
+ INFO LOG: May__5_00:31: Loading event.rb
+ INFO LOG: May__5_00:31: Loading automap/automap.rb
+ INFO LOG: May__5_00:31: Loading cities.olc.rb
+ INFO LOG: May__5_00:31: Loading cities.rb
+ INFO LOG: May__5_00:31: Loading sector definitions.
+ INFO LOG: May__5_00:31: Loading help.rb
+ INFO LOG: May__5_00:31: Loading imcruby.rb
+ INFO LOG: May__5_00:31: Loading player.rb
+ INFO LOG: May__5_00:31: Loading commands.rb
+ INFO LOG: May__5_00:31: Loading random.rb
+ INFO LOG: May__5_00:31: Loading npc.rb
+ INFO LOG: May__5_00:31: Loading items.rb
+ INFO LOG: May__5_00:31: Loading spells.rb
+ INFO LOG: May__5_00:31: Loading all zones.
+ INFO LOG: May__5_00:31: Starting server.
+ INFO LOG: May__5_00:31: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_00:31: -- 76.202.141.206:41447 connected to CoralMUD!
+ INFO LOG: May__5_00:31: -- 76.202.141.206:41447: Retnur is trying to connect.
+ INFO LOG: May__5_00:31: -- 76.202.141.206:41447: Retnur player file found.
+ INFO LOG: May__5_00:31: -- Retnur has entered the game.
+ INFO LOG: May__5_00:32: Loading commands.rb
+ INFO LOG: May__5_00:33: tick!!!
+ INFO LOG: May__5_00:35: Loading commands.rb
+ INFO LOG: May__5_00:35: tick!!!
+ INFO LOG: May__5_00:35: -- #<Player:0x00000001132828>:76.202.141.206:41447 disconnected from CoralMUD!
+ INFO LOG: May__5_00:35: Program closed.
+ INFO LOG: May__5_00:35: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:35: Loading facade.rb
+ INFO LOG: May__5_00:35: Loading query_list.rb
+ INFO LOG: May__5_00:35: Loading utils.rb
+ INFO LOG: May__5_00:35: Loading constants.rb
+ INFO LOG: May__5_00:35: Loading class_property.rb
+ INFO LOG: May__5_00:35: Loading scripts.rb
+ INFO LOG: May__5_00:35: Loading tags.rb
+ INFO LOG: May__5_00:35: Loading editor/editors.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:35: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:35: Loading mxp.rb
+ INFO LOG: May__5_00:35: Loading mccp.rb
+ INFO LOG: May__5_00:35: Loading flags.rb
+ INFO LOG: May__5_00:35: Loading damage.rb
+ INFO LOG: May__5_00:35: Loading areas.rb
+ INFO LOG: May__5_00:35: Loading event.rb
+ INFO LOG: May__5_00:35: Loading automap/automap.rb
+ INFO LOG: May__5_00:35: Loading cities.olc.rb
+ INFO LOG: May__5_00:35: Loading cities.rb
+ INFO LOG: May__5_00:35: Loading sector definitions.
+ INFO LOG: May__5_00:35: Loading help.rb
+ INFO LOG: May__5_00:35: Loading imcruby.rb
+ INFO LOG: May__5_00:35: Loading player.rb
+ INFO LOG: May__5_00:35: Loading commands.rb
+ INFO LOG: May__5_00:35: Loading random.rb
+ INFO LOG: May__5_00:35: Loading npc.rb
+ INFO LOG: May__5_00:35: Loading items.rb
+ INFO LOG: May__5_00:35: Loading spells.rb
+ INFO LOG: May__5_00:35: Loading all zones.
+ INFO LOG: May__5_00:35: Starting server.
+ INFO LOG: May__5_00:35: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_00:35: -- 76.202.141.206:34631 connected to CoralMUD!
+ INFO LOG: May__5_00:35: -- 76.202.141.206:34631: Retnur is trying to connect.
+ INFO LOG: May__5_00:35: -- 76.202.141.206:34631: Retnur player file found.
+ INFO LOG: May__5_00:35: -- Retnur has entered the game.
+ INFO LOG: May__5_00:37: tick!!!
+ INFO LOG: May__5_00:38: Loading commands.rb
+ INFO LOG: May__5_00:38: -- #<Player:0x00000000f1e2f8>:76.202.141.206:34631 disconnected from CoralMUD!
+ INFO LOG: May__5_00:39: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:39: Loading facade.rb
+ INFO LOG: May__5_00:39: Loading query_list.rb
+ INFO LOG: May__5_00:39: Loading utils.rb
+ INFO LOG: May__5_00:39: Loading constants.rb
+ INFO LOG: May__5_00:39: Loading class_property.rb
+ INFO LOG: May__5_00:39: Loading scripts.rb
+ INFO LOG: May__5_00:39: Loading tags.rb
+ INFO LOG: May__5_00:39: Loading editor/editors.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:39: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:39: Loading mxp.rb
+ INFO LOG: May__5_00:39: Loading mccp.rb
+ INFO LOG: May__5_00:39: Loading flags.rb
+ INFO LOG: May__5_00:39: Loading damage.rb
+ INFO LOG: May__5_00:39: Loading areas.rb
+ INFO LOG: May__5_00:39: Loading event.rb
+ INFO LOG: May__5_00:39: Loading automap/automap.rb
+ INFO LOG: May__5_00:39: Loading cities.olc.rb
+ INFO LOG: May__5_00:39: Loading cities.rb
+ INFO LOG: May__5_00:39: Loading sector definitions.
+ INFO LOG: May__5_00:39: Loading help.rb
+ INFO LOG: May__5_00:39: Loading imcruby.rb
+ INFO LOG: May__5_00:39: Loading player.rb
+ INFO LOG: May__5_00:39: Loading commands.rb
+ INFO LOG: May__5_00:40: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_00:40: Loading facade.rb
+ INFO LOG: May__5_00:40: Loading query_list.rb
+ INFO LOG: May__5_00:40: Loading utils.rb
+ INFO LOG: May__5_00:40: Loading constants.rb
+ INFO LOG: May__5_00:40: Loading class_property.rb
+ INFO LOG: May__5_00:40: Loading scripts.rb
+ INFO LOG: May__5_00:40: Loading tags.rb
+ INFO LOG: May__5_00:40: Loading editor/editors.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.strings.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.exits.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.zones.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.npc.rb
+ INFO LOG: May__5_00:40: Loading editor/editor.items.rb
+ INFO LOG: May__5_00:40: Loading mxp.rb
+ INFO LOG: May__5_00:40: Loading mccp.rb
+ INFO LOG: May__5_00:40: Loading flags.rb
+ INFO LOG: May__5_00:40: Loading damage.rb
+ INFO LOG: May__5_00:40: Loading areas.rb
+ INFO LOG: May__5_00:40: Loading event.rb
+ INFO LOG: May__5_00:40: Loading automap/automap.rb
+ INFO LOG: May__5_00:40: Loading cities.olc.rb
+ INFO LOG: May__5_00:40: Loading cities.rb
+ INFO LOG: May__5_00:40: Loading sector definitions.
+ INFO LOG: May__5_00:40: Loading help.rb
+ INFO LOG: May__5_00:40: Loading imcruby.rb
+ INFO LOG: May__5_00:40: Loading player.rb
+ INFO LOG: May__5_00:40: Loading commands.rb
+ INFO LOG: May__5_00:40: Loading random.rb
+ INFO LOG: May__5_00:40: Loading npc.rb
+ INFO LOG: May__5_00:40: Loading items.rb
+ INFO LOG: May__5_00:40: Loading spells.rb
+ INFO LOG: May__5_00:40: Loading all zones.
+ INFO LOG: May__5_00:40: Starting server.
+ INFO LOG: May__5_00:40: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_00:40: -- 76.202.141.206:46354 connected to CoralMUD!
+ INFO LOG: May__5_00:40: -- 76.202.141.206:46354: Retnur is trying to connect.
+ INFO LOG: May__5_00:40: -- 76.202.141.206:46354: Retnur player file found.
+ INFO LOG: May__5_00:40: -- Retnur has entered the game.
+ INFO LOG: May__5_00:42: tick!!!
+ INFO LOG: May__5_00:44: tick!!!
+ INFO LOG: May__5_00:46: tick!!!
+ INFO LOG: May__5_00:48: tick!!!
+ INFO LOG: May__5_00:50: tick!!!
+ INFO LOG: May__5_00:52: tick!!!
+ INFO LOG: May__5_00:54: tick!!!
+ INFO LOG: May__5_00:56: tick!!!
+ INFO LOG: May__5_00:58: tick!!!
+ INFO LOG: May__5_01:00: tick!!!
+ INFO LOG: May__5_01:02: tick!!!
+ INFO LOG: May__5_01:04: tick!!!
+ INFO LOG: May__5_01:06: tick!!!
+ INFO LOG: May__5_01:08: tick!!!
+ INFO LOG: May__5_01:10: tick!!!
+ INFO LOG: May__5_01:12: tick!!!
+ INFO LOG: May__5_01:14: tick!!!
+ INFO LOG: May__5_01:16: tick!!!
+ INFO LOG: May__5_01:18: tick!!!
+ INFO LOG: May__5_01:20: tick!!!
+ INFO LOG: May__5_01:22: tick!!!
+ INFO LOG: May__5_01:24: tick!!!
+ INFO LOG: May__5_01:26: tick!!!
+ INFO LOG: May__5_01:28: tick!!!
+ INFO LOG: May__5_01:30: tick!!!
+ INFO LOG: May__5_01:32: tick!!!
+ INFO LOG: May__5_01:34: tick!!!
+ INFO LOG: May__5_01:36: tick!!!
+ INFO LOG: May__5_01:38: tick!!!
+ INFO LOG: May__5_01:40: tick!!!
+ INFO LOG: May__5_01:42: tick!!!
+ INFO LOG: May__5_01:44: tick!!!
+ INFO LOG: May__5_01:46: tick!!!
+ INFO LOG: May__5_01:48: tick!!!
+ INFO LOG: May__5_01:50: tick!!!
+ INFO LOG: May__5_01:52: tick!!!
+ INFO LOG: May__5_01:54: tick!!!
+ INFO LOG: May__5_01:56: tick!!!
+ INFO LOG: May__5_01:58: tick!!!
+ INFO LOG: May__5_02:00: tick!!!
+ INFO LOG: May__5_02:02: tick!!!
+ INFO LOG: May__5_02:04: tick!!!
+ INFO LOG: May__5_02:06: tick!!!
+ INFO LOG: May__5_02:08: tick!!!
+ INFO LOG: May__5_02:10: tick!!!
+ INFO LOG: May__5_02:12: tick!!!
+ INFO LOG: May__5_02:14: tick!!!
+ INFO LOG: May__5_02:16: tick!!!
+ INFO LOG: May__5_02:18: tick!!!
+ INFO LOG: May__5_02:20: tick!!!
+ INFO LOG: May__5_02:22: tick!!!
+ INFO LOG: May__5_02:24: tick!!!
+ INFO LOG: May__5_02:26: tick!!!
+ INFO LOG: May__5_02:28: tick!!!
+ INFO LOG: May__5_02:30: tick!!!
+ INFO LOG: May__5_02:32: tick!!!
+ INFO LOG: May__5_02:34: tick!!!
+ INFO LOG: May__5_02:36: tick!!!
+ INFO LOG: May__5_02:38: tick!!!
+ INFO LOG: May__5_02:40: tick!!!
+ INFO LOG: May__5_02:42: tick!!!
+ INFO LOG: May__5_02:44: tick!!!
+ INFO LOG: May__5_02:46: tick!!!
+ INFO LOG: May__5_02:48: tick!!!
+ INFO LOG: May__5_02:50: tick!!!
+ INFO LOG: May__5_02:52: tick!!!
+ INFO LOG: May__5_02:54: tick!!!
+ INFO LOG: May__5_02:56: tick!!!
+ INFO LOG: May__5_02:56: Loading tags.rb
+ INFO LOG: May__5_02:56: -- #<Player:0x0000000173c480>:76.202.141.206:46354 disconnected from CoralMUD!
+ INFO LOG: May__5_02:56: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_02:56: Loading facade.rb
+ INFO LOG: May__5_02:56: Loading query_list.rb
+ INFO LOG: May__5_02:56: Loading utils.rb
+ INFO LOG: May__5_02:56: Loading constants.rb
+ INFO LOG: May__5_02:56: Loading class_property.rb
+ INFO LOG: May__5_02:56: Loading scripts.rb
+ INFO LOG: May__5_02:56: Loading tags.rb
+ INFO LOG: May__5_02:56: Loading editor/editors.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.strings.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.exits.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.zones.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.npc.rb
+ INFO LOG: May__5_02:56: Loading editor/editor.items.rb
+ INFO LOG: May__5_02:56: Loading mxp.rb
+ INFO LOG: May__5_02:56: Loading mccp.rb
+ INFO LOG: May__5_02:56: Loading flags.rb
+ INFO LOG: May__5_02:56: Loading damage.rb
+ INFO LOG: May__5_02:56: Loading areas.rb
+ INFO LOG: May__5_02:56: Loading event.rb
+ INFO LOG: May__5_02:56: Loading automap/automap.rb
+ INFO LOG: May__5_02:56: Loading cities.olc.rb
+ INFO LOG: May__5_02:56: Loading cities.rb
+ INFO LOG: May__5_02:56: Loading sector definitions.
+ INFO LOG: May__5_02:56: Loading help.rb
+ INFO LOG: May__5_02:56: Loading imcruby.rb
+ INFO LOG: May__5_02:56: Loading player.rb
+ INFO LOG: May__5_02:56: Loading commands.rb
+ INFO LOG: May__5_02:56: Loading random.rb
+ INFO LOG: May__5_02:56: Loading npc.rb
+ INFO LOG: May__5_02:56: Loading items.rb
+ INFO LOG: May__5_02:56: Loading spells.rb
+ INFO LOG: May__5_02:56: Loading all zones.
+ERROR LOG: undefined local variable or method `str' for "room.alpha.1":String
+ERROR LOG: /home/heath/coral/lib/tags.rb:4:in `derive_tag'
+ERROR LOG: /home/heath/coral/lib/tags.rb:26:in `initialize'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:174:in `new'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:174:in `assign_tag'
+ERROR LOG: /home/heath/coral/lib/cities.rb:286:in `data_transform_on_load'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:238:in `configure'
+ERROR LOG: /home/heath/coral/lib/areas.rb:86:in `block in data_transform_on_load'
+ERROR LOG: /home/heath/coral/lib/areas.rb:83:in `each'
+ERROR LOG: /home/heath/coral/lib/areas.rb:83:in `data_transform_on_load'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:238:in `configure'
+ERROR LOG: /home/heath/coral/lib/class_property.rb:215:in `load_from_file'
+ERROR LOG: /home/heath/coral/lib/areas.rb:26:in `block in load_zones'
+ERROR LOG: /home/heath/coral/lib/areas.rb:23:in `each'
+ERROR LOG: /home/heath/coral/lib/areas.rb:23:in `load_zones'
+ERROR LOG: coral.rb:160:in `<main>'
+ERROR LOG: May__5_02:56: Unable to configure: data/areas/second.area.yml
+ INFO LOG: May__5_02:57: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_02:57: Loading facade.rb
+ INFO LOG: May__5_02:57: Loading query_list.rb
+ INFO LOG: May__5_02:57: Loading utils.rb
+ INFO LOG: May__5_02:57: Loading constants.rb
+ INFO LOG: May__5_02:57: Loading class_property.rb
+ INFO LOG: May__5_02:57: Loading scripts.rb
+ INFO LOG: May__5_02:57: Loading tags.rb
+ INFO LOG: May__5_02:57: Loading editor/editors.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.strings.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.exits.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.zones.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.npc.rb
+ INFO LOG: May__5_02:57: Loading editor/editor.items.rb
+ INFO LOG: May__5_02:57: Loading mxp.rb
+ INFO LOG: May__5_02:57: Loading mccp.rb
+ INFO LOG: May__5_02:57: Loading flags.rb
+ INFO LOG: May__5_02:57: Loading damage.rb
+ INFO LOG: May__5_02:57: Loading areas.rb
+ INFO LOG: May__5_02:57: Loading event.rb
+ INFO LOG: May__5_02:57: Loading automap/automap.rb
+ INFO LOG: May__5_02:57: Loading cities.olc.rb
+ INFO LOG: May__5_02:57: Loading cities.rb
+ INFO LOG: May__5_02:57: Loading sector definitions.
+ INFO LOG: May__5_02:57: Loading help.rb
+ INFO LOG: May__5_02:57: Loading imcruby.rb
+ INFO LOG: May__5_02:57: Loading player.rb
+ INFO LOG: May__5_02:57: Loading commands.rb
+ INFO LOG: May__5_02:57: Loading random.rb
+ INFO LOG: May__5_02:57: Loading npc.rb
+ INFO LOG: May__5_02:57: Loading items.rb
+ INFO LOG: May__5_02:57: Loading spells.rb
+ INFO LOG: May__5_02:57: Loading all zones.
+ INFO LOG: May__5_02:57: Starting server.
+ INFO LOG: May__5_02:57: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_02:57: -- 76.202.141.206:57553 connected to CoralMUD!
+ INFO LOG: May__5_02:57: -- 76.202.141.206:57553: Retnur is trying to connect.
+ INFO LOG: May__5_02:57: -- 76.202.141.206:57553: Retnur player file found.
+ INFO LOG: May__5_02:57: -- Retnur has entered the game.
+ INFO LOG: May__5_02:59: tick!!!
+ INFO LOG: May__5_03:01: tick!!!
+ INFO LOG: May__5_03:03: tick!!!
+ INFO LOG: May__5_03:05: tick!!!
+ INFO LOG: May__5_03:07: tick!!!
+ INFO LOG: May__5_03:09: tick!!!
+ INFO LOG: May__5_03:11: tick!!!
+ INFO LOG: May__5_03:13: tick!!!
+ INFO LOG: May__5_03:15: tick!!!
+ INFO LOG: May__5_03:17: tick!!!
+ INFO LOG: May__5_03:19: tick!!!
+ INFO LOG: May__5_03:21: tick!!!
+ INFO LOG: May__5_03:23: tick!!!
+ INFO LOG: May__5_03:25: tick!!!
+ INFO LOG: May__5_03:27: tick!!!
+ INFO LOG: May__5_03:29: tick!!!
+ INFO LOG: May__5_03:31: tick!!!
+ INFO LOG: May__5_03:33: tick!!!
+ INFO LOG: May__5_03:35: tick!!!
+ INFO LOG: May__5_03:37: tick!!!
+ INFO LOG: May__5_03:39: tick!!!
+ INFO LOG: May__5_03:41: tick!!!
+ INFO LOG: May__5_03:43: tick!!!
+ INFO LOG: May__5_03:45: tick!!!
+ INFO LOG: May__5_03:45: Loading query_list.rb
+ INFO LOG: May__5_03:45: -- #<Player:0x00000002a17e38>:76.202.141.206:57553 disconnected from CoralMUD!
+ INFO LOG: May__5_03:45: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_03:45: Loading facade.rb
+ INFO LOG: May__5_03:45: Loading query_list.rb
+ INFO LOG: May__5_03:45: Loading utils.rb
+ INFO LOG: May__5_03:45: Loading constants.rb
+ INFO LOG: May__5_03:45: Loading class_property.rb
+ INFO LOG: May__5_03:45: Loading scripts.rb
+ INFO LOG: May__5_03:45: Loading tags.rb
+ INFO LOG: May__5_03:45: Loading editor/editors.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.strings.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.exits.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.zones.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.npc.rb
+ INFO LOG: May__5_03:45: Loading editor/editor.items.rb
+ INFO LOG: May__5_03:45: Loading mxp.rb
+ INFO LOG: May__5_03:45: Loading mccp.rb
+ INFO LOG: May__5_03:45: Loading flags.rb
+ INFO LOG: May__5_03:45: Loading damage.rb
+ INFO LOG: May__5_03:45: Loading areas.rb
+ INFO LOG: May__5_03:45: Loading event.rb
+ INFO LOG: May__5_03:45: Loading automap/automap.rb
+ INFO LOG: May__5_03:45: Loading cities.olc.rb
+ INFO LOG: May__5_03:45: Loading cities.rb
+ INFO LOG: May__5_03:45: Loading sector definitions.
+ INFO LOG: May__5_03:45: Loading help.rb
+ INFO LOG: May__5_03:45: Loading imcruby.rb
+ INFO LOG: May__5_03:45: Loading player.rb
+ INFO LOG: May__5_03:45: Loading commands.rb
+ INFO LOG: May__5_03:45: Loading random.rb
+ INFO LOG: May__5_03:45: Loading npc.rb
+ INFO LOG: May__5_03:45: Loading items.rb
+ INFO LOG: May__5_03:45: Loading spells.rb
+ INFO LOG: May__5_03:45: Loading all zones.
+ INFO LOG: May__5_03:45: Starting server.
+ INFO LOG: May__5_03:45: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_03:45: -- 76.202.141.206:53187 connected to CoralMUD!
+ INFO LOG: May__5_03:45: -- 76.202.141.206:53187: Retnur is trying to connect.
+ INFO LOG: May__5_03:45: -- 76.202.141.206:53187: Retnur player file found.
+ INFO LOG: May__5_03:45: -- Retnur has entered the game.
+ INFO LOG: May__5_03:46: -- #<Player:0x000000013a9480>:76.202.141.206:53187 disconnected from CoralMUD!
+ INFO LOG: May__5_03:47: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_03:47: Loading facade.rb
+ INFO LOG: May__5_03:47: Loading query_list.rb
+ INFO LOG: May__5_03:47: Loading utils.rb
+ INFO LOG: May__5_03:47: Loading constants.rb
+ INFO LOG: May__5_03:47: Loading class_property.rb
+ INFO LOG: May__5_03:47: Loading scripts.rb
+ INFO LOG: May__5_03:47: Loading tags.rb
+ INFO LOG: May__5_03:47: Loading editor/editors.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.strings.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.exits.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.zones.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.npc.rb
+ INFO LOG: May__5_03:47: Loading editor/editor.items.rb
+ INFO LOG: May__5_03:47: Loading mxp.rb
+ INFO LOG: May__5_03:47: Loading mccp.rb
+ INFO LOG: May__5_03:47: Loading flags.rb
+ INFO LOG: May__5_03:47: Loading damage.rb
+ INFO LOG: May__5_03:47: Loading areas.rb
+ INFO LOG: May__5_03:47: Loading event.rb
+ INFO LOG: May__5_03:47: Loading automap/automap.rb
+ INFO LOG: May__5_03:47: Loading cities.olc.rb
+ INFO LOG: May__5_03:47: Loading cities.rb
+ INFO LOG: May__5_03:47: Loading sector definitions.
+ INFO LOG: May__5_03:47: Loading help.rb
+ INFO LOG: May__5_03:47: Loading imcruby.rb
+ INFO LOG: May__5_03:47: Loading player.rb
+ INFO LOG: May__5_03:47: Loading commands.rb
+ INFO LOG: May__5_03:47: Loading random.rb
+ INFO LOG: May__5_03:47: Loading npc.rb
+ INFO LOG: May__5_03:47: Loading items.rb
+ INFO LOG: May__5_03:47: Loading spells.rb
+ INFO LOG: May__5_03:47: Loading all zones.
+ INFO LOG: May__5_03:47: Starting server.
+ INFO LOG: May__5_03:47: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_03:47: -- 76.202.141.206:58336 connected to CoralMUD!
+ INFO LOG: May__5_03:47: -- 76.202.141.206:58336: Retnur is trying to connect.
+ INFO LOG: May__5_03:47: -- 76.202.141.206:58336: Retnur player file found.
+ INFO LOG: May__5_03:47: -- Retnur has entered the game.
+ INFO LOG: May__5_03:49: tick!!!
+ INFO LOG: May__5_03:50: Loading query_list.rb
+ INFO LOG: May__5_03:51: Loading query_list.rb
+ INFO LOG: May__5_03:51: ["all"]
+ INFO LOG: May__5_03:51: ["all"]
+ INFO LOG: May__5_03:51: tick!!!
+ INFO LOG: May__5_03:51: ["sword"]
+ INFO LOG: May__5_03:51: ["all"]
+ INFO LOG: May__5_03:51: ["sword"]
+ INFO LOG: May__5_03:52: ["all.sword"]
+ INFO LOG: May__5_03:52: ["sword"]
+ INFO LOG: May__5_03:52: ["sword"]
+ INFO LOG: May__5_03:52: ["all"]
+ INFO LOG: May__5_03:52: ["1"]
+ INFO LOG: May__5_03:52: ["1.sword"]
+ INFO LOG: May__5_03:52: ["1.sword"]
+ INFO LOG: May__5_03:53: tick!!!
+ INFO LOG: May__5_03:55: tick!!!
+ INFO LOG: May__5_03:55: Loading query_list.rb
+ INFO LOG: May__5_03:55: ["1.sword"]
+ INFO LOG: May__5_03:55: 1.sword
+ INFO LOG: May__5_03:55: 1.sword
+ INFO LOG: May__5_03:55: ["sword"]
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: ["sword"]
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: ["sword"]
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: sword
+ INFO LOG: May__5_03:55: Loading query_list.rb
+ INFO LOG: May__5_03:55: ["sword"]
+ INFO LOG: May__5_03:55: ["sword"]
+ INFO LOG: May__5_03:56: ["all"]
+ INFO LOG: May__5_03:56: ["all"]
+ INFO LOG: May__5_03:56: ["all"]
+ INFO LOG: May__5_03:56: Loading query_list.rb
+ INFO LOG: May__5_03:56: ["all"]
+ INFO LOG: May__5_03:56: all
+ INFO LOG: May__5_03:56: all
+ INFO LOG: May__5_03:56: ["all"]
+ INFO LOG: May__5_03:56: all
+ INFO LOG: May__5_03:56: all
+ INFO LOG: May__5_03:57: tick!!!
+ INFO LOG: May__5_03:58: Loading query_list.rb
+ INFO LOG: May__5_03:58: ["all"]
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:58: ["all"]
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:58: all
+ INFO LOG: May__5_03:59: tick!!!
+ INFO LOG: May__5_04:01: Loading query_list.rb
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: -- #<Player:0x000000016a2e20>:76.202.141.206:58336 disconnected from CoralMUD!
+ INFO LOG: May__5_04:01: Logging enabled.   Loading logs.rb.
+ INFO LOG: May__5_04:01: Loading facade.rb
+ INFO LOG: May__5_04:01: Loading query_list.rb
+ INFO LOG: May__5_04:01: Loading utils.rb
+ INFO LOG: May__5_04:01: Loading constants.rb
+ INFO LOG: May__5_04:01: Loading class_property.rb
+ INFO LOG: May__5_04:01: Loading scripts.rb
+ INFO LOG: May__5_04:01: Loading tags.rb
+ INFO LOG: May__5_04:01: Loading editor/editors.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.strings.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.rooms.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.exits.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.zones.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.npc.rb
+ INFO LOG: May__5_04:01: Loading editor/editor.items.rb
+ INFO LOG: May__5_04:01: Loading mxp.rb
+ INFO LOG: May__5_04:01: Loading mccp.rb
+ INFO LOG: May__5_04:01: Loading flags.rb
+ INFO LOG: May__5_04:01: Loading damage.rb
+ INFO LOG: May__5_04:01: Loading areas.rb
+ INFO LOG: May__5_04:01: Loading event.rb
+ INFO LOG: May__5_04:01: Loading automap/automap.rb
+ INFO LOG: May__5_04:01: Loading cities.olc.rb
+ INFO LOG: May__5_04:01: Loading cities.rb
+ INFO LOG: May__5_04:01: Loading sector definitions.
+ INFO LOG: May__5_04:01: Loading help.rb
+ INFO LOG: May__5_04:01: Loading imcruby.rb
+ INFO LOG: May__5_04:01: Loading player.rb
+ INFO LOG: May__5_04:01: Loading commands.rb
+ INFO LOG: May__5_04:01: Loading random.rb
+ INFO LOG: May__5_04:01: Loading npc.rb
+ INFO LOG: May__5_04:01: Loading items.rb
+ INFO LOG: May__5_04:01: Loading spells.rb
+ INFO LOG: May__5_04:01: Loading all zones.
+ INFO LOG: May__5_04:01: Starting server.
+ INFO LOG: May__5_04:01: CoralMUD is now up on port 4000.
+ INFO LOG: May__5_04:01: -- 76.202.141.206:55800 connected to CoralMUD!
+ INFO LOG: May__5_04:01: -- 76.202.141.206:55800: Retnur is trying to connect.
+ INFO LOG: May__5_04:01: -- 76.202.141.206:55800: Retnur player file found.
+ INFO LOG: May__5_04:01: -- Retnur has entered the game.
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:01: all
+ INFO LOG: May__5_04:03: tick!!!
+ INFO LOG: May__5_04:04: Loading query_list.rb
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: Loading query_list.rb
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:04: all
+ INFO LOG: May__5_04:05: tick!!!
+ INFO LOG: May__5_04:07: tick!!!
+ INFO LOG: May__5_04:09: tick!!!
+ INFO LOG: May__5_04:09: Loading query_list.rb
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:09: all
+ INFO LOG: May__5_04:10: Loading query_list.rb
+ INFO LOG: May__5_04:10: all
+ INFO LOG: May__5_04:10: all
+ INFO LOG: May__5_04:10: all
+ INFO LOG: May__5_04:10: found = ["inventory"]
+ INFO LOG: May__5_04:11: tick!!!
+ INFO LOG: May__5_04:11: all from all
+ INFO LOG: May__5_04:11: all
+ INFO LOG: May__5_04:11: all
+ INFO LOG: May__5_04:11: found = ["inventory"]
+ INFO LOG: May__5_04:11: all
+ INFO LOG: May__5_04:11: found = [#<ItemFacade:0x000000029ed908 @id=1373, @hides=#<Item:0x00000002f37508 @name="steel sword", @type=:trash, @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x00000002f36900 @vtag=[["steel", "sword"]]>, @flags=nil>, @owner=#<Player:0x00000002cbd638 @command_table=#<CommandTable:0x00000002cbd610 @cmds=[#<Command:0x0000000328c028 @cmd_name="north", @cmd_funct=:cmd_north, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003289918 @cmd_name="east", @cmd_funct=:cmd_east, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003287eb0 @cmd_name="south", @cmd_funct=:cmd_south, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x000000032856b0 @cmd_name="west", @cmd_funct=:cmd_west, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003283c20 @cmd_name="quit", @cmd_funct=:cmd_quit, @cmd_args=:arg_none, @hidden=false, @must_type_full=true>, #<Command:0x00000003282d48 @cmd_name="who", @cmd_funct=:cmd_who, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000327fc10 @cmd_name="look", @cmd_funct=:cmd_look, @cmd_args=[[:arg_int!], [:arg_word!], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000327aa80 @cmd_name="put", @cmd_funct=:cmd_put, @cmd_args=[[:arg_obj_inv!, :arg_obj_room!], [:arg_obj_inv!, :arg_obj_inv!]], @hidden=false, @must_type_full=false>, #<Command:0x00000003278f78 @cmd_name="drop", @cmd_funct=:cmd_drop, @cmd_args=[[:arg_obj_inv!]], @hidden=false, @must_type_full=false>, #<Command:0x000000032686a0 @cmd_name="get", @cmd_funct=:cmd_get, @cmd_args=[[:arg_obj_inv_or_room!], [:arg_obj_inv_or_room!, :arg_obj_inv_or_room]], @hidden=false, @must_type_full=false>, #<Command:0x00000003265ba8 @cmd_name="commands", @cmd_funct=:cmd_commands, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003261da0 @cmd_name="help", @cmd_funct=:cmd_help, @cmd_args=[[:arg_word!], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000325f668 @cmd_name="say", @cmd_funct=:cmd_say, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000325cd00 @cmd_name="save", @cmd_funct=:cmd_save, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000325c198 @cmd_name="tell", @cmd_funct=:cmd_tell, @cmd_args=[[:arg_word!, :arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x0000000325a410 @cmd_name="track", @cmd_funct=:cmd_track, @cmd_args=:arg_player_in_game!, @hidden=false, @must_type_full=false>, #<Command:0x00000003259628 @cmd_name="open", @cmd_funct=:cmd_open, @cmd_args=:arg_dir, @hidden=false, @must_type_full=false>, #<Command:0x000000032538e0 @cmd_name="close", @cmd_funct=:cmd_close, @cmd_args=:arg_dir, @hidden=false, @must_type_full=false>, #<Command:0x000000032521c0 @cmd_name="inews", @cmd_funct=:cmd_inews, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003249ae8 @cmd_name="iruby", @cmd_funct=:cmd_iruby, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003248cd8 @cmd_name="ichat", @cmd_funct=:cmd_ichat, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000323fa48 @cmd_name="icode", @cmd_funct=:cmd_icode, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000323dd38 @cmd_name="igame", @cmd_funct=:cmd_igame, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003234030 @cmd_name="ichannels", @cmd_funct=:cmd_ichannels, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003231ee8 @cmd_name="inventory", @cmd_funct=:cmd_inventory, @cmd_args=[[:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000322c588 @cmd_name="test", @cmd_funct=:cmd_test, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000322af08 @cmd_name="goto", @cmd_funct=:cmd_goto, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x000000032249c8 @cmd_name="wizhelp", @cmd_funct=:cmd_wizhelp, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000321a770 @cmd_name="linkdead", @cmd_funct=:cmd_linkdead, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x000000032192d0 @cmd_name="shutdown", @cmd_funct=:cmd_shutdown, @cmd_args=:arg_none, @hidden=false, @must_type_full=true>, #<Command:0x00000003217d90 @cmd_name="buildwalk", @cmd_funct=:cmd_buildwalk, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000320c698 @cmd_name="asave", @cmd_funct=:cmd_asave, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000320ba18 @cmd_name="vlist", @cmd_funct=:cmd_vlist, @cmd_args=[[:arg_str], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x00000003209f60 @cmd_name="vtag", @cmd_funct=:cmd_vtag, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003202878 @cmd_name="instance", @cmd_funct=:cmd_instance, @cmd_args=[[:arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x000000031ffee8 @cmd_name="create", @cmd_funct=:cmd_create, @cmd_args=[[:arg_class!], [:arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x000000031f51c8 @cmd_name="edit", @cmd_funct=:cmd_edit, @cmd_args=[[:arg_str], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x000000031eca28 @cmd_name="source", @cmd_funct=:cmd_source, @cmd_args=:arg_word!, @hidden=false, @must_type_full=false>, #<Command:0x000000030baad8 @cmd_name="snoop", @cmd_funct=:cmd_snoop, @cmd_args=:arg_player_in_game!, @hidden=false, @must_type_full=false>, #<Command:0x000000030b83a0 @cmd_name="purge", @cmd_funct=:cmd_purge, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>]>, @socket=#<#<Class:0x00000002f119c0>:0x00000002f097e8 @signature="e6edc45b0631771d59e2a1b5c41503b227", @state=:state_playing, @mxp=true, @mccp=nil, @network_parser=#<Fiber:0x00000002d24fb8>, @nanny=#<Fiber:0x00000002f08c80>, @player=#<Player:0x00000002cbd638 ...>, @input_queue=[], @bust_prompt=true, @port=55800, @addr="76.202.141.206">, @name="Retnur", @password="plokij098", @level=55, @flags=[], @pathtarget=nil, @channel_flags={}, @editing=[], @clas=:class_warrior, @race=:race_human, @sign=:sign_ram, @traits=[:trait_hearty, :trait_protected, :trait_deft], @inventory=nil, @when=1273050087, @in_room=#<Room:0x000000030e1f20 @name="Default Value", @sector=:sect_city, @desc="There is little unique to be seen here.", @flags={}, @people=[#<Player:0x00000002cbd638 ...>], @vnum=1, @exit_list=[nil, #<Exit:0x000000030e1e30 @flags={}, @flags_state={}, @towards_room=2, @from_room=#<Room:0x000000030e1f20 ...>, @direction=1>, nil, #<Exit:0x000000030e1d90 @flags={}, @flags_state={}, @towards_room=13, @from_room=#<Room:0x000000030e1f20 ...>, @direction=3>, nil, nil], @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x000000030e1c78 @vtag=[["room", "mike", "seven"]]>>, @stuff=[#<ItemFacade:0x000000029ed908 ...>, #<ItemFacade:0x00000002d28938 @id=1374, @hides=#<Item:0x00000002f37508 @name="steel sword", @type=:trash, @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x00000002f36900 @vtag=[["steel", "sword"]]>, @flags=nil>, @owner=#<Player:0x00000002cbd638 ...>>]>>, #<ItemFacade:0x00000002d28938 @id=1374, @hides=#<Item:0x00000002f37508 @name="steel sword", @type=:trash, @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x00000002f36900 @vtag=[["steel", "sword"]]>, @flags=nil>, @owner=#<Player:0x00000002cbd638 @command_table=#<CommandTable:0x00000002cbd610 @cmds=[#<Command:0x0000000328c028 @cmd_name="north", @cmd_funct=:cmd_north, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003289918 @cmd_name="east", @cmd_funct=:cmd_east, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003287eb0 @cmd_name="south", @cmd_funct=:cmd_south, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x000000032856b0 @cmd_name="west", @cmd_funct=:cmd_west, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003283c20 @cmd_name="quit", @cmd_funct=:cmd_quit, @cmd_args=:arg_none, @hidden=false, @must_type_full=true>, #<Command:0x00000003282d48 @cmd_name="who", @cmd_funct=:cmd_who, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000327fc10 @cmd_name="look", @cmd_funct=:cmd_look, @cmd_args=[[:arg_int!], [:arg_word!], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000327aa80 @cmd_name="put", @cmd_funct=:cmd_put, @cmd_args=[[:arg_obj_inv!, :arg_obj_room!], [:arg_obj_inv!, :arg_obj_inv!]], @hidden=false, @must_type_full=false>, #<Command:0x00000003278f78 @cmd_name="drop", @cmd_funct=:cmd_drop, @cmd_args=[[:arg_obj_inv!]], @hidden=false, @must_type_full=false>, #<Command:0x000000032686a0 @cmd_name="get", @cmd_funct=:cmd_get, @cmd_args=[[:arg_obj_inv_or_room!], [:arg_obj_inv_or_room!, :arg_obj_inv_or_room]], @hidden=false, @must_type_full=false>, #<Command:0x00000003265ba8 @cmd_name="commands", @cmd_funct=:cmd_commands, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x00000003261da0 @cmd_name="help", @cmd_funct=:cmd_help, @cmd_args=[[:arg_word!], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000325f668 @cmd_name="say", @cmd_funct=:cmd_say, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000325cd00 @cmd_name="save", @cmd_funct=:cmd_save, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000325c198 @cmd_name="tell", @cmd_funct=:cmd_tell, @cmd_args=[[:arg_word!, :arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x0000000325a410 @cmd_name="track", @cmd_funct=:cmd_track, @cmd_args=:arg_player_in_game!, @hidden=false, @must_type_full=false>, #<Command:0x00000003259628 @cmd_name="open", @cmd_funct=:cmd_open, @cmd_args=:arg_dir, @hidden=false, @must_type_full=false>, #<Command:0x000000032538e0 @cmd_name="close", @cmd_funct=:cmd_close, @cmd_args=:arg_dir, @hidden=false, @must_type_full=false>, #<Command:0x000000032521c0 @cmd_name="inews", @cmd_funct=:cmd_inews, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003249ae8 @cmd_name="iruby", @cmd_funct=:cmd_iruby, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003248cd8 @cmd_name="ichat", @cmd_funct=:cmd_ichat, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000323fa48 @cmd_name="icode", @cmd_funct=:cmd_icode, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x0000000323dd38 @cmd_name="igame", @cmd_funct=:cmd_igame, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003234030 @cmd_name="ichannels", @cmd_funct=:cmd_ichannels, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003231ee8 @cmd_name="inventory", @cmd_funct=:cmd_inventory, @cmd_args=[[:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x0000000322c588 @cmd_name="test", @cmd_funct=:cmd_test, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000322af08 @cmd_name="goto", @cmd_funct=:cmd_goto, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x000000032249c8 @cmd_name="wizhelp", @cmd_funct=:cmd_wizhelp, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000321a770 @cmd_name="linkdead", @cmd_funct=:cmd_linkdead, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x000000032192d0 @cmd_name="shutdown", @cmd_funct=:cmd_shutdown, @cmd_args=:arg_none, @hidden=false, @must_type_full=true>, #<Command:0x00000003217d90 @cmd_name="buildwalk", @cmd_funct=:cmd_buildwalk, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000320c698 @cmd_name="asave", @cmd_funct=:cmd_asave, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>, #<Command:0x0000000320ba18 @cmd_name="vlist", @cmd_funct=:cmd_vlist, @cmd_args=[[:arg_str], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x00000003209f60 @cmd_name="vtag", @cmd_funct=:cmd_vtag, @cmd_args=:arg_str, @hidden=false, @must_type_full=false>, #<Command:0x00000003202878 @cmd_name="instance", @cmd_funct=:cmd_instance, @cmd_args=[[:arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x000000031ffee8 @cmd_name="create", @cmd_funct=:cmd_create, @cmd_args=[[:arg_class!], [:arg_str]], @hidden=false, @must_type_full=false>, #<Command:0x000000031f51c8 @cmd_name="edit", @cmd_funct=:cmd_edit, @cmd_args=[[:arg_str], [:arg_none]], @hidden=false, @must_type_full=false>, #<Command:0x000000031eca28 @cmd_name="source", @cmd_funct=:cmd_source, @cmd_args=:arg_word!, @hidden=false, @must_type_full=false>, #<Command:0x000000030baad8 @cmd_name="snoop", @cmd_funct=:cmd_snoop, @cmd_args=:arg_player_in_game!, @hidden=false, @must_type_full=false>, #<Command:0x000000030b83a0 @cmd_name="purge", @cmd_funct=:cmd_purge, @cmd_args=:arg_none, @hidden=false, @must_type_full=false>]>, @socket=#<#<Class:0x00000002f119c0>:0x00000002f097e8 @signature="e6edc45b0631771d59e2a1b5c41503b227", @state=:state_playing, @mxp=true, @mccp=nil, @network_parser=#<Fiber:0x00000002d24fb8>, @nanny=#<Fiber:0x00000002f08c80>, @player=#<Player:0x00000002cbd638 ...>, @input_queue=[], @bust_prompt=true, @port=55800, @addr="76.202.141.206">, @name="Retnur", @password="plokij098", @level=55, @flags=[], @pathtarget=nil, @channel_flags={}, @editing=[], @clas=:class_warrior, @race=:race_human, @sign=:sign_ram, @traits=[:trait_hearty, :trait_protected, :trait_deft], @inventory=nil, @when=1273050087, @in_room=#<Room:0x000000030e1f20 @name="Default Value", @sector=:sect_city, @desc="There is little unique to be seen here.", @flags={}, @people=[#<Player:0x00000002cbd638 ...>], @vnum=1, @exit_list=[nil, #<Exit:0x000000030e1e30 @flags={}, @flags_state={}, @towards_room=2, @from_room=#<Room:0x000000030e1f20 ...>, @direction=1>, nil, #<Exit:0x000000030e1d90 @flags={}, @flags_state={}, @towards_room=13, @from_room=#<Room:0x000000030e1f20 ...>, @direction=3>, nil, nil], @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x000000030e1c78 @vtag=[["room", "mike", "seven"]]>>, @stuff=[#<ItemFacade:0x000000029ed908 @id=1373, @hides=#<Item:0x00000002f37508 @name="steel sword", @type=:trash, @namespace=#<Zone:0x000000032a68d8 @name="The First Area", @when=1273050083, @vtag=#<Tag:0x000000032a5870 @vtag=[["first", "area"]]>, @rooms=nil, @items=nil, @npcs=nil, @namespace=nil>, @vtag=#<Tag:0x00000002f36900 @vtag=[["steel", "sword"]]>, @flags=nil>, @owner=#<Player:0x00000002cbd638 ...>>, #<ItemFacade:0x00000002d28938 ...>]>>]
+ INFO LOG: May__5_04:13: tick!!!
+ INFO LOG: May__5_04:14: all.room
+ INFO LOG: May__5_04:14: all.room
+ INFO LOG: May__5_04:14: all
+ INFO LOG: May__5_04:14: match
+ INFO LOG: May__5_04:14: found = ["room"]
+ INFO LOG: May__5_04:14: all.room
+ INFO LOG: May__5_04:14: all.room
+ INFO LOG: May__5_04:14: all
+ INFO LOG: May__5_04:14: match
+ INFO LOG: May__5_04:14: found = ["room"]
+ INFO LOG: May__5_04:15: tick!!!
+ INFO LOG: May__5_04:17: tick!!!
+ INFO LOG: May__5_04:17: Loading query_list.rb
+ INFO LOG: May__5_04:19: tick!!!
+ INFO LOG: May__5_04:21: tick!!!
+ INFO LOG: May__5_04:23: tick!!!
+ INFO LOG: May__5_04:25: tick!!!
+ INFO LOG: May__5_04:27: tick!!!
+ INFO LOG: May__5_04:29: tick!!!
+ INFO LOG: May__5_04:31: tick!!!
+ INFO LOG: May__5_04:33: tick!!!
+ INFO LOG: May__5_04:35: tick!!!
+ INFO LOG: May__5_04:37: tick!!!
+ INFO LOG: May__5_04:39: tick!!!
+ INFO LOG: May__5_04:41: tick!!!
+ INFO LOG: May__5_04:43: tick!!!
+ INFO LOG: May__5_04:45: tick!!!
+ INFO LOG: May__5_04:47: tick!!!
+ INFO LOG: May__5_04:49: tick!!!
+ INFO LOG: May__5_04:51: tick!!!
+ INFO LOG: May__5_04:53: tick!!!
+ INFO LOG: May__5_04:55: tick!!!
+ INFO LOG: May__5_04:57: tick!!!
+ INFO LOG: May__5_04:59: tick!!!
+ INFO LOG: May__5_05:01: tick!!!
+ INFO LOG: May__5_05:03: tick!!!
+ INFO LOG: May__5_05:05: tick!!!
+ INFO LOG: May__5_05:07: tick!!!
+ INFO LOG: May__5_05:09: tick!!!
+ INFO LOG: May__5_05:11: tick!!!
+ INFO LOG: May__5_05:13: tick!!!
+ INFO LOG: May__5_05:15: tick!!!
+ INFO LOG: May__5_05:17: tick!!!
+ INFO LOG: May__5_05:19: tick!!!
+ INFO LOG: May__5_05:21: tick!!!
+ INFO LOG: May__5_05:23: tick!!!
+ INFO LOG: May__5_05:25: tick!!!
+ INFO LOG: May__5_05:27: tick!!!
+ INFO LOG: May__5_05:29: tick!!!
+ INFO LOG: May__5_05:31: tick!!!
+ INFO LOG: May__5_05:33: tick!!!
+ INFO LOG: May__5_05:35: tick!!!
+ INFO LOG: May__5_05:37: tick!!!
+ INFO LOG: May__5_05:39: tick!!!
+ INFO LOG: May__5_05:41: tick!!!
+ INFO LOG: May__5_05:43: tick!!!
+ INFO LOG: May__5_05:45: tick!!!
+ INFO LOG: May__5_05:47: tick!!!
+ INFO LOG: May__5_05:49: tick!!!
+ INFO LOG: May__5_05:51: tick!!!
+ INFO LOG: May__5_05:53: tick!!!
+ INFO LOG: May__5_05:55: tick!!!
+ INFO LOG: May__5_05:57: tick!!!
+ INFO LOG: May__5_05:59: tick!!!
+ INFO LOG: May__5_06:01: tick!!!
+ INFO LOG: May__5_06:03: tick!!!
+ INFO LOG: May__5_06:05: tick!!!
+ INFO LOG: May__5_06:07: tick!!!
+ INFO LOG: May__5_06:09: tick!!!
+ INFO LOG: May__5_06:11: tick!!!
+ INFO LOG: May__5_06:11: -- #<Player:0x00000002cbd638>:76.202.141.206:55800 disconnected from CoralMUD!

@@ -1,0 +1,373 @@
+
+### extend center function for strings.
+class String
+  ### redefine center to o_center
+  alias o_center center
+  alias o_ljust ljust
+  alias o_rjust rjust
+
+  def sub_color!
+    gsub! /#[^0-9^#^ ]/, "" ### busts color
+    gsub! /##/, "#"
+  end
+
+  def center count, fill=' '
+    s = self.dup ### dup self
+
+    s.sub_color!
+ 
+    s2 = s.dup ### not a full dup
+
+    ### matches and replaces back into it.
+    return s.o_center(count, fill).sub(s2, self)
+  end
+
+  def ljust count, fill=' '
+    s = self.dup
+    s.sub_color!
+    s2 = s.dup
+    return s.o_ljust(count, fill).sub(s2, self)
+  end
+
+  def rjust count, fill=' '
+    s = self.dup
+    s.sub_color!
+    s2 = s.dup
+    return s.o_rjust(count, fill).sub(s2, self)
+  end
+
+  def arg_coord
+    return self.get_coords if self.is_coords?
+    return nil
+  end
+
+  def arg_none
+    return nil
+  end
+  def arg_str
+    return self
+  end
+  def arg_int
+    return nil if self.empty?
+    return Integer(self) rescue nil
+  end
+  def arg_word
+    command = ""
+    one_arg! self, command
+
+    return command
+  end
+
+  ### Read up to amt characters into a new string. 
+  ### If amt is greater than strlength the entire string is returned.
+  def pop_some amt
+    return slice! 0..(amt-1)
+  end
+
+  def pop_line
+    if (pos = index("\n")) != nil then
+      return slice!(0..pos).chomp
+    end
+    nil
+  end
+
+  def exit_code_to_i
+    case self
+    when "north" then sel = 0
+    when "east"  then sel = 1
+    when "south" then sel = 2
+    when "west"  then sel = 3
+    when "up"   then sel = 4
+    when "down"  then sel = 5
+    when "0" then sel = 0
+    when "1" then sel = 1
+    when "2" then sel = 2
+    when "3" then sel = 3
+    when "4" then sel = 4
+    when "5" then sel = 5
+    end
+    return sel
+  end
+  def get_player  name
+    $dplayer_list.each do |xplay|
+      #return the player if they match the name.
+      return xplay if is_prefix(name, xplay.name)
+    end
+    return nil
+  end
+  # returns an array ordered pair of [x, y].  This will throw an exception that can be rescued if it is invalid.
+  def get_coords
+    gsub!(/[,.]/, ' ')
+    a = split(' ')
+
+    if (a[0] != nil && a[1] != nil && a[0].is_number? && a[1].is_number?)
+      a[0], a[1] = Integer(a[0]), Integer(a[1])
+      return a
+    end
+    raise "Invalid coordinates."
+    return [0,0]
+  end
+
+  # returns true or false. 
+  def is_coords?
+    (get_coords rescue false) ? true : false
+  end
+
+  #check to see if a number
+  def is_number?
+    if (Integer(self) rescue false)
+      true
+    else
+      false
+    end
+  end
+end
+
+### Extension for rounding a floating point.
+class Float
+  def roundf(places)
+    temp = self.to_s.length
+    sprintf("%#{temp}.#{places}f",self).to_f
+  end
+end
+### Extension for various Integers
+class Integer
+  def azi_to_s
+    case self
+      when 0..20 then "north"
+      when 340..360 then "north"
+      when 21..69 then "northeast"
+      when 70..110 then "east"
+      when 111..159 then "southeast"
+      when 160..190 then "south"
+      when 191..249 then "southwest"
+      when 250..290 then "west"
+      when 291..339 then "northwest"
+    end
+  end
+  def exit_code_to_s
+    ea = ["north", "east", "south", "west", "up", "down"]
+
+    return nil if (self > 5 || self < 0)
+    return ea[self]
+  end
+
+  def exit_code_rev
+    ea = [2, 3, 0, 1, 5, 4]
+
+    return nil if (self > 5 || self < 0)
+    return ea[self]
+  end
+end
+
+### Check to see if a given name is valid
+def check_name name
+  return false if (name.size < 3 || name.size > 12)
+  if name =~ /^[[:alpha:]]+$/
+    return true
+  else
+    return false
+  end
+end
+
+### Check to see if password is valid for new password.
+def check_pass pass
+  return false if (pass.length < 3 || pass.length > 12)
+
+  pass.length.times do |i|
+    if pass[i].chr == '~'
+      return false
+    end
+  end
+
+  return true
+end
+
+### Communication Ranges
+### Can add more.  Eventually will need to figure out systems for if a player can see another player, etc.
+### :comm_local           =  0  # same room only
+### :comm_log             = 10  # admins only
+def communicate dPlayer, txt, range
+  buf = ""
+  msg = ""
+
+  case range
+    when :comm_local 
+      dPlayer.text_to_player sprintf "#CYou say, '%s'#n\r\n", txt
+      $dplayer_list.each do |xPlayer|
+        next if xPlayer == dPlayer
+        #next if xPlayer.in_room != dPlayer.in_room
+        xPlayer.text_to_player sprintf "#C%s says, '%s'#n\r\n", dPlayer.name, txt
+      end
+    when :comm_log
+      msg = sprintf "[LOG: %s]\r\n", txt
+      puts msg
+      $dplayer_list.each do |xPlayer|
+        next if !xPlayer.is_admin?
+        xPlayer.text_to_player msg
+    end
+  else
+    bug "Communicate: Bad Range %d.", range
+    return;
+  end
+end
+
+### Loading of help files, areas, etc, at boot time.
+def load_muddata
+  load_helps
+end
+
+### 
+def get_time
+  Time.now.ctime.slice(4..15)
+end
+
+### Check to reconnect a player.
+### Called in core nanny coroutine.
+def check_reconnect player
+  $dplayer_list.each do |dPlayer|
+    if dPlayer.name.casecmp(player) == 0
+      dPlayer.socket.close_connection true if dPlayer.socket
+      return dPlayer
+    end
+  end
+  nil
+end
+
+### Checks if aStr is a prefix of bStr.
+def is_prefix astr, bstr
+  return false if astr.nil? || bstr.nil? || astr.empty? || bstr.empty?
+  astr == bstr.slice(0...astr.size)
+end
+
+### Breaks a string down into a single argument.
+def one_arg! fstr, bstr
+  bstr.slice! 0..-1
+  bstr << (fstr.slice!(/\w+/) || '')
+  fstr.lstrip!
+end
+
+### function for logging.
+### May go to log4r some day.
+def log_string(*args)
+  File.open(sprintf("log/%6.6s.log", get_time), "a") do |f|
+    f.printf "%s: %s\n", get_time, sprintf(*args)
+  end
+  communicate nil, sprintf(*args), :comm_log
+rescue
+  puts $!.to_s, $@
+  communicate nil, "log: cannot open logfile", :comm_log
+end
+
+
+def bug(*args)
+  File.open("log/bugs.txt", "a") do |f|
+    f.printf "%s: %s\n", get_time, sprintf(*args)
+  end
+  communicate nil, sprintf(*args), :comm_log
+rescue
+  puts $!.to_s, $@
+  communicate nil, "log: cannot open bugfile", :comm_log
+end
+
+###
+### Detects the last time the file was edited.
+def last_modified file
+  return File.stat(file).mtime.to_i
+rescue
+  return 0
+end
+
+def read_help_entry helpfile
+  File.open(sprintf("%s", helpfile), "r") do |f|
+    # just to have something to work with
+    c = f.getc
+    entry = ""
+
+    # read the file in the buffer
+    while !c.nil?
+      if c == ?\n
+        entry << "\r\n"
+      elsif c == ?\r
+        c = f.getc
+        next
+      else
+        entry << c.chr
+      end
+      if entry.size > MAX_BUFFER
+        bug "Read_help_entry: String to long."
+        abort
+      end
+      c = f.getc
+    end
+
+    # return a pointer to the static buffer
+    return entry
+  end
+rescue
+  log_string $!.to_s
+  # if there is no help file, return NULL
+  nil
+end
+
+def get_room_index xnum
+  a = xnum / 1000
+  return nil if !$area_list[a]
+
+  return $area_list[a].rooms[xnum % 1000]
+end
+
+# distance form
+def dist_form(a1, a2)
+  Math.sqrt( (a2[0] - a1[0])**2 + (a2[1] - a1[1])**2)  
+end
+
+# find the azimuth of the direction towards target
+def get_azi a, b
+  # find the distance between the two points.
+  hyp = dist_form a, b
+
+  adj = (b[1] - a[1])
+
+  #which hemisphere?
+  if (b[0] - a[0]) >= 0
+    d = 0
+  else
+    adj = -adj
+    d = 180
+  end
+
+  # cos^-1 (adj/hyp) * 180/PI  
+  r = Math::acos(adj/hyp) # answer in radians
+  d = r * 180 / Math::PI + d
+end
+
+
+def find_player arg
+  $dplayer_list.each do |xPlayer|
+    return xPlayer if is_prefix arg.capitalize, xPlayer.name
+  end
+  return nil
+end
+
+def strip_color txt
+  txt.gsub! 
+end
+
+# takes a string and returns a string with color codes added.
+def render_color(data)
+  data.gsub!($comp_tab) do |s|
+    $color_table[s]
+  end
+  return data
+end
+
+def render_color2(data)
+  return data
+end
+
+def text_to_world txt
+  $dsock_list.each do |d|
+    d.text_to_socket txt
+  end
+end

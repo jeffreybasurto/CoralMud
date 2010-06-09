@@ -1,0 +1,18 @@
+--- 
+"@name": Default Name
+"@vnum": 107
+"@sector": :sect_fancy
+"@exit_list": 
+- - 0
+  - 137
+  - :soft_door: true
+    :has_door: true
+    :closed: true
+- - 1
+  - 110
+  - {}
+
+- - 3
+  - 145
+  - {}
+

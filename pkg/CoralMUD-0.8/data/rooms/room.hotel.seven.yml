@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.hotel.seven
+"@namespace": first.area
+"@vnum": 70
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 71
+  - {}
+
+- - 1
+  - 69
+  - {}
+

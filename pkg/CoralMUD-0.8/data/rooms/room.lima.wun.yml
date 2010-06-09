@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.lima.wun
+"@namespace": first.area
+"@vnum": 45
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 43
+  - {}
+
+- - 1
+  - 44
+  - {}
+
+- - 2
+  - 46
+  - {}
+
+- - 3
+  - 37
+  - {}
+

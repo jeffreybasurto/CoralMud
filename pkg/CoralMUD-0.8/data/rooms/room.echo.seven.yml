@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.echo.seven
+"@namespace": first.area
+"@vnum": 56
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 57
+  - {}
+
+- - 2
+  - 55
+  - {}
+

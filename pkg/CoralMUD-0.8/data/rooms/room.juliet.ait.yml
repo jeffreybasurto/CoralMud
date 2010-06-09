@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.juliet.ait
+"@namespace": first.area
+"@vnum": 163
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 76
+  - {}
+
+- - 1
+  - 165
+  - {}
+
+- - 2
+  - 161
+  - {}
+
+- - 3
+  - 159
+  - {}
+

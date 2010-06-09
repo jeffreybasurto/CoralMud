@@ -1,0 +1,90 @@
+ INFO LOG: Jun__2_08:22: Logging enabled.   Loading logs.rb.
+ INFO LOG: Jun__2_08:22: Loading spellcheck.rb
+ INFO LOG: Jun__2_08:22: Loading facade.rb
+ INFO LOG: Jun__2_08:22: Loading query_list.rb
+ INFO LOG: Jun__2_08:22: Loading utils.rb
+ INFO LOG: Jun__2_08:22: Loading constants.rb
+ INFO LOG: Jun__2_08:22: Loading damage.rb
+ INFO LOG: Jun__2_08:22: Loading class_property.rb
+ INFO LOG: Jun__2_08:22: Loading scripts.rb
+ INFO LOG: Jun__2_08:22: Loading tags.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editors.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.strings.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.rooms.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.exits.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.zones.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.npc.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.items.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.socials.rb
+ INFO LOG: Jun__2_08:22: Loading socials.rb
+ INFO LOG: Jun__2_08:22: Loading mxp.rb
+ INFO LOG: Jun__2_08:22: Loading mccp.rb
+ INFO LOG: Jun__2_08:22: Loading mail.rb
+ INFO LOG: Jun__2_08:22: Loading flags.rb
+ INFO LOG: Jun__2_08:22: Loading areas.rb
+ INFO LOG: Jun__2_08:22: Loading security.rb
+ INFO LOG: Jun__2_08:22: Loading resets.rb
+ INFO LOG: Jun__2_08:22: Loading event.rb
+ INFO LOG: Jun__2_08:22: Loading automap/automap.rb
+ INFO LOG: Jun__2_08:22: Loading cities.rb
+ INFO LOG: Jun__2_08:22: Loading sector definitions.
+ INFO LOG: Jun__2_08:22: Loading help.rb
+ INFO LOG: Jun__2_08:22: Loading imcruby.rb
+ INFO LOG: Jun__2_08:22: Loading player.rb
+ INFO LOG: Jun__2_08:22: Loading commands.rb
+ INFO LOG: Jun__2_08:22: Loading editor/editor.player.rb
+ INFO LOG: Jun__2_08:22: Loading random.rb
+ INFO LOG: Jun__2_08:22: Loading npc.rb
+ INFO LOG: Jun__2_08:22: Loading items/types.rb
+ INFO LOG: Jun__2_08:22: Loading items/items.rb
+ INFO LOG: Jun__2_08:22: Loading spells.rb
+ INFO LOG: Jun__2_08:22: Loading all zones.
+ INFO LOG: Jun__2_08:22: Loading all socials.
+ INFO LOG: Jun__2_08:22: Upgrading database
+ INFO LOG: Jun__2_08:22: Starting server.
+ INFO LOG: Jun__2_08:22: CoralMUD is now up on port 4000.
+ INFO LOG: Jun__2_08:24: -- 76.202.141.206:48099 connected to CoralMUD!
+ INFO LOG: Jun__2_08:24: -- 76.202.141.206:48099: Retnur is trying to connect.
+ INFO LOG: Jun__2_08:24: -- 76.202.141.206:48099: Retnur player file found.
+ INFO LOG: Jun__2_08:24: -- Retnur has entered the game.
+ INFO LOG: Jun__2_08:24: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:24: tick!!!
+ INFO LOG: Jun__2_08:24: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:26: tick!!!
+ INFO LOG: Jun__2_08:26: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:28: tick!!!
+ INFO LOG: Jun__2_08:28: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:30: tick!!!
+ INFO LOG: Jun__2_08:30: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:32: tick!!!
+ INFO LOG: Jun__2_08:32: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:34: tick!!!
+ INFO LOG: Jun__2_08:34: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:36: tick!!!
+ INFO LOG: Jun__2_08:36: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:38: tick!!!
+ INFO LOG: Jun__2_08:38: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:40: tick!!!
+ INFO LOG: Jun__2_08:40: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:42: tick!!!
+ INFO LOG: Jun__2_08:42: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:44: tick!!!
+ INFO LOG: Jun__2_08:44: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:46: tick!!!
+ INFO LOG: Jun__2_08:46: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:48: tick!!!
+ INFO LOG: Jun__2_08:48: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:50: tick!!!
+ INFO LOG: Jun__2_08:50: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:52: tick!!!
+ INFO LOG: Jun__2_08:52: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:54: tick!!!
+ INFO LOG: Jun__2_08:54: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:56: tick!!!
+ INFO LOG: Jun__2_08:56: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_08:58: tick!!!
+ INFO LOG: Jun__2_08:58: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_09:00: tick!!!
+ INFO LOG: Jun__2_09:00: saving #<Player:0x000000014ed328> to database.
+ INFO LOG: Jun__2_09:02: tick!!!
+ INFO LOG: Jun__2_09:02: saving #<Player:0x000000014ed328> to database.

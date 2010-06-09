@@ -1,0 +1,441 @@
+ INFO LOG: May_17_08:29: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_17_08:29: Loading facade.rb
+ INFO LOG: May_17_08:29: Loading query_list.rb
+ INFO LOG: May_17_08:29: Loading utils.rb
+ INFO LOG: May_17_08:29: Loading constants.rb
+ INFO LOG: May_17_08:29: Loading damage.rb
+ INFO LOG: May_17_08:29: Loading class_property.rb
+ INFO LOG: May_17_08:29: Loading scripts.rb
+ INFO LOG: May_17_08:29: Loading tags.rb
+ INFO LOG: May_17_08:29: Loading editor/editors.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.strings.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.rooms.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.exits.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.zones.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.npc.rb
+ INFO LOG: May_17_08:29: Loading editor/editor.items.rb
+ INFO LOG: May_17_08:29: Loading mxp.rb
+ INFO LOG: May_17_08:29: Loading mccp.rb
+ INFO LOG: May_17_08:29: Loading flags.rb
+ INFO LOG: May_17_08:29: Loading areas.rb
+ INFO LOG: May_17_08:29: Loading security.rb
+ INFO LOG: May_17_08:29: Loading event.rb
+ INFO LOG: May_17_08:29: Loading automap/automap.rb
+ INFO LOG: May_17_08:29: Loading cities.olc.rb
+ INFO LOG: May_17_08:29: Loading cities.rb
+ INFO LOG: May_17_08:29: Loading sector definitions.
+ INFO LOG: May_17_08:29: Loading help.rb
+ INFO LOG: May_17_08:30: Loading imcruby.rb
+ INFO LOG: May_17_08:30: Loading player.rb
+ INFO LOG: May_17_08:30: Loading commands.rb
+ INFO LOG: May_17_08:30: Loading editor/editor.player.rb
+ INFO LOG: May_17_08:30: Loading random.rb
+ INFO LOG: May_17_08:30: Loading npc.rb
+ INFO LOG: May_17_08:30: Loading items/types.rb
+ INFO LOG: May_17_08:30: Loading items/items.rb
+ INFO LOG: May_17_08:30: Loading spells.rb
+ INFO LOG: May_17_08:30: Loading all zones.
+ INFO LOG: May_17_08:30: Starting server.
+ INFO LOG: May_17_08:30: CoralMUD is now up on port 4000.
+ INFO LOG: May_17_08:30: -- 76.202.141.206:34522 connected to CoralMUD!
+ INFO LOG: May_17_08:30: -- 76.202.141.206:34522: Retnur is trying to connect.
+ INFO LOG: May_17_08:30: -- 76.202.141.206:34522: Retnur player file found.
+ INFO LOG: May_17_08:30: -- Retnur has entered the game.
+ INFO LOG: May_17_08:32: tick!!!
+ INFO LOG: May_17_08:34: tick!!!
+ INFO LOG: May_17_08:36: tick!!!
+ INFO LOG: May_17_08:38: tick!!!
+ INFO LOG: May_17_08:40: tick!!!
+ INFO LOG: May_17_08:42: tick!!!
+ERROR LOG: undefined local variable or method `flags' for #<Player:0x000000026d9a00>
+ERROR LOG: /home/heath/coral/lib/commands/south.rb:11:in `cmd_south'
+ERROR LOG: /home/heath/coral/lib/commands.rb:296:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:173:in `<main>'
+ INFO LOG: May_17_08:43: Loading query_list.rb
+ INFO LOG: May_17_08:44: tick!!!
+ INFO LOG: May_17_08:46: tick!!!
+ INFO LOG: May_17_08:46: Loading query_list.rb
+ INFO LOG: May_17_08:46: -- #<Player:0x000000026d9a00>:76.202.141.206:34522 disconnected from CoralMUD!
+ INFO LOG: May_17_08:46: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_17_08:46: Loading facade.rb
+ INFO LOG: May_17_08:46: Loading query_list.rb
+ INFO LOG: May_17_08:46: Loading utils.rb
+ INFO LOG: May_17_08:46: Loading constants.rb
+ INFO LOG: May_17_08:46: Loading damage.rb
+ INFO LOG: May_17_08:46: Loading class_property.rb
+ INFO LOG: May_17_08:46: Loading scripts.rb
+ INFO LOG: May_17_08:46: Loading tags.rb
+ INFO LOG: May_17_08:46: Loading editor/editors.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.strings.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.rooms.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.exits.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.zones.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.npc.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.items.rb
+ INFO LOG: May_17_08:46: Loading mxp.rb
+ INFO LOG: May_17_08:46: Loading mccp.rb
+ INFO LOG: May_17_08:46: Loading flags.rb
+ INFO LOG: May_17_08:46: Loading areas.rb
+ INFO LOG: May_17_08:46: Loading security.rb
+ INFO LOG: May_17_08:46: Loading event.rb
+ INFO LOG: May_17_08:46: Loading automap/automap.rb
+ INFO LOG: May_17_08:46: Loading cities.olc.rb
+ INFO LOG: May_17_08:46: Loading cities.rb
+ INFO LOG: May_17_08:46: Loading sector definitions.
+ INFO LOG: May_17_08:46: Loading help.rb
+ INFO LOG: May_17_08:46: Loading imcruby.rb
+ INFO LOG: May_17_08:46: Loading player.rb
+ INFO LOG: May_17_08:46: Loading commands.rb
+ INFO LOG: May_17_08:46: Loading editor/editor.player.rb
+ INFO LOG: May_17_08:46: Loading random.rb
+ INFO LOG: May_17_08:46: Loading npc.rb
+ INFO LOG: May_17_08:46: Loading items/types.rb
+ INFO LOG: May_17_08:46: Loading items/items.rb
+ INFO LOG: May_17_08:46: Loading spells.rb
+ INFO LOG: May_17_08:46: Loading all zones.
+ INFO LOG: May_17_08:46: Starting server.
+ INFO LOG: May_17_08:46: CoralMUD is now up on port 4000.
+ INFO LOG: May_17_08:46: -- 76.202.141.206:45403 connected to CoralMUD!
+ INFO LOG: May_17_08:46: -- 76.202.141.206:45403: () Invalid name in character creation.
+ INFO LOG: May_17_08:46: -- 76.202.141.206:45403: Retnur is trying to connect.
+ INFO LOG: May_17_08:46: -- 76.202.141.206:45403: Retnur player file found.
+ INFO LOG: May_17_08:46: -- Retnur has entered the game.
+ERROR LOG: undefined local variable or method `flags' for #<Player:0x00000002326688>
+ERROR LOG: /home/heath/coral/lib/commands/south.rb:11:in `cmd_south'
+ERROR LOG: /home/heath/coral/lib/commands.rb:296:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:173:in `<main>'
+ERROR LOG: undefined local variable or method `flags' for #<Player:0x00000002326688>
+ERROR LOG: /home/heath/coral/lib/commands/south.rb:11:in `cmd_south'
+ERROR LOG: /home/heath/coral/lib/commands.rb:296:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:173:in `<main>'
+ INFO LOG: May_17_08:48: tick!!!
+ INFO LOG: May_17_08:50: tick!!!
+ INFO LOG: May_17_08:52: tick!!!
+ INFO LOG: May_17_08:54: tick!!!
+ INFO LOG: May_17_08:56: tick!!!
+ INFO LOG: May_17_08:58: tick!!!
+ INFO LOG: May_17_09:00: tick!!!
+ INFO LOG: May_17_09:02: tick!!!
+ INFO LOG: May_17_09:04: tick!!!
+ INFO LOG: May_17_09:05: Loading player.rb
+ INFO LOG: May_17_09:06: tick!!!
+ INFO LOG: May_17_09:08: tick!!!
+ INFO LOG: May_17_09:10: tick!!!
+ INFO LOG: May_17_09:12: tick!!!
+ INFO LOG: May_17_09:14: tick!!!
+ INFO LOG: May_17_09:16: tick!!!
+ INFO LOG: May_17_09:18: tick!!!
+ INFO LOG: May_17_09:20: tick!!!
+ INFO LOG: May_17_09:22: tick!!!
+ INFO LOG: May_17_09:24: tick!!!
+ INFO LOG: May_17_09:26: tick!!!
+ INFO LOG: May_17_09:28: tick!!!
+ INFO LOG: May_17_09:30: tick!!!
+ INFO LOG: May_17_09:32: tick!!!
+ INFO LOG: May_17_09:33: -- #<Player:0x00000002326688>:76.202.141.206:45403 disconnected from CoralMUD!
+ INFO LOG: May_17_09:33: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_17_09:33: Loading facade.rb
+ INFO LOG: May_17_09:33: Loading query_list.rb
+ INFO LOG: May_17_09:33: Loading utils.rb
+ INFO LOG: May_17_09:33: Loading constants.rb
+ INFO LOG: May_17_09:33: Loading damage.rb
+ INFO LOG: May_17_09:33: Loading class_property.rb
+ INFO LOG: May_17_09:33: Loading scripts.rb
+ INFO LOG: May_17_09:33: Loading tags.rb
+ INFO LOG: May_17_09:33: Loading editor/editors.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.strings.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.rooms.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.exits.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.zones.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.npc.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.items.rb
+ INFO LOG: May_17_09:33: Loading mxp.rb
+ INFO LOG: May_17_09:33: Loading mccp.rb
+ INFO LOG: May_17_09:33: Loading flags.rb
+ INFO LOG: May_17_09:33: Loading areas.rb
+ INFO LOG: May_17_09:33: Loading security.rb
+ INFO LOG: May_17_09:33: Loading event.rb
+ INFO LOG: May_17_09:33: Loading automap/automap.rb
+ INFO LOG: May_17_09:33: Loading cities.olc.rb
+ INFO LOG: May_17_09:33: Loading cities.rb
+ INFO LOG: May_17_09:33: Loading sector definitions.
+ INFO LOG: May_17_09:33: Loading help.rb
+ INFO LOG: May_17_09:33: Loading imcruby.rb
+ INFO LOG: May_17_09:33: Loading player.rb
+ INFO LOG: May_17_09:33: Loading commands.rb
+ INFO LOG: May_17_09:33: Loading editor/editor.player.rb
+ INFO LOG: May_17_09:33: Loading random.rb
+ INFO LOG: May_17_09:33: Loading npc.rb
+ INFO LOG: May_17_09:33: Loading items/types.rb
+ INFO LOG: May_17_09:33: Loading items/items.rb
+ INFO LOG: May_17_09:33: Loading spells.rb
+ INFO LOG: May_17_09:33: Loading all zones.
+ INFO LOG: May_17_09:33: Starting server.
+ INFO LOG: May_17_09:33: CoralMUD is now up on port 4000.
+ INFO LOG: May_17_09:33: -- 76.202.141.206:39202 connected to CoralMUD!
+ INFO LOG: May_17_09:33: -- 76.202.141.206:39202: () Invalid name in character creation.
+ INFO LOG: May_17_09:33: -- 76.202.141.206:39202: Retnur is trying to connect.
+ INFO LOG: May_17_09:33: -- 76.202.141.206:39202: Retnur player file found.
+ INFO LOG: May_17_09:33: -- Retnur has entered the game.
+ INFO LOG: May_17_09:35: -- #<Player:0x0000000268d790>:76.202.141.206:39202 disconnected from CoralMUD!
+ INFO LOG: May_17_09:35: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_17_09:35: Loading facade.rb
+ INFO LOG: May_17_09:35: Loading query_list.rb
+ INFO LOG: May_17_09:35: Loading utils.rb
+ INFO LOG: May_17_09:35: Loading constants.rb
+ INFO LOG: May_17_09:35: Loading damage.rb
+ INFO LOG: May_17_09:35: Loading class_property.rb
+ INFO LOG: May_17_09:35: Loading scripts.rb
+ INFO LOG: May_17_09:35: Loading tags.rb
+ INFO LOG: May_17_09:35: Loading editor/editors.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.strings.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.rooms.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.exits.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.zones.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.npc.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.items.rb
+ INFO LOG: May_17_09:35: Loading mxp.rb
+ INFO LOG: May_17_09:35: Loading mccp.rb
+ INFO LOG: May_17_09:35: Loading flags.rb
+ INFO LOG: May_17_09:35: Loading areas.rb
+ INFO LOG: May_17_09:35: Loading security.rb
+ INFO LOG: May_17_09:35: Loading event.rb
+ INFO LOG: May_17_09:35: Loading automap/automap.rb
+ INFO LOG: May_17_09:35: Loading cities.olc.rb
+ INFO LOG: May_17_09:35: Loading cities.rb
+ INFO LOG: May_17_09:35: Loading sector definitions.
+ INFO LOG: May_17_09:35: Loading help.rb
+ INFO LOG: May_17_09:35: Loading imcruby.rb
+ INFO LOG: May_17_09:35: Loading player.rb
+ INFO LOG: May_17_09:35: Loading commands.rb
+ INFO LOG: May_17_09:35: Loading editor/editor.player.rb
+ INFO LOG: May_17_09:35: Loading random.rb
+ INFO LOG: May_17_09:35: Loading npc.rb
+ INFO LOG: May_17_09:35: Loading items/types.rb
+ INFO LOG: May_17_09:35: Loading items/items.rb
+ INFO LOG: May_17_09:35: Loading spells.rb
+ INFO LOG: May_17_09:35: Loading all zones.
+ INFO LOG: May_17_09:35: Starting server.
+ INFO LOG: May_17_09:35: CoralMUD is now up on port 4000.
+ INFO LOG: May_17_09:35: -- 76.202.141.206:44413 connected to CoralMUD!
+ INFO LOG: May_17_09:35: -- 76.202.141.206:44413: () Invalid name in character creation.
+ INFO LOG: May_17_09:35: -- 76.202.141.206:44413: Retnur is trying to connect.
+ INFO LOG: May_17_09:35: -- 76.202.141.206:44413: Retnur player file found.
+ INFO LOG: May_17_09:35: -- Retnur has entered the game.
+ INFO LOG: May_17_09:35: -- 127.0.0.1:44752 connected to CoralMUD!
+ INFO LOG: May_17_09:35: -- 127.0.0.1:44752: Rtest is trying to connect.
+ INFO LOG: May_17_09:35: -- 127.0.0.1:44752: Rtest player file found.
+ INFO LOG: May_17_09:35: -- Rtest has entered the game.
+ INFO LOG: May_17_09:37: tick!!!
+ INFO LOG: May_17_09:39: tick!!!
+ INFO LOG: May_17_09:41: tick!!!
+ INFO LOG: May_17_09:43: tick!!!
+ INFO LOG: May_17_09:45: tick!!!
+ INFO LOG: May_17_09:47: tick!!!
+ERROR LOG: undefined method `listen' for #<Player:0x00000001f3bc30>
+ERROR LOG: (erb):1:in `block in display'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `eval'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:750:in `block in result'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `call'
+ERROR LOG: /usr/local/lib/ruby/1.9.1/erb.rb:748:in `result'
+ERROR LOG: /home/heath/coral/lib/cities.rb:458:in `block in display'
+ERROR LOG: /home/heath/coral/lib/cities.rb:439:in `each'
+ERROR LOG: /home/heath/coral/lib/cities.rb:439:in `display'
+ERROR LOG: /home/heath/coral/lib/utils.rb:446:in `communicate'
+ERROR LOG: /home/heath/coral/lib/commands/say.rb:7:in `cmd_say'
+ERROR LOG: /home/heath/coral/lib/commands.rb:296:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:173:in `<main>'
+ INFO LOG: May_17_09:48: -- #<Player:0x00000001ea5280>:76.202.141.206:44413 disconnected from CoralMUD!
+ INFO LOG: May_17_09:48: -- #<Player:0x00000001f3bc30>:127.0.0.1:44752 disconnected from CoralMUD!
+ INFO LOG: May_17_09:48: Logging enabled.   Loading logs.rb.
+ INFO LOG: May_17_09:48: Loading facade.rb
+ INFO LOG: May_17_09:48: Loading query_list.rb
+ INFO LOG: May_17_09:48: Loading utils.rb
+ INFO LOG: May_17_09:48: Loading constants.rb
+ INFO LOG: May_17_09:48: Loading damage.rb
+ INFO LOG: May_17_09:48: Loading class_property.rb
+ INFO LOG: May_17_09:48: Loading scripts.rb
+ INFO LOG: May_17_09:48: Loading tags.rb
+ INFO LOG: May_17_09:48: Loading editor/editors.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.strings.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.rooms.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.exits.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.zones.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.npc.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.items.rb
+ INFO LOG: May_17_09:48: Loading mxp.rb
+ INFO LOG: May_17_09:48: Loading mccp.rb
+ INFO LOG: May_17_09:48: Loading flags.rb
+ INFO LOG: May_17_09:48: Loading areas.rb
+ INFO LOG: May_17_09:48: Loading security.rb
+ INFO LOG: May_17_09:48: Loading event.rb
+ INFO LOG: May_17_09:48: Loading automap/automap.rb
+ INFO LOG: May_17_09:48: Loading cities.olc.rb
+ INFO LOG: May_17_09:48: Loading cities.rb
+ INFO LOG: May_17_09:48: Loading sector definitions.
+ INFO LOG: May_17_09:48: Loading help.rb
+ INFO LOG: May_17_09:48: Loading imcruby.rb
+ INFO LOG: May_17_09:48: Loading player.rb
+ INFO LOG: May_17_09:48: Loading commands.rb
+ INFO LOG: May_17_09:48: Loading editor/editor.player.rb
+ INFO LOG: May_17_09:48: Loading random.rb
+ INFO LOG: May_17_09:48: Loading npc.rb
+ INFO LOG: May_17_09:48: Loading items/types.rb
+ INFO LOG: May_17_09:48: Loading items/items.rb
+ INFO LOG: May_17_09:48: Loading spells.rb
+ INFO LOG: May_17_09:48: Loading all zones.
+ INFO LOG: May_17_09:48: Starting server.
+ INFO LOG: May_17_09:48: CoralMUD is now up on port 4000.
+ INFO LOG: May_17_09:48: -- 76.202.141.206:34170 connected to CoralMUD!
+ INFO LOG: May_17_09:48: -- 76.202.141.206:34170: Retnur is trying to connect.
+ INFO LOG: May_17_09:48: -- 76.202.141.206:34170: Retnur player file found.
+ INFO LOG: May_17_09:48: -- Retnur has entered the game.
+ INFO LOG: May_17_09:48: -- 127.0.0.1:38534 connected to CoralMUD!
+ INFO LOG: May_17_09:48: -- 127.0.0.1:38534: Rtest is trying to connect.
+ INFO LOG: May_17_09:48: -- 127.0.0.1:38534: Rtest player file found.
+ INFO LOG: May_17_09:48: -- Rtest has entered the game.
+ INFO LOG: May_17_09:50: tick!!!
+ INFO LOG: May_17_09:52: tick!!!
+ INFO LOG: May_17_09:54: Loading commands.rb
+ INFO LOG: May_17_09:54: tick!!!
+ INFO LOG: May_17_09:56: tick!!!
+ INFO LOG: May_17_09:58: tick!!!
+ INFO LOG: May_17_10:00: tick!!!
+ INFO LOG: May_17_10:02: tick!!!
+ INFO LOG: May_17_10:04: tick!!!
+ INFO LOG: May_17_10:06: tick!!!
+ INFO LOG: May_17_10:08: tick!!!
+ INFO LOG: May_17_10:10: tick!!!
+ INFO LOG: May_17_10:12: tick!!!
+ INFO LOG: May_17_10:14: tick!!!
+ INFO LOG: May_17_10:16: tick!!!
+ INFO LOG: May_17_10:18: tick!!!
+ INFO LOG: May_17_10:20: tick!!!
+ INFO LOG: May_17_10:22: tick!!!
+ INFO LOG: May_17_10:24: tick!!!
+ INFO LOG: May_17_10:26: tick!!!
+ INFO LOG: May_17_10:28: tick!!!
+ INFO LOG: May_17_10:30: tick!!!
+ INFO LOG: May_17_10:32: tick!!!
+ INFO LOG: May_17_10:34: tick!!!
+ INFO LOG: May_17_10:36: tick!!!
+ INFO LOG: May_17_10:38: tick!!!
+ INFO LOG: May_17_10:40: tick!!!
+ INFO LOG: May_17_10:40: -- 74.137.64.37:55118 connected to CoralMUD!
+ INFO LOG: May_17_10:40: -- 74.137.64.37:55118: Hishia is trying to connect.
+ INFO LOG: May_17_10:40: -- 74.137.64.37:55118: Hishia player file found.
+ INFO LOG: May_17_10:40: -- Hishia has entered the game.
+ INFO LOG: May_17_10:42: tick!!!
+ INFO LOG: May_17_10:44: tick!!!
+ INFO LOG: May_17_10:46: tick!!!
+ INFO LOG: May_17_10:48: tick!!!
+ INFO LOG: May_17_10:50: tick!!!
+ INFO LOG: May_17_10:52: tick!!!
+ INFO LOG: May_17_10:54: tick!!!
+ INFO LOG: May_17_10:56: tick!!!
+ INFO LOG: May_17_10:58: tick!!!
+ INFO LOG: May_17_11:00: tick!!!
+ INFO LOG: May_17_11:02: tick!!!
+ INFO LOG: May_17_11:04: tick!!!
+ INFO LOG: May_17_11:06: tick!!!
+ INFO LOG: May_17_11:08: tick!!!
+ INFO LOG: May_17_11:10: tick!!!
+ INFO LOG: May_17_11:12: tick!!!
+ INFO LOG: May_17_11:14: tick!!!
+ INFO LOG: May_17_11:16: tick!!!
+ INFO LOG: May_17_11:18: tick!!!
+ INFO LOG: May_17_11:20: tick!!!
+ INFO LOG: May_17_11:22: tick!!!
+ INFO LOG: May_17_11:24: tick!!!
+ INFO LOG: May_17_11:26: tick!!!
+ INFO LOG: May_17_11:28: tick!!!
+ INFO LOG: May_17_11:30: tick!!!
+ INFO LOG: May_17_11:32: tick!!!
+ INFO LOG: May_17_11:34: tick!!!
+ INFO LOG: May_17_11:36: tick!!!
+ INFO LOG: May_17_11:38: tick!!!
+ INFO LOG: May_17_11:40: tick!!!
+ INFO LOG: May_17_11:42: tick!!!
+ INFO LOG: May_17_11:44: tick!!!
+ INFO LOG: May_17_11:46: tick!!!
+ INFO LOG: May_17_11:48: tick!!!
+ INFO LOG: May_17_11:50: tick!!!
+ INFO LOG: May_17_11:52: tick!!!
+ INFO LOG: May_17_11:54: tick!!!
+ INFO LOG: May_17_11:56: tick!!!
+ INFO LOG: May_17_11:58: tick!!!
+ INFO LOG: May_17_12:00: tick!!!
+ INFO LOG: May_17_12:02: tick!!!
+ INFO LOG: May_17_12:04: tick!!!
+ INFO LOG: May_17_12:06: tick!!!
+ INFO LOG: May_17_12:08: tick!!!
+ INFO LOG: May_17_12:10: tick!!!
+ INFO LOG: May_17_12:12: tick!!!
+ INFO LOG: May_17_12:14: tick!!!
+ INFO LOG: May_17_12:16: tick!!!
+ INFO LOG: May_17_12:18: tick!!!
+ INFO LOG: May_17_12:20: tick!!!
+ INFO LOG: May_17_12:22: tick!!!
+ INFO LOG: May_17_12:24: tick!!!
+ INFO LOG: May_17_12:26: tick!!!
+ INFO LOG: May_17_12:28: tick!!!
+ INFO LOG: May_17_12:30: tick!!!
+ INFO LOG: May_17_12:32: tick!!!
+ INFO LOG: May_17_12:34: tick!!!
+ INFO LOG: May_17_12:36: tick!!!
+ INFO LOG: May_17_12:37: Hishia has left the game.
+ INFO LOG: May_17_12:37: -- :74.137.64.37:55118 disconnected from CoralMUD!
+ INFO LOG: May_17_12:38: tick!!!
+ERROR LOG: undefined method `socket' for #<Array:0x00000002d046c8>
+ERROR LOG: /home/heath/coral/lib/commands/snoop.rb:7:in `cmd_snoop'
+ERROR LOG: /home/heath/coral/lib/commands.rb:299:in `execute_command'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:174:in `block in handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `times'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:173:in `handle_cmd_input'
+ERROR LOG: /home/heath/coral/core/socketengine.rb:135:in `receive_data'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run_machine'
+ERROR LOG: /usr/local/lib/ruby/gems/1.9.1/gems/eventmachine-0.12.8/lib/eventmachine.rb:242:in `run'
+ERROR LOG: coral.rb:173:in `<main>'
+ INFO LOG: May_17_12:40: Loading commands.rb
+ INFO LOG: May_17_12:40: tick!!!
+ INFO LOG: May_17_12:42: tick!!!
+ INFO LOG: May_17_12:44: tick!!!
+ INFO LOG: May_17_12:46: tick!!!
+ INFO LOG: May_17_12:48: tick!!!
+ INFO LOG: May_17_12:50: tick!!!
+ INFO LOG: May_17_12:52: tick!!!
+ INFO LOG: May_17_12:54: tick!!!
+ INFO LOG: May_17_12:56: tick!!!
+ INFO LOG: May_17_12:58: tick!!!
+ INFO LOG: May_17_13:00: tick!!!
+ INFO LOG: May_17_13:02: tick!!!
+ INFO LOG: May_17_13:04: tick!!!
+ INFO LOG: May_17_13:06: tick!!!
+ INFO LOG: May_17_13:08: tick!!!
+ INFO LOG: May_17_13:10: Loading commands.rb
+ INFO LOG: May_17_13:10: -- #<Player:0x00000002d15a40>:76.202.141.206:34170 disconnected from CoralMUD!
+ INFO LOG: May_17_13:10: -- #<Player:0x00000002e17ce0>:127.0.0.1:38534 disconnected from CoralMUD!

@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.hotel.zeero
+"@namespace": first.area
+"@vnum": 42
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 41
+  - {}
+
+- - 1
+  - 21
+  - {}
+
+- - 2
+  - 44
+  - {}
+
+- - 3
+  - 43
+  - {}
+

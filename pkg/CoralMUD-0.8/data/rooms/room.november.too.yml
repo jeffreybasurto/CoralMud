@@ -1,0 +1,19 @@
+--- 
+"@name": Default Value
+"@vtag": room.november.too
+"@namespace": first.area
+"@vnum": 171
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 32
+  - {}
+
+- - 1
+  - 170
+  - {}
+
+- - 3
+  - 172
+  - {}
+

@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.juliet.wun
+"@namespace": first.area
+"@vnum": 5
+"@sector": :sect_city
+"@exit_list": 
+- - 2
+  - 6
+  - {}
+
+- - 3
+  - 2
+  - {}
+

@@ -1,0 +1,17 @@
+--- 
+"@name": Nkr
+"@password": gfrdew
+"@level": 1
+"@security": {}
+
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_human
+"@traits": 
+- :trait_protected
+- :trait_hearty
+- :trait_powerful
+"@sign": :sign_bull
+"@stuff": []
+

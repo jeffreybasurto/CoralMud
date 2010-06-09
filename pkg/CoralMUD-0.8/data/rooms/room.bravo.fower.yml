@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.bravo.fower
+"@namespace": first.area
+"@vnum": 53
+"@sector": :sect_water
+"@exit_list": 
+- - 1
+  - 33
+  - {}
+
+- - 3
+  - 54
+  - {}
+

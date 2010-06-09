@@ -1,0 +1,13 @@
+--- 
+"@name": Wfowwfw
+"@password": wfowwfw
+"@level": 1
+"@channel_flags": {}
+
+"@clas": :class_warrior
+"@race": :race_elf
+"@traits": 
+- :trait_hearty
+- :trait_enchanted
+- :trait_fleeting
+"@sign": :sign_ram

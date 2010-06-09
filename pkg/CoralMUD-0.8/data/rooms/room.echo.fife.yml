@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.echo.fife
+"@namespace": first.area
+"@vnum": 71
+"@sector": :sect_water
+"@exit_list": 
+- - 0
+  - 72
+  - {}
+
+- - 2
+  - 70
+  - {}
+

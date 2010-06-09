@@ -1,0 +1,4 @@
+
+s = gets
+print s
+

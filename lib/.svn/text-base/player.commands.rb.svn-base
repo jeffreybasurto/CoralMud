@@ -1,0 +1,534 @@
+class Command
+  attr_accessor :cmd_name, :cmd_funct, :cmd_args, :level, :hidden
+
+  def initialize n, f,a, l,  h=false
+    @cmd_name = n
+    @cmd_funct = f
+    @cmd_args = a
+    @level = l
+    @hidden = h
+  end
+end
+
+#is instanced off for player command tables.
+class CommandTable
+  attr_accessor :cmds
+  def initialize
+    @cmds = []
+    init_cmd_table
+  end
+
+  # This is the initialize function that must be called manually to grab refernces from the global table.
+  def init_cmd_table
+    # Right now just adding all commands into the copied table. Maybe later a check for if is immortal or not.
+    $tabCmd.each do |c|
+      @cmds << c
+    end
+    $tabWizCmd.each do |c|
+      @cmds << c
+    end
+    return true
+  end
+
+
+  # attempts to execute a command on our table
+  def cmd_lookup com
+    @cmds.each do |c|
+      return c if is_prefix com, c.cmd_name
+    end
+
+    return nil
+  end
+end
+
+#
+# The command table, very simple, but easy to extend.
+# This table is the prototype for the global table every 
+# character loads with. The reference the elements, not copy.
+#
+$tabCmd = [
+
+ # command          function        Req. Level
+ # ---------------------------------------------
+# common commands
+  Command.new("north",     :cmd_north,  :arg_none,  LEVEL_GUEST),
+  Command.new("east",      :cmd_east,   :arg_none,  LEVEL_GUEST),
+  Command.new("south",     :cmd_south,  :arg_none,  LEVEL_GUEST),
+  Command.new("west",      :cmd_west,   :arg_none,  LEVEL_GUEST),
+  Command.new("stop",      :cmd_stop,   :arg_none,  LEVEL_GUEST),
+  Command.new("walk",      :cmd_walk,   :arg_coord, LEVEL_GUEST),
+  Command.new("target",    :cmd_target, :arg_str,   LEVEL_GUEST),
+  Command.new("qui",       :cmd_qui,    :arg_none,  LEVEL_GUEST, true), # hidden command
+  Command.new("quit",      :cmd_quit,   :arg_none,  LEVEL_GUEST),
+  Command.new("who",       :cmd_who,      :arg_none,LEVEL_GUEST),
+  Command.new("look",      :cmd_look,    :arg_int, LEVEL_GUEST),
+  Command.new("commands",  :cmd_commands,:arg_none, LEVEL_GUEST),
+  Command.new("help",      :cmd_help,    :arg_word, LEVEL_GUEST),
+  Command.new("say",       :cmd_say,      :arg_str,LEVEL_GUEST),
+  Command.new("save",      :cmd_save,    :arg_none, LEVEL_GUEST),
+  Command.new("track",     :cmd_track,    :arg_word, LEVEL_GUEST),
+  Command.new("sprint",    :cmd_sprint,   :arg_none, LEVEL_GUEST),
+  Command.new("ichat", :cmd_ichat,    :arg_str,  LEVEL_GUEST),
+  Command.new("icode", :cmd_icode,    :arg_str,   LEVEL_GUEST),
+  Command.new("igame", :cmd_igame,    :arg_str,  LEVEL_GUEST),
+  Command.new("ichannels", :cmd_ichannels, :arg_str, LEVEL_GUEST),
+#imm commands moved to new table.  Most players will not need to access other table.
+]
+
+$tabWizCmd = [
+  Command.new("dig",       :cmd_dig,      :arg_str, LEVEL_ADMIN),
+  Command.new("goto",      :cmd_goto,     :arg_word, LEVEL_ADMIN),
+  Command.new("wizhelp",   :cmd_wizhelp,  :arg_none, LEVEL_ADMIN),
+  Command.new("linkdead",  :cmd_linkdead, :arg_none, LEVEL_ADMIN),
+  Command.new("shutdow",   :cmd_shutdow,  :arg_none, LEVEL_GOD, true), #hidden command
+  Command.new("shutdown",  :cmd_shutdown, :arg_none, LEVEL_GOD),
+  Command.new("debug",     :cmd_debug,    :arg_int, LEVEL_GOD, true), #hidden command.
+
+  Command.new("iadmin",    :cmd_iadmin,   :arg_str, LEVEL_ADMIN),
+
+  Command.new("redit",    :cmd_redit,  :arg_int, LEVEL_GOD),
+
+  Command.new("buildwalk", :cmd_buildwalk,:arg_none, LEVEL_ADMIN),
+]
+
+
+class Player
+  ### If no argument display all available channels.
+  def cmd_ichannels arg
+    buf = "The following commands are available:" + ENDL
+    i = 0
+    $imc_channel_list.each_pair do |k,v|
+      i += 1
+      z = "[On]"     
+      buf << v[1] + ("[" + i.to_s + "] " + v[0]).ljust(25) + k.to_s.ljust(12) + z + ENDL
+  
+    end
+    text_to_player buf
+  end
+
+  def cmd_redit
+    
+  end
+
+  def cmd_iadmin arg
+    $imclock.synchronize do
+      $imcclient.channel_send("#{name.capitalize}", "Server01:admin", arg, "ice-msg-p")
+    end
+  end
+
+  def cmd_igame arg
+    if arg == nil || arg.length == 0
+      ### Toggle icode channel
+      if (found = @channel_flags[:icode]) == nil
+        text_to_player "You will no longer observe the igame channel." + ENDL
+        ### Currently channel is on. Turn it off with user restriction.
+        @channel_flags[:igame] = :channel_user_off
+      else
+        if found == :channel_mute_off
+          text_to_player "You are not allowed to observe the igame channel." + ENDL
+        else
+          ### Currently the channel is off. Remove all restrictions.
+          text_to_player "You can now observe the igame channel." + ENDL
+          @channel_flags.delete(:igame)
+        end
+      end
+    else
+      $imclock.synchronize do
+        $imcclient.channel_send("#{name.capitalize}", "Server02:igame", arg)
+      end
+    end
+  end
+
+
+  def cmd_icode arg
+    if arg == nil || arg.length == 0
+      ### Toggle icode channel
+      if (found = @channel_flags[:icode]) == nil
+        text_to_player "You will no longer observe the icode channel." + ENDL
+        ### Currently channel is on. Turn it off with user restriction.
+        @channel_flags[:icode] = :channel_user_off
+      else
+        if found == :channel_mute_off
+          text_to_player "You are not allowed to observe the icode channel." + ENDL
+        else
+          ### Currently the channel is off. Remove all restrictions.
+          text_to_player "You can now observe the icode channel." + ENDL
+          @channel_flags.delete(:icode)
+        end
+      end      
+    else
+      $imclock.synchronize do
+        $imcclient.channel_send("#{name.capitalize}", "Server02:icode", arg)
+      end
+    end
+  end
+  
+  def cmd_ichat arg
+    if arg == nil || arg.length == 0
+      ### Toggle icode channel
+      if (found = @channel_flags[:ichat]) == nil
+        text_to_player "You will no longer observe the ichat channel." + ENDL
+        ### Currently channel is on. Turn it off with user restriction.
+        @channel_flags[:ichat] = :channel_user_off
+      else
+        if found == :channel_mute_off
+          text_to_player "You are not allowed to observe the ichat channel." + ENDL
+        else
+          ### Currently the channel is off. Remove all restrictions.
+          text_to_player "You can now observe the ichat channel." + ENDL
+          @channel_flags.delete(:ichat)
+        end
+      end
+    else
+      $imclock.synchronize do
+        $imcclient.channel_send("#{name.capitalize}", "Server01:ichat", arg)
+      end
+    end
+  end
+
+  def cmd_sprint arg
+    if flags.include?("sprint")
+      flags.delete("sprint")
+      text_to_player "Sprint off." + ENDL
+    else
+      flags << "sprint"
+      text_to_player "Sprint enabled." + ENDL
+    end 
+  end
+  def cmd_stop arg
+    stop
+  end
+  def cmd_walk arg
+    #this should be an array for the coords or nil.
+    if arg == nil
+      text_to_player "You can only walk to valid coordinates!" + ENDL
+      return
+    end
+    text_to_player "Walking towards #{arg[0]}, #{arg[1]}." + ENDL
+    set_target_location arg
+  end
+
+  def cmd_buildwalk arg
+    # either set build walk or remove it.
+    if flags.include?("build walk")
+      flags.delete("build walk")
+      text_to_player "Build walk disabled." + ENDL
+    else
+      flags << "build walk"
+      text_to_player "Build walk enabled." + ENDL
+    end
+  end
+
+  def cmd_dig arg
+    dir = ""
+    one_arg! arg, dir
+    
+    room = in_room
+    i = dir.exit_code_to_i
+    if (0..3 === i) == false || i == nil
+      text_to_player "invalid exit" + ENDL
+      return false
+    end
+    r = AreaMap.find_room(in_room, [AreaMap.offsetx(0,i), AreaMap.offsety(0,i)])
+
+    if r == nil
+        CityRoom.dig_rooms(in_room.vnum, Area.gen_vnum(in_room.vnum/1000), i)
+    else
+        CityRoom.dig_rooms(in_room.vnum, r.vnum, i)
+    end
+    return true
+  end
+  def goto_make_room vnum
+    if vnum <= 0
+      text_to_player "Invalid room. Cannot create." + ENDL
+      return
+    end
+
+    r = CityRoom.new(vnum)
+    text_to_player "Created." + ENDL
+    return r
+  end
+
+  # target a specific 
+  def cmd_target arg
+   
+    
+  end
+  def cmd_goto arg
+    vnum = Integer(arg) rescue nil
+
+    if (vnum == nil)
+      p = arg.get_player
+      if p != nil
+        # we got our room.
+      else
+        text_to_player "That isn't a valid rvnum or character name." + ENDL
+        return
+      end
+    end
+
+    if vnum == nil
+      room = p.in_room
+    else
+      room = get_room_index vnum
+    end 
+
+    # if the room does not exist let's create it.
+    if room == nil
+      text_to_player "That room does not seem to exist." + ENDL
+      room = goto_make_room vnum
+    end
+
+    if room == in_room
+      text_to_player "You are already there." + ENDL
+      return
+    end
+
+    if (in_room != nil)
+      in_room.text_to_room "%s disappears in a cloud of sulfur." % name + ENDL
+      from_room(in_room)
+    end
+    to_room(room)
+    room.text_to_room "%s appears in a cloud of sulfur." % name + ENDL
+  end
+
+  def cmd_track arg
+    # track a room based on vnum
+
+    if arg == nil
+      text_to_player "Bad arg." + ENDL
+      return
+    end
+    r = find_player arg
+    if r == nil
+      text_to_player "Player not in existance." + ENDL
+      return
+    end
+
+    self.pathtarget = r.in_room
+    in_room.map_to_player(self, 36, 18)
+    self.pathtarget = nil
+  end
+
+  def cmd_debug arg
+    damage(100)
+    text_to_player "#{health}" + ENDL
+  end 
+
+  def walk direction 
+    if !in_room
+      text_to_player "You're not in a room." + ENDL
+      return
+    end
+
+    dir = direction.exit_code_to_i
+    if !flags.include?("build walk")
+      l = get_location
+      a = [[l[0], 50],
+          [50, l[1]],
+          [l[0], -50],
+          [-50, l[1]]]
+
+      set_target_location a[dir]
+      return    
+    end
+
+    if !in_room.exit_list[dir]
+      if flags.include?("build walk")
+        r = AreaMap.find_room(in_room, [AreaMap.offsetx(0,dir), AreaMap.offsety(0,dir)])
+        if r 
+          CityRoom.dig_rooms(in_room.vnum, r.vnum, dir)
+        else
+          CityRoom.dig_rooms(in_room.vnum, Area.gen_vnum(in_room.vnum/1000), dir) 
+        end
+      else      
+        text_to_player "You cannot go that way." + ENDL
+        return
+      end
+    end
+
+    in_room.exit_list[dir].enter(self)
+  end
+  def cmd_east arg
+    walk "east"
+  end
+
+  def cmd_south arg
+    walk "south"
+  end
+
+  def cmd_west arg
+    walk "west"
+  end
+
+  def cmd_north arg
+    walk "north"
+  end
+
+  # Look command function
+  def cmd_look arg
+    #temporarily display vnum.
+    if arg != nil
+      p = in_room.map_to_player(self, 36+arg, 14+arg/3)
+    else
+      p = in_room.map_to_player(self)
+    end
+
+    if p != nil
+      s = p.pop
+      text_to_player "Target is #{s}"
+
+      while !p.empty?
+        s = p.pop
+      
+        if p.empty?
+          text_to_player ", and "        
+        else
+          text_to_player ", "
+        end
+
+        text_to_player "#{s}"
+      end
+      text_to_player " from here." + ENDL
+    end
+
+    pat = [in_location.x, in_location.y]
+    text_to_player "You see..." + ENDL
+
+    self.each_los do |obj, distance, azi|
+      if distance > 0
+        text_to_player "#{obj.name}(#{obj.where_am_i?}) is #{distance.roundf(2)} meters #{azi.round.azi_to_s}" + ENDL
+      else
+        text_to_player "#{obj.name}(#{obj.where_am_i?}) is very near." + ENDL
+      end
+    end
+
+  end
+
+
+  def cmd_shutdow arg
+    text_to_player ("If you want to shutdown you must type it out." + ENDL)
+  end 
+
+  def cmd_shutdown arg
+    text_to_world ("The game is rebooting.  Please come back in a few minutes." + ENDL)
+    $shut_down = true
+  end
+
+  def cmd_linkdead arg
+    found = false
+    $dplayer_list.each do |xPlayer|
+      if xPlayer.socket.nil?
+        text_to_player "%s is linkdead." % xPlayer.name + ENDL
+        found = true
+      end
+    end
+    if !found
+      text_to_player "Noone is currently linkdead." + ENDL
+    end
+  end
+
+  def cmd_help arg
+    if arg == ''
+      length = 65
+      col = 0
+      buf = "__HELP_FILES__".ljust(length, '_') + ENDL
+      $help_list.each do |pHelp|
+        buf << " %-19.18s" % pHelp.keyword
+        col += 1
+        buf << ENDL if col % 4 == 0
+      end
+      buf << ENDL if col % 4 != 0
+      buf << "Syntax:  help <topic>" + ENDL
+      text_to_player buf
+      return;
+    end
+    if !check_help self, arg
+      text_to_player "Sorry, no such helpfile." + ENDL
+    end
+  end
+
+  def cmd_who arg
+    width = 60
+    buf =  "_".center(width, '_') + ENDL
+    buf << "#u"+ "__players_online__".ljust(width, '_') + "#u" + ENDL
+    $dsock_list.each do |dsock|
+      next if dsock.state != :state_playing
+      xPlayer = dsock.player
+      next if xPlayer == nil
+      buf << "#u=#u" + sprintf(" %-12s   %s", xPlayer.name, dsock.addr).ljust(60-2) + "#u=#u" + ENDL
+    end
+    buf << "#u" + "".center(width, '=') + "#u" + ENDL
+    text_to_player buf
+  end
+
+  def cmd_wizhelp arg
+    col = 0
+    buf = sprintf "#uImmortal Commands#u" + ENDL
+    $tabWizCmd.each do |c|
+      next if c.level != 3
+      next if c.hidden
+      buf << sprintf(" %-14.14s", c.cmd_name)
+      col += 1
+      buf << ENDL if col % 5 == 0
+    end
+    buf << ENDL if col % 5 > 0
+
+
+    buf << "#uImplementor Commands#u" + ENDL
+    $tabWizCmd.each do |c|
+      next if c.level != 4
+      next if c.hidden
+      buf << sprintf(" %-14.14s", c.cmd_name)
+      col += 1
+      buf < ENDL if col % 5 == 0
+    end
+    buf << ENDL if col % 5 > 0
+
+    text_to_player buf
+  end
+
+
+  def cmd_commands arg
+    col = 0
+    buf = sprintf "#uCommands#u" + ENDL
+    $tabCmd.each do |c|
+      next if c.level >= 3
+
+      #a command that should not be displayed such as shutdow or qui
+      next if c.hidden
+
+      buf << sprintf(" %-14.14s", c.cmd_name)
+      col += 1
+      buf << ENDL if col % 5 == 0
+    end
+    buf << ENDL if col % 5 > 0
+    text_to_player buf
+  end
+
+  def cmd_save arg
+    text_to_player "Player files are autosaved, there is no need to save manually." + ENDL
+  end
+
+  def cmd_say arg
+    if arg == ''
+      text_to_player "Say what?" + ENDL
+      return
+    end
+    communicate self, arg, :comm_local
+  end
+
+  def cmd_qui arg
+    text_to_player "If you want to quit you must type it out." + ENDL
+  end 
+
+  def cmd_quit arg
+    # log the attempt
+    log_string sprintf("%s has left the game.", @name)
+    save_yaml
+    @socket.player = nil
+    free_player
+    @socket.close_connection
+  end
+
+end

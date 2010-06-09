@@ -1,0 +1,15 @@
+--- 
+"@name": Default Value
+"@vtag": room.hotel.tree
+"@namespace": first.area
+"@vnum": 91
+"@sector": :sect_city
+"@exit_list": 
+- - 2
+  - 4
+  - {}
+
+- - 3
+  - 99
+  - {}
+

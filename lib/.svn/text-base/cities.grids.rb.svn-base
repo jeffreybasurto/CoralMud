@@ -1,0 +1,116 @@
+
+#No two objects should be able to occupy the same location at once.
+class GridElement 
+  attr_accessor :x, :y, :occupied_by, :owner
+  @@total = 0
+  def initialize x, y, owner
+    @occupied_by = []
+    @x = x
+    @y = y
+
+    @owner = owner
+    @@total += 1
+  end
+
+  # this should be called when the element is being freed.
+  def uninitialize
+    @@total -= 1
+  end
+
+  # Any object with the MudObject module
+  def obj_to_location obj
+    return if @occupied_by.include? obj
+    # to get this far the object already has to exist.
+    obj.to_location(self)
+ 
+    @occupied_by << obj
+    
+  end
+
+  def obj_from_location obj
+    @occupied_by.delete obj
+    if @occupied_by.empty?
+      #if we're empty we should delete this element from existance.
+      @owner.grid[@x][@y] = nil
+    end
+  end
+
+  def GridElement.get_total
+    return @@total
+  end
+
+  
+end
+
+# This is the virtual location table for rooms. 
+# It should only be actually loaded if something interesting is in the room.
+class Grid 
+  attr_accessor :grid, :room, :max_x, :max_y, :count
+  @@total = 0
+  def initialize x, y, room=nil
+    gen_grid x, y
+    @room = room
+    @count = 0 # count of objects inside of the grid. When it reaches 0 it should free itself.
+    @@total += 1
+  end
+
+  # call this when deleting from a room
+  def uninitialize
+    @@total -= 1
+  end
+  # we can regen the grid with an old one in mind if we wish to make it larger.
+  def gen_grid x, y, old=nil
+    @grid = []
+    x.times do |i|  
+      @grid[i] = [] 
+#      y.times do |z|
+#        @grid[i][z] = GridElement.new(i, z, self)
+#      end
+    end
+    @max_x = x
+    @max_y = y
+  end
+
+  # remove an objects presence from a grid location.
+  def obj_from_grid obj, x, y
+    if obj.in_location != nil
+      obj.in_location.obj_from_location obj
+      obj.in_location = nil
+    else
+      return
+    end
+
+    #if @count reaches 0 it shoud free itself.
+    @count -= 1
+
+    @room.mo_list.delete obj
+
+    # This entire grid needs to be freed.
+    if @count <= 0
+      @room.location_map.uninitialize
+      @room.location_map = nil
+    end
+  end
+
+  # send any object with MudObject installed to this location.
+  def obj_to_grid obj, x, y
+    @count += 1
+
+    @room.mo_list << obj
+
+    #we need to see if obj is already somewhere else. If so, remove them from that location.
+    #if obj.in_location != nil
+    #  obj.in_location.owner.obj_from_grid(obj, obj.in_location.x, obj.in_location.y)
+    #end
+
+    #we need to create the element if it doesn't already exist.
+    if @grid[x][y] == nil
+      @grid[x][y] = GridElement.new(x, y, self)
+    end
+    @grid[x][y].obj_to_location obj
+  end
+  def Grid.get_total
+    return @@total
+  end
+end
+

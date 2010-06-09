@@ -1,0 +1,23 @@
+--- 
+"@name": Default Value
+"@vtag": room.foxtrot.fife
+"@namespace": first.area
+"@vnum": 14
+"@sector": :sect_beach
+"@exit_list": 
+- - 0
+  - 15
+  - {}
+
+- - 1
+  - 12
+  - {}
+
+- - 2
+  - 25
+  - {}
+
+- - 3
+  - 23
+  - {}
+
