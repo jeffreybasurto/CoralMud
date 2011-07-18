@@ -1,4 +1,3 @@
-require 'coderay'
 class Player
   def cmd_source c, arg
     str = ""

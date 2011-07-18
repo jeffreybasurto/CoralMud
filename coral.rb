@@ -18,7 +18,10 @@
 =end
 
 ### Include files
-%w[erb linguistics log4r test/unit weakref fcntl singleton eventmachine yaml fiber pp net/telnet.rb strscan thread].each { |lib| require lib }
+%w[erb test/unit weakref fcntl singleton yaml fiber pp net/telnet.rb strscan thread].each { |lib| require lib }
+
+require 'bundler/setup'
+Bundler.require
 
 load "core/database.rb"
 load "core/socketengine.rb"
