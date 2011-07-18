@@ -1,4 +1,5 @@
 require 'dm-core'
+require 'dm-migrations'
 DataMapper::Logger.new($stdout, :debug)
 # You can set up the database.config file like this:
 # ---
