@@ -1,6 +1,8 @@
 #ignore pkg
 pkg/
 
+*.lock
+
 # config files
 *.config
 
@@ -31,6 +33,8 @@ pkg/
 *.log
 *.sql
 *.sqlite
+*.db
+*.swap
 
 # OS generated files #
 ######################
