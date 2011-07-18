@@ -21,7 +21,7 @@ class String
   define_editor_field({:name=>"format", :arg_type=>:arg_none,
     :proc_fun=>lambda do |ed, ch, obj, arg|
 
-      new_str = $desc_formatter.format(obj.get_change.dup)
+      new_str = obj.get_change.dup #$desc_formatter.format(obj.get_change.dup)
       ch.text_to_player("Text format complete." + ENDL)
       obj.change(new_str.strip)
     end,

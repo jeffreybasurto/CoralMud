@@ -23,7 +23,7 @@ Player = Class.new  # in case we need to extend it before it's opened for hte fi
 #
 
 DEFAULT_STRING = "Default Value"
-$desc_formatter = Text::Format.new({:first_indent=>3, :columns=>76})
+#$desc_formatter = Text::Format.new({:first_indent=>3, :columns=>76})
 
 IAC = 255     # interpret as command:
 WONT = 252     # I won't use option

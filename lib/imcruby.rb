@@ -329,10 +329,9 @@ end
 
 
 
-$imc_opts = YAML::load_file("lib/imcruby.config") || {}
 ### Beginning of actual execution.
 ### You ned to change this name and password.
 ### create our client and a lock for it.
-$imcclient = IMCclient.new($imc_opts[:mud] || "FakeCoralMud", $imc_opts[:password] || "domyhomework")
+$imcclient = IMCclient.new("CM", "plokij098")
 $imclock = Mutex.new
 
