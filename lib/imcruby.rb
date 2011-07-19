@@ -332,6 +332,20 @@ end
 ### Beginning of actual execution.
 ### You ned to change this name and password.
 ### create our client and a lock for it.
-$imcclient = IMCclient.new("CM", "plokij098")
-$imclock = Mutex.new
+begin
+  opts = YAML::load( File.open( 'imc.config' ) )
+  $imcclient = IMCclient.new(opts[:name], opts[:pass])
+  $imclock = Mutex.new
+rescue Exception
+  puts "You must add an imc.config files in your root directory."
+  puts "It should looke like this:"
+  puts "---"
+  puts "name: yourmud"
+  puts "pass: yourpass"
+  exit
+  # It will authenticate it fine once the file is added. 
+# ---
+# name: yourmud
+# pass: yourpass
 
+end

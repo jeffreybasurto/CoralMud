@@ -1,6 +1,3 @@
-You need to have dependant libraries installed.
-A full list is available in coral.rb.   If a require file is
-not found it's likely you need to install the game for it.
 
 sudo gem install <name>
 
