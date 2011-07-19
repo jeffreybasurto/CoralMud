@@ -3,13 +3,13 @@ CCDEFAULT_DATA = "Not set."
 
 ### At this point we should enter our menu driven system. 
 $ccmenu_element ={:menu_race=>{:race_human=>{:name=>"human",
-                                             :desc=>"You gotta be good"},
+                                             :desc=>"Primary Attribute: Wisdom"},
                                :race_dwarf=>{:name=>"dwarf",
-                                             :desc=>"You gotta be strong"},
+                                             :desc=>"Primary Attribute: Strength"},
                                :race_feline=>{:name=>"feline",
-                                              :desc=>"You gotta be 2000 places at once"},
+                                              :desc=>"Primary Attribute: Dexterity"},
                                :race_elf=>{:name=>"elf",
-                                           :desc=>"Magical"}
+                                           :desc=>"Primary Attribute: Intellect"}
                               },
 
                   :menu_class=>{:class_warrior=>{:name=>"warrior",    :desc=>"tank"},
@@ -18,15 +18,15 @@ $ccmenu_element ={:menu_race=>{:race_human=>{:name=>"human",
                                 :class_cleric=>{:name=>"cleric",      :desc=>"healer"}
                                },
 
-                 :menu_traits=>{ :trait_hearty=>{:name=>"hearty",       :desc=>"+15% to health gains"},
-                                 :trait_enchanted=>{:name=>"enchanted", :desc=>"+15% spell damage"},
-                                 :trait_fleeting=>{:name=>"fleeting",   :desc=>"+15% speed"},
+                 :menu_traits=>{ :trait_hearty=>{:name=>"hearty",       :desc=>"+15% to health pool"},
+                                 :trait_enchanted=>{:name=>"enchanted", :desc=>"+ 5% spell damage"},
+                                 :trait_fleeting=>{:name=>"fleeting",   :desc=>"+ 8% evasion"},
                                  :trait_protected=>{:name=>"protected", :desc=>"+15% armor"},
-                                 :trait_powerful=>{:name=>"powerful",   :desc=>"+15% to melee damage"},
-                                 :trait_precise=>{:name=>"precise",     :desc=>"+15% melee accuracy"},
-                                 :trait_learned=>{:name=>"learned",     :desc=>"+15% spell accuracy"},
-                                 :trait_deft=>{:name=>"deft",           :desc=>"+15% critical strike chance"},
-                                 :trait_destined=>{:name=>"destined",   :desc=>"+15% critical magic chance"}
+                                 :trait_powerful=>{:name=>"powerful",   :desc=>"+ 5% to melee damage"},
+                                 :trait_precise=>{:name=>"precise",     :desc=>"+ 8% melee accuracy"},
+                                 :trait_learned=>{:name=>"learned",     :desc=>"+ 8% spell accuracy"},
+                                 :trait_deft=>{:name=>"deft",           :desc=>"+ 3% critical strike chance"},
+                                 :trait_destined=>{:name=>"destined",   :desc=>"+ 3% critical magic chance"}
                     },
                    :menu_signs=>{:sign_ram=>{:name=>"The Ram",            :desc=>"Stinky ram"},
                                  :sign_bull=>{:name=>"The Bull",          :desc=>"Stinky bull"},
