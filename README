@@ -12,24 +12,19 @@ You will need to install a few gems.   After Ruby 1.9.x is installed you will ha
 {{{
    apt-get install aspell
    apt-get install aspell-en
-   gem install eventmachine
-   gem install log4r
-   gem install text-format
-   gem install linguistics
-   gem install coderay
-   gem install dm-core
+   bundle install
 }}}
 
 If you're not logged in as administrator you will need to run gem as administrator.  (Or sudo gem install log4r, etc) If more libraries are required simply gem install them too. :)
 
-Under windows sometimes the libraries are marked with a -win32 at the end.
+Under windows sometimes the libraries are marked with a -win32 at the end.  You can see which gems are being installed witht he bundle command in the Gemfile.
 
 To run CoralMud you simply extract the files from the zip or tar file you must download and from the top directory in the folder you abstract them to in command line:
 
 {{{
-ruby coral.rb
+  ruby coral.rb
 }}}
 
 CoralMud should boot up on default port.  You can change this port in constants.rb.   Also, you should setup imc.rb if you wish to use the built-in imc2 client. 
 
-Furthermore, you'll need to have mysql installed.  After .18 preview CoralMud uses Datamapper with mysql.   This will require you setting up the database.rb file in /core.
+Furthermore, you'll need to have sqlite3 installed.  After .18 preview CoralMud uses Datamapper with sqlite3 as default.   This will require you setting up the database.rb file in /core.
