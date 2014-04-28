@@ -97,7 +97,7 @@ module CoralMUD
       return @wearing.values
     end
 
-    def remove obj
+    def unwear obj
       @wearing = {} if !@wearing
       @wearing.delete_if {|v,k| k == obj }
     end
@@ -194,7 +194,7 @@ module CoralMUD
           paths << peek(element, false, true, true)
         end
         paths.uniq!
-        name += (found.en.conjunction).gsub(/\ban?\s+([A-Z])/, '\1')
+        name += (found.en.conjunction.dup).gsub(/\ban?\s+([A-Z])/, '\1')
         if full
           if paths.count == 1
             name += paths[0]

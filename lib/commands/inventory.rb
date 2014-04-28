@@ -13,9 +13,9 @@ class Player
 
     elsif count_stuff == 1
       found[0] = "lonely " + found[0]
-      view "It is " + found.en.conjunction + " indeed." + ENDL      
+      view "It is " + found.en.conjunction.dup + " indeed." + ENDL      
     else
-      view "Among them are "+ found.en.conjunction + "." + ENDL
+      view "Among them are "+ found.en.conjunction.dup + "." + ENDL
     end
   end
 end

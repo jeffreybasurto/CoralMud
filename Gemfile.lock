@@ -18,8 +18,10 @@ GEM
     do_sqlite3 (0.10.6)
       data_objects (= 0.10.6)
     eventmachine (0.12.10)
-    linguistics (1.0.8)
+    linguistics (2.0.3)
+      loggability (~> 0.7)
     log4r (1.1.9)
+    loggability (0.11.0)
 
 PLATFORMS
   ruby
@@ -30,5 +32,5 @@ DEPENDENCIES
   dm-migrations
   dm-sqlite-adapter
   eventmachine
-  linguistics
+  linguistics (~> 2.0.3)
   log4r

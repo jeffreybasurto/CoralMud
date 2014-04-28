@@ -6,13 +6,7 @@ def get_time
 end
 
 ### adds an outputter to your definitions.
-FileOutputter.new('logs_directory', {:filename=>("log/%8.8s.log" % get_time).gsub(/ /, '_')})
-
-Logger.new('LOG').level = INFO
-Logger.new 'CONSOLE' 
-
-Logger['LOG'].outputters = Outputter['logs_directory'] ### This is everything but debug messages.  This should go to logs and imm channel.
-Logger['CONSOLE'].outputters = Outputter['stdout'] ### only output to standard output.  Definitely not logs_directory.
+#FileOutputter.new('logs_directory', {:filename=>("log/%8.8s.log" % get_time).gsub(/ /, '_')})
 
 
 # method to log strings.
@@ -22,8 +16,8 @@ Logger['CONSOLE'].outputters = Outputter['stdout'] ### only output to standard o
 def log(sym, str)
   msg = "#{get_time.gsub(/ /, '_')}: #{str}"
   # dump the message to all loggers.
-  Logger['CONSOLE'].send(sym, msg) 
-  Logger['LOG'].send(sym, msg)
+  puts "#{sym} #{msg}"
+
   if sym == :info && $dplayer_list
     $dplayer_list.each do |ch|
       if ch.level >= LEVEL_IMM
@@ -40,8 +34,7 @@ def log_exception(e, sym=:error)
   ar = [e.message]  
   ar = ar + e.backtrace
   ar.each do |element|
-    Logger['LOG'].send(sym, element)
-    Logger['CONSOLE'].send(sym, element)
+    puts "#{sym} #{element}"
   end
   if sym == :info && $dplayer_list
     $dplayer_list.each do |ch|

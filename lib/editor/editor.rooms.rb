@@ -23,7 +23,7 @@ class Room
     end,
 
     :display=>proc do |obj|
-      ["#{mxptag('send sector')}#R[#Wsector#R]:#{mxptag('/send')}#n            "+obj.sector]
+      ["#{mxptag('send sector')}#R[#Wsector#R]:#{mxptag('/send')}#n            "+obj.sector.to_s]
     end
   })
 

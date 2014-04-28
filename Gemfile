@@ -2,7 +2,9 @@ source :rubygems
 
 gem 'eventmachine'
 gem 'log4r'
-gem 'linguistics'
+
+gem 'linguistics', '~> 2.0.3'
+
 gem 'coderay'
 
 gem 'dm-core'
