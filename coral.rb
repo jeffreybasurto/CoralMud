@@ -18,7 +18,7 @@
 =end
 
 ### Include files
-%w[erb test/unit weakref fcntl singleton yaml fiber pp net/telnet.rb strscan thread].each { |lib| require lib }
+%w[erb weakref fcntl singleton yaml fiber pp net/telnet.rb strscan thread].each { |lib| require lib }
 
 require 'bundler/setup'
 Bundler.require
