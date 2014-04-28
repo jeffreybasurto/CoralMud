@@ -26,16 +26,17 @@ $eItemBid = 4
 def mxp_initialize d
   d.mxp = true # flips it on
 
-  d.text_to_socket START_MXP
+  # d.text_to_socket START_MXP
+  d.text_to_socket DO_MXP
   d.text_to_socket mxpmode (6) # perm secure mode
-  d.text_to_socket mxptag "!-- Set up MXP elements --"
+  # d.text_to_socket mxptag "!-- Set up MXP elements --"
 
-  d.text_to_socket mxptag "!ELEMENT Ex '<send>' FLAG=RoomExit"
+  # d.text_to_socket mxptag "!ELEMENT Ex '<send>' FLAG=RoomExit"
   
-  d.text_to_socket mxptag "!ELEMENT rdesc '<p>' FLAG=RoomDesc"
+  # d.text_to_socket mxptag "!ELEMENT rdesc '<p>' FLAG=RoomDesc"
 
   #/* Player tag (for who lists, tells etc.) */
-  d.text_to_socket mxptag "!ELEMENT Player \"<send href='tell &#39;&name;&#39; ' " +
-                          "hint='Send a message to &name;' prompt>\" " +
-                          "ATT='name'" 
+  # d.text_to_socket mxptag "!ELEMENT Player \"<send href='tell &#39;&name;&#39; ' " +
+  #                         "hint='Send a message to &name;' prompt>\" " +
+  #                         "ATT='name'" 
 end
