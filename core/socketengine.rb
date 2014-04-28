@@ -189,11 +189,11 @@ module SocketData
 
     txt = render_color(txt)
 
-    if @snoop
-      @snoop.each do |sock|
-        sock.send_data(txt) if sock.weakref_alive?
-      end
-    end
+    # if @snoop
+    #   @snoop.each do |sock|
+    #     sock.send_data(txt) if sock.weakref_alive?
+    #   end
+    # end
     send_data(txt)
     if @state == :state_playing
       @bust_prompt = true
