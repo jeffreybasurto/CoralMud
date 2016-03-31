@@ -28,3 +28,5 @@ To run CoralMud you simply extract the files from the zip or tar file you must d
 CoralMud should boot up on default port.  You can change this port in constants.rb.   Also, you should setup imc.rb if you wish to use the built-in imc2 client. 
 
 Furthermore, you'll need to have sqlite3 installed.  After .18 preview CoralMud uses Datamapper with sqlite3 as default.   This will require you setting up the database.rb file in /core.
+
+Thank you for Browserstack [www.browserstack.com] for their amazing testing platform. 
